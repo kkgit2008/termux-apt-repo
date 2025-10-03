@@ -6,22 +6,22 @@ Label: MyTermuxRepo
 Suite: stable
 Version: 1.0
 Codename: stable
-Date: Fri, 03 Oct 2025 09:56:49 +0000
+Date: Fri, 03 Oct 2025 12:07:53 +0000
 Architectures: aarch64 arm i686 x86_64
 Components: main bootstrap
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-aarch64/Packages
- 6b52f42dc1232327d01529fdec10a46a0a9aab94f81096eefed97f872316f946 29 dists/stable/main/binary-aarch64/Packages.gz
+ b80d96af9c92d77106a207f88c6951d19380ab999dbf173d20082686297f93da 29 dists/stable/main/binary-aarch64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-arm/Packages
- 7efa49d4873cfb9e8e7dc82e61112e1c9f8937bad469818e6899a0eaa3def7c3 29 dists/stable/main/binary-arm/Packages.gz
+ b80d96af9c92d77106a207f88c6951d19380ab999dbf173d20082686297f93da 29 dists/stable/main/binary-arm/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-i686/Packages
- 7efa49d4873cfb9e8e7dc82e61112e1c9f8937bad469818e6899a0eaa3def7c3 29 dists/stable/main/binary-i686/Packages.gz
+ b80d96af9c92d77106a207f88c6951d19380ab999dbf173d20082686297f93da 29 dists/stable/main/binary-i686/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-x86_64/Packages
- 7efa49d4873cfb9e8e7dc82e61112e1c9f8937bad469818e6899a0eaa3def7c3 29 dists/stable/main/binary-x86_64/Packages.gz
+ b80d96af9c92d77106a207f88c6951d19380ab999dbf173d20082686297f93da 29 dists/stable/main/binary-x86_64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iJEEARYKADkWIQSpHWEfPviTITPtQ79eauD90XpPGAUCaN+d4RsUgAAAAAAEAA5t
-YW51MiwyLjUrMS4xMSwzLDIACgkQXmrg/dF6TxiivwD+NqGIsxBoJKMcPEuQkNMx
-AQZKoa+bn+byJnClQvOs5MwA/2WD3oNcO0DNbyAzLXL5U128HsjcpAc/eCl7E/lE
-fEoC
-=jMj6
+iJEEARYKADkWIQSpHWEfPviTITPtQ79eauD90XpPGAUCaN+8mhsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMSwzLDIACgkQXmrg/dF6TxhuewD+MLIkkYkndpyb+qeUB0dz
+sMs+lVcdJprQNRFXdGUFxWIA/1rhfY45LEgAu9hJTdeCkT37CtJi3tH+dzLM+zwF
+exAI
+=HcVp
 -----END PGP SIGNATURE-----
