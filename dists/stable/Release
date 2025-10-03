@@ -3,14 +3,14 @@ Label: MyTermuxRepo
 Suite: stable
 Version: 1.0
 Codename: stable
-Date: Fri, 03 Oct 2025 12:09:57 +0000
+Date: Fri, 03 Oct 2025 12:13:23 +0000
 Architectures: aarch64 arm i686 x86_64
 Components: main bootstrap
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-aarch64/Packages
- 50d107c0752caea5a4d0fe1e0b4d5193f13c4ef69893cc0ee944e86651abe5ad 29 dists/stable/main/binary-aarch64/Packages.gz
+ 117bbcc90a2a3359dd33d244beea16b4ca017b430d546efdd5b199b053b93b68 29 dists/stable/main/binary-aarch64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-arm/Packages
- 7f9275560d005efe20a7ad02644bdfd479a615a124a4e672bba2ae3027fffd93 29 dists/stable/main/binary-arm/Packages.gz
+ 117bbcc90a2a3359dd33d244beea16b4ca017b430d546efdd5b199b053b93b68 29 dists/stable/main/binary-arm/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-i686/Packages
- 7f9275560d005efe20a7ad02644bdfd479a615a124a4e672bba2ae3027fffd93 29 dists/stable/main/binary-i686/Packages.gz
+ 117bbcc90a2a3359dd33d244beea16b4ca017b430d546efdd5b199b053b93b68 29 dists/stable/main/binary-i686/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-x86_64/Packages
- 7f9275560d005efe20a7ad02644bdfd479a615a124a4e672bba2ae3027fffd93 29 dists/stable/main/binary-x86_64/Packages.gz
+ 117bbcc90a2a3359dd33d244beea16b4ca017b430d546efdd5b199b053b93b68 29 dists/stable/main/binary-x86_64/Packages.gz
