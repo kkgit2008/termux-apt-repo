@@ -6,30 +6,30 @@ Label: MyTermuxRepo
 Suite: stable
 Version: 1.0
 Codename: stable
-Date: Fri, 03 Oct 2025 15:56:09 +0000
+Date: Fri, 03 Oct 2025 15:56:57 +0000
 Architectures: aarch64 arm i686 x86_64
 Components: main bootstrap
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-aarch64/Packages
- 3fb27c7b07dc36f5c80c66ff107cf8e2e4abd006111a78779885d71e48b6f147 29 dists/stable/main/binary-aarch64/Packages.gz
+ 162c05ebba2d5e684dfed79a9e0a52582836187b279ea0ef1b19439c4e857ae8 29 dists/stable/main/binary-aarch64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-arm/Packages
- b9bc8f202cc3b58e2913dfa5b51b1a4288a6dc8977ba14606d3c1f54feb326d6 29 dists/stable/main/binary-arm/Packages.gz
+ 162c05ebba2d5e684dfed79a9e0a52582836187b279ea0ef1b19439c4e857ae8 29 dists/stable/main/binary-arm/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-i686/Packages
- b9bc8f202cc3b58e2913dfa5b51b1a4288a6dc8977ba14606d3c1f54feb326d6 29 dists/stable/main/binary-i686/Packages.gz
+ 162c05ebba2d5e684dfed79a9e0a52582836187b279ea0ef1b19439c4e857ae8 29 dists/stable/main/binary-i686/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-x86_64/Packages
- b9bc8f202cc3b58e2913dfa5b51b1a4288a6dc8977ba14606d3c1f54feb326d6 29 dists/stable/main/binary-x86_64/Packages.gz
+ 162c05ebba2d5e684dfed79a9e0a52582836187b279ea0ef1b19439c4e857ae8 29 dists/stable/main/binary-x86_64/Packages.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 dists/stable/main/binary-aarch64/Packages
- b5a8d05741f61afd1d3ba8e59174ec0bbd789583 29 dists/stable/main/binary-aarch64/Packages.gz
+ 3d71653b4d26db05e45881919f4d02201b6ba7c9 29 dists/stable/main/binary-aarch64/Packages.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 dists/stable/main/binary-arm/Packages
- cac4c14e781c9b7266e4669314aa6b94951614d3 29 dists/stable/main/binary-arm/Packages.gz
+ 3d71653b4d26db05e45881919f4d02201b6ba7c9 29 dists/stable/main/binary-arm/Packages.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 dists/stable/main/binary-i686/Packages
- cac4c14e781c9b7266e4669314aa6b94951614d3 29 dists/stable/main/binary-i686/Packages.gz
+ 3d71653b4d26db05e45881919f4d02201b6ba7c9 29 dists/stable/main/binary-i686/Packages.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 dists/stable/main/binary-x86_64/Packages
- cac4c14e781c9b7266e4669314aa6b94951614d3 29 dists/stable/main/binary-x86_64/Packages.gz
+ 3d71653b4d26db05e45881919f4d02201b6ba7c9 29 dists/stable/main/binary-x86_64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iJEEARYKADkWIQSpHWEfPviTITPtQ79eauD90XpPGAUCaN/yGhsUgAAAAAAEAA5t
-YW51MiwyLjUrMS4xMSwzLDIACgkQXmrg/dF6Txg7PwD+PxwyFJE7fpXGMZmZRNDO
-DgdWm/j8fgKp6A7FLGWknUwA/RzQqrLwEFUHhdr96l8QXKnrYXzTrnNkV1idvFzC
-gWAO
-=1SXE
+iJEEARYKADkWIQSpHWEfPviTITPtQ79eauD90XpPGAUCaN/yShsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMSwzLDIACgkQXmrg/dF6TxjWBwD9EDFEPKZkIw73po5lt4+w
+voJsVQI38+Eo+h6ESNQLhMUBAIbiBIOymla0oD+HoGKGy5Dre888FV3rvz1VMDoW
+jkUE
+=cMY0
 -----END PGP SIGNATURE-----
