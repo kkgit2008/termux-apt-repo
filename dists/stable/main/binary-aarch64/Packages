@@ -1,0 +1,10 @@
+Packages:
+Architecture: aarch64
+Description: Test package for my repo
+Filename: pool/main/h/hello-termux/hello-termux_1.0.0_aarch64.deb
+Maintainer: you
+Md5sum: 4fdfe1d7aa0bb946679a39eb67f23f70
+Package: hello-termux
+Size: 668
+Version: 1.0.0
+
