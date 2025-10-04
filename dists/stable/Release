@@ -3,14 +3,15 @@ Label: MyTermuxRepo
 Suite: stable
 Version: 1.0
 Codename: stable
-Date: Sat, 04 Oct 2025 11:37:45 +0000
-Architectures: aarch64
-Components: main
-Description: Custom Repo for AndroidIDE
+Date: Sat, 04 Oct 2025 11:57:59 +0000
+Architectures: aarch64  # 保持你的架构列表（aarch64等）
+Components: main  # 关键修复！只写 main，因为你的 Packages 在 main 目录下
+# 明确指定 Packages 文件路径格式（可选，但能帮助 apt 识别）
+Description: Custom Termux Repository (main component only)
 SHA256:
- b9701f857df4be061dd5e4449e5df8de9d50b8a0808a6f41a8f915edfc737fb8 264 main/binary-aarch64/Packages
- b103349dda38eb33fbe2156db62dac83b225eade74483b7e105a571caafef37c 228 main/binary-aarch64/Packages.gz
+ f7c31a918162375711a022cae9125983e954e8ef00c7af200c49c1ac40bbfb6f 116576 main/binary-aarch64/Packages
+ 1b4e477bf3b8c8004989c80e7ad7582b2f58303bf144f36ef55ebc7eda297c13 27879 main/binary-aarch64/Packages.gz
 SHA1:
- edee48bde4e80a3989e90b3ce4ccc3d712bd88ce 264 main/binary-aarch64/Packages
- ce71b98ac5433aab5387de7f4913afcba167ac09 228 main/binary-aarch64/Packages.gz
+ c6930d95c096e1a1ccab848b17bd40d68ead3c66 116576 main/binary-aarch64/Packages
+ 9714aa2eebcac7c994859fee5d4d5c02a13490d8 27879 main/binary-aarch64/Packages.gz
 Hash: SHA256
