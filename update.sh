@@ -7,7 +7,6 @@ DIST="dists/stable"
 #ARCHS="aarch64 arm i686 x86_64"
 ARCHS="aarch64"
 
-
 rm -rf "$DIST"
 mkdir -p "$DIST"/{main,bootstrap}
                                                               echo ">>>start write file Packages"
