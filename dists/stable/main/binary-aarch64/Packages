@@ -6,6 +6,7 @@ Md5sum: 4fdfe1d7aa0bb946679a39eb67f23f70
 Package: hello-termux
 Size: 668
 Version: 1.0.0
+
 Architecture: aarch64
 Conflicts: libgrpc (<< 1.52.0-1)
 Depends: libc++
@@ -18,6 +19,7 @@ Md5sum: 69d061a375f58a3ca2bd93c936b34da6
 Package: abseil-cpp
 Size: 1081932
 Version: 20230802.1
+
 Architecture: aarch64
 Depends: apr (= 1.7.4)
 Description: Static libraries for apr
@@ -29,6 +31,7 @@ Md5sum: 81165f57e854fdaa29141c2e152673d6
 Package: apr-static
 Size: 83100
 Version: 1.7.4
+
 Architecture: aarch64
 Depends: apr-util (= 1.6.3-1)
 Description: Static libraries for apr-util
@@ -40,6 +43,7 @@ Md5sum: ceb25638e08466352421502051a54cb7
 Package: apr-util-static
 Size: 69108
 Version: 1.6.3-1
+
 Architecture: aarch64
 Breaks: apr-util-dev
 Depends: apr, libcrypt, libexpat, libiconv, libuuid
@@ -53,6 +57,7 @@ Package: apr-util
 Replaces: apr-util-dev
 Size: 112228
 Version: 1.6.3-1
+
 Architecture: aarch64
 Breaks: apr-dev
 Depends: libuuid
@@ -66,6 +71,7 @@ Package: apr
 Replaces: apr-dev
 Size: 234400
 Version: 1.7.4
+
 Architecture: aarch64
 Depends: libdb, apt (= 2.7.6)
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
@@ -77,6 +83,7 @@ Md5sum: d37680fec49d92e1c2401908dfa8a4cb
 Package: apt-ftparchive
 Size: 95640
 Version: 2.7.6
+
 Architecture: aarch64
 Conflicts: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-repo
 Depends: coreutils, dpkg, findutils, gpgv, grep, libandroid-glob, libbz2, libc++, libcurl, libgnutls, liblz4, liblzma, sed, termux-keyring, termux-licenses, xxhash, zlib, zstd
@@ -93,6 +100,7 @@ Replaces: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-rep
 Size: 993344
 Suggests: gnupg
 Version: 2.7.6
+
 Architecture: aarch64
 Depends: openssh | dropbear
 Description: Automatically restart SSH sessions and tunnels
@@ -104,6 +112,7 @@ Md5sum: ca566311add0faee5dcf97058ab63a60
 Package: autossh
 Size: 22548
 Version: 1.4g-3
+
 Architecture: aarch64
 Breaks: bash-dev
 Depends: libandroid-support, libiconv, readline (>= 8.0), termux-tools
@@ -119,6 +128,7 @@ Recommends: command-not-found, bash-completion
 Replaces: bash-dev
 Size: 885280
 Version: 5.2.15-1
+
 Architecture: aarch64
 Breaks: binutils (<< 2.39-3)
 Depends: libc++, binutils-libs (= 2.41)
@@ -132,6 +142,7 @@ Package: binutils-bin
 Replaces: binutils (<< 2.39-3)
 Size: 1700484
 Version: 2.41
+
 Architecture: aarch64
 Description: GNU Binutils for cross build on the host (NOT for Termux)
 Filename: pool/main/z/binutils-cross_2.41_aarch64.deb
@@ -142,6 +153,7 @@ Md5sum: d80b7fc9c59d79e73608360aaed11bee
 Package: binutils-cross
 Size: 2160264
 Version: 2.41
+
 Architecture: aarch64
 Depends: libc++, zlib, zstd
 Description: gold linker
@@ -153,6 +165,7 @@ Md5sum: ba6d1583c9497477249e8b4dc95e7509
 Package: binutils-gold
 Size: 891672
 Version: 2.41
+
 Architecture: aarch64
 Breaks: binutils (<< 2.39), binutils-dev
 Depends: zlib, zstd
@@ -166,6 +179,7 @@ Package: binutils-libs
 Replaces: binutils (<< 2.39), binutils-dev
 Size: 1088104
 Version: 2.41
+
 Architecture: aarch64
 Conflicts: binutils-is-llvm
 Depends: binutils-bin
@@ -178,6 +192,7 @@ Md5sum: 50f77b56c62d20520667ca65ae30a4e3
 Package: binutils
 Size: 1180
 Version: 2.41
+
 Architecture: aarch64
 Breaks: util-linux (<< 2.38.1-1)
 Depends: libblkid, libmount, libsmartcols, libuuid
@@ -191,6 +206,7 @@ Package: blk-utils
 Replaces: util-linux (<< 2.38.1-1)
 Size: 167900
 Version: 2.39.3-3
+
 Architecture: aarch64
 Breaks: brotli-dev
 Description: lossless compression algorithm and format (command line utility)
@@ -203,6 +219,7 @@ Package: brotli
 Replaces: brotli-dev
 Size: 330528
 Version: 1.1.0
+
 Architecture: aarch64
 Depends: libarchive (= 3.7.2)
 Description: The tar(1) and cpio(1) programs from FreeBSD, using libarchive
@@ -214,6 +231,7 @@ Md5sum: 2757463a6459f99df58fded146c0d8ce
 Package: bsdtar
 Size: 333220
 Version: 3.7.2
+
 Architecture: aarch64
 Description: Tiny versions of many common UNIX utilities into a single small executable
 Filename: pool/main/z/busybox_1.36.1_aarch64.deb
@@ -224,6 +242,7 @@ Md5sum: 9ee4c20be9ba847a338dc73e1aa22a84
 Package: busybox
 Size: 437248
 Version: 1.36.1
+
 Architecture: aarch64
 Depends: libbz2 (= 1.0.8-6)
 Description: Tools for working with bzip2 compression
@@ -236,6 +255,7 @@ Md5sum: 6a750aea90f02f1a006486b274d9e3b1
 Package: bzip2
 Size: 25912
 Version: 1.0.8-6
+
 Architecture: aarch64
 Breaks: c-ares-dev
 Depends: resolv-conf
@@ -249,6 +269,7 @@ Package: c-ares
 Replaces: c-ares-dev
 Size: 165976
 Version: 1.23.0
+
 Architecture: aarch64
 Depends: ncurses, readline
 Description: Arbitrary precision console calculator
@@ -260,6 +281,7 @@ Md5sum: ac9a74622477f593ea944bcb70c1f6a9
 Package: calc
 Size: 819816
 Version: 2.15.0.2
+
 Architecture: aarch64
 Breaks: libllvm (<< 16.0.0), clangd
 Depends: libcompiler-rt, lld, llvm, ndk-sysroot, libllvm (= 17.0.6)
@@ -273,6 +295,7 @@ Package: clang
 Replaces: libllvm (<< 16.0.0), clangd
 Size: 31689864
 Version: 17.0.6
+
 Architecture: aarch64
 Depends: ncurses-ui-libs, cmake (= 3.28.0)
 Description: Curses based user interface for CMake (ccmake)
@@ -284,6 +307,7 @@ Md5sum: 363089a14f6dfcdfe9d46c07b9cc935b
 Package: cmake-curses-gui
 Size: 1970628
 Version: 3.28.0
+
 Architecture: aarch64
 Depends: libarchive, libc++, libcurl, libexpat, jsoncpp, libuv, rhash, zlib
 Description: Family of tools designed to build, test and package software
@@ -296,6 +320,7 @@ Package: cmake
 Recommends: clang, make
 Size: 6243920
 Version: 3.28.0
+
 Architecture: aarch64
 Breaks: chroot, busybox (<< 1.30.1-4)
 Depends: libandroid-support, libgmp, libiconv
@@ -310,6 +335,7 @@ Package: coreutils
 Replaces: chroot, busybox (<< 1.30.1-4)
 Size: 741996
 Version: 9.4
+
 Architecture: aarch64
 Depends: tar
 Description: CPIO implementation from the GNU project
@@ -321,6 +347,7 @@ Md5sum: 62e645bd9c6a117d172a265a2af3de2a
 Package: cpio
 Size: 65892
 Version: 2.14
+
 Architecture: aarch64
 Description: Highly customizable wordlist generator
 Filename: pool/main/z/crunch_3.6-4_aarch64.deb
@@ -331,6 +358,7 @@ Md5sum: 866766332e31beb411763d8497946860
 Package: crunch
 Size: 30836
 Version: 3.6-4
+
 Architecture: aarch64
 Depends: cups (= 2.4.7)
 Description: Static libraries for cups
@@ -342,6 +370,7 @@ Md5sum: d0ae96161159fbdbcd8a82a9a1129b14
 Package: cups-static
 Size: 721936
 Version: 2.4.7
+
 Architecture: aarch64
 Depends: libc++, libcrypt, libgnutls, libiconv, zlib
 Description: Common UNIX Printing System
@@ -353,6 +382,7 @@ Md5sum: e619b66bb1af8629ea81cf36438a735a
 Package: cups
 Size: 5149384
 Version: 2.4.7
+
 Architecture: aarch64
 Depends: libcurl (= 8.5.0)
 Description: Command line tool for transferring data with URL syntax
@@ -365,6 +395,7 @@ Md5sum: daed1cf716883322411feee667f6e752
 Package: curl
 Size: 203312
 Version: 8.5.0
+
 Architecture: aarch64
 Description: Small POSIX-compliant implementation of /bin/sh
 Essential: yes
@@ -376,6 +407,7 @@ Md5sum: 5adf2a2c3b2aeda1f4015dc20361b69a
 Package: dash
 Size: 65332
 Version: 0.5.12
+
 Architecture: aarch64
 Depends: libdb (= 18.1.40-4)
 Description: The Berkeley DB embedded database system
@@ -387,6 +419,7 @@ Md5sum: 75c72998cd958c50e583e46ad18e1047
 Package: db
 Size: 39900
 Version: 18.1.40-4
+
 Architecture: aarch64
 Description: Small utilities which are used primarily by the installation scripts of Debian packages
 Filename: pool/main/z/debianutils_5.15_aarch64.deb
@@ -397,6 +430,7 @@ Md5sum: eb9b741bcd1bac7f78f44d502a38c024
 Package: debianutils
 Size: 16172
 Version: 5.15
+
 Architecture: aarch64
 Depends: dialog (= 1.3-20230209-0)
 Description: Static libraries for dialog
@@ -408,6 +442,7 @@ Md5sum: a66facddee82f37c87b39c57fb8417ba
 Package: dialog-static
 Size: 91536
 Version: 1.3-20230209-0
+
 Architecture: aarch64
 Depends: libandroid-support, ncurses
 Description: Application used in shell scripts which displays text user interface widgets
@@ -419,6 +454,7 @@ Md5sum: e8966dd67cb74c1fae58cd4df6c6d95c
 Package: dialog
 Size: 98416
 Version: 1.3-20230209-0
+
 Architecture: aarch64
 Description: Displays a histogram of changes to a file
 Filename: pool/main/z/diffstat_1.65-1_aarch64.deb
@@ -429,6 +465,7 @@ Md5sum: ab53150ff30212818007de8a15c0c173
 Package: diffstat
 Size: 21088
 Version: 1.65-1
+
 Architecture: aarch64
 Depends: libiconv
 Description: Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
@@ -441,6 +478,7 @@ Md5sum: 12ddf93cead4eecb8e13764d9135f624
 Package: diffutils
 Size: 156564
 Version: 3.10
+
 Architecture: aarch64
 Depends: libandroid-support
 Description: Converts between DOS and Unix text files
@@ -452,6 +490,7 @@ Md5sum: aba317aeec74d37e14188afb7c91d30d
 Package: dos2unix
 Size: 63968
 Version: 7.5.1
+
 Architecture: aarch64
 Breaks: dpkg-dev
 Depends: bzip2, coreutils, diffutils, gzip, less, libbz2, liblzma, libmd, tar, xz-utils, zlib, zstd
@@ -466,6 +505,7 @@ Package: dpkg
 Replaces: dpkg-dev
 Size: 307944
 Version: 1.22.1-1
+
 Architecture: aarch64
 Conflicts: openssh
 Depends: termux-auth, zlib
@@ -479,6 +519,7 @@ Package: dropbear
 Size: 122644
 Suggests: openssh-sftp-server
 Version: 2022.83-1
+
 Architecture: aarch64
 Description: Classic UNIX line editor
 Filename: pool/main/z/ed_1.19_aarch64.deb
@@ -489,6 +530,7 @@ Md5sum: 87d0eaa0aac933f55edc14b2971a389c
 Package: ed
 Size: 40012
 Version: 1.19
+
 Architecture: aarch64
 Depends: libfdisk, libmount, ncurses, readline, libsmartcols
 Description: Utilities to manipulate disk partition tables
@@ -500,6 +542,7 @@ Md5sum: 23848e1cff1df6265fe8ca5dd5a16827
 Package: fdisk
 Size: 111944
 Version: 2.39.3-3
+
 Architecture: aarch64
 Depends: file (= 5.45)
 Description: Static libraries for file
@@ -511,6 +554,7 @@ Md5sum: 3b5777015a374d7975d09aa97067f403
 Package: file-static
 Size: 67628
 Version: 5.45
+
 Architecture: aarch64
 Breaks: file-dev
 Depends: zlib
@@ -524,6 +568,7 @@ Package: file
 Replaces: file-dev
 Size: 372752
 Version: 5.45
+
 Architecture: aarch64
 Depends: libandroid-support
 Description: Utilities to find files meeting specified criteria and perform various actions on the files which are found
@@ -536,6 +581,7 @@ Md5sum: 5bf7e2594ab1cff41f23522ae5d16a30
 Package: findutils
 Size: 240468
 Version: 4.9.0-2
+
 Architecture: aarch64
 Depends: fontconfig (= 2.14.2-2)
 Description: Static libraries for fontconfig
@@ -547,6 +593,7 @@ Md5sum: 5bd0231aeadd728c2dd8f68af5cc24ea
 Package: fontconfig-static
 Size: 115092
 Version: 2.14.2-2
+
 Architecture: aarch64
 Depends: fontconfig (= 2.14.2-2)
 Description: Fontconfig binaries
@@ -558,6 +605,7 @@ Md5sum: 1c1028b3047714bf29c6f48b488fc15e
 Package: fontconfig-utils
 Size: 14356
 Version: 2.14.2-2
+
 Architecture: aarch64
 Breaks: fontconfig-dev
 Depends: freetype, libexpat, ttf-dejavu
@@ -571,6 +619,7 @@ Package: fontconfig
 Replaces: fontconfig-dev
 Size: 118548
 Version: 2.14.2-2
+
 Architecture: aarch64
 Depends: freetype (= 2.13.2)
 Description: Static libraries for freetype
@@ -582,6 +631,7 @@ Md5sum: 53c04f3a7474676962a217ac8377fc87
 Package: freetype-static
 Size: 303876
 Version: 2.13.2
+
 Architecture: aarch64
 Breaks: freetype-dev
 Depends: brotli, libbz2, libpng, zlib
@@ -595,6 +645,7 @@ Package: freetype
 Replaces: freetype-dev
 Size: 411848
 Version: 2.13.2
+
 Architecture: aarch64
 Depends: gawk (= 5.3.0)
 Description: Static libraries for gawk
@@ -606,6 +657,7 @@ Md5sum: a3d07351ad0ef728c30cf1ee80a627be
 Package: gawk-static
 Size: 24988
 Version: 5.3.0
+
 Architecture: aarch64
 Breaks: gawk-dev
 Depends: libandroid-support, libgmp, libmpfr, readline
@@ -620,6 +672,7 @@ Package: gawk
 Replaces: gawk-dev
 Size: 785404
 Version: 5.3.0
+
 Architecture: aarch64
 Depends: gdbm (= 1.23)
 Description: Static libraries for gdbm
@@ -631,6 +684,7 @@ Md5sum: 5b95079badef0c30eac93dc494bcd67d
 Package: gdbm-static
 Size: 29212
 Version: 1.23
+
 Architecture: aarch64
 Breaks: gdbm-dev
 Depends: readline
@@ -644,6 +698,7 @@ Package: gdbm
 Replaces: gdbm-dev
 Size: 141472
 Version: 1.23
+
 Architecture: aarch64
 Description: GitHub’s official command line tool
 Filename: pool/main/z/gh_2.40.1_aarch64.deb
@@ -654,6 +709,7 @@ Md5sum: 39fe62b86fdd5e26a687abc5ad8eaf91
 Package: gh
 Size: 7092024
 Version: 2.40.1
+
 Architecture: aarch64
 Depends: giflib (= 5.2.1-2)
 Description: Static libraries for giflib
@@ -665,6 +721,7 @@ Md5sum: 3c341d5ced4efe64404f87666b2b901f
 Package: giflib-static
 Size: 14672
 Version: 5.2.1-2
+
 Architecture: aarch64
 Conflicts: giflib (<< 5.1.4-4)
 Depends: giflib (= 5.2.1-2)
@@ -677,6 +734,7 @@ Md5sum: 442599b5fa2005b77f51b88a2752597b
 Package: giflib-utils
 Size: 57400
 Version: 5.2.1-2
+
 Architecture: aarch64
 Breaks: giflib-dev
 Description: A library for reading and writing gif images
@@ -689,6 +747,7 @@ Package: giflib
 Replaces: giflib-dev
 Size: 17916
 Version: 5.2.1-2
+
 Architecture: aarch64
 Depends: git, libc++, openssl
 Description: Enables transparent encryption and decryption of files for a git repository
@@ -700,6 +759,7 @@ Md5sum: 99f6d1f25f5d9f3ddd6e024facd3651f
 Package: git-crypt
 Size: 64920
 Version: 0.7.0-2
+
 Architecture: aarch64
 Depends: tk, git (= 2.43.0)
 Description: Git repository browser
@@ -711,6 +771,7 @@ Md5sum: 801dadd5aa98b8cab51e0b93323f9679
 Package: git-gitk
 Size: 136740
 Version: 2.43.0
+
 Architecture: aarch64
 Depends: tk, git (= 2.43.0)
 Description: A graphical interface to Git
@@ -722,6 +783,7 @@ Md5sum: 863b706b3bfb27686762d7d4a82270ae
 Package: git-gui
 Size: 216024
 Version: 2.43.0
+
 Architecture: aarch64
 Description: Git extension for versioning large files
 Filename: pool/main/z/git-lfs_3.4.1_aarch64.deb
@@ -732,6 +794,7 @@ Md5sum: 43c7496787adc9804d78150588bdd1af
 Package: git-lfs
 Size: 3116364
 Version: 3.4.1
+
 Architecture: aarch64
 Depends: git
 Description: Compute various size metrics for a Git repository
@@ -743,6 +806,7 @@ Md5sum: 07c79170ad662597e627c5ed7322f51b
 Package: git-sizer
 Size: 814372
 Version: 1.5.0-4
+
 Architecture: aarch64
 Depends: libcurl, libiconv, less, openssl, pcre2, zlib
 Description: Fast, scalable, distributed revision control system
@@ -755,6 +819,7 @@ Package: git
 Size: 3659796
 Suggests: perl
 Version: 2.43.0
+
 Architecture: aarch64
 Description: A GitLab CLI tool bringing GitLab to your command line
 Filename: pool/main/z/glab-cli_1.36.0_aarch64.deb
@@ -765,6 +830,7 @@ Md5sum: 07e729cc6ad75f42f68e265386686e5b
 Package: glab-cli
 Size: 6225640
 Version: 1.36.0
+
 Architecture: aarch64
 Depends: python, glib (= 2.78.3)
 Description: Programs for the GLib library
@@ -776,6 +842,7 @@ Md5sum: b8e40d18be14ba3a3033aff444d72876
 Package: glib-bin
 Size: 92272
 Version: 2.78.3
+
 Architecture: aarch64
 Breaks: glib-dev
 Depends: libandroid-support, libffi, libiconv, pcre2, resolv-conf, zlib
@@ -789,6 +856,7 @@ Package: glib
 Replaces: glib-dev
 Size: 1286272
 Version: 2.78.3
+
 Architecture: aarch64
 Conflicts: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
 Depends: libassuan, libbz2, libgcrypt, libgnutls, libgpg-error, libksba, libnpth, libsqlite, readline, pinentry, resolv-conf, zlib
@@ -803,6 +871,7 @@ Replaces: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
 Size: 1325824
 Suggests: scdaemon
 Version: 2.4.3
+
 Architecture: aarch64
 Depends: libgnutls (= 3.8.2)
 Description: Commandline utilities for interfacing with the gnutls library
@@ -814,6 +883,7 @@ Md5sum: a41116bc22d9a067b3b4c9d01b006cfa
 Package: gnutls
 Size: 176008
 Version: 3.8.2
+
 Architecture: aarch64
 Conflicts: libgtest
 Depends: libc++
@@ -827,6 +897,7 @@ Package: googletest
 Replaces: libgtest
 Size: 354448
 Version: 1.14.0
+
 Architecture: aarch64
 Depends: libassuan, libbz2, libgcrypt, libgpg-error, libnpth, zlib
 Description: GNU privacy guard - signature verification tool
@@ -838,6 +909,7 @@ Md5sum: 6a273f7a974193274a501a4a0b106e7f
 Package: gpgv
 Size: 177252
 Version: 2.4.3
+
 Architecture: aarch64
 Depends: libandroid-support, pcre2
 Description: Command which searches one or more input files for lines containing a match to a specified pattern
@@ -850,6 +922,7 @@ Md5sum: bb8ba0fe5b32b2737b87d10bd45e2d9f
 Package: grep
 Size: 122952
 Version: 3.11
+
 Architecture: aarch64
 Description: Standard GNU file compression utilities
 Essential: yes
@@ -861,6 +934,7 @@ Md5sum: 43d6740f906cbf531ed0866aea1f48fd
 Package: gzip
 Size: 81428
 Version: 1.13
+
 Architecture: aarch64
 Breaks: htop-legacy
 Conflicts: htop-legacy
@@ -875,6 +949,7 @@ Package: htop
 Replaces: htop-legacy
 Size: 100316
 Version: 3.2.2
+
 Architecture: aarch64
 Depends: libiconv (= 1.17)
 Description: Utility converting between different character encodings
@@ -886,6 +961,7 @@ Md5sum: 3b7b1d768a0f25cc47dabfa162f257c6
 Package: iconv
 Size: 8992
 Version: 1.17
+
 Architecture: aarch64
 Depends: libicu (= 74.2)
 Description: Development utilities for International Components for Unicode
@@ -897,6 +973,7 @@ Md5sum: f2e1a84ad2f1699f3e1f94913769824d
 Package: icu-devtools
 Size: 217364
 Version: 74.2
+
 Architecture: aarch64
 Depends: readline
 Description: Collection of common network programs
@@ -909,6 +986,7 @@ Package: inetutils
 Size: 250908
 Suggests: whois
 Version: 2.4-1
+
 Architecture: aarch64
 Depends: jq (= 1.7)
 Description: Static libraries for jq
@@ -920,6 +998,7 @@ Md5sum: aad57033cd376d15abfe96b0140a11fa
 Package: jq-static
 Size: 132972
 Version: 1.7
+
 Architecture: aarch64
 Breaks: jq-dev
 Depends: oniguruma
@@ -933,6 +1012,7 @@ Package: jq
 Replaces: jq-dev
 Size: 188768
 Version: 1.7
+
 Architecture: aarch64
 Depends: jsoncpp (= 1.9.5-1)
 Description: Static libraries for jsoncpp
@@ -944,6 +1024,7 @@ Md5sum: cf86eefaca1b5e90e664722678603540
 Package: jsoncpp-static
 Size: 73740
 Version: 1.9.5-1
+
 Architecture: aarch64
 Breaks: jsoncpp-dev
 Depends: libc++
@@ -957,6 +1038,7 @@ Package: jsoncpp
 Replaces: jsoncpp-dev
 Size: 126840
 Version: 1.9.5-1
+
 Architecture: aarch64
 Breaks: krb5-dev
 Depends: libandroid-support, libandroid-glob, libresolv-wrapper, readline, openssl, libdb
@@ -970,6 +1052,7 @@ Package: krb5
 Replaces: krb5-dev
 Size: 897136
 Version: 1.21.2
+
 Architecture: aarch64
 Depends: ldns (= 1.8.3-2)
 Description: Static libraries for ldns
@@ -981,6 +1064,7 @@ Md5sum: bf3092f3e3e6079c5448b169a2880ed8
 Package: ldns-static
 Size: 130932
 Version: 1.8.3-2
+
 Architecture: aarch64
 Breaks: ldns-dev
 Depends: openssl, resolv-conf
@@ -994,6 +1078,7 @@ Package: ldns
 Replaces: ldns-dev
 Size: 302028
 Version: 1.8.3-2
+
 Architecture: aarch64
 Depends: ncurses, pcre2
 Description: Terminal pager program used to view the contents of a text file one screen at a time
@@ -1006,6 +1091,7 @@ Md5sum: a04e33f3c7b0558a0957cdec49b7434b
 Package: less
 Size: 104136
 Version: 633-1
+
 Architecture: aarch64
 Depends: libandroid-glob (= 0.6-2)
 Description: Static libraries for libandroid-glob
@@ -1017,6 +1103,7 @@ Md5sum: 49d50a9d6026a7c1890dc17e24ba7894
 Package: libandroid-glob-static
 Size: 4604
 Version: 0.6-2
+
 Architecture: aarch64
 Breaks: libandroid-glob-dev
 Description: Shared library for the glob(3) system function
@@ -1029,6 +1116,7 @@ Package: libandroid-glob
 Replaces: libandroid-glob-dev
 Size: 6920
 Version: 0.6-2
+
 Architecture: aarch64
 Depends: libandroid-posix-semaphore (= 0.1-3)
 Description: Static libraries for libandroid-posix-semaphore
@@ -1040,6 +1128,7 @@ Md5sum: 43579eae892f9638e386400ad2279075
 Package: libandroid-posix-semaphore-static
 Size: 2856
 Version: 0.1-3
+
 Architecture: aarch64
 Description: Shared library for the posix semaphore system function
 Filename: pool/main/z/libandroid-posix-semaphore_0.1-3_aarch64.deb
@@ -1050,6 +1139,7 @@ Md5sum: 9de2deb17bfb0fe746db2012238e6ff7
 Package: libandroid-posix-semaphore
 Size: 4040
 Version: 0.1-3
+
 Architecture: aarch64
 Depends: libandroid-shmem (= 0.4)
 Description: Static libraries for libandroid-shmem
@@ -1061,6 +1151,7 @@ Md5sum: 811674d3dd8f80b6a84ed8861c2df897
 Package: libandroid-shmem-static
 Size: 5764
 Version: 0.4
+
 Architecture: aarch64
 Breaks: libandroid-shmem-dev
 Description: System V shared memory emulation on Android using ashmem
@@ -1073,6 +1164,7 @@ Package: libandroid-shmem
 Replaces: libandroid-shmem-dev
 Size: 6804
 Version: 0.4
+
 Architecture: aarch64
 Depends: libandroid-spawn (= 0.3)
 Description: Static libraries for libandroid-spawn
@@ -1084,6 +1176,7 @@ Md5sum: 7b866a5f3ceeecad46d5032e34062139
 Package: libandroid-spawn-static
 Size: 4076
 Version: 0.3
+
 Architecture: aarch64
 Depends: libc++
 Description: Shared library for the posix_spawn system function
@@ -1095,6 +1188,7 @@ Md5sum: f559f89a1a6fd375bcc7f4de7a52a8e7
 Package: libandroid-spawn
 Size: 15076
 Version: 0.3
+
 Architecture: aarch64
 Depends: libandroid-support (= 28-3)
 Description: Static libraries for libandroid-support
@@ -1106,6 +1200,7 @@ Md5sum: 253d413afc57eb9b2bb238ddacbfb603
 Package: libandroid-support-static
 Size: 8676
 Version: 28-3
+
 Architecture: aarch64
 Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
 Essential: yes
@@ -1117,6 +1212,7 @@ Md5sum: d46803c7912e6b9b966d556df1d476ab
 Package: libandroid-support
 Size: 10860
 Version: 28-3
+
 Architecture: aarch64
 Depends: apt, libc++, perl
 Description: Perl interface to APT's libapt-pkg
@@ -1128,6 +1224,7 @@ Md5sum: 8559bef2644e6789ed4a329836f270fd
 Package: libapt-pkg-perl
 Size: 66980
 Version: 0.1.40-9
+
 Architecture: aarch64
 Depends: libarchive (= 3.7.2)
 Description: Static libraries for libarchive
@@ -1139,6 +1236,7 @@ Md5sum: d89e9914d70c14bc3da4628ef6842065
 Package: libarchive-static
 Size: 355452
 Version: 3.7.2
+
 Architecture: aarch64
 Breaks: libarchive-dev
 Depends: libbz2, libiconv, liblzma, libxml2, openssl, zlib
@@ -1152,6 +1250,7 @@ Package: libarchive
 Replaces: libarchive-dev
 Size: 379996
 Version: 3.7.2
+
 Architecture: aarch64
 Depends: libassuan (= 2.5.6)
 Description: Static libraries for libassuan
@@ -1163,6 +1262,7 @@ Md5sum: 8490c4437e37c1b4da2f5d6998dc5136
 Package: libassuan-static
 Size: 31852
 Version: 2.5.6
+
 Architecture: aarch64
 Breaks: libassuan-dev
 Depends: libgpg-error
@@ -1176,6 +1276,7 @@ Package: libassuan
 Replaces: libassuan-dev
 Size: 71424
 Version: 2.5.6
+
 Architecture: aarch64
 Breaks: util-linux (<< 2.38.1-1)
 Description: Block device identification library
@@ -1188,6 +1289,7 @@ Package: libblkid
 Replaces: util-linux (<< 2.38.1-1)
 Size: 123168
 Version: 2.39.3-3
+
 Architecture: aarch64
 Breaks: libbz2-dev
 Description: BZ2 format compression library
@@ -1201,6 +1303,7 @@ Package: libbz2
 Replaces: libbz2-dev
 Size: 25624
 Version: 1.0.8-6
+
 Architecture: aarch64
 Description: C++ Standard Library
 Essential: yes
@@ -1212,6 +1315,7 @@ Md5sum: 2621c897df4ec53bc453557870346b8e
 Package: libc++
 Size: 304712
 Version: 26b
+
 Architecture: aarch64
 Depends: libcap-ng (= 2:0.8.3)
 Description: Static libraries for libcap-ng
@@ -1223,6 +1327,7 @@ Md5sum: c19889f5386e91d67c5b666f12b7eafc
 Package: libcap-ng-static
 Size: 9080
 Version: 2:0.8.3
+
 Architecture: aarch64
 Description: Library making programming with POSIX capabilities easier than traditional libcap
 Filename: pool/main/z/libcap-ng_2AAA0.8.3_aarch64.deb
@@ -1233,6 +1338,7 @@ Md5sum: 2ea095c522c374077421bb6670886136
 Package: libcap-ng
 Size: 35060
 Version: 2:0.8.3
+
 Architecture: aarch64
 Conflicts: ndk-multilib (<< 23b-6)
 Depends: libllvm (= 17.0.6)
@@ -1245,6 +1351,7 @@ Md5sum: a879a8d29f20ca7dc92969fa57ba82a7
 Package: libcompiler-rt
 Size: 3195360
 Version: 17.0.6
+
 Architecture: aarch64
 Breaks: libcrypt-dev
 Depends: openssl
@@ -1258,6 +1365,7 @@ Package: libcrypt
 Replaces: libcrypt-dev
 Size: 8660
 Version: 0.2-5
+
 Architecture: aarch64
 Depends: libedit (= 20221030-3.1-0)
 Description: Static libraries for libedit
@@ -1269,6 +1377,7 @@ Md5sum: 892ab0bae5917f9cc1dac38b429bb57f
 Package: libedit-static
 Size: 75976
 Version: 20221030-3.1-0
+
 Architecture: aarch64
 Breaks: libedit-dev
 Depends: libandroid-support, ncurses
@@ -1282,6 +1391,7 @@ Package: libedit
 Replaces: libedit-dev
 Size: 77676
 Version: 20221030-3.1-0
+
 Architecture: aarch64
 Breaks: libevent-dev
 Description: Library that provides asynchronous event notification
@@ -1294,6 +1404,7 @@ Package: libevent
 Replaces: libevent-dev
 Size: 199652
 Version: 2.1.12-2
+
 Architecture: aarch64
 Depends: libffi (= 3.4.4-1)
 Description: Static libraries for libffi
@@ -1305,6 +1416,7 @@ Md5sum: 08ce61a069b0a3c5ecf02fedd337045f
 Package: libffi-static
 Size: 16620
 Version: 3.4.4-1
+
 Architecture: aarch64
 Breaks: libffi-dev
 Description: Library providing a portable, high level programming interface to various calling conventions
@@ -1317,6 +1429,7 @@ Package: libffi
 Replaces: libffi-dev
 Size: 30812
 Version: 3.4.4-1
+
 Architecture: aarch64
 Depends: libgcrypt (= 1.10.2)
 Description: Static libraries for libgcrypt
@@ -1328,6 +1441,7 @@ Md5sum: d899a1e3e1b2b20fc2e57238f9aab471
 Package: libgcrypt-static
 Size: 386940
 Version: 1.10.2
+
 Architecture: aarch64
 Breaks: libgmp-dev
 Depends: libc++
@@ -1341,6 +1455,7 @@ Package: libgmp
 Replaces: libgmp-dev
 Size: 324084
 Version: 6.3.0
+
 Architecture: aarch64
 Depends: libgpg-error (= 1.47)
 Description: Static libraries for libgpg-error
@@ -1352,6 +1467,7 @@ Md5sum: 3109c48c07d6c9ea933735a37e1019f8
 Package: libgpg-error-static
 Size: 58584
 Version: 1.47
+
 Architecture: aarch64
 Breaks: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Description: An implementation of iconv()
@@ -1364,6 +1480,7 @@ Package: libiconv
 Replaces: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Size: 556564
 Version: 1.17
+
 Architecture: aarch64
 Breaks: libicu-dev
 Depends: libc++
@@ -1377,6 +1494,7 @@ Package: libicu
 Replaces: libicu-dev
 Size: 9716656
 Version: 74.2
+
 Architecture: aarch64
 Depends: libidn2 (= 2.3.4-1)
 Description: Static libraries for libidn2
@@ -1388,6 +1506,7 @@ Md5sum: 998d6f9d71bc56c1d6a6354fbab092e7
 Package: libidn2-static
 Size: 72068
 Version: 2.3.4-1
+
 Architecture: aarch64
 Depends: libjpeg-turbo (= 3.0.1)
 Description: Static libraries for libjpeg-turbo
@@ -1399,6 +1518,7 @@ Md5sum: ab54717a11fa865944dd6e3a90ed27f1
 Package: libjpeg-turbo-static
 Size: 246960
 Version: 3.0.1
+
 Architecture: aarch64
 Depends: libllvm (= 17.0.6)
 Description: Static libraries for libllvm
@@ -1410,6 +1530,7 @@ Md5sum: fb537497f9150bd2b1f8f9ded48a6ffd
 Package: libllvm-static
 Size: 70849528
 Version: 17.0.6
+
 Architecture: aarch64
 Breaks: liblz4-dev
 Description: Fast LZ compression algorithm library
@@ -1422,6 +1543,7 @@ Package: liblz4
 Replaces: liblz4-dev
 Size: 85456
 Version: 1.9.4
+
 Architecture: aarch64
 Description: Message Digest functions from BSD systems
 Filename: pool/main/z/libmd_1.1.0_aarch64.deb
@@ -1432,6 +1554,7 @@ Md5sum: f3b46990327ff5202f9a63c330b222b1
 Package: libmd
 Size: 39672
 Version: 1.1.0
+
 Architecture: aarch64
 Depends: libblkid, libsmartcols
 Description: Library for (un)mounting filesystems
@@ -1443,6 +1566,7 @@ Md5sum: 723b094f741c240ca4384198627a9769
 Package: libmount
 Size: 145408
 Version: 2.39.3-3
+
 Architecture: aarch64
 Depends: libmpfr (= 4.2.1)
 Description: Static libraries for libmpfr
@@ -1454,6 +1578,7 @@ Md5sum: 1e919103f6ab19ff705ca171fd8eb4fb
 Package: libmpfr-static
 Size: 208756
 Version: 4.2.1
+
 Architecture: aarch64
 Depends: libllvm (= 17.0.6)
 Description: High-level loop and data-locality optimizer for clang
@@ -1465,6 +1590,7 @@ Md5sum: 150090b5ec9e5282a8da0e6c94bba64c
 Package: libpolly
 Size: 1220068
 Version: 17.0.6
+
 Architecture: aarch64
 Breaks: libprotobuf-dev, protobuf-static (<< 22.4)
 Depends: abseil-cpp, libc++, zlib
@@ -1478,6 +1604,7 @@ Package: libprotobuf
 Replaces: libprotobuf-dev
 Size: 1021956
 Version: 2:22.4-2
+
 Architecture: aarch64
 Depends: resolv-conf
 Description: A wrapper for DNS name resolving or DNS faking
@@ -1489,6 +1616,7 @@ Md5sum: f1b431021459ff77c6337bf93f96a6b4
 Package: libresolv-wrapper
 Size: 11528
 Version: 1.1.7-4
+
 Architecture: aarch64
 Depends: libice, libuuid
 Description: X11 Session Management library
@@ -1500,6 +1628,7 @@ Md5sum: 0312992ff1185e6f9520960692515f89
 Package: libsm
 Size: 40092
 Version: 1.2.4-1
+
 Architecture: aarch64
 Breaks: libssh2-dev
 Depends: openssl, zlib
@@ -1513,6 +1642,7 @@ Package: libssh2
 Replaces: libssh2-dev
 Size: 197560
 Version: 1.11.0
+
 Architecture: aarch64
 Breaks: libtiff-dev
 Depends: libc++, libjpeg-turbo, liblzma, zlib, zstd
@@ -1526,6 +1656,7 @@ Package: libtiff
 Replaces: libtiff-dev
 Size: 867784
 Version: 4.6.0
+
 Architecture: aarch64
 Depends: libunistring (= 1.1)
 Description: Static libraries for libunistring
@@ -1537,6 +1668,7 @@ Md5sum: f92299a4ee58a1c88acf23d648725991
 Package: libunistring-static
 Size: 447144
 Version: 1.1
+
 Architecture: aarch64
 Breaks: libunistring-dev
 Depends: libandroid-support, libiconv
@@ -1550,6 +1682,7 @@ Package: libunistring
 Replaces: libunistring-dev
 Size: 510848
 Version: 1.1
+
 Architecture: aarch64
 Breaks: libusb-dev
 Description: A C library that provides generic access to USB devices
@@ -1562,6 +1695,7 @@ Package: libusb
 Replaces: libusb-dev
 Size: 54108
 Version: 1.0.26-1
+
 Architecture: aarch64
 Breaks: libuuid-dev
 Description: Library for handling universally unique identifiers
@@ -1574,6 +1708,7 @@ Package: libuuid
 Replaces: libuuid-dev
 Size: 14608
 Version: 2.39.3-3
+
 Architecture: aarch64
 Depends: libuv (= 1.47.0)
 Description: Static libraries for libuv
@@ -1585,6 +1720,7 @@ Md5sum: a2d51c419313474882102de8c61397e4
 Package: libuv-static
 Size: 269976
 Version: 1.47.0
+
 Architecture: aarch64
 Breaks: libwebp-dev
 Depends: giflib, libjpeg-turbo, libpng, libtiff
@@ -1598,6 +1734,7 @@ Package: libwebp
 Replaces: libwebp-dev
 Size: 218832
 Version: 1.3.2
+
 Architecture: aarch64
 Depends: libxau (= 1.0.11)
 Description: Static libraries for libxau
@@ -1609,6 +1746,7 @@ Md5sum: e5c3a652e1349ecd11ad6a1c0f67cc2a
 Package: libxau-static
 Size: 5068
 Version: 1.0.11
+
 Architecture: aarch64
 Description: X11 authorisation library
 Filename: pool/main/z/libxau_1.0.11_aarch64.deb
@@ -1619,6 +1757,7 @@ Md5sum: 0c2173a05c24a41052389f99e6e3460e
 Package: libxau
 Size: 8432
 Version: 1.0.11
+
 Architecture: aarch64
 Depends: libxcb (= 1.16)
 Description: Static libraries for libxcb
@@ -1630,6 +1769,7 @@ Md5sum: 6564e09dd10aeb2c60c5bac0d5606df6
 Package: libxcb-static
 Size: 159960
 Version: 1.16
+
 Architecture: aarch64
 Depends: libxcursor (= 1.2.1-1)
 Description: Static libraries for libxcursor
@@ -1641,6 +1781,7 @@ Md5sum: fa6abd7007162237e061f65c6e12094b
 Package: libxcursor-static
 Size: 16408
 Version: 1.2.1-1
+
 Architecture: aarch64
 Depends: libx11, libxfixes, libxrender
 Description: X cursor management library
@@ -1652,6 +1793,7 @@ Md5sum: f0563744136c34273fce34334250c92d
 Package: libxcursor
 Size: 27084
 Version: 1.2.1-1
+
 Architecture: aarch64
 Depends: libxdmcp (= 1.1.4)
 Description: Static libraries for libxdmcp
@@ -1663,6 +1805,7 @@ Md5sum: 960586be02ab0e8129cb423d2be16992
 Package: libxdmcp-static
 Size: 7820
 Version: 1.1.4
+
 Architecture: aarch64
 Description: X11 Display Manager Control Protocol library
 Filename: pool/main/z/libxdmcp_1.1.4_aarch64.deb
@@ -1673,6 +1816,7 @@ Md5sum: 4e9580e0b6199320b6509a3854f2c30b
 Package: libxdmcp
 Size: 24088
 Version: 1.1.4
+
 Architecture: aarch64
 Depends: libxext (= 1.3.5)
 Description: Static libraries for libxext
@@ -1684,6 +1828,7 @@ Md5sum: cc3041183ca99cd74d62d8d37b2bf7dc
 Package: libxext-static
 Size: 25280
 Version: 1.3.5
+
 Architecture: aarch64
 Depends: libxfixes (= 6.0.1)
 Description: Static libraries for libxfixes
@@ -1695,6 +1840,7 @@ Md5sum: bc7cd25c11ced5b6be44f2bee64b6e77
 Package: libxfixes-static
 Size: 7688
 Version: 6.0.1
+
 Architecture: aarch64
 Depends: libx11, libxext
 Description: X11 Input extension library
@@ -1706,6 +1852,7 @@ Md5sum: 145acea57a810bbd899a3f95c2b4f4f1
 Package: libxi
 Size: 141648
 Version: 1.8.1
+
 Architecture: aarch64
 Depends: libxml2-python, libxml2 (= 2.12.3)
 Description: Static libraries for libxml2-python
@@ -1717,6 +1864,7 @@ Md5sum: 465f23e4b26a82864b9fb564060344da
 Package: libxml2-python-static
 Size: 70172
 Version: 2.12.3
+
 Architecture: aarch64
 Depends: python, libxml2 (= 2.12.3)
 Description: Python bindings for libxml2
@@ -1728,6 +1876,7 @@ Md5sum: 71f5773abc7808e16228f2d28f78c50f
 Package: libxml2-python
 Size: 204976
 Version: 2.12.3
+
 Architecture: aarch64
 Depends: libxml2 (= 2.12.3)
 Description: XML utilities
@@ -1739,6 +1888,7 @@ Md5sum: c6086e0a7460baa49862a7c7af577cbf
 Package: libxml2-utils
 Size: 31888
 Version: 2.12.3
+
 Architecture: aarch64
 Depends: libxrandr (= 1.5.4)
 Description: Static libraries for libxrandr
@@ -1750,6 +1900,7 @@ Md5sum: 3a3e075678f15f4e586a0801733e1f74
 Package: libxrandr-static
 Size: 14896
 Version: 1.5.4
+
 Architecture: aarch64
 Depends: libx11
 Description: X Rendering Extension client library
@@ -1761,6 +1912,7 @@ Md5sum: 70ec317c967c7a48bf8c1829bb129223
 Package: libxrender
 Size: 23580
 Version: 0.9.11
+
 Architecture: aarch64
 Depends: libxss (= 1.2.4)
 Description: Static libraries for libxss
@@ -1772,6 +1924,7 @@ Md5sum: 3a3eaba30cf8ee194b2e46067baacc85
 Package: libxss-static
 Size: 4480
 Version: 1.2.4
+
 Architecture: aarch64
 Depends: libice, libsm, libx11
 Description: X11 toolkit intrinsics library
@@ -1783,6 +1936,7 @@ Md5sum: 261f0a0956ba3bc7c94d7b0808bfe4ef
 Package: libxt
 Size: 482420
 Version: 1.3.0
+
 Architecture: aarch64
 Depends: libxtst (= 1.2.4)
 Description: Static libraries for libxtst
@@ -1794,6 +1948,7 @@ Md5sum: ddaf3563774ffbcffe6fdc3f4f398029
 Package: libxtst-static
 Size: 8504
 Version: 1.2.4
+
 Architecture: aarch64
 Breaks: littlecms-dev
 Description: Color management library
@@ -1806,6 +1961,7 @@ Package: littlecms
 Replaces: littlecms-dev
 Size: 141500
 Version: 2.16
+
 Architecture: aarch64
 Depends: libllvm (= 17.0.6)
 Description: LLVM-based linker
@@ -1817,6 +1973,7 @@ Md5sum: a9b36d35d0cf423b5c7ae361eac7031b
 Package: lld
 Size: 2271844
 Version: 17.0.6
+
 Architecture: aarch64
 Breaks: lldb-dev, lldb-static
 Depends: clang, libc++, libedit, libxml2, python, ncurses-ui-libs, libllvm (= 17.0.6)
@@ -1830,6 +1987,7 @@ Package: lldb
 Replaces: lldb-dev, lldb-static
 Size: 4700744
 Version: 17.0.6
+
 Architecture: aarch64
 Breaks: libllvm (<< 11.0.0-1)
 Depends: libllvm (= 17.0.6)
@@ -1843,6 +2001,7 @@ Package: llvm
 Replaces: libllvm (<< 11.0.0-1)
 Size: 18039972
 Version: 17.0.6
+
 Architecture: aarch64
 Depends: liblz4 (= 1.9.4)
 Description: Fast LZ compression algorithm tool
@@ -1854,6 +2013,7 @@ Md5sum: 0c135dddfc9ba166c50ef575ae9ff5c1
 Package: lz4
 Size: 85752
 Version: 1.9.4
+
 Architecture: aarch64
 Breaks: make-dev
 Conflicts: make-guile
@@ -1867,6 +2027,7 @@ Package: make
 Replaces: make-dev
 Size: 239612
 Version: 4.4.1
+
 Architecture: aarch64
 Depends: glib, libandroid-support, libssh2, ncurses
 Description: Midnight Commander - a powerful file manager
@@ -1878,6 +2039,7 @@ Md5sum: f834d9809462c939c849f889c88b701e
 Package: mc
 Size: 607464
 Version: 4.8.30
+
 Architecture: aarch64
 Depends: libc++, ncurses, libllvm (= 17.0.6)
 Description: A Multi-Level Intermediate Representation for compilers from LLVM
@@ -1889,6 +2051,7 @@ Md5sum: 01b6d4ba8e42b4e1b86a867d0a08cc22
 Package: mlir
 Size: 36805056
 Version: 17.0.6
+
 Architecture: aarch64
 Depends: ncurses (= 6.4.20231001-3)
 Description: Static libraries for ncurses
@@ -1900,6 +2063,7 @@ Md5sum: 6737eddf3a2d0f368394c47c80a2ba64
 Package: ncurses-static
 Size: 155336
 Version: 6.4.20231001-3
+
 Architecture: aarch64
 Depends: ncurses-ui-libs, ncurses (= 6.4.20231001-3)
 Description: Static libraries for terminal user interfaces based on ncurses
@@ -1911,6 +2075,7 @@ Md5sum: dc4358da2df193f924a8e2ee91c31c4f
 Package: ncurses-ui-libs-static
 Size: 39880
 Version: 6.4.20231001-3
+
 Architecture: aarch64
 Breaks: ncurses (<< 6.4)
 Depends: ncurses (= 6.4.20231001-3)
@@ -1924,6 +2089,7 @@ Package: ncurses-ui-libs
 Replaces: ncurses (<< 6.4)
 Size: 32952
 Version: 6.4.20231001-3
+
 Architecture: aarch64
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Description: System header and library files from the Android NDK needed for compiling C programs
@@ -1936,6 +2102,7 @@ Package: ndk-sysroot
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
 Size: 1663252
 Version: 26b
+
 Architecture: aarch64
 Description: Configuration tools for Linux networking
 Filename: pool/main/z/net-tools_2.10.0_aarch64.deb
@@ -1946,6 +2113,7 @@ Md5sum: 4362faabda35a30a7f9ad9f467dbe867
 Package: net-tools
 Size: 118408
 Version: 2.10.0
+
 Architecture: aarch64
 Description: Regular expressions library
 Filename: pool/main/z/oniguruma_6.9.9_aarch64.deb
@@ -1956,6 +2124,7 @@ Md5sum: 528e3e5c228651820b9fe790c71ba955
 Package: oniguruma
 Size: 136228
 Version: 6.9.9
+
 Architecture: aarch64
 Breaks: openjdk-17 (<< 17.0-28)
 Depends: fontconfig, freetype, giflib, libandroid-shmem, libpng, libx11, libxext, libxi, libxrandr, libxrender, libxt, libxtst, openjdk-17 (= 17.0-30)
@@ -1968,6 +2137,7 @@ Md5sum: e9b4aa9ddec4abefd3a06576b776b7b6
 Package: openjdk-17-x
 Size: 12797528
 Version: 17.0-30
+
 Architecture: aarch64
 Breaks: openjdk-17 (<< 17.0-28)
 Depends: libiconv, libjpeg-turbo, zlib
@@ -1982,6 +2152,7 @@ Recommends: ca-certificates-java, openjdk-17-x, resolv-conf
 Size: 98081360
 Suggests: cups
 Version: 17.0-30
+
 Architecture: aarch64
 Depends: fontconfig, freetype, giflib, libandroid-shmem, libpng, libx11, libxext, libxi, libxrandr, libxrender, libxt, libxtst, openjdk-21 (= 21.0.1-1)
 Description: Portion of openjdk-21 requiring X11 functionality
@@ -1994,6 +2165,7 @@ Package: openjdk-21-x
 Replaces: openjdk-17-x
 Size: 13279132
 Version: 21.0.1-1
+
 Architecture: aarch64
 Depends: libiconv, libjpeg-turbo, zlib, libandroid-spawn
 Description: Java development kit and runtime
@@ -2008,6 +2180,7 @@ Replaces: openjdk-17
 Size: 105872208
 Suggests: cups
 Version: 21.0.1-1
+
 Architecture: aarch64
 Breaks: openssh (<< 9.0p1-1)
 Depends: libandroid-support
@@ -2021,6 +2194,7 @@ Package: openssh-sftp-server
 Replaces: openssh (<< 9.0p1-1)
 Size: 49624
 Version: 9.5p1-2
+
 Architecture: aarch64
 Conflicts: dropbear
 Depends: krb5, ldns, libandroid-support, libedit, openssh-sftp-server, openssl, termux-auth, zlib
@@ -2033,6 +2207,7 @@ Md5sum: 736c74d764b132160458e17f13bc9b22
 Package: openssh
 Size: 822832
 Version: 9.5p1-2
+
 Architecture: aarch64
 Depends: openssl-1.1 (= 1:1.1.1w)
 Description: Static libraries for openssl-1.1
@@ -2044,6 +2219,7 @@ Md5sum: dd17eebe2b837c8430fa0b1cc3686a37
 Package: openssl-1.1-static
 Size: 1218948
 Version: 1:1.1.1w
+
 Architecture: aarch64
 Breaks: openssl (<< 1.1.1m)
 Conflicts: libcurl (<< 7.61.0-1)
@@ -2058,6 +2234,7 @@ Package: openssl-1.1
 Replaces: openssl (<< 1.1.1m)
 Size: 1210908
 Version: 1:1.1.1w
+
 Architecture: aarch64
 Depends: pcre2 (= 10.42)
 Description: Static libraries for pcre2
@@ -2069,6 +2246,7 @@ Md5sum: af2f0d50ecebb529aad840cd993c1a56
 Package: pcre2-static
 Size: 335228
 Version: 10.42
+
 Architecture: aarch64
 Breaks: pcre2-dev
 Description: Perl 5 compatible regular expression library
@@ -2081,6 +2259,7 @@ Package: pcre2
 Replaces: pcre2-dev
 Size: 863188
 Version: 10.42
+
 Architecture: aarch64
 Depends: pcre2 (= 10.42)
 Description: A grep with Perl-compatible regular expressions
@@ -2092,6 +2271,7 @@ Md5sum: a0b08ced0f15f060b17157e21d970d2e
 Package: pcre2grep
 Size: 32632
 Version: 10.42
+
 Architecture: aarch64
 Depends: pcre (= 8.45-1)
 Description: A grep with Perl-compatible regular expressions
@@ -2103,6 +2283,7 @@ Md5sum: f506d509fc134ae456903c319a3f5d81
 Package: pcregrep
 Size: 24656
 Version: 8.45-1
+
 Architecture: aarch64
 Description: Capable, feature-rich programming language
 Filename: pool/main/z/perl_5.38.0-3_aarch64.deb
@@ -2113,6 +2294,7 @@ Md5sum: 4765769cb7cf087d6463a065bce4fa3d
 Package: perl
 Size: 14239216
 Version: 5.38.0-3
+
 Architecture: aarch64
 Depends: libandroid-support, libassuan, libgpg-error, libiconv, ncurses
 Description: Dialog allowing secure password entry
@@ -2124,6 +2306,7 @@ Md5sum: 38f5b19e8708c6f215dc6daf4bce70ad
 Package: pinentry
 Size: 44700
 Version: 1.2.1-1
+
 Architecture: aarch64
 Breaks: procps-dev
 Depends: ncurses
@@ -2138,6 +2321,7 @@ Package: procps
 Replaces: procps-dev
 Size: 143272
 Version: 3.3.17-5
+
 Architecture: aarch64
 Breaks: libprotobuf (<< 2:21.12)
 Conflicts: protobuf-static
@@ -2152,6 +2336,7 @@ Package: protobuf-dev
 Replaces: libprotobuf (<< 2:21.12)
 Size: 2780
 Version: 2:22.4-2
+
 Architecture: aarch64
 Depends: libprotobuf (= 2:22.4-2)
 Description: Compiler for protocol buffer definition files
@@ -2163,6 +2348,7 @@ Md5sum: 1830488c28355fb7f47f3375b9b92939
 Package: protobuf
 Size: 749124
 Version: 2:22.4-2
+
 Architecture: aarch64
 Depends: ncurses
 Description: Some small useful utilities that use the proc filesystem
@@ -2175,6 +2361,7 @@ Md5sum: fb413d62ce437a7f14a5b69efd8b7a7f
 Package: psmisc
 Size: 41188
 Version: 23.6-2
+
 Architecture: aarch64
 Conflicts: unbound (<< 1.15.0-1)
 Depends: python, libunbound (= 1.19.0)
@@ -2187,6 +2374,7 @@ Md5sum: 9b90e6b665be0bb541e264abcaf14ac8
 Package: pyunbound
 Size: 38396
 Version: 1.19.0
+
 Architecture: aarch64
 Depends: rhash (= 1.4.4)
 Description: Static libraries for rhash
@@ -2198,6 +2386,7 @@ Md5sum: 9230cb3f542853ebab98362c794df942
 Package: rhash-static
 Size: 123744
 Version: 1.4.4
+
 Architecture: aarch64
 Conflicts: librhash, rhash-dev
 Depends: openssl
@@ -2211,6 +2400,7 @@ Package: rhash
 Replaces: librhash, rhash-dev
 Size: 153524
 Version: 1.4.4
+
 Architecture: aarch64
 Conflicts: gnupg (<< 2.3.3-2)
 Depends: libgcrypt, libksba, libgpg-error, libassuan, libnpth, libusb, gnupg (= 2.4.3)
@@ -2224,6 +2414,7 @@ Package: scdaemon
 Replaces: gnupg (<< 2.3.3-2)
 Size: 180940
 Version: 2.4.3
+
 Architecture: aarch64
 Description: GNU stream editor for filtering/transforming text
 Essential: yes
@@ -2235,6 +2426,7 @@ Md5sum: c0bd80624770050aa2137adf47d9e24d
 Package: sed
 Size: 117020
 Version: 4.9-1
+
 Architecture: aarch64
 Depends: libc++
 Description: Eat as much as you want while avoiding walls
@@ -2246,6 +2438,7 @@ Md5sum: 3d0776a087e593c3d93b31a5775018be
 Package: snake
 Size: 16808
 Version: 2022.11.07
+
 Architecture: aarch64
 Depends: readline, zlib
 Description: Command line shell for SQLite
@@ -2257,6 +2450,7 @@ Md5sum: 67f05e07c876ecc3ffdef7a82b6d9386
 Package: sqlite
 Size: 568036
 Version: 3.44.0
+
 Architecture: aarch64
 Depends: perl, subversion (= 1.14.2-6)
 Description: Perl interface to Subversion
@@ -2268,6 +2462,7 @@ Md5sum: d6f46e609348db1e213045bd85446432
 Package: subversion-perl
 Size: 709160
 Version: 1.14.2-6
+
 Architecture: aarch64
 Depends: subversion (= 1.14.2-6)
 Description: Static libraries for subversion
@@ -2279,6 +2474,7 @@ Md5sum: 5164e8ec0153b7f6f98e5d393f275a34
 Package: subversion-static
 Size: 1141844
 Version: 1.14.2-6
+
 Architecture: aarch64
 Breaks: subversion-dev
 Depends: apr, apr-util, serf, libexpat, libsqlite, liblz4, utf8proc, zlib
@@ -2292,6 +2488,7 @@ Package: subversion
 Replaces: subversion-dev
 Size: 1388196
 Version: 1.14.2-6
+
 Architecture: aarch64
 Depends: libc++, pcre2, zlib
 Description: Generate scripting interfaces to C/C++ code
@@ -2303,6 +2500,7 @@ Md5sum: 015c1d65f8771723767b29a293b03590
 Package: swig
 Size: 882268
 Version: 4.1.1
+
 Architecture: aarch64
 Breaks: termux-auth-dev
 Depends: openssl
@@ -2316,6 +2514,7 @@ Package: termux-auth
 Replaces: termux-auth-dev
 Size: 6272
 Version: 1.4-2
+
 Architecture: aarch64
 Description: An execve() wrapper to make /bin and /usr/bin shebangs work
 Essential: yes
@@ -2327,6 +2526,7 @@ Md5sum: c75d2037234c8ec3a98d3c01ae395cf6
 Package: termux-exec
 Size: 3628
 Version: 1:1.0
+
 Architecture: aarch64
 Depends: fontconfig, libx11, libxft, libxss, tcl
 Description: A windowing toolkit for use with tcl
@@ -2338,6 +2538,7 @@ Md5sum: d0580a313cb7ecc802cb777d762c00d9
 Package: tk
 Size: 1741792
 Version: 8.6.13
+
 Architecture: aarch64
 Depends: libevent, liblzma, openssl, resolv-conf, zlib
 Description: The Onion Router anonymizing overlay network
@@ -2349,6 +2550,7 @@ Md5sum: 506a218b4aa36a0051163b1c359c1453
 Package: tor
 Size: 2102088
 Version: 0.4.7.16
+
 Architecture: aarch64
 Depends: libandroid-support, libc++
 Description: Tool for extracting files from .rar archives
@@ -2360,6 +2562,7 @@ Md5sum: a9a5d0247fff3fba0d4f4f6da349684b
 Package: unrar
 Size: 139396
 Version: 6.2.12
+
 Architecture: aarch64
 Depends: libbz2
 Description: Tools for working with zip files
@@ -2371,6 +2574,7 @@ Md5sum: b05d09f4dc38cf49c8355b2982aa5718
 Package: unzip
 Size: 117964
 Version: 6.0-9
+
 Architecture: aarch64
 Depends: util-linux (= 2.39.3-3)
 Description: Static libraries for util-linux
@@ -2382,6 +2586,7 @@ Md5sum: 9b5c1ab019faac8eab4ba197ba9b3a20
 Package: util-linux-static
 Size: 403668
 Version: 2.39.3-3
+
 Architecture: aarch64
 Conflicts: vim-python
 Depends: libiconv, ncurses, vim-runtime
@@ -2395,6 +2600,7 @@ Package: vim
 Recommends: diffutils
 Size: 1168192
 Version: 9.0.2000
+
 Architecture: aarch64
 Depends: libxslt (= 1.1.39)
 Description: XSLT command line processor
@@ -2406,6 +2612,7 @@ Md5sum: 01ae007f68332a50cefd34fa936c1087
 Package: xsltproc
 Size: 11916
 Version: 1.1.39
+
 Architecture: aarch64
 Description: Extremely fast non-cryptographic hash algorithm
 Filename: pool/main/z/xxhash_0.8.2_aarch64.deb
@@ -2416,6 +2623,7 @@ Md5sum: 6ed6e24a12ebb6ab48a70b106e29b066
 Package: xxhash
 Size: 74608
 Version: 0.8.2
+
 Architecture: aarch64
 Depends: libandroid-support, libbz2
 Description: Tools for working with zip files
@@ -2427,6 +2635,7 @@ Md5sum: 9afbccc067ba8c82f2be84ce2e339df1
 Package: zip
 Size: 144580
 Version: 3.0-5
+
 Architecture: aarch64
 Depends: zlib (= 1.3-3)
 Description: Static libraries for zlib
@@ -2438,6 +2647,7 @@ Md5sum: 60ae5ddc8533d52aae250eee9ab4b24c
 Package: zlib-static
 Size: 34724
 Version: 1.3-3
+
 Architecture: aarch64
 Breaks: ndk-sysroot (<< 19b-3), zlib-dev
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
@@ -2450,6 +2660,7 @@ Package: zlib
 Replaces: ndk-sysroot (<< 19b-3), zlib-dev
 Size: 60516
 Version: 1.3-3
+
 Architecture: aarch64
 Depends: libcurl (= 8.5.0)
 Description: Static libraries for libcurl
@@ -2461,6 +2672,7 @@ Md5sum: e89966135a233ac38f3e6efe46833473
 Package: libcurl-static
 Size: 310712
 Version: 8.5.0
+
 Architecture: aarch64
 Breaks: libcurl-dev
 Conflicts: apt (<< 1.4.8-8)
@@ -2476,6 +2688,7 @@ Package: libcurl
 Replaces: libcurl-dev
 Size: 1024324
 Version: 8.5.0
+
 Architecture: aarch64
 Depends: libdb (= 18.1.40-4)
 Description: Static libraries for libdb
@@ -2487,6 +2700,7 @@ Md5sum: 43375596951c560dda55c03d038bb50c
 Package: libdb-static
 Size: 472260
 Version: 18.1.40-4
+
 Architecture: aarch64
 Breaks: libdb-dev
 Depends: libc++
@@ -2500,6 +2714,7 @@ Package: libdb
 Replaces: libdb-dev
 Size: 495204
 Version: 18.1.40-4
+
 Architecture: aarch64
 Depends: libexpat (= 2.5.0-1)
 Description: Static libraries for libexpat
@@ -2511,6 +2726,7 @@ Md5sum: 3cf2f542811e3695d5a23594c25fe83e
 Package: libexpat-static
 Size: 54988
 Version: 2.5.0-1
+
 Architecture: aarch64
 Breaks: libexpat-dev
 Description: XML parsing C library
@@ -2523,6 +2739,7 @@ Package: libexpat
 Replaces: libexpat-dev
 Size: 81820
 Version: 2.5.0-1
+
 Architecture: aarch64
 Depends: libblkid, libuuid
 Description: Library for manipulating disk partition tables
@@ -2534,6 +2751,7 @@ Md5sum: 2241aa7e7b036d68c1d0f6ea4f9f9ec2
 Package: libfdisk
 Size: 156140
 Version: 2.39.3-3
+
 Architecture: aarch64
 Breaks: libgcrypt-dev
 Depends: libgpg-error
@@ -2547,6 +2765,7 @@ Package: libgcrypt
 Replaces: libgcrypt-dev
 Size: 429576
 Version: 1.10.2
+
 Architecture: aarch64
 Depends: libgmp (= 6.3.0)
 Description: Static libraries for libgmp
@@ -2558,6 +2777,7 @@ Md5sum: cb0f0e710501c911d1124164b02f791e
 Package: libgmp-static
 Size: 224168
 Version: 6.3.0
+
 Architecture: aarch64
 Depends: libgnutls (= 3.8.2)
 Description: Static libraries for libgnutls
@@ -2569,6 +2789,7 @@ Md5sum: 9b33b36d7a33ad66191cdddee41ec37e
 Package: libgnutls-static
 Size: 778484
 Version: 3.8.2
+
 Architecture: aarch64
 Breaks: libgnutls-dev
 Depends: libc++, libgmp, libnettle, ca-certificates, libidn2, libunbound, libunistring
@@ -2582,6 +2803,7 @@ Package: libgnutls
 Replaces: libgnutls-dev
 Size: 719400
 Version: 3.8.2
+
 Architecture: aarch64
 Breaks: libgpg-error-dev
 Description: Small library that defines common error values for all GnuPG components
@@ -2594,6 +2816,7 @@ Package: libgpg-error
 Replaces: libgpg-error-dev
 Size: 109212
 Version: 1.47
+
 Architecture: aarch64
 Depends: libice (= 1.1.1)
 Description: Static libraries for libice
@@ -2605,6 +2828,7 @@ Md5sum: d0ec07e932d4586860236848a27c8fad
 Package: libice-static
 Size: 36568
 Version: 1.1.1
+
 Architecture: aarch64
 Description: X11 Inter-Client Exchange library
 Filename: pool/main/z/libice_1.1.1_aarch64.deb
@@ -2615,6 +2839,7 @@ Md5sum: 859e36da08a838b07a4546b83e0e63a9
 Package: libice
 Size: 67248
 Version: 1.1.1
+
 Architecture: aarch64
 Depends: libiconv (= 1.17)
 Description: Static libraries for libiconv
@@ -2626,6 +2851,7 @@ Md5sum: 4f955400dfe8aff782d3e2f1a0f38846
 Package: libiconv-static
 Size: 552728
 Version: 1.17
+
 Architecture: aarch64
 Depends: libicu (= 74.2)
 Description: Static libraries for libicu
@@ -2637,6 +2863,7 @@ Md5sum: 9a37a833616c070ba4659999fd8c7198
 Package: libicu-static
 Size: 9579900
 Version: 74.2
+
 Architecture: aarch64
 Breaks: libidn2-dev
 Depends: libandroid-support, libiconv, libunistring
@@ -2650,6 +2877,7 @@ Package: libidn2
 Replaces: libidn2-dev
 Size: 103372
 Version: 2.3.4-1
+
 Architecture: aarch64
 Description: A small java library that allows you to use ANSI escape codes to format your console output
 Filename: pool/main/z/libjansi_2.4.1_aarch64.deb
@@ -2660,6 +2888,7 @@ Md5sum: 0c8018c56aa61fec0949a82591c497af
 Package: libjansi
 Size: 4864
 Version: 2.4.1
+
 Architecture: aarch64
 Depends: libjpeg-turbo (= 3.0.1)
 Description: Programs for manipulating JPEG files
@@ -2671,6 +2900,7 @@ Md5sum: 843a0abd7bdf322f7559bab5825ed57e
 Package: libjpeg-turbo-progs
 Size: 93484
 Version: 3.0.1
+
 Architecture: aarch64
 Breaks: libjpeg-turbo-dev
 Description: Library for reading and writing JPEG image files
@@ -2683,6 +2913,7 @@ Package: libjpeg-turbo
 Replaces: libjpeg-turbo-dev
 Size: 362268
 Version: 3.0.1
+
 Architecture: aarch64
 Depends: libksba (= 1.6.5-1)
 Description: Static libraries for libksba
@@ -2694,6 +2925,7 @@ Md5sum: 4d180f0758611a7eacc154026e338ea8
 Package: libksba-static
 Size: 91852
 Version: 1.6.5-1
+
 Architecture: aarch64
 Breaks: libksba-dev
 Depends: libgpg-error
@@ -2707,6 +2939,7 @@ Package: libksba
 Replaces: libksba-dev
 Size: 105204
 Version: 1.6.5-1
+
 Architecture: aarch64
 Breaks: libclang, libclang-dev, libllvm-dev
 Conflicts: gcc, clang (<< 3.9.1-3)
@@ -2721,6 +2954,7 @@ Package: libllvm
 Replaces: gcc, libclang, libclang-dev, libllvm-dev
 Size: 25144620
 Version: 17.0.6
+
 Architecture: aarch64
 Depends: liblzma (= 5.4.5)
 Description: Static libraries for liblzma
@@ -2732,6 +2966,7 @@ Md5sum: d3aa107bb10a8b18551455bfa5e647d9
 Package: liblzma-static
 Size: 87672
 Version: 5.4.5
+
 Architecture: aarch64
 Breaks: liblzma-dev
 Description: XZ-format compression library
@@ -2745,6 +2980,7 @@ Package: liblzma
 Replaces: liblzma-dev
 Size: 245432
 Version: 5.4.5
+
 Architecture: aarch64
 Depends: libmd (= 1.1.0)
 Description: Static libraries for libmd
@@ -2756,6 +2992,7 @@ Md5sum: 8575984827a0c6dbc1ab27fe4a307fe9
 Package: libmd-static
 Size: 17236
 Version: 1.1.0
+
 Architecture: aarch64
 Breaks: libmpfr-dev
 Depends: libgmp
@@ -2769,6 +3006,7 @@ Package: libmpfr
 Replaces: libmpfr-dev
 Size: 271824
 Version: 4.2.1
+
 Architecture: aarch64
 Depends: libnettle (= 3.9.1)
 Description: Static libraries for libnettle
@@ -2780,6 +3018,7 @@ Md5sum: 992c03ba901db8b5933889beefdff5ce
 Package: libnettle-static
 Size: 632884
 Version: 3.9.1
+
 Architecture: aarch64
 Breaks: libnettle-dev
 Depends: libgmp
@@ -2793,6 +3032,7 @@ Package: libnettle
 Replaces: libnettle-dev
 Size: 403544
 Version: 3.9.1
+
 Architecture: aarch64
 Depends: libnghttp2 (= 1.58.0)
 Description: Static libraries for libnghttp2
@@ -2804,6 +3044,7 @@ Md5sum: 19864b7b900f1ecf230de752bd7ca8d8
 Package: libnghttp2-static
 Size: 66804
 Version: 1.58.0
+
 Architecture: aarch64
 Breaks: libnghttp2-dev
 Description: nghttp HTTP 2.0 library
@@ -2816,6 +3057,7 @@ Package: libnghttp2
 Replaces: libnghttp2-dev
 Size: 97072
 Version: 1.58.0
+
 Architecture: aarch64
 Depends: libnpth (= 1.6-1)
 Description: Static libraries for libnpth
@@ -2827,6 +3069,7 @@ Md5sum: 7571f4794d81bc65fe16bebb94bda009
 Package: libnpth-static
 Size: 4672
 Version: 1.6-1
+
 Architecture: aarch64
 Breaks: libnpth-dev
 Description: New GNU Portable Threads Library
@@ -2839,6 +3082,7 @@ Package: libnpth
 Replaces: libnpth-dev
 Size: 11100
 Version: 1.6-1
+
 Architecture: aarch64
 Depends: pcre (= 8.45-1)
 Description: Posix-compatible runtime libraries for libpcre
@@ -2850,6 +3094,7 @@ Md5sum: ee050a84e8490ab68bfa86e10e02443b
 Package: libpcreposix
 Size: 3292
 Version: 8.45-1
+
 Architecture: aarch64
 Depends: libpng (= 1.6.40)
 Description: Static libraries for libpng
@@ -2861,6 +3106,7 @@ Md5sum: d11953ad73b2bfb6060444fde8bbac4e
 Package: libpng-static
 Size: 85952
 Version: 1.6.40
+
 Architecture: aarch64
 Breaks: libpng-dev
 Depends: zlib
@@ -2874,6 +3120,7 @@ Package: libpng
 Replaces: libpng-dev
 Size: 194680
 Version: 1.6.40
+
 Architecture: aarch64
 Depends: libsm (= 1.2.4-1)
 Description: Static libraries for libsm
@@ -2885,6 +3132,7 @@ Md5sum: f3dc4c85ebc961d929c8390149133dc0
 Package: libsm-static
 Size: 12184
 Version: 1.2.4-1
+
 Architecture: aarch64
 Breaks: util-linux (<< 2.38.1-1)
 Description: Library for smart adaptive formatting of tabular data
@@ -2897,6 +3145,7 @@ Package: libsmartcols
 Replaces: util-linux (<< 2.38.1-1)
 Size: 85616
 Version: 2.39.3-3
+
 Architecture: aarch64
 Depends: libsqlite (= 3.44.0)
 Description: Static libraries for libsqlite
@@ -2908,6 +3157,7 @@ Md5sum: 9b78c74b482a18b3446e0f607be5f5fd
 Package: libsqlite-static
 Size: 508692
 Version: 3.44.0
+
 Architecture: aarch64
 Breaks: libsqlite-dev
 Depends: zlib
@@ -2921,6 +3171,7 @@ Package: libsqlite
 Replaces: libsqlite-dev
 Size: 601160
 Version: 3.44.0
+
 Architecture: aarch64
 Depends: libssh2 (= 1.11.0)
 Description: Static libraries for libssh2
@@ -2932,6 +3183,7 @@ Md5sum: 432a611e9382dee2e1185023b805dfd3
 Package: libssh2-static
 Size: 101864
 Version: 1.11.0
+
 Architecture: aarch64
 Description: Thread debugging library
 Filename: pool/main/z/libthread-db_22-1_aarch64.deb
@@ -2942,6 +3194,7 @@ Md5sum: 66422858337140d3734eff2e7e280ba3
 Package: libthread-db
 Size: 4312
 Version: 22-1
+
 Architecture: aarch64
 Depends: libtiff (= 4.6.0)
 Description: Static libraries for libtiff
@@ -2953,6 +3206,7 @@ Md5sum: 1b1b6b06bd022f632c223f6ef9ada9ad
 Package: libtiff-static
 Size: 168608
 Version: 4.6.0
+
 Architecture: aarch64
 Depends: libtiff (= 4.6.0)
 Description: Tools for working with tiff files
@@ -2964,6 +3218,7 @@ Md5sum: 63b80a8c5d44d2a91b74aa79f8279db5
 Package: libtiff-utils
 Size: 125760
 Version: 4.6.0
+
 Architecture: aarch64
 Depends: libtirpc (= 1.3.4)
 Description: Static libraries for libtirpc
@@ -2975,6 +3230,7 @@ Md5sum: 995b99539162c48cbd239d22c6c3a85c
 Package: libtirpc-static
 Size: 70024
 Version: 1.3.4
+
 Architecture: aarch64
 Description: Transport Independent RPC library
 Filename: pool/main/z/libtirpc_1.3.4_aarch64.deb
@@ -2985,6 +3241,7 @@ Md5sum: 8c3545040d807548674354976de04c02
 Package: libtirpc
 Size: 124520
 Version: 1.3.4
+
 Architecture: aarch64
 Depends: libunbound (= 1.19.0)
 Description: Static libraries for libunbound
@@ -2996,6 +3253,7 @@ Md5sum: 802bd2b49635b83c59d561c144f2d927
 Package: libunbound-static
 Size: 415048
 Version: 1.19.0
+
 Architecture: aarch64
 Breaks: unbound (<< 1.17.1-1)
 Depends: libevent, libnghttp2, openssl, resolv-conf
@@ -3009,6 +3267,7 @@ Package: libunbound
 Replaces: unbound (<< 1.17.1-1)
 Size: 343560
 Version: 1.19.0
+
 Architecture: aarch64
 Depends: libusb (= 1.0.26-1)
 Description: Static libraries for libusb
@@ -3020,6 +3279,7 @@ Md5sum: a5132ba3f4fa6bbece133eb1b511cdea
 Package: libusb-static
 Size: 45096
 Version: 1.0.26-1
+
 Architecture: aarch64
 Depends: libprotobuf (= 2:22.4-2)
 Description: Fast UTF-8 validation with Range algorithm
@@ -3031,6 +3291,7 @@ Md5sum: 782372d292769ffc4b6ea814e200bd02
 Package: libutf8-range
 Size: 5856
 Version: 2:22.4-2
+
 Architecture: aarch64
 Breaks: libuv-dev
 Description: Support library with a focus on asynchronous I/O
@@ -3043,6 +3304,7 @@ Package: libuv
 Replaces: libuv-dev
 Size: 77244
 Version: 1.47.0
+
 Architecture: aarch64
 Depends: libwebp (= 1.3.2)
 Description: Static libraries for libwebp
@@ -3054,6 +3316,7 @@ Md5sum: c9ed2b4cb4877f2d72b54c96ed527445
 Package: libwebp-static
 Size: 178612
 Version: 1.3.2
+
 Architecture: aarch64
 Depends: libx11 (= 1.8.7)
 Description: Static libraries for libx11
@@ -3065,6 +3328,7 @@ Md5sum: 1dbf45f4d3b3bf9e223790cbb0d5cb7d
 Package: libx11-static
 Size: 566988
 Version: 1.8.7
+
 Architecture: aarch64
 Depends: libandroid-support, libxcb
 Description: X11 client-side library
@@ -3077,6 +3341,7 @@ Package: libx11
 Recommends: xorg-xauth
 Size: 1917452
 Version: 1.8.7
+
 Architecture: aarch64
 Depends: libxau, libxdmcp
 Description: X11 client-side library
@@ -3089,6 +3354,7 @@ Package: libxcb
 Recommends: xorg-xauth
 Size: 937236
 Version: 1.16
+
 Architecture: aarch64
 Depends: libx11
 Description: X11 miscellaneous extensions library
@@ -3100,6 +3366,7 @@ Md5sum: 552088c7520511250b36ec1a16a1552d
 Package: libxext
 Size: 97296
 Version: 1.3.5
+
 Architecture: aarch64
 Depends: libx11
 Description: X11 miscellaneous 'fixes' extension library
@@ -3111,6 +3378,7 @@ Md5sum: 18280f34dd454a2f53588af6e1b21bee
 Package: libxfixes
 Size: 11132
 Version: 6.0.1
+
 Architecture: aarch64
 Depends: libxft (= 2.3.8)
 Description: Static libraries for libxft
@@ -3122,6 +3390,7 @@ Md5sum: b47560d0b80eabe13b8b8d6fcce0ceb8
 Package: libxft-static
 Size: 36152
 Version: 2.3.8
+
 Architecture: aarch64
 Depends: fontconfig, freetype, libx11, libxrender
 Description: FreeType-based font drawing library for X
@@ -3133,6 +3402,7 @@ Md5sum: 8e3ecd88755a6bfdc998e1bad55cd88d
 Package: libxft
 Size: 47844
 Version: 2.3.8
+
 Architecture: aarch64
 Depends: libxi (= 1.8.1)
 Description: Static libraries for libxi
@@ -3144,6 +3414,7 @@ Md5sum: b0243a44b937c9f77b236dea605256d9
 Package: libxi-static
 Size: 26864
 Version: 1.8.1
+
 Architecture: aarch64
 Depends: libxml2 (= 2.12.3)
 Description: Static libraries for libxml2
@@ -3155,6 +3426,7 @@ Md5sum: 11cd214f9c5bbbce333a0e154feb7259
 Package: libxml2-static
 Size: 467720
 Version: 2.12.3
+
 Architecture: aarch64
 Breaks: libxml2-dev
 Depends: libiconv, liblzma, zlib
@@ -3168,6 +3440,7 @@ Package: libxml2
 Replaces: libxml2-dev
 Size: 538912
 Version: 2.12.3
+
 Architecture: aarch64
 Depends: libx11, libxext, libxrender
 Description: X11 RandR extension library
@@ -3179,6 +3452,7 @@ Md5sum: 5230c16b24b7edce7aeb86a1982a2e4e
 Package: libxrandr
 Size: 22384
 Version: 1.5.4
+
 Architecture: aarch64
 Depends: libxrender (= 0.9.11)
 Description: Static libraries for libxrender
@@ -3190,6 +3464,7 @@ Md5sum: e2c4bc56adba7f46f7cffdf206f78a0e
 Package: libxrender-static
 Size: 14820
 Version: 0.9.11
+
 Architecture: aarch64
 Depends: libxslt (= 1.1.39)
 Description: Static libraries for libxslt
@@ -3201,6 +3476,7 @@ Md5sum: fe70df77afe1040308c408ac9d90c0f3
 Package: libxslt-static
 Size: 123888
 Version: 1.1.39
+
 Architecture: aarch64
 Breaks: libxslt-dev
 Depends: libgcrypt, libgpg-error, libxml2
@@ -3214,6 +3490,7 @@ Package: libxslt
 Replaces: libxslt-dev
 Size: 189852
 Version: 1.1.39
+
 Architecture: aarch64
 Depends: libx11, libxau, libxcb, libxdmcp, libxext
 Description: X11 Screen Saver extension library
@@ -3225,6 +3502,7 @@ Md5sum: 772dda1f5b0faf903710a90def74e483
 Package: libxss
 Size: 12040
 Version: 1.2.4
+
 Architecture: aarch64
 Depends: libxt (= 1.3.0)
 Description: Static libraries for libxt
@@ -3236,6 +3514,7 @@ Md5sum: ae51317222d3796a9a1a1e5bdf0ca9eb
 Package: libxt-static
 Size: 147952
 Version: 1.3.0
+
 Architecture: aarch64
 Depends: libx11, libxext, libxi
 Description: X11 Testing -- Resource extension library
@@ -3247,6 +3526,7 @@ Md5sum: eb46926ca149068def22e190540523a3
 Package: libxtst
 Size: 25516
 Version: 1.2.4
+
 Architecture: aarch64
 Depends: littlecms (= 2.16)
 Description: Static libraries for littlecms
@@ -3258,6 +3538,7 @@ Md5sum: 2ede643446a828e0cf2503f1f99f8312
 Package: littlecms-static
 Size: 145072
 Version: 2.16
+
 Architecture: aarch64
 Depends: libjpeg-turbo, libtiff, littlecms (= 2.16)
 Description: Color management utilities
@@ -3269,6 +3550,7 @@ Md5sum: 5c45b56b6d53f75edeceea8eaf242cc4
 Package: littlecms-utils
 Size: 35252
 Version: 2.16
+
 Architecture: aarch64
 Breaks: libllvm (<< 16.0.0)
 Depends: libc++, ncurses, zlib, libllvm (= 17.0.6)
@@ -3282,6 +3564,7 @@ Package: llvm-tools
 Replaces: libllvm (<< 16.0.0)
 Size: 2148928
 Version: 17.0.6
+
 Architecture: aarch64
 Depends: binutils-gold, libllvm (= 17.0.6)
 Description: LLVM gold plugin
@@ -3293,6 +3576,7 @@ Md5sum: 75263760f205db7643bfd23b75e272f6
 Package: llvmgold
 Size: 26960
 Version: 17.0.6
+
 Architecture: aarch64
 Depends: lsof (= 4.99.0)
 Description: Static libraries for lsof
@@ -3304,6 +3588,7 @@ Md5sum: 9997061389b2e5eddf1cbb89f73305f4
 Package: lsof-static
 Size: 55724
 Version: 4.99.0
+
 Architecture: aarch64
 Depends: libandroid-support, libtirpc
 Description: Lists open files for running Unix processes
@@ -3315,6 +3600,7 @@ Md5sum: ebad0e3acdaef048ad77375d96fee8ee
 Package: lsof
 Size: 122532
 Version: 4.99.0
+
 Architecture: aarch64
 Description: Traditional Unix macro processor
 Filename: pool/main/z/m4_1.4.19-4_aarch64.deb
@@ -3325,6 +3611,7 @@ Md5sum: 4eac25d0dc435c48691ba3e0289ecee0
 Package: m4
 Size: 189064
 Version: 1.4.19-4
+
 Architecture: aarch64
 Breaks: termux-tools (<= 1.34.1)
 Depends: libblkid, libsmartcols, libmount
@@ -3337,6 +3624,7 @@ Md5sum: 97ce80211e71f5efd003f03e251b51f4
 Package: mount-utils
 Size: 131356
 Version: 2.39.3-3
+
 Architecture: aarch64
 Depends: libandroid-support, ncurses
 Description: Small, free and friendly text editor
@@ -3348,6 +3636,7 @@ Md5sum: da947df1fcbbc6ace3e34cccd86a91c5
 Package: nano
 Size: 218684
 Version: 7.2
+
 Architecture: aarch64
 Depends: ncurses (= 6.4.20231001-3)
 Description: Tools for working with terminals
@@ -3359,6 +3648,7 @@ Md5sum: 2538e954702da5802356e8eeba204e36
 Package: ncurses-utils
 Size: 87352
 Version: 6.4.20231001-3
+
 Architecture: aarch64
 Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Description: Library for text-based user interfaces in a terminal-independent manner
@@ -3371,6 +3661,7 @@ Package: ncurses
 Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Size: 522484
 Version: 6.4.20231001-3
+
 Architecture: aarch64
 Depends: libnettle (= 3.9.1)
 Description: Low level cryptographic tools
@@ -3382,6 +3673,7 @@ Md5sum: 8e11bc1241e61fb806182304a4398b70
 Package: nettle
 Size: 18168
 Version: 3.9.1
+
 Architecture: aarch64
 Depends: libc++, libandroid-spawn
 Description: A small build system with a focus on speed
@@ -3393,6 +3685,7 @@ Md5sum: 0716a4124f15931262730e282ef9ccf0
 Package: ninja
 Size: 75780
 Version: 1.11.1
+
 Architecture: aarch64
 Breaks: nodejs-dev
 Conflicts: nodejs-lts, nodejs-current
@@ -3408,6 +3701,7 @@ Replaces: nodejs-current, nodejs-dev
 Size: 9715648
 Suggests: clang, make, pkg-config, python
 Version: 20.2.0-1
+
 Architecture: aarch64
 Depends: oniguruma (= 6.9.9)
 Description: Static libraries for oniguruma
@@ -3419,6 +3713,7 @@ Md5sum: 8988d3c9a9d2bd5084459e68384d8b03
 Package: oniguruma-static
 Size: 143340
 Version: 6.9.9
+
 Architecture: aarch64
 Depends: libtiff, littlecms, libpng, openjpeg (= 2.5.0-1)
 Description: Command-line tools using the JPEG 2000 library
@@ -3430,6 +3725,7 @@ Md5sum: 186eaff83e5dbee6c664ee09aa131999
 Package: openjpeg-tools
 Size: 68808
 Version: 2.5.0-1
+
 Architecture: aarch64
 Breaks: openjpeg-dev
 Description: JPEG 2000 image compression library
@@ -3442,6 +3738,7 @@ Package: openjpeg
 Replaces: openjpeg-dev
 Size: 148056
 Version: 2.5.0-1
+
 Architecture: aarch64
 Depends: openssl (= 1:3.1.4)
 Description: Static libraries for openssl
@@ -3453,6 +3750,7 @@ Md5sum: 12ce6d1e56cb67a7434453a8e191870b
 Package: openssl-static
 Size: 1705904
 Version: 1:3.1.4
+
 Architecture: aarch64
 Depends: openssl (= 1:3.1.4)
 Description: The openssl command line cryptographic tool
@@ -3464,6 +3762,7 @@ Md5sum: d38351b5e3f4d4a03ccd6fc2a41b776c
 Package: openssl-tool
 Size: 247320
 Version: 1:3.1.4
+
 Architecture: aarch64
 Depends: openssl-1.1 (= 1:1.1.1w)
 Description: The openssl command line cryptographic tool
@@ -3475,6 +3774,7 @@ Md5sum: 2f1e71845af5714dc9b018d36a5a2bcb
 Package: openssl1.1-tool
 Size: 192680
 Version: 1:1.1.1w
+
 Architecture: aarch64
 Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
 Conflicts: libcurl (<< 7.61.0-1)
@@ -3489,6 +3789,7 @@ Package: openssl
 Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
 Size: 1631148
 Version: 1:3.1.4
+
 Architecture: aarch64
 Description: GNU patch which applies diff files to create patched files
 Filename: pool/main/z/patch_2.7.6-3_aarch64.deb
@@ -3499,6 +3800,7 @@ Md5sum: fda7fe37239134d2171dd102df192ffd
 Package: patch
 Size: 81724
 Version: 2.7.6-3
+
 Architecture: aarch64
 Depends: pcre (= 8.45-1)
 Description: Static libraries for pcre
@@ -3510,6 +3812,7 @@ Md5sum: 3afeb6e8aa80b783c21174cb504f52a4
 Package: pcre-static
 Size: 138640
 Version: 8.45-1
+
 Architecture: aarch64
 Breaks: pcre-dev
 Depends: libc++
@@ -3523,6 +3826,7 @@ Package: pcre
 Replaces: pcre-dev
 Size: 656612
 Version: 8.45-1
+
 Architecture: aarch64
 Depends: glib
 Description: Helper tool used when compiling applications and libraries
@@ -3534,6 +3838,7 @@ Md5sum: 2c8abf705c8b28129289da0dcc0eb14f
 Package: pkg-config
 Size: 32756
 Version: 0.29.2-2
+
 Architecture: aarch64
 Depends: procps (= 3.3.17-5)
 Description: Static libraries for procps
@@ -3545,6 +3850,7 @@ Md5sum: 6ae30969597d5f43bb4574a5cdb5d9c0
 Package: procps-static
 Size: 28940
 Version: 3.3.17-5
+
 Architecture: aarch64
 Depends: python (= 3.11.6-1)
 Description: Static libraries for python
@@ -3556,6 +3862,7 @@ Md5sum: 8555b4ea9768dad2278fe09bae0b0ba4
 Package: python-static
 Size: 5300428
 Version: 3.11.6-1
+
 Architecture: aarch64
 Breaks: python (<< 3.11.1-3)
 Depends: tcl, tk, python (= 3.11.6-1)
@@ -3569,6 +3876,7 @@ Package: python-tkinter
 Replaces: python (<< 3.11.1-3)
 Size: 1235268
 Version: 3.11.6-1
+
 Architecture: aarch64
 Breaks: python2 (<= 2.7.15), python-dev
 Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
@@ -3585,6 +3893,7 @@ Replaces: python-dev
 Size: 7973316
 Suggests: python-tkinter
 Version: 3.11.6-1
+
 Architecture: aarch64
 Depends: libc++, zstd (= 1.5.5-1)
 Description: A Pigz-like tool for Zstandard
@@ -3596,6 +3905,7 @@ Md5sum: 19c3ef8acdc37f5a4be3bcfa490fe618
 Package: pzstd
 Size: 38528
 Version: 1.5.5-1
+
 Architecture: aarch64
 Depends: readline (= 8.2.1)
 Description: Static libraries for readline
@@ -3607,6 +3917,7 @@ Md5sum: d63b22581af4d75ab8b7a7fc9e4f5633
 Package: readline-static
 Size: 118972
 Version: 8.2.1
+
 Architecture: aarch64
 Breaks: bash (<< 5.0), readline-dev
 Depends: libandroid-support, ncurses
@@ -3620,6 +3931,7 @@ Package: readline
 Replaces: readline-dev
 Size: 232996
 Version: 8.2.1
+
 Architecture: aarch64
 Description: Resolver configuration file
 Filename: pool/main/z/resolv-conf_1.3_aarch64.deb
@@ -3630,6 +3942,7 @@ Md5sum: c46597c7c0e2750bada3f5a54f17e27b
 Package: resolv-conf
 Size: 1028
 Version: 1.3
+
 Architecture: aarch64
 Depends: serf (= 1.3.10)
 Description: Static libraries for serf
@@ -3641,6 +3954,7 @@ Md5sum: 4b91ff5af683a64b6ffcb976d8def3bb
 Package: serf-static
 Size: 39028
 Version: 1.3.10
+
 Architecture: aarch64
 Breaks: serf-dev
 Depends: apr, apr-util, openssl, zlib
@@ -3654,6 +3968,7 @@ Package: serf
 Replaces: serf-dev
 Size: 47064
 Version: 1.3.10
+
 Architecture: aarch64
 Depends: subversion-perl, subversion (= 1.14.2-6)
 Description: Static libraries for subversion-perl
@@ -3665,6 +3980,7 @@ Md5sum: 72aa92a016e71865c36da5ae84eaa365
 Package: subversion-perl-static
 Size: 15716
 Version: 1.14.2-6
+
 Architecture: aarch64
 Breaks: tcl-dev, tcl-static
 Depends: zlib
@@ -3678,6 +3994,7 @@ Package: tcl
 Replaces: tcl-dev, tcl-static
 Size: 2242856
 Version: 8.6.13
+
 Architecture: aarch64
 Depends: libc++
 Description: A faster version of am with less features that only works while Termux is running
@@ -3689,6 +4006,7 @@ Md5sum: 0cd0034f32fdb5133a703cc625281f5b
 Package: termux-am-socket
 Size: 15964
 Version: 1.5.0
+
 Architecture: aarch64
 Depends: libandroid-glob, libiconv
 Description: GNU tar for manipulating tar archives
@@ -3701,6 +4019,7 @@ Md5sum: b0d85296203faa23b19be7d20f812866
 Package: tar
 Size: 340388
 Version: 1.35
+
 Architecture: aarch64
 Depends: libexpat, libunbound (= 1.19.0)
 Description: Unbound command-line tools
@@ -3712,6 +4031,7 @@ Md5sum: 1a7d171d05070fa146ca7f312cb070f3
 Package: unbound
 Size: 562572
 Version: 1.19.0
+
 Architecture: aarch64
 Depends: utf8proc (= 2.9.0)
 Description: Static libraries for utf8proc
@@ -3723,6 +4043,7 @@ Md5sum: 9d0b2e981a29411bff92e824d1cc88a8
 Package: utf8proc-static
 Size: 47880
 Version: 2.9.0
+
 Architecture: aarch64
 Breaks: utf8proc-dev
 Description: Library for processing UTF-8 Unicode data
@@ -3735,6 +4056,7 @@ Package: utf8proc
 Replaces: utf8proc-dev
 Size: 58728
 Version: 2.9.0
+
 Architecture: aarch64
 Breaks: util-linux-dev
 Depends: libcap-ng, libsmartcols, ncurses, zlib
@@ -3749,6 +4071,7 @@ Package: util-linux
 Replaces: util-linux-dev
 Size: 668012
 Version: 2.39.3-3
+
 Architecture: aarch64
 Depends: libsmartcols, libuuid
 Description: Utilities for handling universally unique identifiers
@@ -3760,6 +4083,7 @@ Md5sum: 7da64724bbbb98c3827483c339a45cf7
 Package: uuid-utils
 Size: 39032
 Version: 2.39.3-3
+
 Architecture: aarch64
 Depends: libandroid-support, libiconv, libidn2, libuuid, openssl, pcre2, zlib
 Description: Commandline tool for retrieving files using HTTP, HTTPS and FTP
@@ -3771,6 +4095,7 @@ Md5sum: 689eaa74a6941203917165493ac7ede7
 Package: wget
 Size: 279628
 Version: 1.21.4-1
+
 Architecture: aarch64
 Conflicts: debianutils (<< 5.7-1)
 Description: Shows the full path of (shell) commands
@@ -3782,6 +4107,7 @@ Md5sum: 33623849b8fcb1f033f23d5613cf9392
 Package: which
 Size: 12568
 Version: 2.21
+
 Architecture: aarch64
 Depends: xxhash (= 0.8.2)
 Description: Static libraries for xxhash
@@ -3793,6 +4119,7 @@ Md5sum: 5cc1b758897971ec534dbb5b0d388160
 Package: xxhash-static
 Size: 8592
 Version: 0.8.2
+
 Architecture: aarch64
 Depends: liblzma (= 5.4.5)
 Description: XZ-format compression tools
@@ -3805,6 +4132,7 @@ Md5sum: cf9c35833c8b97d9227718b49ef0918d
 Package: xz-utils
 Size: 63960
 Version: 5.4.5
+
 Architecture: aarch64
 Depends: zstd (= 1.5.5-1)
 Description: Static libraries for zstd
@@ -3816,6 +4144,7 @@ Md5sum: 89cc865c501eb5c275f3bf4681a5492d
 Package: zstd-static
 Size: 941436
 Version: 1.5.5-1
+
 Architecture: aarch64
 Breaks: zstd-dev
 Depends: liblzma, zlib
@@ -3829,3 +4158,4 @@ Package: zstd
 Replaces: zstd-dev
 Size: 327196
 Version: 1.5.5-1
+

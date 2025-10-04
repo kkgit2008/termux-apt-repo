@@ -6,23 +6,22 @@ Label: MyTermuxRepo
 Suite: stable
 Version: 1.0
 Codename: stable
-Date: Sat, 04 Oct 2025 12:07:31 +0000
-Architectures: aarch64  # 保持你的架构列表（aarch64等）
-Components: main  # 关键修复！只写 main，因为你的 Packages 在 main 目录下
-# 明确指定 Packages 文件路径格式（可选，但能帮助 apt 识别）
+Date: Sat, 04 Oct 2025 12:42:34 +0000
+Architectures: aarch64
+Components: main
 Description: Custom Termux Repository (main component only)
 SHA256:
- f7c31a918162375711a022cae9125983e954e8ef00c7af200c49c1ac40bbfb6f 116576 main/binary-aarch64/Packages
- 3df67b52af476a5c5cea4e047f21c301c772c1ab59218cd4ef41d21391e157a2 27879 main/binary-aarch64/Packages.gz
+ 0a157e25d8b45fc067a2438ad0ee7d763a75295340cb9a809013887e19507bbc 116906 main/binary-aarch64/Packages
+ f9552eabfd4d86f48aff508e66ea4a0df7aeb4347719e83fa31a9121cf3c0869 27894 main/binary-aarch64/Packages.gz
 SHA1:
- c6930d95c096e1a1ccab848b17bd40d68ead3c66 116576 main/binary-aarch64/Packages
- 5f3e0c1fc09f5c4736e26cc2cd8bfa0323cdba13 27879 main/binary-aarch64/Packages.gz
+ a16ea2dd7e1a598ff97b5abe458364fe6637a908 116906 main/binary-aarch64/Packages
+ 94a44f177fd572b3d8ec73eda2c35e55c7e4b8dc 27894 main/binary-aarch64/Packages.gz
 Hash: SHA256
 -----BEGIN PGP SIGNATURE-----
 
-iJEEARYKADkWIQSpHWEfPviTITPtQ79eauD90XpPGAUCaOEOBBsUgAAAAAAEAA5t
-YW51MiwyLjUrMS4xMSwzLDIACgkQXmrg/dF6TxhgaQEAkMR5aZ7Tc8NuvV9Ekbbq
-pa00GujiggIo0WtX1y1TKDsBAOZNFFhHqFAC8UTcx3b7rmTzG5kl/XEe9n80qJqV
-XE8F
-=uyrW
+iJEEARYKADkWIQSpHWEfPviTITPtQ79eauD90XpPGAUCaOEWOxsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMSwzLDIACgkQXmrg/dF6Txi1yQD+IdlrSQaZBUIPPhdgA/Yi
+Vm+lN0fsJFNLtIWFKuEy5BwBAPN0uuATlFa6BudOTa+CvVIp29I5qwLCsq9m/gp1
+84UN
+=ZfPV
 -----END PGP SIGNATURE-----
