@@ -1,5 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/sh
-
+#!/data/data/com.termux/files/usr/bin/sh                      
 echo ">>>start update.sh"
 
 set -e
@@ -10,26 +9,22 @@ ARCHS="aarch64"
 
 rm -rf "$DIST"
 mkdir -p "$DIST"/{main,bootstrap}
+                                                              echo ">>>start write file Packages"
 
-echo ">>>start write file Packages"
-
-# 修正：使用一个更健壮的 awk 脚本来生成 Packages 文件
-# 它会在每个包信息块之间自动添加空行
-
+# 修正：使用一个更健壮的 awk 脚本来生成 Packages 文件         # 它会在每个包信息块之间自动添加空行                          
 # --- 开始替换 ---
 
 echo ">>>start write file Packages"
 
 for arch in $ARCHS; do
     out="$DIST/main/binary-$arch"
-    mkdir -p "$out"
-
+    mkdir -p "$out"                                           
     echo "  Processing architecture: $arch"
 
     # 核心修改：使用一个极简的 awk 脚本来过滤包
     # 它会：
     # 1. 逐行读取 apt-repo 的输出。
-    # 2. 当遇到 "Architecture: <目标架构>" 时，标记接下来的行需要保留。
+    # 2. 当遇到 "Architecture: <目标架构>" 时，标记接下来的行 需要保留。
     # 3. 当标记为“保留”时，打印该行。
     # 4. 当遇到一个空行时，说明一个包的信息块结束，重置标记。
     ../../../files/usr/bin/apt-repo pool | awk -v target_arch="$arch" '
@@ -40,7 +35,7 @@ for arch in $ARCHS; do
             keep = 1
         }
 
-        # 规则2: 如果当前行是一个空行，说明一个包的信息块结束，重置保留标记
+        # 规则2: 如果当前行是一个空行，说明一个包的信息块结束 ，重置保留标记
         /^$/ {
             keep = 0
         }
@@ -67,7 +62,7 @@ echo ">>>end write file Packages"
 
 echo ">>>start write file Release"
 
-# Release 文件
+# Release 文件（关键修复：Components 只保留 main，与你的 Packages 路径匹配）
 cat > "$DIST/Release" <<EOR
 Origin: MyTermuxRepo
 Label: MyTermuxRepo
@@ -75,26 +70,29 @@ Suite: stable
 Version: 1.0
 Codename: stable
 Date: $(date -Ru)
-Architectures: $ARCHS
-Components: main bootstrap
+Architectures: $ARCHS  # 保持你的架构列表（aarch64等）
+Components: main  # 关键修复！只写 main，因为你的 Packages 在 main 目录下
+# 明确指定 Packages 文件路径格式（可选，但能帮助 apt 识别）
+Description: Custom Termux Repository (main component only)
 EOR
 
+# 追加校验和（这部分不变，但必须确保能扫描到正确路径的 Packages）
 echo ">>>start sha"
 
-# 追加校验和
+# 修复：确保 find 命令能找到所有 Packages 文件（路径正确）
 # 1. 大写 SHA256 段落（新 apt 必须）
 echo "SHA256:" >> "$DIST/Release"
-find "$DIST" -name Packages -o -name Packages.gz | sort | \
-xargs -I{} sh -c 'echo " $(sha256sum {} | cut -d" " -f1) $(stat -c%s {}) {}"' \
+find "$DIST" -type f -name "Packages" -o -name "Packages.gz" | sort | \
+xargs -I{} sh -c 'echo " $(sha256sum {} | cut -d" " -f1) $(stat -c%s {}) $(echo {} | sed "s|^$DIST/||")"' \
 >> "$DIST/Release"
 
 # 2. 大写 SHA1 段落（旧 Termux apt 只认 SHA1）
 echo "SHA1:" >> "$DIST/Release"
-find "$DIST" -name Packages -o -name Packages.gz | sort | \
-xargs -I{} sh -c 'echo " $(sha1sum {} | cut -d" " -f1) $(stat -c%s {}) {}"' \
+find "$DIST" -type f -name "Packages" -o -name "Packages.gz" | sort | \
+xargs -I{} sh -c 'echo " $(sha1sum {} | cut -d" " -f1) $(stat -c%s {}) $(echo {} | sed "s|^$DIST/||")"' \
 >> "$DIST/Release"
 
-# 3. 旧 apt 兼容头部（已做，保留）
+# 3. 旧 apt 兼容头部（保留）
 echo "Hash: SHA256" >> "$DIST/Release"
 # ===== 结束 =====
 
