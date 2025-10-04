@@ -12,14 +12,45 @@ mkdir -p "$DIST"/{main,bootstrap}
 
 echo ">>>start write file Packages"
 
+# 修正：使用一个更健壮的 awk 脚本来生成 Packages 文件
+# 它会在每个包信息块之间自动添加空行
 for arch in $ARCHS; do
     out="$DIST/main/binary-$arch"
     mkdir -p "$out"
-    apt-repo "$POOL" | grep -E "^(Package|Version|Architecture|Filename|Size|MD5sum|SHA1|SHA256):" | \
-    awk -v arch="$arch" '$1=="Architecture:" && $2==arch {flag=1; print; next}
-                        flag && /^[A-Z]/              {print}
-                        flag && /^$/                   {print; flag=0}' \
-    > "$out/Packages"
+    
+    # 使用 apt-repo 生成完整的 Packages 流
+    # 然后用 awk 按架构过滤，并确保包之间有空行
+    apt-repo "$POOL" | awk -v arch="$arch" '
+        BEGIN { in_package = 0; found_arch = 0 }
+        
+        # 当遇到一个新包的开始 (Package: 行)
+        $1 == "Package:" {
+            # 如果我们之前正在处理一个包，并且它的架构匹配，那么在新包前打印一个空行
+            if (in_package && found_arch) {
+                print ""
+            }
+            in_package = 1      # 标记我们进入了一个新包
+            found_arch = 0      # 重置架构匹配标志
+        }
+        
+        # 当在一个包内，检查 Architecture 字段
+        in_package && $1 == "Architecture:" && $2 == arch {
+            found_arch = 1      # 标记当前包的架构匹配
+        }
+        
+        # 如果当前包的架构已匹配，打印所有行
+        found_arch {
+            print
+        }
+        
+        # 处理文件末尾的情况，确保最后一个包后也有一个空行
+        END {
+            if (found_arch) {
+                print ""
+            }
+        }
+    ' > "$out/Packages"
+    
     gzip -9 -c "$out/Packages" > "$out/Packages.gz"
 done
 
