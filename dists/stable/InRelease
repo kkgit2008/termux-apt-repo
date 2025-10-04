@@ -6,33 +6,21 @@ Label: MyTermuxRepo
 Suite: stable
 Version: 1.0
 Codename: stable
-Date: Sat, 04 Oct 2025 08:20:55 +0000
-Architectures: aarch64 arm i686 x86_64
+Date: Sat, 04 Oct 2025 08:49:54 +0000
+Architectures: aarch64
 Components: main bootstrap
 SHA256:
- c509d783a0d41a078009bdd0ccbd25373739c7b38c100a50667eab3f580d476b 97385 dists/stable/main/binary-aarch64/Packages
- 3bcd4adac8e4ae20109a830bb57a49cf2f923fce58f052a56af6996c242fb8de 22857 dists/stable/main/binary-aarch64/Packages.gz
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-arm/Packages
- 15904c425d74fb9475736aa909fa5d9d0cc5ee4f2c63e70a8001d45285ad6464 29 dists/stable/main/binary-arm/Packages.gz
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-i686/Packages
- e4e0e827e1386266bc0b6817dcd08f1165937875c93cd3731f59689efe5f6708 29 dists/stable/main/binary-i686/Packages.gz
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-x86_64/Packages
- 9221f53026339b6b316dab29098f2522729094d7e7e2518ba329b4daf7f7931b 29 dists/stable/main/binary-x86_64/Packages.gz
+ f7c31a918162375711a022cae9125983e954e8ef00c7af200c49c1ac40bbfb6f 116576 dists/stable/main/binary-aarch64/Packages
+ c969630e400c3d571ae4acfb02e20d2d18cd63169fe6369f6081ea5466a5ccb7 27879 dists/stable/main/binary-aarch64/Packages.gz
 SHA1:
- e9d36f6e658a5c88c83471866aa6ab4eb061b6e4 97385 dists/stable/main/binary-aarch64/Packages
- 115dc703a9c53713b6e962f08b49baf47f89a864 22857 dists/stable/main/binary-aarch64/Packages.gz
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 dists/stable/main/binary-arm/Packages
- 6d06ed1d1b381881d81423dae728d9ac67918898 29 dists/stable/main/binary-arm/Packages.gz
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 dists/stable/main/binary-i686/Packages
- 80959dc272c146de62f97d6ec0968fb45441d499 29 dists/stable/main/binary-i686/Packages.gz
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 dists/stable/main/binary-x86_64/Packages
- 4fdf72749c40f440df8f28fb4ecdd5d9bd117252 29 dists/stable/main/binary-x86_64/Packages.gz
+ c6930d95c096e1a1ccab848b17bd40d68ead3c66 116576 dists/stable/main/binary-aarch64/Packages
+ bc93e7f7f53439092e192a27edb83ffbae7bd2eb 27879 dists/stable/main/binary-aarch64/Packages.gz
 Hash: SHA256
 -----BEGIN PGP SIGNATURE-----
 
-iJEEARYKADkWIQSpHWEfPviTITPtQ79eauD90XpPGAUCaODY6BsUgAAAAAAEAA5t
-YW51MiwyLjUrMS4xMSwzLDIACgkQXmrg/dF6TxjwPwD/edMgfzAZcCNXx4LbrUFx
-QlUjDl5D6EQIlH3j8TidkVQBAK9eqRtHmwosM4m7tXfuSxuyD01TZK43TSPxbnfT
-h2kI
-=nlU3
+iJEEARYKADkWIQSpHWEfPviTITPtQ79eauD90XpPGAUCaODfshsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMSwzLDIACgkQXmrg/dF6TxiwuQEAi+gcknCLPXrQoYeQW6oI
+Ao5+eIjOZ9VysOaLBQZ3bkABALRW+JeZMbeALtWSyeBsKkTylagGeFj9E+1OSP5a
+DsMI
+=eyKg
 -----END PGP SIGNATURE-----
