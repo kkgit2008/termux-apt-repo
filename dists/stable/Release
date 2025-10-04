@@ -3,25 +3,25 @@ Label: MyTermuxRepo
 Suite: stable
 Version: 1.0
 Codename: stable
-Date: Sat, 04 Oct 2025 07:03:08 +0000
+Date: Sat, 04 Oct 2025 08:20:55 +0000
 Architectures: aarch64 arm i686 x86_64
 Components: main bootstrap
 SHA256:
  c509d783a0d41a078009bdd0ccbd25373739c7b38c100a50667eab3f580d476b 97385 dists/stable/main/binary-aarch64/Packages
- bc7b3c0f28d562fcbcb50db385d209d18a04edaa12cb8e30518bfa0318de4560 22857 dists/stable/main/binary-aarch64/Packages.gz
+ 3bcd4adac8e4ae20109a830bb57a49cf2f923fce58f052a56af6996c242fb8de 22857 dists/stable/main/binary-aarch64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-arm/Packages
- 74db096a39012246ce11ee753727bd2e5d9e0878a855f621d069e5d27b054acb 29 dists/stable/main/binary-arm/Packages.gz
+ 15904c425d74fb9475736aa909fa5d9d0cc5ee4f2c63e70a8001d45285ad6464 29 dists/stable/main/binary-arm/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-i686/Packages
- 2790a8cf1f43912da24315ff6d658899b73ea9c9a487219deb05940e929945c4 29 dists/stable/main/binary-i686/Packages.gz
+ e4e0e827e1386266bc0b6817dcd08f1165937875c93cd3731f59689efe5f6708 29 dists/stable/main/binary-i686/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 dists/stable/main/binary-x86_64/Packages
- 5870097d56550b4521591fa8044df8bdea35dc8c38613ca2cf99ca51f023ec81 29 dists/stable/main/binary-x86_64/Packages.gz
+ 9221f53026339b6b316dab29098f2522729094d7e7e2518ba329b4daf7f7931b 29 dists/stable/main/binary-x86_64/Packages.gz
 SHA1:
  e9d36f6e658a5c88c83471866aa6ab4eb061b6e4 97385 dists/stable/main/binary-aarch64/Packages
- 2832c3494ed623362d6634bf828bda56dd0c2019 22857 dists/stable/main/binary-aarch64/Packages.gz
+ 115dc703a9c53713b6e962f08b49baf47f89a864 22857 dists/stable/main/binary-aarch64/Packages.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 dists/stable/main/binary-arm/Packages
- 89f2c8e27c62e1080d471ae4b737bfcaa35ef7f7 29 dists/stable/main/binary-arm/Packages.gz
+ 6d06ed1d1b381881d81423dae728d9ac67918898 29 dists/stable/main/binary-arm/Packages.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 dists/stable/main/binary-i686/Packages
- a1635edc5a41d2bc9fd25f58ab8fdafdd25e195c 29 dists/stable/main/binary-i686/Packages.gz
+ 80959dc272c146de62f97d6ec0968fb45441d499 29 dists/stable/main/binary-i686/Packages.gz
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 dists/stable/main/binary-x86_64/Packages
- bba32c018f776652ae802343142135f97d833aac 29 dists/stable/main/binary-x86_64/Packages.gz
+ 4fdf72749c40f440df8f28fb4ecdd5d9bd117252 29 dists/stable/main/binary-x86_64/Packages.gz
 Hash: SHA256
