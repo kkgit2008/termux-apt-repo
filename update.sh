@@ -79,22 +79,32 @@ EOR
 # 追加校验和（这部分不变，但必须确保能扫描到正确路径的 Packages）
 echo ">>>start sha"
 
-# 修复：确保 find 命令能找到所有 Packages 文件（路径正确）
-# 1. 大写 SHA256 段落（新 apt 必须）
+# 终极修复：使用 printf 来正确传递 DIST 变量到子 shell
+# 1. 大写 SHA256 段落
 echo "SHA256:" >> "$DIST/Release"
 find "$DIST" -type f -name "Packages" -o -name "Packages.gz" | sort | \
-xargs -I{} sh -c 'echo " $(sha256sum {} | cut -d" " -f1) $(stat -c%s {}) $(echo {} | sed "s|^$DIST/||")"' \
->> "$DIST/Release"
+xargs -I{} sh -c '
+    sha=$(sha256sum "$1" | cut -d" " -f1)
+    size=$(stat -c%s "$1")
+    # 使用 printf 来安全地进行字符串替换
+    path=$(printf "%s\n" "$1" | sed "s|^$2/||")
+    echo " $sha $size $path"
+' sh {} "$DIST" >> "$DIST/Release"
 
-# 2. 大写 SHA1 段落（旧 Termux apt 只认 SHA1）
+# 2. 大写 SHA1 段落
 echo "SHA1:" >> "$DIST/Release"
 find "$DIST" -type f -name "Packages" -o -name "Packages.gz" | sort | \
-xargs -I{} sh -c 'echo " $(sha1sum {} | cut -d" " -f1) $(stat -c%s {}) $(echo {} | sed "s|^$DIST/||")"' \
->> "$DIST/Release"
+xargs -I{} sh -c '
+    sha=$(sha1sum "$1" | cut -d" " -f1)
+    size=$(stat -c%s "$1")
+    path=$(printf "%s\n" "$1" | sed "s|^$2/||")
+    echo " $sha $size $path"
+' sh {} "$DIST" >> "$DIST/Release"
 
-# 3. 旧 apt 兼容头部（保留）
+# 3. 旧 apt 兼容头部
 echo "Hash: SHA256" >> "$DIST/Release"
 # ===== 结束 =====
+
 
 echo ">>>start gpg"
 
