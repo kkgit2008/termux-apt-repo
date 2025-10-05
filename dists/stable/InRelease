@@ -6,22 +6,22 @@ Label: MyTermuxRepo
 Suite: stable
 Version: 1.0
 Codename: stable
-Date: Sun, 05 Oct 2025 13:38:16 +0000
+Date: Sun, 05 Oct 2025 13:51:14 +0000
 Architectures: aarch64
 Components: main
 Description: Custom Termux Repository (main component only)
 SHA256:
  29d830e4a1ecf0eb1232bcdd2cf496918aef7e98146c3affa87af09c708caed7 172886 main/binary-aarch64/Packages
- 2afb1c0a4fa659ec9e450ea7183b491a7a064e2a10db2c4089039e7422a6e322 52009 main/binary-aarch64/Packages.gz
+ c462bfddfcaa1b63547a158b00e626ed5244a575018728c4253d03c27fae6ae3 52009 main/binary-aarch64/Packages.gz
 SHA1:
  fc0840ba4c8d049d3e76a13a5f4f34bd9ac97d94 172886 main/binary-aarch64/Packages
- ed1789e3f9d94e4bedd34e89aa1de26dd16b8301 52009 main/binary-aarch64/Packages.gz
+ a19c8d000e964f3247276e8885468ecd97e46dbf 52009 main/binary-aarch64/Packages.gz
 Hash: SHA256
 -----BEGIN PGP SIGNATURE-----
 
-iJEEARYKADkWIQQ350jxGobilCz7FgMEJWqIDVJJ5wUCaOJ03hsUgAAAAAAEAA5t
-YW51MiwyLjUrMS4xMSwzLDIACgkQBCVqiA1SSeeY/wEAzYA4sCDfQErWUHlV9M4C
-d4BClgmaTaHHvRmSwf7TOv8A/0HIXftg7G+6gh4Zo8XYvCRJn5N0ACruKBIwEWmO
-xLcO
-=ND1G
+iJEEARYKADkWIQQ350jxGobilCz7FgMEJWqIDVJJ5wUCaOJ31xsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMSwzLDIACgkQBCVqiA1SSedxHQD/VRe7+P7RXWqKnse1Rduo
+oPjViV87ygpd7lncIbXi4IMA/jkBtZFCWK0+j6BBTxu9uZk+gOjJ4C6HK8ieAcEl
+ANgC
+=Fqp2
 -----END PGP SIGNATURE-----
