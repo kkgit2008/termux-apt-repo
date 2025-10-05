@@ -1,0 +1,3 @@
+pool/main/ALL/openjdk-21_21.0.1-1_aarch64.deb filter=lfs diff=lfs merge=lfs -text
+*.part-* binary
+pool/**/*.deb filter=lfs diff=lfs merge=lfs -text
