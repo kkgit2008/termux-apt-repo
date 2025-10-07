@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: MyTermuxRepo
+Label: MyTermuxRepo
+Suite: stable
+Version: 1.0
+Codename: stable
+Date: Tue, 07 Oct 2025 06:06:59 +0000
+Architectures: aarch64
+Components: main
+Description: Custom Termux Repo (supports updates)
+SHA256:
+ cf64192df309b290020b0e08ae9ffdd6ce474310cce749b67b03ce71f8c3bee9   158984 dists/stable/main/binary-aarch64/Packages
+ 53a787debb24654a9029e56e6175c39e6cb0769361e12cd93f3fa764456df5b1    51599 dists/stable/main/binary-aarch64/Packages.gz
+SHA1:
+ 6e6a7eb0aff69d2313e29f2b23c3720546c843d6   158984 dists/stable/main/binary-aarch64/Packages
+ f2c4fc7e73efcd5ea2791901f54f5833b28fbd74    51599 dists/stable/main/binary-aarch64/Packages.gz
+MD5Sum:
+ 2338272f5deaf05d106a2388587e263e   158984 dists/stable/main/binary-aarch64/Packages
+ 6cc47a71f5861a51297b0998e88d4713    51599 dists/stable/main/binary-aarch64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iJEEARYKADkWIQQ350jxGobilCz7FgMEJWqIDVJJ5wUCaOSuChsUgAAAAAAEAA5t
+YW51MiwyLjUrMS4xMSwzLDIACgkQBCVqiA1SSechfgEA4XDivnWqDViZAknmLW0o
+JwkSXC275ua+FfPLPjhp1yMA+wUhA+ruAxcVWoT60yArfpQKOAFpqAvAQ3Oaap7T
+ViAL
+=7S4J
+-----END PGP SIGNATURE-----

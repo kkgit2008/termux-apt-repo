@@ -5,7 +5,7 @@ Maintainer: @termux
 Installed-Size: 8516
 Depends: libc++
 Conflicts: libgrpc (<< 1.52.0-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/abseil-cpp_20230802.1_aarch64.deb
+Filename: tmp_deb_scan/pool/abseil-cpp_20230802.1_aarch64.deb
 Size: 1081932
 MD5sum: 69d061a375f58a3ca2bd93c936b34da6
 SHA1: 34ee73aa08e32eeed799250b64b9e15808e4c811
@@ -21,7 +21,7 @@ Installed-Size: 1260
 Depends: libuuid
 Breaks: apr-dev
 Replaces: apr-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/apr_1.7.4_aarch64.deb
+Filename: tmp_deb_scan/pool/apr_1.7.4_aarch64.deb
 Size: 234400
 MD5sum: 38d3f3b4cca95656006ef94aa4e0934c
 SHA1: 2474700f5cbe940977ac4b233d8b5e439cfd29a2
@@ -35,7 +35,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 412
 Depends: apr (= 1.7.4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/apr-static_1.7.4_aarch64.deb
+Filename: tmp_deb_scan/pool/apr-static_1.7.4_aarch64.deb
 Size: 83100
 MD5sum: 81165f57e854fdaa29141c2e152673d6
 SHA1: 0758e8c5857417c2a7c765e9114820528374b44e
@@ -51,7 +51,7 @@ Installed-Size: 592
 Depends: apr, libcrypt, libexpat, libiconv, libuuid
 Breaks: apr-util-dev
 Replaces: apr-util-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/apr-util_1.6.3-1_aarch64.deb
+Filename: tmp_deb_scan/pool/apr-util_1.6.3-1_aarch64.deb
 Size: 112228
 MD5sum: df576738f43a4b14722f105a8ff4de92
 SHA1: 55ddc06daea0aaed0f4dde4dc7f67eff5839d74f
@@ -65,7 +65,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 324
 Depends: apr-util (= 1.6.3-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/apr-util-static_1.6.3-1_aarch64.deb
+Filename: tmp_deb_scan/pool/apr-util-static_1.6.3-1_aarch64.deb
 Size: 69108
 MD5sum: ceb25638e08466352421502051a54cb7
 SHA1: 0ef1af88feea70cdc46ad67732135e53bf11bd3c
@@ -84,7 +84,7 @@ Suggests: gnupg
 Conflicts: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-repo
 Replaces: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-repo
 Provides: unstable-repo, game-repo, science-repo
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/apt_2.7.6_aarch64.deb
+Filename: tmp_deb_scan/pool/apt_2.7.6_aarch64.deb
 Size: 993344
 MD5sum: 5a1e314c96fdbd7ef9191acc88938bd0
 SHA1: 1a3a172ec8ab76fc292cfb8f95a17c92ae17be01
@@ -98,7 +98,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 316
 Depends: libdb, apt (= 2.7.6)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/apt-ftparchive_2.7.6_aarch64.deb
+Filename: tmp_deb_scan/pool/apt-ftparchive_2.7.6_aarch64.deb
 Size: 95640
 MD5sum: d37680fec49d92e1c2401908dfa8a4cb
 SHA1: 4dfc113e7f809bdf2e64f7b0175e4030196272b0
@@ -112,7 +112,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 124
 Depends: openssh | dropbear
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/autossh_1.4g-3_aarch64.deb
+Filename: tmp_deb_scan/pool/autossh_1.4g-3_aarch64.deb
 Size: 22548
 MD5sum: ca566311add0faee5dcf97058ab63a60
 SHA1: 54d0482a779657b8142734fe4ee92d8c8ae00fca
@@ -130,7 +130,7 @@ Depends: libandroid-support, libiconv, readline (>= 8.0), termux-tools
 Recommends: command-not-found, bash-completion
 Breaks: bash-dev
 Replaces: bash-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/bash_5.2.15-1_aarch64.deb
+Filename: tmp_deb_scan/pool/bash_5.2.15-1_aarch64.deb
 Size: 885280
 MD5sum: 420a379bdea6d725e8bb914f77e14f83
 SHA1: f384b58be5cfec1ed329fa9edd557394b0492c5b
@@ -145,7 +145,7 @@ Maintainer: @termux
 Installed-Size: 36
 Depends: binutils-bin
 Conflicts: binutils-is-llvm
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/binutils_2.41_aarch64.deb
+Filename: tmp_deb_scan/pool/binutils_2.41_aarch64.deb
 Size: 1180
 MD5sum: 50f77b56c62d20520667ca65ae30a4e3
 SHA1: c9bbaca51aadb13e3833c7d7e454edf06d9c950d
@@ -161,7 +161,7 @@ Installed-Size: 8100
 Depends: libc++, binutils-libs (= 2.41)
 Breaks: binutils (<< 2.39-3)
 Replaces: binutils (<< 2.39-3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/binutils-bin_2.41_aarch64.deb
+Filename: tmp_deb_scan/pool/binutils-bin_2.41_aarch64.deb
 Size: 1700484
 MD5sum: a4dd96dc9645c7cbf74af88f49389f21
 SHA1: 1a992e10dd3dd9bbfbfa928171dff85700984332
@@ -174,7 +174,7 @@ Version: 2.41
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 14944
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/binutils-cross_2.41_aarch64.deb
+Filename: tmp_deb_scan/pool/binutils-cross_2.41_aarch64.deb
 Size: 2160264
 MD5sum: d80b7fc9c59d79e73608360aaed11bee
 SHA1: 31c1e2a973e4eddce8ffafa96dac5c5f63c1ba31
@@ -188,7 +188,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 3824
 Depends: libc++, zlib, zstd
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/binutils-gold_2.41_aarch64.deb
+Filename: tmp_deb_scan/pool/binutils-gold_2.41_aarch64.deb
 Size: 891672
 MD5sum: ba6d1583c9497477249e8b4dc95e7509
 SHA1: 13705b784f9d19c25703a1c88e8b34e05c79f7b0
@@ -204,7 +204,7 @@ Installed-Size: 10672
 Depends: zlib, zstd
 Breaks: binutils (<< 2.39), binutils-dev
 Replaces: binutils (<< 2.39), binutils-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/binutils-libs_2.41_aarch64.deb
+Filename: tmp_deb_scan/pool/binutils-libs_2.41_aarch64.deb
 Size: 1088104
 MD5sum: eaca97ecd59c87b9c55905664c0d248b
 SHA1: 802edfc59a526201aabc8e3914f77fdf1d077976
@@ -220,7 +220,7 @@ Installed-Size: 876
 Depends: libblkid, libmount, libsmartcols, libuuid
 Breaks: util-linux (<< 2.38.1-1)
 Replaces: util-linux (<< 2.38.1-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/blk-utils_2.39.3-3_aarch64.deb
+Filename: tmp_deb_scan/pool/blk-utils_2.39.3-3_aarch64.deb
 Size: 167900
 MD5sum: ac60ff0f660933557155be1cba9e971e
 SHA1: 6df67c63681d631a0c0083c510926c571a1f1ff1
@@ -235,7 +235,7 @@ Maintainer: @termux
 Installed-Size: 1032
 Breaks: brotli-dev
 Replaces: brotli-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/brotli_1.1.0_aarch64.deb
+Filename: tmp_deb_scan/pool/brotli_1.1.0_aarch64.deb
 Size: 330528
 MD5sum: 3dca53beda5c02f618f4aec37180ff89
 SHA1: d4f557eb995868ee1ca80656d2176a07f5ec944d
@@ -249,7 +249,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 1420
 Depends: libarchive (= 3.7.2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/bsdtar_3.7.2_aarch64.deb
+Filename: tmp_deb_scan/pool/bsdtar_3.7.2_aarch64.deb
 Size: 333220
 MD5sum: 2757463a6459f99df58fded146c0d8ce
 SHA1: cfcbb54d683727422cd01f6884828bed723af485
@@ -262,7 +262,7 @@ Version: 1.36.1
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 940
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/busybox_1.36.1_aarch64.deb
+Filename: tmp_deb_scan/pool/busybox_1.36.1_aarch64.deb
 Size: 437248
 MD5sum: 9ee4c20be9ba847a338dc73e1aa22a84
 SHA1: 078f834411b06ca26d3d6ddb989455c8e0e06b80
@@ -277,7 +277,7 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 120
 Depends: libbz2 (= 1.0.8-6)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/bzip2_1.0.8-6_aarch64.deb
+Filename: tmp_deb_scan/pool/bzip2_1.0.8-6_aarch64.deb
 Size: 25912
 MD5sum: 6a750aea90f02f1a006486b274d9e3b1
 SHA1: 41b41da8fe9e80e5212e2fb160053aee5e6b38fb
@@ -293,7 +293,7 @@ Installed-Size: 904
 Depends: resolv-conf
 Breaks: c-ares-dev
 Replaces: c-ares-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/c-ares_1.23.0_aarch64.deb
+Filename: tmp_deb_scan/pool/c-ares_1.23.0_aarch64.deb
 Size: 165976
 MD5sum: 99dead3839b847c0e9b11e5a903881a8
 SHA1: c884dc5bf0cac7e61244f169e2042a98db9ce015
@@ -307,7 +307,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 6364
 Depends: ncurses, readline
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/calc_2.15.0.2_aarch64.deb
+Filename: tmp_deb_scan/pool/calc_2.15.0.2_aarch64.deb
 Size: 819816
 MD5sum: ac9a74622477f593ea944bcb70c1f6a9
 SHA1: e85c92e2a12a5bdad5d5467a5205d9b2bc7c34cf
@@ -323,7 +323,7 @@ Installed-Size: 195832
 Depends: libcompiler-rt, lld, llvm, ndk-sysroot, libllvm (= 17.0.6)
 Breaks: libllvm (<< 16.0.0), clangd
 Replaces: libllvm (<< 16.0.0), clangd
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/clang_17.0.6_aarch64.deb
+Filename: tmp_deb_scan/pool/clang_17.0.6_aarch64.deb
 Size: 31689864
 MD5sum: 393ee212669ba1e4cda76a16a889586b
 SHA1: 1039b882ea25e907d4142cd3ffdcc37f95b8b06f
@@ -338,7 +338,7 @@ Maintainer: @termux
 Installed-Size: 43800
 Depends: libarchive, libc++, libcurl, libexpat, jsoncpp, libuv, rhash, zlib
 Recommends: clang, make
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/cmake_3.28.0_aarch64.deb
+Filename: tmp_deb_scan/pool/cmake_3.28.0_aarch64.deb
 Size: 6243920
 MD5sum: 8234fafe484401db8f057e7a4ec6f309
 SHA1: bbb0a1202e2596641a1a92ad604869408cf99b32
@@ -352,7 +352,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 7284
 Depends: ncurses-ui-libs, cmake (= 3.28.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/cmake-curses-gui_3.28.0_aarch64.deb
+Filename: tmp_deb_scan/pool/cmake-curses-gui_3.28.0_aarch64.deb
 Size: 1970628
 MD5sum: 363089a14f6dfcdfe9d46c07b9cc935b
 SHA1: 8a668ab14e0f82efdbf4d975d876714dcf948428
@@ -369,7 +369,7 @@ Installed-Size: 2576
 Depends: libandroid-support, libgmp, libiconv
 Breaks: chroot, busybox (<< 1.30.1-4)
 Replaces: chroot, busybox (<< 1.30.1-4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/coreutils_9.4_aarch64.deb
+Filename: tmp_deb_scan/pool/coreutils_9.4_aarch64.deb
 Size: 741996
 MD5sum: 65a2181a274506401568ed353c477e12
 SHA1: af478a3baea09920f89cc2d94cf8eaf1c08827b4
@@ -383,7 +383,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 236
 Depends: tar
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/cpio_2.14_aarch64.deb
+Filename: tmp_deb_scan/pool/cpio_2.14_aarch64.deb
 Size: 65892
 MD5sum: 62e645bd9c6a117d172a265a2af3de2a
 SHA1: 6c6d16e49b26a4e88a6b812e3dbc0cbf446bdbe0
@@ -396,7 +396,7 @@ Version: 3.6-4
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 132
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/crunch_3.6-4_aarch64.deb
+Filename: tmp_deb_scan/pool/crunch_3.6-4_aarch64.deb
 Size: 30836
 MD5sum: 866766332e31beb411763d8497946860
 SHA1: f539c0f9c54bbefa8847fdcab4b0cca195fe2074
@@ -410,7 +410,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 11824
 Depends: libc++, libcrypt, libgnutls, libiconv, zlib
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/cups_2.4.7_aarch64.deb
+Filename: tmp_deb_scan/pool/cups_2.4.7_aarch64.deb
 Size: 5149384
 MD5sum: e619b66bb1af8629ea81cf36438a735a
 SHA1: 89106f6fdeeefb18d3cd89d14de1b79cbff1dd34
@@ -424,7 +424,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 4120
 Depends: cups (= 2.4.7)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/cups-static_2.4.7_aarch64.deb
+Filename: tmp_deb_scan/pool/cups-static_2.4.7_aarch64.deb
 Size: 721936
 MD5sum: d0ae96161159fbdbcd8a82a9a1129b14
 SHA1: a836868da8c2e5cc0da7dadf06ec581da0325899
@@ -439,7 +439,7 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 376
 Depends: libcurl (= 8.5.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/curl_8.5.0_aarch64.deb
+Filename: tmp_deb_scan/pool/curl_8.5.0_aarch64.deb
 Size: 203312
 MD5sum: daed1cf716883322411feee667f6e752
 SHA1: 625d1b34b867525ca3b7e5292d1a6d059f79370d
@@ -453,7 +453,7 @@ Architecture: aarch64
 Essential: yes
 Maintainer: @termux
 Installed-Size: 180
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/dash_0.5.12_aarch64.deb
+Filename: tmp_deb_scan/pool/dash_0.5.12_aarch64.deb
 Size: 65332
 MD5sum: 5adf2a2c3b2aeda1f4015dc20361b69a
 SHA1: 2370406894a7b91c8bd9649f3d49908943f4e19e
@@ -467,7 +467,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 260
 Depends: libdb (= 18.1.40-4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/db_18.1.40-4_aarch64.deb
+Filename: tmp_deb_scan/pool/db_18.1.40-4_aarch64.deb
 Size: 39900
 MD5sum: 75c72998cd958c50e583e46ad18e1047
 SHA1: 12e77f022ca7e15339d8108f02f7eb5ca3f917bb
@@ -480,7 +480,7 @@ Version: 5.15
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 116
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/debianutils_5.15_aarch64.deb
+Filename: tmp_deb_scan/pool/debianutils_5.15_aarch64.deb
 Size: 16172
 MD5sum: eb9b741bcd1bac7f78f44d502a38c024
 SHA1: afb205d56e34ef28f9b09092f97b57b7f3b5bff1
@@ -494,7 +494,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 268
 Depends: libandroid-support, ncurses
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/dialog_1.3-20230209-0_aarch64.deb
+Filename: tmp_deb_scan/pool/dialog_1.3-20230209-0_aarch64.deb
 Size: 98416
 MD5sum: e8966dd67cb74c1fae58cd4df6c6d95c
 SHA1: 2e751a2f336e2ce24f9ef1330ea9e12c833e951b
@@ -508,7 +508,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 428
 Depends: dialog (= 1.3-20230209-0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/dialog-static_1.3-20230209-0_aarch64.deb
+Filename: tmp_deb_scan/pool/dialog-static_1.3-20230209-0_aarch64.deb
 Size: 91536
 MD5sum: a66facddee82f37c87b39c57fb8417ba
 SHA1: ee80b4c0e6188b6f307933987f727c5375dc4e48
@@ -521,7 +521,7 @@ Version: 1.65-1
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 96
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/diffstat_1.65-1_aarch64.deb
+Filename: tmp_deb_scan/pool/diffstat_1.65-1_aarch64.deb
 Size: 21088
 MD5sum: ab53150ff30212818007de8a15c0c173
 SHA1: 0527169591f35cc530d46f1141704bdf8f4edb39
@@ -536,7 +536,7 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 588
 Depends: libiconv
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/diffutils_3.10_aarch64.deb
+Filename: tmp_deb_scan/pool/diffutils_3.10_aarch64.deb
 Size: 156564
 MD5sum: 12ddf93cead4eecb8e13764d9135f624
 SHA1: 440666901f14c9c69d24a570b8027bc9865b32ec
@@ -550,7 +550,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 340
 Depends: libandroid-support
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/dos2unix_7.5.1_aarch64.deb
+Filename: tmp_deb_scan/pool/dos2unix_7.5.1_aarch64.deb
 Size: 63968
 MD5sum: aba317aeec74d37e14188afb7c91d30d
 SHA1: 09977c27c18c7bcb026ca5cfb988e3b014460af3
@@ -567,7 +567,7 @@ Installed-Size: 1328
 Depends: bzip2, coreutils, diffutils, gzip, less, libbz2, liblzma, libmd, tar, xz-utils, zlib, zstd
 Breaks: dpkg-dev
 Replaces: dpkg-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/dpkg_1.22.1-1_aarch64.deb
+Filename: tmp_deb_scan/pool/dpkg_1.22.1-1_aarch64.deb
 Size: 307944
 MD5sum: 5971d0cfa95de9c15e1f010b98e64797
 SHA1: 12b85ad046d35182c27c91524c4a2f0cd36c8614
@@ -583,7 +583,7 @@ Installed-Size: 384
 Depends: termux-auth, zlib
 Suggests: openssh-sftp-server
 Conflicts: openssh
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/dropbear_2022.83-1_aarch64.deb
+Filename: tmp_deb_scan/pool/dropbear_2022.83-1_aarch64.deb
 Size: 122644
 MD5sum: 67f7c731052ae28c7fdae9a20d3e9476
 SHA1: f90b4b5e7c8eb677deee1ad92ff0f0558812962a
@@ -596,7 +596,7 @@ Version: 1.19
 Architecture: aarch64
 Maintainer: Oliver Schmidhauser @Neo-Oli
 Installed-Size: 172
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/ed_1.19_aarch64.deb
+Filename: tmp_deb_scan/pool/ed_1.19_aarch64.deb
 Size: 40012
 MD5sum: 87d0eaa0aac933f55edc14b2971a389c
 SHA1: 381bc3119426e93fe19bb3de8f1c2e3ac74af73c
@@ -610,7 +610,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 460
 Depends: libfdisk, libmount, ncurses, readline, libsmartcols
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/fdisk_2.39.3-3_aarch64.deb
+Filename: tmp_deb_scan/pool/fdisk_2.39.3-3_aarch64.deb
 Size: 111944
 MD5sum: 23848e1cff1df6265fe8ca5dd5a16827
 SHA1: 0790cca6bb7f2412ec49c2710840183610c8dc10
@@ -626,7 +626,7 @@ Installed-Size: 8584
 Depends: zlib
 Breaks: file-dev
 Replaces: file-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/file_5.45_aarch64.deb
+Filename: tmp_deb_scan/pool/file_5.45_aarch64.deb
 Size: 372752
 MD5sum: c756c6b6ce9682323ab5b7476c39d575
 SHA1: 1cc60fe292a81233aaec4b61787b4701a89ddfd6
@@ -640,7 +640,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 280
 Depends: file (= 5.45)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/file-static_5.45_aarch64.deb
+Filename: tmp_deb_scan/pool/file-static_5.45_aarch64.deb
 Size: 67628
 MD5sum: 3b5777015a374d7975d09aa97067f403
 SHA1: 8af08db8f3840130539be09f2fdf1cfb5b66a686
@@ -655,7 +655,7 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 820
 Depends: libandroid-support
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/findutils_4.9.0-2_aarch64.deb
+Filename: tmp_deb_scan/pool/findutils_4.9.0-2_aarch64.deb
 Size: 240468
 MD5sum: 5bf7e2594ab1cff41f23522ae5d16a30
 SHA1: 076cdf324f24f76d39be5b0ef6d56597b681a79c
@@ -671,7 +671,7 @@ Installed-Size: 744
 Depends: freetype, libexpat, ttf-dejavu
 Breaks: fontconfig-dev
 Replaces: fontconfig-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/fontconfig_2.14.2-2_aarch64.deb
+Filename: tmp_deb_scan/pool/fontconfig_2.14.2-2_aarch64.deb
 Size: 118548
 MD5sum: 4d9647192103bb65b980f548c5e14d50
 SHA1: bdfb89bd89a47f1bed42a16397e91b4b224d8838
@@ -685,7 +685,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 500
 Depends: fontconfig (= 2.14.2-2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/fontconfig-static_2.14.2-2_aarch64.deb
+Filename: tmp_deb_scan/pool/fontconfig-static_2.14.2-2_aarch64.deb
 Size: 115092
 MD5sum: 5bd0231aeadd728c2dd8f68af5cc24ea
 SHA1: e2c9f502ff1b643d273889622154085b85979df5
@@ -699,7 +699,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 128
 Depends: fontconfig (= 2.14.2-2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/fontconfig-utils_2.14.2-2_aarch64.deb
+Filename: tmp_deb_scan/pool/fontconfig-utils_2.14.2-2_aarch64.deb
 Size: 14356
 MD5sum: 1c1028b3047714bf29c6f48b488fc15e
 SHA1: 9d5f8200373547cb2431a821f0bf0729d49c828b
@@ -715,7 +715,7 @@ Installed-Size: 1696
 Depends: brotli, libbz2, libpng, zlib
 Breaks: freetype-dev
 Replaces: freetype-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/freetype_2.13.2_aarch64.deb
+Filename: tmp_deb_scan/pool/freetype_2.13.2_aarch64.deb
 Size: 411848
 MD5sum: 1a8cd0252aa7a0549fd6e87c67a1d53a
 SHA1: 2505ecd5f849c261da0193bde73860fbac7cbaf3
@@ -729,7 +729,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 984
 Depends: freetype (= 2.13.2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/freetype-static_2.13.2_aarch64.deb
+Filename: tmp_deb_scan/pool/freetype-static_2.13.2_aarch64.deb
 Size: 303876
 MD5sum: 53c04f3a7474676962a217ac8377fc87
 SHA1: f5ca02fcaa02b9e9a30ccd940c73af8c7e57900a
@@ -746,7 +746,7 @@ Installed-Size: 3236
 Depends: libandroid-support, libgmp, libmpfr, readline
 Breaks: gawk-dev
 Replaces: gawk-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/gawk_5.3.0_aarch64.deb
+Filename: tmp_deb_scan/pool/gawk_5.3.0_aarch64.deb
 Size: 785404
 MD5sum: d99e754a50ba8c4f9dbae1c95be946e9
 SHA1: c8681284154ef10ceefea2a665237a6af6b82d10
@@ -760,7 +760,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 172
 Depends: gawk (= 5.3.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/gawk-static_5.3.0_aarch64.deb
+Filename: tmp_deb_scan/pool/gawk-static_5.3.0_aarch64.deb
 Size: 24988
 MD5sum: a3d07351ad0ef728c30cf1ee80a627be
 SHA1: 1041ede63ba5e4a301d25e602a6f73ec18c47805
@@ -776,7 +776,7 @@ Installed-Size: 552
 Depends: readline
 Breaks: gdbm-dev
 Replaces: gdbm-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/gdbm_1.23_aarch64.deb
+Filename: tmp_deb_scan/pool/gdbm_1.23_aarch64.deb
 Size: 141472
 MD5sum: 52f2d298396b3d3adc21599128cb34b0
 SHA1: b2da92d70a7d4f4096f4176c90e30d2c522a0643
@@ -790,7 +790,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 176
 Depends: gdbm (= 1.23)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/gdbm-static_1.23_aarch64.deb
+Filename: tmp_deb_scan/pool/gdbm-static_1.23_aarch64.deb
 Size: 29212
 MD5sum: 5b95079badef0c30eac93dc494bcd67d
 SHA1: 8f7714b5a02ae6060d0788c803640db5e8a6ecfe
@@ -803,7 +803,7 @@ Version: 2.40.1
 Architecture: aarch64
 Maintainer: Krishna kanhaiya @kcubeterm
 Installed-Size: 46340
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/gh_2.40.1_aarch64.deb
+Filename: tmp_deb_scan/pool/gh_2.40.1_aarch64.deb
 Size: 7092024
 MD5sum: 39fe62b86fdd5e26a687abc5ad8eaf91
 SHA1: d84c8ce0569f1151c4f60784de4a8312710a872c
@@ -818,7 +818,7 @@ Maintainer: @termux
 Installed-Size: 100
 Breaks: giflib-dev
 Replaces: giflib-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/giflib_5.2.1-2_aarch64.deb
+Filename: tmp_deb_scan/pool/giflib_5.2.1-2_aarch64.deb
 Size: 17916
 MD5sum: 0d341a984944a56527fddbae5808fd6d
 SHA1: 05c4e85cafc982d92132ce154b3a364643f71739
@@ -832,7 +832,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 76
 Depends: giflib (= 5.2.1-2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/giflib-static_5.2.1-2_aarch64.deb
+Filename: tmp_deb_scan/pool/giflib-static_5.2.1-2_aarch64.deb
 Size: 14672
 MD5sum: 3c341d5ced4efe64404f87666b2b901f
 SHA1: d40f6771430cf3d932688b0b66d2b165f9deb740
@@ -847,7 +847,7 @@ Maintainer: @termux
 Installed-Size: 316
 Depends: giflib (= 5.2.1-2)
 Conflicts: giflib (<< 5.1.4-4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/giflib-utils_5.2.1-2_aarch64.deb
+Filename: tmp_deb_scan/pool/giflib-utils_5.2.1-2_aarch64.deb
 Size: 57400
 MD5sum: 442599b5fa2005b77f51b88a2752597b
 SHA1: 54db1d79da043d8bb8708374e4a6f79c6f0b0cde
@@ -862,7 +862,7 @@ Maintainer: @termux
 Installed-Size: 20304
 Depends: libcurl, libiconv, less, openssl, pcre2, zlib
 Suggests: perl
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/git_2.43.0_aarch64.deb
+Filename: tmp_deb_scan/pool/git_2.43.0_aarch64.deb
 Size: 3659796
 MD5sum: e5eb985ab39e0ad332f311a85a86f190
 SHA1: 914b09b33ba471937d675940211a2779534911cc
@@ -876,7 +876,7 @@ Architecture: aarch64
 Maintainer: @jottr
 Installed-Size: 240
 Depends: git, libc++, openssl
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/git-crypt_0.7.0-2_aarch64.deb
+Filename: tmp_deb_scan/pool/git-crypt_0.7.0-2_aarch64.deb
 Size: 64920
 MD5sum: 99f6d1f25f5d9f3ddd6e024facd3651f
 SHA1: 336ef6c88ffe25e4f46eb85a62200ce1753edd88
@@ -890,7 +890,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 900
 Depends: tk, git (= 2.43.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/git-gitk_2.43.0_aarch64.deb
+Filename: tmp_deb_scan/pool/git-gitk_2.43.0_aarch64.deb
 Size: 136740
 MD5sum: 801dadd5aa98b8cab51e0b93323f9679
 SHA1: 1c3d60804ce63b4d94712ac7c3aa7cc890d546e8
@@ -904,7 +904,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 1560
 Depends: tk, git (= 2.43.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/git-gui_2.43.0_aarch64.deb
+Filename: tmp_deb_scan/pool/git-gui_2.43.0_aarch64.deb
 Size: 216024
 MD5sum: 863b706b3bfb27686762d7d4a82270ae
 SHA1: c922fe88104e602f92fd37d37b9b2518f3c83537
@@ -917,7 +917,7 @@ Version: 3.4.1
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 11684
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/git-lfs_3.4.1_aarch64.deb
+Filename: tmp_deb_scan/pool/git-lfs_3.4.1_aarch64.deb
 Size: 3116364
 MD5sum: 43c7496787adc9804d78150588bdd1af
 SHA1: 7f668f762dce2ebbf5ba83f2eaceb4096a4abf9e
@@ -931,7 +931,7 @@ Architecture: aarch64
 Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
 Installed-Size: 2812
 Depends: git
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/git-sizer_1.5.0-4_aarch64.deb
+Filename: tmp_deb_scan/pool/git-sizer_1.5.0-4_aarch64.deb
 Size: 814372
 MD5sum: 07c79170ad662597e627c5ed7322f51b
 SHA1: b86a3e13d75fe4fbb49d9c3cd62cac806578ad50
@@ -944,7 +944,7 @@ Version: 1.36.0
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 29864
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/glab-cli_1.36.0_aarch64.deb
+Filename: tmp_deb_scan/pool/glab-cli_1.36.0_aarch64.deb
 Size: 6225640
 MD5sum: 07e729cc6ad75f42f68e265386686e5b
 SHA1: a4bf579656cbae6521f59376e1d1e0787ad8a539
@@ -960,7 +960,7 @@ Installed-Size: 6944
 Depends: libandroid-support, libffi, libiconv, pcre2, resolv-conf, zlib
 Breaks: glib-dev
 Replaces: glib-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/glib_2.78.3_aarch64.deb
+Filename: tmp_deb_scan/pool/glib_2.78.3_aarch64.deb
 Size: 1286272
 MD5sum: 0f9e0541fae5bb9b8b3d6e7c7624899d
 SHA1: 88b0dc1d40d098a31785adbc49897fd9518378b1
@@ -974,7 +974,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 452
 Depends: python, glib (= 2.78.3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/glib-bin_2.78.3_aarch64.deb
+Filename: tmp_deb_scan/pool/glib-bin_2.78.3_aarch64.deb
 Size: 92272
 MD5sum: b8e40d18be14ba3a3033aff444d72876
 SHA1: e9f8044d38707795b81630b46589786d4f1b1607
@@ -991,7 +991,7 @@ Depends: libassuan, libbz2, libgcrypt, libgnutls, libgpg-error, libksba, libnpth
 Suggests: scdaemon
 Conflicts: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
 Replaces: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/gnupg_2.4.3_aarch64.deb
+Filename: tmp_deb_scan/pool/gnupg_2.4.3_aarch64.deb
 Size: 1325824
 MD5sum: 41d79085ffd948e92f471a309db4fa73
 SHA1: 8216b699833bcc67223c435163ff0eaa38c75694
@@ -1005,7 +1005,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 912
 Depends: libgnutls (= 3.8.2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/gnutls_3.8.2_aarch64.deb
+Filename: tmp_deb_scan/pool/gnutls_3.8.2_aarch64.deb
 Size: 176008
 MD5sum: a41116bc22d9a067b3b4c9d01b006cfa
 SHA1: 0a65eadea0c17db11efcd8517211c53cff928ded
@@ -1021,7 +1021,7 @@ Installed-Size: 1920
 Depends: libc++
 Conflicts: libgtest
 Replaces: libgtest
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/googletest_1.14.0_aarch64.deb
+Filename: tmp_deb_scan/pool/googletest_1.14.0_aarch64.deb
 Size: 354448
 MD5sum: f99697feb1bf33d55fc87ced05bb21a5
 SHA1: 7966b43f7282d74339935c12b33d1a1a404e46e6
@@ -1035,7 +1035,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 472
 Depends: libassuan, libbz2, libgcrypt, libgpg-error, libnpth, zlib
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/gpgv_2.4.3_aarch64.deb
+Filename: tmp_deb_scan/pool/gpgv_2.4.3_aarch64.deb
 Size: 177252
 MD5sum: 6a273f7a974193274a501a4a0b106e7f
 SHA1: d87582bed142d92b6e40c96b7a6bf5748c46e6ae
@@ -1050,7 +1050,7 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 392
 Depends: libandroid-support, pcre2
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/grep_3.11_aarch64.deb
+Filename: tmp_deb_scan/pool/grep_3.11_aarch64.deb
 Size: 122952
 MD5sum: bb8ba0fe5b32b2737b87d10bd45e2d9f
 SHA1: 172934fd9d3526ded3692010761cfa745c6926d6
@@ -1064,7 +1064,7 @@ Architecture: aarch64
 Essential: yes
 Maintainer: @termux
 Installed-Size: 324
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/gzip_1.13_aarch64.deb
+Filename: tmp_deb_scan/pool/gzip_1.13_aarch64.deb
 Size: 81428
 MD5sum: 43d6740f906cbf531ed0866aea1f48fd
 SHA1: b04abdd31b921598668ded3723e6d8a05241f4df
@@ -1076,7 +1076,7 @@ Package: hello-termux
 Version: 1.0.0
 Architecture: aarch64
 Maintainer: you
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/hello-termux_1.0.0_aarch64.deb
+Filename: tmp_deb_scan/pool/hello-termux_1.0.0_aarch64.deb
 Size: 668
 MD5sum: 4fdfe1d7aa0bb946679a39eb67f23f70
 SHA1: 15d0207f81453b325dfbeeb3639b34f45db7ab95
@@ -1092,7 +1092,7 @@ Depends: libandroid-support, ncurses
 Conflicts: htop-legacy
 Breaks: htop-legacy
 Replaces: htop-legacy
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/htop_3.2.2_aarch64.deb
+Filename: tmp_deb_scan/pool/htop_3.2.2_aarch64.deb
 Size: 100316
 MD5sum: c26237fff235df7294cf4d431ec3a4af
 SHA1: 2d57d028f1e6ab6b566a612b713b4f3ee4ac653a
@@ -1106,7 +1106,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 56
 Depends: libiconv (= 1.17)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/iconv_1.17_aarch64.deb
+Filename: tmp_deb_scan/pool/iconv_1.17_aarch64.deb
 Size: 8992
 MD5sum: 3b7b1d768a0f25cc47dabfa162f257c6
 SHA1: 803aab4f5a31477092ae20354d08049f88d187e8
@@ -1120,7 +1120,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 1008
 Depends: libicu (= 74.2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/icu-devtools_74.2_aarch64.deb
+Filename: tmp_deb_scan/pool/icu-devtools_74.2_aarch64.deb
 Size: 217364
 MD5sum: f2e1a84ad2f1699f3e1f94913769824d
 SHA1: e8c141019cd57322829cb9d16e2207264b873035
@@ -1135,7 +1135,7 @@ Maintainer: @termux
 Installed-Size: 1152
 Depends: readline
 Suggests: whois
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/inetutils_2.4-1_aarch64.deb
+Filename: tmp_deb_scan/pool/inetutils_2.4-1_aarch64.deb
 Size: 250908
 MD5sum: 4d9be07add533ccacdc3c07ab0990292
 SHA1: f12033642e4bf6eeea5cf7346cacdcdb2c1ca82d
@@ -1151,7 +1151,7 @@ Installed-Size: 732
 Depends: oniguruma
 Breaks: jq-dev
 Replaces: jq-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/jq_1.7_aarch64.deb
+Filename: tmp_deb_scan/pool/jq_1.7_aarch64.deb
 Size: 188768
 MD5sum: f7204fdafa5421f27df3df5a00a7094d
 SHA1: 06c73f3390dc8013b3b1c2ae304dd65f8679ffaf
@@ -1165,7 +1165,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 580
 Depends: jq (= 1.7)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/jq-static_1.7_aarch64.deb
+Filename: tmp_deb_scan/pool/jq-static_1.7_aarch64.deb
 Size: 132972
 MD5sum: aad57033cd376d15abfe96b0140a11fa
 SHA1: 3374839cbf18b1bbf1e717487f39963a043be860
@@ -1181,7 +1181,7 @@ Installed-Size: 864
 Depends: libc++
 Breaks: jsoncpp-dev
 Replaces: jsoncpp-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/jsoncpp_1.9.5-1_aarch64.deb
+Filename: tmp_deb_scan/pool/jsoncpp_1.9.5-1_aarch64.deb
 Size: 126840
 MD5sum: b02186f89db3d7ebd4732b5bdb85e64e
 SHA1: 8e4be1075386c8551073ca2f70e9904e0f3a96e3
@@ -1195,7 +1195,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 476
 Depends: jsoncpp (= 1.9.5-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/jsoncpp-static_1.9.5-1_aarch64.deb
+Filename: tmp_deb_scan/pool/jsoncpp-static_1.9.5-1_aarch64.deb
 Size: 73740
 MD5sum: cf86eefaca1b5e90e664722678603540
 SHA1: 8697cae547c202df49452e3396e8cccdf2f21d0f
@@ -1211,7 +1211,7 @@ Installed-Size: 3940
 Depends: libandroid-support, libandroid-glob, libresolv-wrapper, readline, openssl, libdb
 Breaks: krb5-dev
 Replaces: krb5-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/krb5_1.21.2_aarch64.deb
+Filename: tmp_deb_scan/pool/krb5_1.21.2_aarch64.deb
 Size: 897136
 MD5sum: a746d08ff4c44c1c1b09b45e710b5613
 SHA1: 5ed3d0bab7034d525e430e1293e2e4531ec8941e
@@ -1227,7 +1227,7 @@ Installed-Size: 2852
 Depends: openssl, resolv-conf
 Breaks: ldns-dev
 Replaces: ldns-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/ldns_1.8.3-2_aarch64.deb
+Filename: tmp_deb_scan/pool/ldns_1.8.3-2_aarch64.deb
 Size: 302028
 MD5sum: db6bd0b8aaeab478978517b16b7d6318
 SHA1: 9762d482fe3d18ebf1c768e6ab1bae1cd0aad858
@@ -1241,7 +1241,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 664
 Depends: ldns (= 1.8.3-2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/ldns-static_1.8.3-2_aarch64.deb
+Filename: tmp_deb_scan/pool/ldns-static_1.8.3-2_aarch64.deb
 Size: 130932
 MD5sum: bf3092f3e3e6079c5448b169a2880ed8
 SHA1: b939aa593418abaf9390c6cfd79beb971c1b5a61
@@ -1256,7 +1256,7 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 308
 Depends: ncurses, pcre2
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/less_633-1_aarch64.deb
+Filename: tmp_deb_scan/pool/less_633-1_aarch64.deb
 Size: 104136
 MD5sum: a04e33f3c7b0558a0957cdec49b7434b
 SHA1: e69b12a901f4b882833824523ad601518ac9d0cb
@@ -1271,7 +1271,7 @@ Maintainer: @termux
 Installed-Size: 64
 Breaks: libandroid-glob-dev
 Replaces: libandroid-glob-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libandroid-glob_0.6-2_aarch64.deb
+Filename: tmp_deb_scan/pool/libandroid-glob_0.6-2_aarch64.deb
 Size: 6920
 MD5sum: 35c0581bf8f2e5a01f0921fb86fe2514
 SHA1: b3b6bc1df8b07c4dcf95c71328eced7571c73578
@@ -1285,7 +1285,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 40
 Depends: libandroid-glob (= 0.6-2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libandroid-glob-static_0.6-2_aarch64.deb
+Filename: tmp_deb_scan/pool/libandroid-glob-static_0.6-2_aarch64.deb
 Size: 4604
 MD5sum: 49d50a9d6026a7c1890dc17e24ba7894
 SHA1: 7bf51b9a05e2a6c2daa88ddd08784b277059f2a0
@@ -1298,7 +1298,7 @@ Version: 0.1-3
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 52
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libandroid-posix-semaphore_0.1-3_aarch64.deb
+Filename: tmp_deb_scan/pool/libandroid-posix-semaphore_0.1-3_aarch64.deb
 Size: 4040
 MD5sum: 9de2deb17bfb0fe746db2012238e6ff7
 SHA1: b9d3199ce5d6f26d0969eaf706205beff0b590ac
@@ -1312,7 +1312,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 36
 Depends: libandroid-posix-semaphore (= 0.1-3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libandroid-posix-semaphore-static_0.1-3_aarch64.deb
+Filename: tmp_deb_scan/pool/libandroid-posix-semaphore-static_0.1-3_aarch64.deb
 Size: 2856
 MD5sum: 43579eae892f9638e386400ad2279075
 SHA1: 4d973b1abfc146acfaedad35968f6474175beeb9
@@ -1327,7 +1327,7 @@ Maintainer: @termux
 Installed-Size: 72
 Breaks: libandroid-shmem-dev
 Replaces: libandroid-shmem-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libandroid-shmem_0.4_aarch64.deb
+Filename: tmp_deb_scan/pool/libandroid-shmem_0.4_aarch64.deb
 Size: 6804
 MD5sum: 5926d2b31851362daeaf4ddd8585d67a
 SHA1: 8d8d2a1e0d441723a4973648cd2a8486af5f77f9
@@ -1341,7 +1341,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 48
 Depends: libandroid-shmem (= 0.4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libandroid-shmem-static_0.4_aarch64.deb
+Filename: tmp_deb_scan/pool/libandroid-shmem-static_0.4_aarch64.deb
 Size: 5764
 MD5sum: 811674d3dd8f80b6a84ed8861c2df897
 SHA1: c071e96947e9a2d2de740e8b17aa228b26e912aa
@@ -1355,7 +1355,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 96
 Depends: libc++
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libandroid-spawn_0.3_aarch64.deb
+Filename: tmp_deb_scan/pool/libandroid-spawn_0.3_aarch64.deb
 Size: 15076
 MD5sum: f559f89a1a6fd375bcc7f4de7a52a8e7
 SHA1: 3473b7194aa44badfc7bf173f6d55188c8d798ea
@@ -1369,7 +1369,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 44
 Depends: libandroid-spawn (= 0.3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libandroid-spawn-static_0.3_aarch64.deb
+Filename: tmp_deb_scan/pool/libandroid-spawn-static_0.3_aarch64.deb
 Size: 4076
 MD5sum: 7b866a5f3ceeecad46d5032e34062139
 SHA1: 7393abdb2636b7dc15475a58fc655bcdf40e260e
@@ -1383,7 +1383,7 @@ Architecture: aarch64
 Essential: yes
 Maintainer: @termux
 Installed-Size: 76
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libandroid-support_28-3_aarch64.deb
+Filename: tmp_deb_scan/pool/libandroid-support_28-3_aarch64.deb
 Size: 10860
 MD5sum: d46803c7912e6b9b966d556df1d476ab
 SHA1: 72a5cb8299a9e58e831cabac77f0f0927dfd1b9e
@@ -1397,7 +1397,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 72
 Depends: libandroid-support (= 28-3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libandroid-support-static_28-3_aarch64.deb
+Filename: tmp_deb_scan/pool/libandroid-support-static_28-3_aarch64.deb
 Size: 8676
 MD5sum: 253d413afc57eb9b2bb238ddacbfb603
 SHA1: 38f0ab06530360ca4ee18c4da6c73d2144ec235e
@@ -1411,7 +1411,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 300
 Depends: apt, libc++, perl
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libapt-pkg-perl_0.1.40-9_aarch64.deb
+Filename: tmp_deb_scan/pool/libapt-pkg-perl_0.1.40-9_aarch64.deb
 Size: 66980
 MD5sum: 8559bef2644e6789ed4a329836f270fd
 SHA1: 5d6c5697aa795b8b7657c739e3f586536d8fbd2a
@@ -1427,7 +1427,7 @@ Installed-Size: 992
 Depends: libbz2, libiconv, liblzma, libxml2, openssl, zlib
 Breaks: libarchive-dev
 Replaces: libarchive-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libarchive_3.7.2_aarch64.deb
+Filename: tmp_deb_scan/pool/libarchive_3.7.2_aarch64.deb
 Size: 379996
 MD5sum: 52f20731f0d2564c11c46f87e80a8a59
 SHA1: fff6feff17f287387c323606c0e343bf04ade6f4
@@ -1441,7 +1441,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 1932
 Depends: libarchive (= 3.7.2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libarchive-static_3.7.2_aarch64.deb
+Filename: tmp_deb_scan/pool/libarchive-static_3.7.2_aarch64.deb
 Size: 355452
 MD5sum: d89e9914d70c14bc3da4628ef6842065
 SHA1: 757b8b8c5e25f4b3d1f7d05a8946c4ce00c917dc
@@ -1457,7 +1457,7 @@ Installed-Size: 324
 Depends: libgpg-error
 Breaks: libassuan-dev
 Replaces: libassuan-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libassuan_2.5.6_aarch64.deb
+Filename: tmp_deb_scan/pool/libassuan_2.5.6_aarch64.deb
 Size: 71424
 MD5sum: 41d76d19a00879c9251166093b45b4d0
 SHA1: c51e626f758e0d91d959df8b7bea684a76fd047e
@@ -1471,7 +1471,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 168
 Depends: libassuan (= 2.5.6)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libassuan-static_2.5.6_aarch64.deb
+Filename: tmp_deb_scan/pool/libassuan-static_2.5.6_aarch64.deb
 Size: 31852
 MD5sum: 8490c4437e37c1b4da2f5d6998dc5136
 SHA1: 247c8cbbce976bc9f66711b0675687401d045731
@@ -1486,7 +1486,7 @@ Maintainer: @termux
 Installed-Size: 404
 Breaks: util-linux (<< 2.38.1-1)
 Replaces: util-linux (<< 2.38.1-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libblkid_2.39.3-3_aarch64.deb
+Filename: tmp_deb_scan/pool/libblkid_2.39.3-3_aarch64.deb
 Size: 123168
 MD5sum: cc3faa1dd6037407545552fc7a6ed576
 SHA1: df816d7abb38c62dbc8890ef0d60101c49f0922b
@@ -1502,7 +1502,7 @@ Maintainer: @termux
 Installed-Size: 108
 Breaks: libbz2-dev
 Replaces: libbz2-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libbz2_1.0.8-6_aarch64.deb
+Filename: tmp_deb_scan/pool/libbz2_1.0.8-6_aarch64.deb
 Size: 25624
 MD5sum: 82df3cc767fb15fe09dfe1673f330e85
 SHA1: 9d2dd7d1ac7915550c17b67fa72e5450728313dd
@@ -1516,7 +1516,7 @@ Architecture: aarch64
 Essential: yes
 Maintainer: @termux
 Installed-Size: 1340
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libc++_26b_aarch64.deb
+Filename: tmp_deb_scan/pool/libc++_26b_aarch64.deb
 Size: 304712
 MD5sum: 2621c897df4ec53bc453557870346b8e
 SHA1: f9d96e2f6e25eed8b6db005b3222ad382e42af9b
@@ -1529,7 +1529,7 @@ Version: 2:0.8.3
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 268
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libcap-ng_2AAA0.8.3_aarch64.deb
+Filename: tmp_deb_scan/pool/libcap-ng_2aaa0.8.3_aarch64.deb
 Size: 35060
 MD5sum: 2ea095c522c374077421bb6670886136
 SHA1: 09610f4171571eea4f97b161848b01d923d2f619
@@ -1543,7 +1543,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 68
 Depends: libcap-ng (= 2:0.8.3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libcap-ng-static_2AAA0.8.3_aarch64.deb
+Filename: tmp_deb_scan/pool/libcap-ng-static_2aaa0.8.3_aarch64.deb
 Size: 9080
 MD5sum: c19889f5386e91d67c5b666f12b7eafc
 SHA1: 1d2dfc8c99645325258fc2fefa89a0f8ec5f7ac2
@@ -1558,7 +1558,7 @@ Maintainer: @finagolfin
 Installed-Size: 34916
 Depends: libllvm (= 17.0.6)
 Conflicts: ndk-multilib (<< 23b-6)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libcompiler-rt_17.0.6_aarch64.deb
+Filename: tmp_deb_scan/pool/libcompiler-rt_17.0.6_aarch64.deb
 Size: 3195360
 MD5sum: a879a8d29f20ca7dc92969fa57ba82a7
 SHA1: db2daab0d4749f6d6cd72e0f2816f2c19038a6a8
@@ -1574,7 +1574,7 @@ Installed-Size: 68
 Depends: openssl
 Breaks: libcrypt-dev
 Replaces: libcrypt-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libcrypt_0.2-5_aarch64.deb
+Filename: tmp_deb_scan/pool/libcrypt_0.2-5_aarch64.deb
 Size: 8660
 MD5sum: fe4e89110c2f893f1316d3bbc15321b2
 SHA1: 856696eeb1de31ad3811da16ed705f3677acaa06
@@ -1592,7 +1592,7 @@ Depends: libnghttp2, libssh2, openssl (>= 3.0.3), zlib
 Conflicts: apt (<< 1.4.8-8)
 Breaks: libcurl-dev
 Replaces: libcurl-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libcurl_8.5.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libcurl_8.5.0_aarch64.deb
 Size: 1024324
 MD5sum: fa4931c6e7090825894cb31659834826
 SHA1: 08d0f9542dd0261873e17bb9f7f8f40b65cbf703
@@ -1606,7 +1606,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 1448
 Depends: libcurl (= 8.5.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libcurl-static_8.5.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libcurl-static_8.5.0_aarch64.deb
 Size: 310712
 MD5sum: e89966135a233ac38f3e6efe46833473
 SHA1: f3e5e413be4662f344b40f35f998cb59799bad34
@@ -1622,7 +1622,7 @@ Installed-Size: 2256
 Depends: libc++
 Breaks: libdb-dev
 Replaces: libdb-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libdb_18.1.40-4_aarch64.deb
+Filename: tmp_deb_scan/pool/libdb_18.1.40-4_aarch64.deb
 Size: 495204
 MD5sum: fdff7c3d04220a55e5ff07ccf3bde8f4
 SHA1: dea7557c7a18b795225d990af170cb0ad3587854
@@ -1636,7 +1636,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 8876
 Depends: libdb (= 18.1.40-4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libdb-static_18.1.40-4_aarch64.deb
+Filename: tmp_deb_scan/pool/libdb-static_18.1.40-4_aarch64.deb
 Size: 472260
 MD5sum: 43375596951c560dda55c03d038bb50c
 SHA1: 448e3508f0b0bba9020fc5419f0a4f01b44f60de
@@ -1652,7 +1652,7 @@ Installed-Size: 296
 Depends: libandroid-support, ncurses
 Breaks: libedit-dev
 Replaces: libedit-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libedit_20221030-3.1-0_aarch64.deb
+Filename: tmp_deb_scan/pool/libedit_20221030-3.1-0_aarch64.deb
 Size: 77676
 MD5sum: ba7a78b789ddfa72ce53ef174bfe2170
 SHA1: ef0f817c49cc2d560cd029fa143340ea63008f8d
@@ -1666,7 +1666,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 376
 Depends: libedit (= 20221030-3.1-0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libedit-static_20221030-3.1-0_aarch64.deb
+Filename: tmp_deb_scan/pool/libedit-static_20221030-3.1-0_aarch64.deb
 Size: 75976
 MD5sum: 892ab0bae5917f9cc1dac38b429bb57f
 SHA1: 18f0e66be3a773a2c329f4328e61a703a69a4ce8
@@ -1681,7 +1681,7 @@ Maintainer: @termux
 Installed-Size: 1144
 Breaks: libevent-dev
 Replaces: libevent-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libevent_2.1.12-2_aarch64.deb
+Filename: tmp_deb_scan/pool/libevent_2.1.12-2_aarch64.deb
 Size: 199652
 MD5sum: d9e6609ae0fb8d1568a64979fc39fb54
 SHA1: 42c01031278b87732bd0b61a8e861ddac7f19576
@@ -1696,7 +1696,7 @@ Maintainer: @termux
 Installed-Size: 340
 Breaks: libexpat-dev
 Replaces: libexpat-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libexpat_2.5.0-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libexpat_2.5.0-1_aarch64.deb
 Size: 81820
 MD5sum: 3dcfa63696624add00765089ed8a982e
 SHA1: 4e9283bf5b0a4fad9218eec94115ee03dcb80482
@@ -1710,7 +1710,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 236
 Depends: libexpat (= 2.5.0-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libexpat-static_2.5.0-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libexpat-static_2.5.0-1_aarch64.deb
 Size: 54988
 MD5sum: 3cf2f542811e3695d5a23594c25fe83e
 SHA1: d9e94da5aa9b727ef1ba88a900ac823f3108c039
@@ -1724,7 +1724,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 504
 Depends: libblkid, libuuid
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libfdisk_2.39.3-3_aarch64.deb
+Filename: tmp_deb_scan/pool/libfdisk_2.39.3-3_aarch64.deb
 Size: 156140
 MD5sum: 2241aa7e7b036d68c1d0f6ea4f9f9ec2
 SHA1: 4afeb0126a2632fbc9b51cf25405d68a0d9f9752
@@ -1739,7 +1739,7 @@ Maintainer: @termux
 Installed-Size: 228
 Breaks: libffi-dev
 Replaces: libffi-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libffi_3.4.4-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libffi_3.4.4-1_aarch64.deb
 Size: 30812
 MD5sum: bd3740107faeda8ef2a0e128be64229c
 SHA1: 0b7953990968f339d89be39dbe0398f6094c27bf
@@ -1753,7 +1753,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 136
 Depends: libffi (= 3.4.4-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libffi-static_3.4.4-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libffi-static_3.4.4-1_aarch64.deb
 Size: 16620
 MD5sum: 08ce61a069b0a3c5ecf02fedd337045f
 SHA1: fec1c792a68f4ccbbd0c496ffe40e6633eadd76e
@@ -1769,7 +1769,7 @@ Installed-Size: 1428
 Depends: libgpg-error
 Breaks: libgcrypt-dev
 Replaces: libgcrypt-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libgcrypt_1.10.2_aarch64.deb
+Filename: tmp_deb_scan/pool/libgcrypt_1.10.2_aarch64.deb
 Size: 429576
 MD5sum: 31a8dc972289dd7908690a9e2b7dcc99
 SHA1: 31d6fe3f84eb9aa432679e7038f9a22ccc584d4c
@@ -1783,7 +1783,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 1544
 Depends: libgcrypt (= 1.10.2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libgcrypt-static_1.10.2_aarch64.deb
+Filename: tmp_deb_scan/pool/libgcrypt-static_1.10.2_aarch64.deb
 Size: 386940
 MD5sum: d899a1e3e1b2b20fc2e57238f9aab471
 SHA1: 87c51b17bc7f7c4ff7d0a48803199f0bd3cf469c
@@ -1799,7 +1799,7 @@ Installed-Size: 1228
 Depends: libc++
 Breaks: libgmp-dev
 Replaces: libgmp-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libgmp_6.3.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libgmp_6.3.0_aarch64.deb
 Size: 324084
 MD5sum: 834982e077305a53a0b05fdea4ffc451
 SHA1: 3acda562880ea372620b3dfd4cde1b27e152ee89
@@ -1813,7 +1813,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 1248
 Depends: libgmp (= 6.3.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libgmp-static_6.3.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libgmp-static_6.3.0_aarch64.deb
 Size: 224168
 MD5sum: cb0f0e710501c911d1124164b02f791e
 SHA1: dbd624f23bce181f7f1b06a17a85e889da058ea5
@@ -1829,7 +1829,7 @@ Installed-Size: 2376
 Depends: libc++, libgmp, libnettle, ca-certificates, libidn2, libunbound, libunistring
 Breaks: libgnutls-dev
 Replaces: libgnutls-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libgnutls_3.8.2_aarch64.deb
+Filename: tmp_deb_scan/pool/libgnutls_3.8.2_aarch64.deb
 Size: 719400
 MD5sum: 7f0d5e2b76e2e9be4ccecd5d74f8eb6a
 SHA1: ed0dd77b388fd2308fb05d8815097cec98df143a
@@ -1843,7 +1843,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 3712
 Depends: libgnutls (= 3.8.2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libgnutls-static_3.8.2_aarch64.deb
+Filename: tmp_deb_scan/pool/libgnutls-static_3.8.2_aarch64.deb
 Size: 778484
 MD5sum: 9b33b36d7a33ad66191cdddee41ec37e
 SHA1: 883af895fb645f5d79ca1b9e3954b665ce84d6c4
@@ -1858,7 +1858,7 @@ Maintainer: @termux
 Installed-Size: 564
 Breaks: libgpg-error-dev
 Replaces: libgpg-error-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libgpg-error_1.47_aarch64.deb
+Filename: tmp_deb_scan/pool/libgpg-error_1.47_aarch64.deb
 Size: 109212
 MD5sum: 0fec13b6b239f7801a085afd68056d32
 SHA1: 3725e497869de0f890e9a62c1aa8437d11f18eb9
@@ -1872,7 +1872,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 264
 Depends: libgpg-error (= 1.47)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libgpg-error-static_1.47_aarch64.deb
+Filename: tmp_deb_scan/pool/libgpg-error-static_1.47_aarch64.deb
 Size: 58584
 MD5sum: 3109c48c07d6c9ea933735a37e1019f8
 SHA1: 6a7aa898cae32565dae10e59235e05e31d4f9074
@@ -1885,7 +1885,7 @@ Version: 1.1.1
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 428
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libice_1.1.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libice_1.1.1_aarch64.deb
 Size: 67248
 MD5sum: 859e36da08a838b07a4546b83e0e63a9
 SHA1: 830f4481e7649f9780a85bac2023a5f04ed5d3c9
@@ -1899,7 +1899,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 180
 Depends: libice (= 1.1.1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libice-static_1.1.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libice-static_1.1.1_aarch64.deb
 Size: 36568
 MD5sum: d0ec07e932d4586860236848a27c8fad
 SHA1: 6618a0f7c9d4e2544b2370cb5c6a2cdb09969326
@@ -1914,7 +1914,7 @@ Maintainer: @termux
 Installed-Size: 1196
 Breaks: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Replaces: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libiconv_1.17_aarch64.deb
+Filename: tmp_deb_scan/pool/libiconv_1.17_aarch64.deb
 Size: 556564
 MD5sum: ff8b2bd3b5bd2b95caf3d239eeae37d6
 SHA1: f0a72f5a9c28cd05b744e319f7e170dc13572ca4
@@ -1928,7 +1928,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 1208
 Depends: libiconv (= 1.17)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libiconv-static_1.17_aarch64.deb
+Filename: tmp_deb_scan/pool/libiconv-static_1.17_aarch64.deb
 Size: 552728
 MD5sum: 4f955400dfe8aff782d3e2f1a0f38846
 SHA1: 4a7ec7931f006577b2b539fd78c6583db88db3e7
@@ -1944,7 +1944,7 @@ Installed-Size: 40660
 Depends: libc++
 Breaks: libicu-dev
 Replaces: libicu-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libicu_74.2_aarch64.deb
+Filename: tmp_deb_scan/pool/libicu_74.2_aarch64.deb
 Size: 9716656
 MD5sum: c62895b9ce2a7da3976cde2176533780
 SHA1: d9657a2cae7eb2eea3dcb6bba204c1075cc8d693
@@ -1958,7 +1958,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 42980
 Depends: libicu (= 74.2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libicu-static_74.2_aarch64.deb
+Filename: tmp_deb_scan/pool/libicu-static_74.2_aarch64.deb
 Size: 9579900
 MD5sum: 9a37a833616c070ba4659999fd8c7198
 SHA1: 6f218251cd8c2521ad62efba5f4fbb50e4720dbc
@@ -1974,7 +1974,7 @@ Installed-Size: 420
 Depends: libandroid-support, libiconv, libunistring
 Breaks: libidn2-dev
 Replaces: libidn2-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libidn2_2.3.4-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libidn2_2.3.4-1_aarch64.deb
 Size: 103372
 MD5sum: 9a5c9845b14d5418dc83bcfb33a8444b
 SHA1: 30ba8a05cd473129dbdd0d55c96ec7d107039927
@@ -1988,7 +1988,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 288
 Depends: libidn2 (= 2.3.4-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libidn2-static_2.3.4-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libidn2-static_2.3.4-1_aarch64.deb
 Size: 72068
 MD5sum: 998d6f9d71bc56c1d6a6354fbab092e7
 SHA1: e56cae992e817f0c22109e4cf8091d049e9e2fac
@@ -2001,7 +2001,7 @@ Version: 2.4.1
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 60
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libjansi_2.4.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libjansi_2.4.1_aarch64.deb
 Size: 4864
 MD5sum: 0c8018c56aa61fec0949a82591c497af
 SHA1: 9c513a79392fd5dc952a11255811f38df92aa4d5
@@ -2016,7 +2016,7 @@ Maintainer: @termux
 Installed-Size: 1956
 Breaks: libjpeg-turbo-dev
 Replaces: libjpeg-turbo-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libjpeg-turbo_3.0.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libjpeg-turbo_3.0.1_aarch64.deb
 Size: 362268
 MD5sum: 7d0a4c63cf7857d7a0fffe8857edf908
 SHA1: c890ed56e8153433c10255f7531b75b721e87175
@@ -2030,7 +2030,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 352
 Depends: libjpeg-turbo (= 3.0.1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libjpeg-turbo-progs_3.0.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libjpeg-turbo-progs_3.0.1_aarch64.deb
 Size: 93484
 MD5sum: 843a0abd7bdf322f7559bab5825ed57e
 SHA1: ba49fd4b2fa94c076718a3c2dce55100ac124941
@@ -2044,7 +2044,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 2020
 Depends: libjpeg-turbo (= 3.0.1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libjpeg-turbo-static_3.0.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libjpeg-turbo-static_3.0.1_aarch64.deb
 Size: 246960
 MD5sum: ab54717a11fa865944dd6e3a90ed27f1
 SHA1: b02ac9e65287823f2e51944dd023d926b9f066f5
@@ -2060,7 +2060,7 @@ Installed-Size: 404
 Depends: libgpg-error
 Breaks: libksba-dev
 Replaces: libksba-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libksba_1.6.5-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libksba_1.6.5-1_aarch64.deb
 Size: 105204
 MD5sum: f6554a8a6323dc858e4cfb47552e7294
 SHA1: d4be47af073d1c16a9261649cf18c854255ae892
@@ -2074,7 +2074,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 424
 Depends: libksba (= 1.6.5-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libksba-static_1.6.5-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libksba-static_1.6.5-1_aarch64.deb
 Size: 91852
 MD5sum: 4d180f0758611a7eacc154026e338ea8
 SHA1: 72fd390779be66413e0871dfdc8fdb09a805c04c
@@ -2091,7 +2091,7 @@ Depends: libc++, libffi, libxml2, ncurses, zlib, zstd
 Conflicts: gcc, clang (<< 3.9.1-3)
 Breaks: libclang, libclang-dev, libllvm-dev
 Replaces: gcc, libclang, libclang-dev, libllvm-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libllvm_17.0.6_aarch64.deb
+Filename: tmp_deb_scan/pool/libllvm_17.0.6_aarch64.deb
 Size: 25144620
 MD5sum: 37dbf04508653f722b88b99fc74aa376
 SHA1: da5ea1c0adca2085b39ee83f7dd9c572521b247d
@@ -2105,7 +2105,7 @@ Architecture: aarch64
 Maintainer: @finagolfin
 Installed-Size: 680572
 Depends: libllvm (= 17.0.6)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libllvm-static_17.0.6_aarch64.deb
+Filename: tmp_deb_scan/pool/libllvm-static_17.0.6_aarch64.deb
 Size: 70849528
 MD5sum: fb537497f9150bd2b1f8f9ded48a6ffd
 SHA1: dcaefb2be056408494f3c933364fcfc369a19ea7
@@ -2120,7 +2120,7 @@ Maintainer: @termux
 Installed-Size: 328
 Breaks: liblz4-dev
 Replaces: liblz4-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/liblz4_1.9.4_aarch64.deb
+Filename: tmp_deb_scan/pool/liblz4_1.9.4_aarch64.deb
 Size: 85456
 MD5sum: 3c63d80a42709d0a16a457bbba94e47b
 SHA1: 8bcb8f56dbd023a5b3ca51ff1c5693711643c60b
@@ -2136,7 +2136,7 @@ Maintainer: @termux
 Installed-Size: 1840
 Breaks: liblzma-dev
 Replaces: liblzma-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/liblzma_5.4.5_aarch64.deb
+Filename: tmp_deb_scan/pool/liblzma_5.4.5_aarch64.deb
 Size: 245432
 MD5sum: d29295c99c3b6409a9dd560a2264d7d8
 SHA1: 5687d5bf970f09c631113f49e8ca1f59ccd3d5e7
@@ -2150,7 +2150,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 360
 Depends: liblzma (= 5.4.5)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/liblzma-static_5.4.5_aarch64.deb
+Filename: tmp_deb_scan/pool/liblzma-static_5.4.5_aarch64.deb
 Size: 87672
 MD5sum: d3aa107bb10a8b18551455bfa5e647d9
 SHA1: 7f6688e0fcb73da4aca3001d4b2f50f86b5e8347
@@ -2163,7 +2163,7 @@ Version: 1.1.0
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 188
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libmd_1.1.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libmd_1.1.0_aarch64.deb
 Size: 39672
 MD5sum: f3b46990327ff5202f9a63c330b222b1
 SHA1: e3a6e6d9e077a5d9a0be0520fae5ee6e3531ec98
@@ -2177,7 +2177,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 104
 Depends: libmd (= 1.1.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libmd-static_1.1.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libmd-static_1.1.0_aarch64.deb
 Size: 17236
 MD5sum: 8575984827a0c6dbc1ab27fe4a307fe9
 SHA1: 29ad2a47ef82f3a7bae9a3effab301e66fcea17e
@@ -2191,7 +2191,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 468
 Depends: libblkid, libsmartcols
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libmount_2.39.3-3_aarch64.deb
+Filename: tmp_deb_scan/pool/libmount_2.39.3-3_aarch64.deb
 Size: 145408
 MD5sum: 723b094f741c240ca4384198627a9769
 SHA1: 44d299089b0e84d4309e932ab7ef65cde87b9a5d
@@ -2207,7 +2207,7 @@ Installed-Size: 1004
 Depends: libgmp
 Breaks: libmpfr-dev
 Replaces: libmpfr-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libmpfr_4.2.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libmpfr_4.2.1_aarch64.deb
 Size: 271824
 MD5sum: 8bdadc3dda61ac79702e7889725827db
 SHA1: d9fefa112697a1bb742587f29f708203fbc72c90
@@ -2221,7 +2221,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 1124
 Depends: libmpfr (= 4.2.1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libmpfr-static_4.2.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libmpfr-static_4.2.1_aarch64.deb
 Size: 208756
 MD5sum: 1e919103f6ab19ff705ca171fd8eb4fb
 SHA1: c55d3f2fbce5bfaa9659dc7568f9bfc66c9064ef
@@ -2237,7 +2237,7 @@ Installed-Size: 1404
 Depends: libgmp
 Breaks: libnettle-dev
 Replaces: libnettle-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libnettle_3.9.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libnettle_3.9.1_aarch64.deb
 Size: 403544
 MD5sum: 1820b3978e26b74510c511aa4c4041ac
 SHA1: 6ad787ad2e2bda5f32b7f6ee95b952b814224669
@@ -2251,7 +2251,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 3516
 Depends: libnettle (= 3.9.1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libnettle-static_3.9.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libnettle-static_3.9.1_aarch64.deb
 Size: 632884
 MD5sum: 992c03ba901db8b5933889beefdff5ce
 SHA1: 89b2c0bf7d7cc65771afb33b6402c652cc61356b
@@ -2266,7 +2266,7 @@ Maintainer: @termux
 Installed-Size: 488
 Breaks: libnghttp2-dev
 Replaces: libnghttp2-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libnghttp2_1.58.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libnghttp2_1.58.0_aarch64.deb
 Size: 97072
 MD5sum: 68570f0904dc8749c59b48da97fd0c2b
 SHA1: 608e4c3d53b405435bc0a4f2ea2a4379e48e1bb9
@@ -2280,7 +2280,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 332
 Depends: libnghttp2 (= 1.58.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libnghttp2-static_1.58.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libnghttp2-static_1.58.0_aarch64.deb
 Size: 66804
 MD5sum: 19864b7b900f1ecf230de752bd7ca8d8
 SHA1: a2a6570c331fc457b8acc080137ff6c04c697414
@@ -2295,7 +2295,7 @@ Maintainer: @termux
 Installed-Size: 92
 Breaks: libnpth-dev
 Replaces: libnpth-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libnpth_1.6-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libnpth_1.6-1_aarch64.deb
 Size: 11100
 MD5sum: 65f46dd00fb17c8095ccb1ed268accbb
 SHA1: 3ff04d76fffec37b92e894090a085705b77892ee
@@ -2309,7 +2309,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 48
 Depends: libnpth (= 1.6-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libnpth-static_1.6-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libnpth-static_1.6-1_aarch64.deb
 Size: 4672
 MD5sum: 7571f4794d81bc65fe16bebb94bda009
 SHA1: 87fb8d300fba0d11d24143bbb3a4a6870cc994d0
@@ -2323,7 +2323,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 36
 Depends: pcre (= 8.45-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libpcreposix_8.45-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libpcreposix_8.45-1_aarch64.deb
 Size: 3292
 MD5sum: ee050a84e8490ab68bfa86e10e02443b
 SHA1: 6864c315430c1d00417374df8be722f2af5b5950
@@ -2339,7 +2339,7 @@ Installed-Size: 512
 Depends: zlib
 Breaks: libpng-dev
 Replaces: libpng-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libpng_1.6.40_aarch64.deb
+Filename: tmp_deb_scan/pool/libpng_1.6.40_aarch64.deb
 Size: 194680
 MD5sum: 618f69f9ef05586b3c678359b84c9964
 SHA1: e3e42457233cbfdf525adc40c4b12a1c23f8684b
@@ -2353,7 +2353,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 328
 Depends: libpng (= 1.6.40)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libpng-static_1.6.40_aarch64.deb
+Filename: tmp_deb_scan/pool/libpng-static_1.6.40_aarch64.deb
 Size: 85952
 MD5sum: d11953ad73b2bfb6060444fde8bbac4e
 SHA1: d4af92e009593cee578503d35c4c491102bc4437
@@ -2367,7 +2367,7 @@ Architecture: aarch64
 Maintainer: @finagolfin
 Installed-Size: 5868
 Depends: libllvm (= 17.0.6)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libpolly_17.0.6_aarch64.deb
+Filename: tmp_deb_scan/pool/libpolly_17.0.6_aarch64.deb
 Size: 1220068
 MD5sum: 150090b5ec9e5282a8da0e6c94bba64c
 SHA1: dae18f8e266cfe5d56cdb09ed9ddc48bec731c80
@@ -2383,7 +2383,7 @@ Installed-Size: 6284
 Depends: abseil-cpp, libc++, zlib
 Breaks: libprotobuf-dev, protobuf-static (<< 22.4)
 Replaces: libprotobuf-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libprotobuf_2AAA22.4-2_aarch64.deb
+Filename: tmp_deb_scan/pool/libprotobuf_2aaa22.4-2_aarch64.deb
 Size: 1021956
 MD5sum: a5755e682875acda56a490a0e87bec94
 SHA1: 26fdba635f86cd9983da075c54e9b6845993ba48
@@ -2397,7 +2397,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 104
 Depends: resolv-conf
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libresolv-wrapper_1.1.7-4_aarch64.deb
+Filename: tmp_deb_scan/pool/libresolv-wrapper_1.1.7-4_aarch64.deb
 Size: 11528
 MD5sum: f1b431021459ff77c6337bf93f96a6b4
 SHA1: 74cd6aa31ecaba865c37a6cf4bd58791cfad17a3
@@ -2411,7 +2411,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 328
 Depends: libice, libuuid
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libsm_1.2.4-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libsm_1.2.4-1_aarch64.deb
 Size: 40092
 MD5sum: 0312992ff1185e6f9520960692515f89
 SHA1: 70581bb81ee1d03152320d1ea9d47deb07d23b23
@@ -2425,7 +2425,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 76
 Depends: libsm (= 1.2.4-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libsm-static_1.2.4-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libsm-static_1.2.4-1_aarch64.deb
 Size: 12184
 MD5sum: f3dc4c85ebc961d929c8390149133dc0
 SHA1: 9a06cd32aa4c9540e9224744119f5a0c36183b91
@@ -2440,7 +2440,7 @@ Maintainer: @termux
 Installed-Size: 280
 Breaks: util-linux (<< 2.38.1-1)
 Replaces: util-linux (<< 2.38.1-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libsmartcols_2.39.3-3_aarch64.deb
+Filename: tmp_deb_scan/pool/libsmartcols_2.39.3-3_aarch64.deb
 Size: 85616
 MD5sum: 4c52b02b5e808d6bed6e3302b093b910
 SHA1: 88f4928d9c90b8bb46f44b88e6ebf12892be0683
@@ -2456,7 +2456,7 @@ Installed-Size: 1776
 Depends: zlib
 Breaks: libsqlite-dev
 Replaces: libsqlite-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libsqlite_3.44.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libsqlite_3.44.0_aarch64.deb
 Size: 601160
 MD5sum: b2241f5c20145c5cd7e4c1a607d23e75
 SHA1: 63452c60780dfef09964ecf66cd6429cd38d88d6
@@ -2470,7 +2470,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 1568
 Depends: libsqlite (= 3.44.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libsqlite-static_3.44.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libsqlite-static_3.44.0_aarch64.deb
 Size: 508692
 MD5sum: 9b78c74b482a18b3446e0f607be5f5fd
 SHA1: 2b2cac3b9fe200b60f6998b5b9e09f8c9fcdb4bd
@@ -2486,7 +2486,7 @@ Installed-Size: 1120
 Depends: openssl, zlib
 Breaks: libssh2-dev
 Replaces: libssh2-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libssh2_1.11.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libssh2_1.11.0_aarch64.deb
 Size: 197560
 MD5sum: 7300f1d3a95a0825a41e2977eb844205
 SHA1: 22e4fa53c81fdb56804b8f89867104ffac2daa0c
@@ -2500,7 +2500,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 436
 Depends: libssh2 (= 1.11.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libssh2-static_1.11.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libssh2-static_1.11.0_aarch64.deb
 Size: 101864
 MD5sum: 432a611e9382dee2e1185023b805dfd3
 SHA1: 9f23742e76559c546b3278c26ccba643e5559864
@@ -2513,7 +2513,7 @@ Version: 22-1
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 56
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libthread-db_22-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libthread-db_22-1_aarch64.deb
 Size: 4312
 MD5sum: 66422858337140d3734eff2e7e280ba3
 SHA1: 20e0d3f9d008f31aedf318e192a21e67577bd014
@@ -2529,7 +2529,7 @@ Installed-Size: 5992
 Depends: libc++, libjpeg-turbo, liblzma, zlib, zstd
 Breaks: libtiff-dev
 Replaces: libtiff-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libtiff_4.6.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libtiff_4.6.0_aarch64.deb
 Size: 867784
 MD5sum: b91b2ef4e5ea8b99ef55482d8267f840
 SHA1: 8d180d57991643bf98e0437239e011b497de08a5
@@ -2543,7 +2543,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 864
 Depends: libtiff (= 4.6.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libtiff-static_4.6.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libtiff-static_4.6.0_aarch64.deb
 Size: 168608
 MD5sum: 1b1b6b06bd022f632c223f6ef9ada9ad
 SHA1: 14a28b3d577e764c6e7f000caa3f3b1ddcc19fbd
@@ -2557,7 +2557,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 412
 Depends: libtiff (= 4.6.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libtiff-utils_4.6.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libtiff-utils_4.6.0_aarch64.deb
 Size: 125760
 MD5sum: 63b80a8c5d44d2a91b74aa79f8279db5
 SHA1: b13e61e3e14953af832ef0d17019c55f2fe7483e
@@ -2570,7 +2570,7 @@ Version: 1.3.4
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 548
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libtirpc_1.3.4_aarch64.deb
+Filename: tmp_deb_scan/pool/libtirpc_1.3.4_aarch64.deb
 Size: 124520
 MD5sum: 8c3545040d807548674354976de04c02
 SHA1: 79750042e65f5e1f4aef684e68fac88c0df361af
@@ -2584,7 +2584,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 384
 Depends: libtirpc (= 1.3.4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libtirpc-static_1.3.4_aarch64.deb
+Filename: tmp_deb_scan/pool/libtirpc-static_1.3.4_aarch64.deb
 Size: 70024
 MD5sum: 995b99539162c48cbd239d22c6c3a85c
 SHA1: de09e5f248decab408cd8cb147bbb5f7ddfb5b63
@@ -2600,7 +2600,7 @@ Installed-Size: 1148
 Depends: libevent, libnghttp2, openssl, resolv-conf
 Breaks: unbound (<< 1.17.1-1)
 Replaces: unbound (<< 1.17.1-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libunbound_1.19.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libunbound_1.19.0_aarch64.deb
 Size: 343560
 MD5sum: a94aee9c3eb6d5bce8a4fd2cf3e0aad1
 SHA1: 6a90b36adc740c2988328f709c4e801127a09d9d
@@ -2614,7 +2614,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 1892
 Depends: libunbound (= 1.19.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libunbound-static_1.19.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libunbound-static_1.19.0_aarch64.deb
 Size: 415048
 MD5sum: 802bd2b49635b83c59d561c144f2d927
 SHA1: 67e0ed712a7c53e31d7d9a08565b05de111ace20
@@ -2630,7 +2630,7 @@ Installed-Size: 2972
 Depends: libandroid-support, libiconv
 Breaks: libunistring-dev
 Replaces: libunistring-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libunistring_1.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libunistring_1.1_aarch64.deb
 Size: 510848
 MD5sum: ec72ac24cf3ef0d010a2d06cc356a8e3
 SHA1: f53c83e1f05297b0d790f15630ff1739579df159
@@ -2644,7 +2644,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 2692
 Depends: libunistring (= 1.1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libunistring-static_1.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libunistring-static_1.1_aarch64.deb
 Size: 447144
 MD5sum: f92299a4ee58a1c88acf23d648725991
 SHA1: c0051927afa5fbc78dfa174a6c72ff326c932738
@@ -2659,7 +2659,7 @@ Maintainer: @termux
 Installed-Size: 232
 Breaks: libusb-dev
 Replaces: libusb-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libusb_1.0.26-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libusb_1.0.26-1_aarch64.deb
 Size: 54108
 MD5sum: 0a0aa3594a346c8b2d1894b8d4b99131
 SHA1: 359af8df701ab5876260b5fed513698eeb188fdf
@@ -2673,7 +2673,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 224
 Depends: libusb (= 1.0.26-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libusb-static_1.0.26-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libusb-static_1.0.26-1_aarch64.deb
 Size: 45096
 MD5sum: a5132ba3f4fa6bbece133eb1b511cdea
 SHA1: 8e9605168212cbf548ea56ab8be720ccf08577e8
@@ -2687,7 +2687,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 92
 Depends: libprotobuf (= 2:22.4-2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libutf8-range_2AAA22.4-2_aarch64.deb
+Filename: tmp_deb_scan/pool/libutf8-range_2aaa22.4-2_aarch64.deb
 Size: 5856
 MD5sum: 782372d292769ffc4b6ea814e200bd02
 SHA1: 1d5147b36b8a65b525cbe46fda9f12ffead16676
@@ -2702,7 +2702,7 @@ Maintainer: @termux
 Installed-Size: 76
 Breaks: libuuid-dev
 Replaces: libuuid-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libuuid_2.39.3-3_aarch64.deb
+Filename: tmp_deb_scan/pool/libuuid_2.39.3-3_aarch64.deb
 Size: 14608
 MD5sum: 21c9fce0364f3064ef4e03c2fd3ca996
 SHA1: 543323431a1f0fde910a506fad4b5cecfb9d377b
@@ -2717,7 +2717,7 @@ Maintainer: @termux
 Installed-Size: 340
 Breaks: libuv-dev
 Replaces: libuv-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libuv_1.47.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libuv_1.47.0_aarch64.deb
 Size: 77244
 MD5sum: 1c186d6dd9b576dcca484354c5585f0e
 SHA1: 0426c70674a8a2d9cc3f14142ad4c7b1ee25d6de
@@ -2731,7 +2731,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 1484
 Depends: libuv (= 1.47.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libuv-static_1.47.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libuv-static_1.47.0_aarch64.deb
 Size: 269976
 MD5sum: a2d51c419313474882102de8c61397e4
 SHA1: 46e6e6e38233a86f5bfc3c56215ff38a1c1582d0
@@ -2747,7 +2747,7 @@ Installed-Size: 844
 Depends: giflib, libjpeg-turbo, libpng, libtiff
 Breaks: libwebp-dev
 Replaces: libwebp-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libwebp_1.3.2_aarch64.deb
+Filename: tmp_deb_scan/pool/libwebp_1.3.2_aarch64.deb
 Size: 218832
 MD5sum: 3993ccf06783592f022f25a5ee2f0a2d
 SHA1: 89b8e662dbdb70dbb3862256c527a72f23774d18
@@ -2761,7 +2761,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 992
 Depends: libwebp (= 1.3.2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libwebp-static_1.3.2_aarch64.deb
+Filename: tmp_deb_scan/pool/libwebp-static_1.3.2_aarch64.deb
 Size: 178612
 MD5sum: c9ed2b4cb4877f2d72b54c96ed527445
 SHA1: 2f7b594ffa9debe9a3e41a0252b707ac73b523d1
@@ -2776,7 +2776,7 @@ Maintainer: @termux
 Installed-Size: 13708
 Depends: libandroid-support, libxcb
 Recommends: xorg-xauth
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libx11_1.8.7_aarch64.deb
+Filename: tmp_deb_scan/pool/libx11_1.8.7_aarch64.deb
 Size: 1917452
 MD5sum: 707f6ea1f9ffddb71add6428f907f9f9
 SHA1: 039b419242ab4aad7c815351d6e8374ba97f9a36
@@ -2790,7 +2790,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 2136
 Depends: libx11 (= 1.8.7)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libx11-static_1.8.7_aarch64.deb
+Filename: tmp_deb_scan/pool/libx11-static_1.8.7_aarch64.deb
 Size: 566988
 MD5sum: 1dbf45f4d3b3bf9e223790cbb0d5cb7d
 SHA1: 91ffb131318fcf81ae53920268734427b37ae56c
@@ -2803,7 +2803,7 @@ Version: 1.0.11
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 120
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxau_1.0.11_aarch64.deb
+Filename: tmp_deb_scan/pool/libxau_1.0.11_aarch64.deb
 Size: 8432
 MD5sum: 0c2173a05c24a41052389f99e6e3460e
 SHA1: 6aecce35602e5cca4ab13f191d22e7f9dd141157
@@ -2817,7 +2817,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 52
 Depends: libxau (= 1.0.11)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxau-static_1.0.11_aarch64.deb
+Filename: tmp_deb_scan/pool/libxau-static_1.0.11_aarch64.deb
 Size: 5068
 MD5sum: e5c3a652e1349ecd11ad6a1c0f67cc2a
 SHA1: 4a66db250b8dd9228bb1561bbb220966caa6e19d
@@ -2832,7 +2832,7 @@ Maintainer: @termux
 Installed-Size: 12736
 Depends: libxau, libxdmcp
 Recommends: xorg-xauth
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxcb_1.16_aarch64.deb
+Filename: tmp_deb_scan/pool/libxcb_1.16_aarch64.deb
 Size: 937236
 MD5sum: d78644adccdc58b8e7cdab310b90691f
 SHA1: 8657de8ad22bab59f5d245714610774c2e11626e
@@ -2846,7 +2846,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 1348
 Depends: libxcb (= 1.16)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxcb-static_1.16_aarch64.deb
+Filename: tmp_deb_scan/pool/libxcb-static_1.16_aarch64.deb
 Size: 159960
 MD5sum: 6564e09dd10aeb2c60c5bac0d5606df6
 SHA1: bd1f17b457ffccc81dd0b03628d557e5dddda366
@@ -2860,7 +2860,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 368
 Depends: libx11, libxfixes, libxrender
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxcursor_1.2.1-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libxcursor_1.2.1-1_aarch64.deb
 Size: 27084
 MD5sum: f0563744136c34273fce34334250c92d
 SHA1: 72d3de555c46ca2ebd92431e0eec43017b98a0e8
@@ -2874,7 +2874,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 88
 Depends: libxcursor (= 1.2.1-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxcursor-static_1.2.1-1_aarch64.deb
+Filename: tmp_deb_scan/pool/libxcursor-static_1.2.1-1_aarch64.deb
 Size: 16408
 MD5sum: fa6abd7007162237e061f65c6e12094b
 SHA1: 7a98a80722182a4a5a6c85cd72ba3acdbe9ef08b
@@ -2887,7 +2887,7 @@ Version: 1.1.4
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 192
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxdmcp_1.1.4_aarch64.deb
+Filename: tmp_deb_scan/pool/libxdmcp_1.1.4_aarch64.deb
 Size: 24088
 MD5sum: 4e9580e0b6199320b6509a3854f2c30b
 SHA1: 0c588937483d7fceddc6cfc41f55ad05bc24de4c
@@ -2901,7 +2901,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 60
 Depends: libxdmcp (= 1.1.4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxdmcp-static_1.1.4_aarch64.deb
+Filename: tmp_deb_scan/pool/libxdmcp-static_1.1.4_aarch64.deb
 Size: 7820
 MD5sum: 960586be02ab0e8129cb423d2be16992
 SHA1: c448ee4879130ee6a9a00db50d5ea459cdf84b12
@@ -2915,7 +2915,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 612
 Depends: libx11
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxext_1.3.5_aarch64.deb
+Filename: tmp_deb_scan/pool/libxext_1.3.5_aarch64.deb
 Size: 97296
 MD5sum: 552088c7520511250b36ec1a16a1552d
 SHA1: c32fbd52466b490441a9b719e96a5e37aac9e94b
@@ -2929,7 +2929,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 152
 Depends: libxext (= 1.3.5)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxext-static_1.3.5_aarch64.deb
+Filename: tmp_deb_scan/pool/libxext-static_1.3.5_aarch64.deb
 Size: 25280
 MD5sum: cc3041183ca99cd74d62d8d37b2bf7dc
 SHA1: 0227bc940cbfa8c2caa1f2d17188ff7e21f9d599
@@ -2943,7 +2943,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 104
 Depends: libx11
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxfixes_6.0.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libxfixes_6.0.1_aarch64.deb
 Size: 11132
 MD5sum: 18280f34dd454a2f53588af6e1b21bee
 SHA1: 3df0431f0b1e460b862d7ca138776b0f1032e626
@@ -2957,7 +2957,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 60
 Depends: libxfixes (= 6.0.1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxfixes-static_6.0.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libxfixes-static_6.0.1_aarch64.deb
 Size: 7688
 MD5sum: bc7cd25c11ced5b6be44f2bee64b6e77
 SHA1: 296b9a31bc95060ff44ecc0fedcdec5cf25e1dcb
@@ -2971,7 +2971,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 492
 Depends: fontconfig, freetype, libx11, libxrender
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxft_2.3.8_aarch64.deb
+Filename: tmp_deb_scan/pool/libxft_2.3.8_aarch64.deb
 Size: 47844
 MD5sum: 8e3ecd88755a6bfdc998e1bad55cd88d
 SHA1: 0310c09cca4caf0c4bdb13b4662bd4acff92f213
@@ -2985,7 +2985,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 160
 Depends: libxft (= 2.3.8)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxft-static_2.3.8_aarch64.deb
+Filename: tmp_deb_scan/pool/libxft-static_2.3.8_aarch64.deb
 Size: 36152
 MD5sum: b47560d0b80eabe13b8b8d6fcce0ceb8
 SHA1: e79391605ac845e85a4a6ecf25ed11bfc2cdb8f9
@@ -2999,7 +2999,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 784
 Depends: libx11, libxext
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxi_1.8.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libxi_1.8.1_aarch64.deb
 Size: 141648
 MD5sum: 145acea57a810bbd899a3f95c2b4f4f1
 SHA1: e584e3e6b88c11c6f6bb4337286235ed5ab4a96d
@@ -3013,7 +3013,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 180
 Depends: libxi (= 1.8.1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxi-static_1.8.1_aarch64.deb
+Filename: tmp_deb_scan/pool/libxi-static_1.8.1_aarch64.deb
 Size: 26864
 MD5sum: b0243a44b937c9f77b236dea605256d9
 SHA1: 18568c68cbe94b8a03dc81b0f2d3d464dedd017d
@@ -3029,7 +3029,7 @@ Installed-Size: 2352
 Depends: libiconv, liblzma, zlib
 Breaks: libxml2-dev
 Replaces: libxml2-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxml2_2.12.3_aarch64.deb
+Filename: tmp_deb_scan/pool/libxml2_2.12.3_aarch64.deb
 Size: 538912
 MD5sum: cd3bbadfe2e7bddb8bebfc88f65d6e25
 SHA1: e856600eeadc51dffd001d55ef0aad9113d1116d
@@ -3043,7 +3043,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 2028
 Depends: python, libxml2 (= 2.12.3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxml2-python_2.12.3_aarch64.deb
+Filename: tmp_deb_scan/pool/libxml2-python_2.12.3_aarch64.deb
 Size: 204976
 MD5sum: 71f5773abc7808e16228f2d28f78c50f
 SHA1: b827725aaab2d9045e1b174e80600ab6e0209336
@@ -3057,7 +3057,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 608
 Depends: libxml2-python, libxml2 (= 2.12.3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxml2-python-static_2.12.3_aarch64.deb
+Filename: tmp_deb_scan/pool/libxml2-python-static_2.12.3_aarch64.deb
 Size: 70172
 MD5sum: 465f23e4b26a82864b9fb564060344da
 SHA1: 5149a10dcc579ed36debb4f0fd6780d516dd3c0e
@@ -3071,7 +3071,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 2056
 Depends: libxml2 (= 2.12.3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxml2-static_2.12.3_aarch64.deb
+Filename: tmp_deb_scan/pool/libxml2-static_2.12.3_aarch64.deb
 Size: 467720
 MD5sum: 11cd214f9c5bbbce333a0e154feb7259
 SHA1: 264fc61a655148adb8cf77f1cddcf189c19281f7
@@ -3085,7 +3085,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 132
 Depends: libxml2 (= 2.12.3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxml2-utils_2.12.3_aarch64.deb
+Filename: tmp_deb_scan/pool/libxml2-utils_2.12.3_aarch64.deb
 Size: 31888
 MD5sum: c6086e0a7460baa49862a7c7af577cbf
 SHA1: cd5e0f7170ea132458c31bbd9f2b7e25607ce746
@@ -3099,7 +3099,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 196
 Depends: libx11, libxext, libxrender
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxrandr_1.5.4_aarch64.deb
+Filename: tmp_deb_scan/pool/libxrandr_1.5.4_aarch64.deb
 Size: 22384
 MD5sum: 5230c16b24b7edce7aeb86a1982a2e4e
 SHA1: f157d1f4c70791c6f580daa52d50194f2fbfefd7
@@ -3113,7 +3113,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 100
 Depends: libxrandr (= 1.5.4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxrandr-static_1.5.4_aarch64.deb
+Filename: tmp_deb_scan/pool/libxrandr-static_1.5.4_aarch64.deb
 Size: 14896
 MD5sum: 3a3e075678f15f4e586a0801733e1f74
 SHA1: eb155647a129bf59673e1aa6686c074c48570a1a
@@ -3127,7 +3127,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 156
 Depends: libx11
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxrender_0.9.11_aarch64.deb
+Filename: tmp_deb_scan/pool/libxrender_0.9.11_aarch64.deb
 Size: 23580
 MD5sum: 70ec317c967c7a48bf8c1829bb129223
 SHA1: f7781cde8e9f9f11eee5ab071cd146a349a430f4
@@ -3141,7 +3141,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 88
 Depends: libxrender (= 0.9.11)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxrender-static_0.9.11_aarch64.deb
+Filename: tmp_deb_scan/pool/libxrender-static_0.9.11_aarch64.deb
 Size: 14820
 MD5sum: e2c4bc56adba7f46f7cffdf206f78a0e
 SHA1: 7c12fd1e21671b00a4329c8b6f03363d8dd4fd42
@@ -3157,7 +3157,7 @@ Installed-Size: 1332
 Depends: libgcrypt, libgpg-error, libxml2
 Breaks: libxslt-dev
 Replaces: libxslt-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxslt_1.1.39_aarch64.deb
+Filename: tmp_deb_scan/pool/libxslt_1.1.39_aarch64.deb
 Size: 189852
 MD5sum: 17a0a883519449d73e5a99cbdf197311
 SHA1: c1483381c2f96b833dd264917dc920e67f918d71
@@ -3171,7 +3171,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 600
 Depends: libxslt (= 1.1.39)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxslt-static_1.1.39_aarch64.deb
+Filename: tmp_deb_scan/pool/libxslt-static_1.1.39_aarch64.deb
 Size: 123888
 MD5sum: fe70df77afe1040308c408ac9d90c0f3
 SHA1: 551f552cb6176215b47eb69eafc8401ec81b86bc
@@ -3185,7 +3185,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 144
 Depends: libx11, libxau, libxcb, libxdmcp, libxext
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxss_1.2.4_aarch64.deb
+Filename: tmp_deb_scan/pool/libxss_1.2.4_aarch64.deb
 Size: 12040
 MD5sum: 772dda1f5b0faf903710a90def74e483
 SHA1: 3b427170dfa4f87f9425c920347eb9a501fd073e
@@ -3199,7 +3199,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 44
 Depends: libxss (= 1.2.4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxss-static_1.2.4_aarch64.deb
+Filename: tmp_deb_scan/pool/libxss-static_1.2.4_aarch64.deb
 Size: 4480
 MD5sum: 3a3eaba30cf8ee194b2e46067baacc85
 SHA1: 331ed6bfb6206ad151ccbc5663b1bed69f8e8bb9
@@ -3213,7 +3213,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 3104
 Depends: libice, libsm, libx11
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxt_1.3.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libxt_1.3.0_aarch64.deb
 Size: 482420
 MD5sum: 261f0a0956ba3bc7c94d7b0808bfe4ef
 SHA1: 8fed4a3d67a3e90af147e449006807300e668576
@@ -3227,7 +3227,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 672
 Depends: libxt (= 1.3.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxt-static_1.3.0_aarch64.deb
+Filename: tmp_deb_scan/pool/libxt-static_1.3.0_aarch64.deb
 Size: 147952
 MD5sum: ae51317222d3796a9a1a1e5bdf0ca9eb
 SHA1: a1cbfed1c50bb0aec14df5d157b31ca9af922fad
@@ -3241,7 +3241,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 232
 Depends: libx11, libxext, libxi
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxtst_1.2.4_aarch64.deb
+Filename: tmp_deb_scan/pool/libxtst_1.2.4_aarch64.deb
 Size: 25516
 MD5sum: eb46926ca149068def22e190540523a3
 SHA1: b38a1ab46493a0424dde70a2cb8eb9a70e53991f
@@ -3255,7 +3255,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 56
 Depends: libxtst (= 1.2.4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/libxtst-static_1.2.4_aarch64.deb
+Filename: tmp_deb_scan/pool/libxtst-static_1.2.4_aarch64.deb
 Size: 8504
 MD5sum: ddaf3563774ffbcffe6fdc3f4f398029
 SHA1: f9feea2fc678c9c9d6d6de31a00440f1af419343
@@ -3270,7 +3270,7 @@ Maintainer: @termux
 Installed-Size: 540
 Breaks: littlecms-dev
 Replaces: littlecms-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/littlecms_2.16_aarch64.deb
+Filename: tmp_deb_scan/pool/littlecms_2.16_aarch64.deb
 Size: 141500
 MD5sum: ebe37e0543f2affc12986c29769c6ebb
 SHA1: 71d3075adb3d79139676f56162a18623da557993
@@ -3284,7 +3284,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 648
 Depends: littlecms (= 2.16)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/littlecms-static_2.16_aarch64.deb
+Filename: tmp_deb_scan/pool/littlecms-static_2.16_aarch64.deb
 Size: 145072
 MD5sum: 2ede643446a828e0cf2503f1f99f8312
 SHA1: caae6c83f0a841def9e599d878c91a9d58430442
@@ -3298,7 +3298,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 180
 Depends: libjpeg-turbo, libtiff, littlecms (= 2.16)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/littlecms-utils_2.16_aarch64.deb
+Filename: tmp_deb_scan/pool/littlecms-utils_2.16_aarch64.deb
 Size: 35252
 MD5sum: 5c45b56b6d53f75edeceea8eaf242cc4
 SHA1: 9e5cd8ba8fc2d5c6fe784e8409b696ab9f0391f6
@@ -3312,7 +3312,7 @@ Architecture: aarch64
 Maintainer: @finagolfin
 Installed-Size: 16244
 Depends: libllvm (= 17.0.6)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/lld_17.0.6_aarch64.deb
+Filename: tmp_deb_scan/pool/lld_17.0.6_aarch64.deb
 Size: 2271844
 MD5sum: a9b36d35d0cf423b5c7ae361eac7031b
 SHA1: 435843c0df7db373cd6cbb71dac55e102fbcb637
@@ -3328,7 +3328,7 @@ Installed-Size: 23312
 Depends: clang, libc++, libedit, libxml2, python, ncurses-ui-libs, libllvm (= 17.0.6)
 Breaks: lldb-dev, lldb-static
 Replaces: lldb-dev, lldb-static
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/lldb_17.0.6_aarch64.deb
+Filename: tmp_deb_scan/pool/lldb_17.0.6_aarch64.deb
 Size: 4700744
 MD5sum: fdf887076d3a093ef1911104cde1e6d5
 SHA1: 324d24557682ba26f647187a9af23a2d69aea357
@@ -3344,7 +3344,7 @@ Installed-Size: 99788
 Depends: libllvm (= 17.0.6)
 Breaks: libllvm (<< 11.0.0-1)
 Replaces: libllvm (<< 11.0.0-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/llvm_17.0.6_aarch64.deb
+Filename: tmp_deb_scan/pool/llvm_17.0.6_aarch64.deb
 Size: 18039972
 MD5sum: bf62b54960c57b0150d8d759343bcd44
 SHA1: 5abbcb057ab853911fe9990d1f5d63378b17f325
@@ -3360,7 +3360,7 @@ Installed-Size: 11468
 Depends: libc++, ncurses, zlib, libllvm (= 17.0.6)
 Breaks: libllvm (<< 16.0.0)
 Replaces: libllvm (<< 16.0.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/llvm-tools_17.0.6_aarch64.deb
+Filename: tmp_deb_scan/pool/llvm-tools_17.0.6_aarch64.deb
 Size: 2148928
 MD5sum: 98d02bcbfc3fd8191f10bce08906cd72
 SHA1: 25c82da28793a697863679c6f1c087cbbed25ef4
@@ -3374,7 +3374,7 @@ Architecture: aarch64
 Maintainer: @finagolfin
 Installed-Size: 104
 Depends: binutils-gold, libllvm (= 17.0.6)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/llvmgold_17.0.6_aarch64.deb
+Filename: tmp_deb_scan/pool/llvmgold_17.0.6_aarch64.deb
 Size: 26960
 MD5sum: 75263760f205db7643bfd23b75e272f6
 SHA1: d695bac88b1eb75c6bcad094ebaabeb54701a88a
@@ -3388,7 +3388,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 392
 Depends: libandroid-support, libtirpc
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/lsof_4.99.0_aarch64.deb
+Filename: tmp_deb_scan/pool/lsof_4.99.0_aarch64.deb
 Size: 122532
 MD5sum: ebad0e3acdaef048ad77375d96fee8ee
 SHA1: 40ddaec69735b3bc693a25701c91e40e39885340
@@ -3402,7 +3402,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 268
 Depends: lsof (= 4.99.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/lsof-static_4.99.0_aarch64.deb
+Filename: tmp_deb_scan/pool/lsof-static_4.99.0_aarch64.deb
 Size: 55724
 MD5sum: 9997061389b2e5eddf1cbb89f73305f4
 SHA1: 2675038c167322377e05bc15c9fc86dc7d047407
@@ -3416,7 +3416,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 468
 Depends: liblz4 (= 1.9.4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/lz4_1.9.4_aarch64.deb
+Filename: tmp_deb_scan/pool/lz4_1.9.4_aarch64.deb
 Size: 85752
 MD5sum: 0c135dddfc9ba166c50ef575ae9ff5c1
 SHA1: 9c7d9d140684bf4a16a44154bb188c7f242e31ae
@@ -3429,7 +3429,7 @@ Version: 1.4.19-4
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 664
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/m4_1.4.19-4_aarch64.deb
+Filename: tmp_deb_scan/pool/m4_1.4.19-4_aarch64.deb
 Size: 189064
 MD5sum: 4eac25d0dc435c48691ba3e0289ecee0
 SHA1: 63806b94491ac930ea81364f254ec9847e61de96
@@ -3445,7 +3445,7 @@ Installed-Size: 936
 Conflicts: make-guile
 Breaks: make-dev
 Replaces: make-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/make_4.4.1_aarch64.deb
+Filename: tmp_deb_scan/pool/make_4.4.1_aarch64.deb
 Size: 239612
 MD5sum: 1ba5c510045cf196f57433a1dd6b5c7d
 SHA1: 6c072859b8d0ffefbda823c53ecc88733ff564b9
@@ -3459,7 +3459,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 3068
 Depends: glib, libandroid-support, libssh2, ncurses
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/mc_4.8.30_aarch64.deb
+Filename: tmp_deb_scan/pool/mc_4.8.30_aarch64.deb
 Size: 607464
 MD5sum: f834d9809462c939c849f889c88b701e
 SHA1: ecf11858c48875707da62a7701213a7a62c5554e
@@ -3473,7 +3473,7 @@ Architecture: aarch64
 Maintainer: @finagolfin
 Installed-Size: 277240
 Depends: libc++, ncurses, libllvm (= 17.0.6)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/mlir_17.0.6_aarch64.deb
+Filename: tmp_deb_scan/pool/mlir_17.0.6_aarch64.deb
 Size: 36805056
 MD5sum: 01b6d4ba8e42b4e1b86a867d0a08cc22
 SHA1: 9e589c26c3df17ce42cb3738a0c99c614d13c7ce
@@ -3488,7 +3488,7 @@ Maintainer: @termux
 Installed-Size: 496
 Depends: libblkid, libsmartcols, libmount
 Breaks: termux-tools (<= 1.34.1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/mount-utils_2.39.3-3_aarch64.deb
+Filename: tmp_deb_scan/pool/mount-utils_2.39.3-3_aarch64.deb
 Size: 131356
 MD5sum: 97ce80211e71f5efd003f03e251b51f4
 SHA1: d26af56bbd44eb0e8cc0ed322c46558cca9ad133
@@ -3502,7 +3502,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 888
 Depends: libandroid-support, ncurses
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/nano_7.2_aarch64.deb
+Filename: tmp_deb_scan/pool/nano_7.2_aarch64.deb
 Size: 218684
 MD5sum: da947df1fcbbc6ace3e34cccd86a91c5
 SHA1: 6854e5e0da4f3cf27844cf48b328c2c9ead6c7c8
@@ -3517,7 +3517,7 @@ Maintainer: @termux
 Installed-Size: 1568
 Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/ncurses_6.4.20231001-3_aarch64.deb
+Filename: tmp_deb_scan/pool/ncurses_6.4.20231001-3_aarch64.deb
 Size: 522484
 MD5sum: 6d8d2c186f4cd4f8be05ad8c55342aa9
 SHA1: ccd8255b2520556999f6be8d4aae3abeac0850ef
@@ -3531,7 +3531,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 788
 Depends: ncurses (= 6.4.20231001-3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/ncurses-static_6.4.20231001-3_aarch64.deb
+Filename: tmp_deb_scan/pool/ncurses-static_6.4.20231001-3_aarch64.deb
 Size: 155336
 MD5sum: 6737eddf3a2d0f368394c47c80a2ba64
 SHA1: b3e45e773f0322e20645e0b40a3ba2a607888da9
@@ -3547,7 +3547,7 @@ Installed-Size: 148
 Depends: ncurses (= 6.4.20231001-3)
 Breaks: ncurses (<< 6.4)
 Replaces: ncurses (<< 6.4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/ncurses-ui-libs_6.4.20231001-3_aarch64.deb
+Filename: tmp_deb_scan/pool/ncurses-ui-libs_6.4.20231001-3_aarch64.deb
 Size: 32952
 MD5sum: 1ece6bccd8db8fe62c04657eb40b9a58
 SHA1: 465bc7d462428f03c6de7fdd0e79f3a851f231c4
@@ -3561,7 +3561,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 260
 Depends: ncurses-ui-libs, ncurses (= 6.4.20231001-3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/ncurses-ui-libs-static_6.4.20231001-3_aarch64.deb
+Filename: tmp_deb_scan/pool/ncurses-ui-libs-static_6.4.20231001-3_aarch64.deb
 Size: 39880
 MD5sum: dc4358da2df193f924a8e2ee91c31c4f
 SHA1: b6d3971683d2d0cc71f612f257b08db75d9e5f27
@@ -3575,7 +3575,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 264
 Depends: ncurses (= 6.4.20231001-3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/ncurses-utils_6.4.20231001-3_aarch64.deb
+Filename: tmp_deb_scan/pool/ncurses-utils_6.4.20231001-3_aarch64.deb
 Size: 87352
 MD5sum: 2538e954702da5802356e8eeba204e36
 SHA1: 125d64c9a558d315a479ff2e9c6f8562b6f48aba
@@ -3590,7 +3590,7 @@ Maintainer: @termux
 Installed-Size: 19704
 Conflicts: libutil-dev, libgcc, libandroid-support-dev
 Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/ndk-sysroot_26b_aarch64.deb
+Filename: tmp_deb_scan/pool/ndk-sysroot_26b_aarch64.deb
 Size: 1663252
 MD5sum: 56d6274833156085f6620fea32e44a9a
 SHA1: 6e783b514008bc446b33cfa8e72293c1bb42031d
@@ -3603,7 +3603,7 @@ Version: 2.10.0
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 572
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/net-tools_2.10.0_aarch64.deb
+Filename: tmp_deb_scan/pool/net-tools_2.10.0_aarch64.deb
 Size: 118408
 MD5sum: 4362faabda35a30a7f9ad9f467dbe867
 SHA1: 79f9320dbd81a1c0953bb5b65a0de61dbd1ecd03
@@ -3617,7 +3617,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 112
 Depends: libnettle (= 3.9.1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/nettle_3.9.1_aarch64.deb
+Filename: tmp_deb_scan/pool/nettle_3.9.1_aarch64.deb
 Size: 18168
 MD5sum: 8e11bc1241e61fb806182304a4398b70
 SHA1: 689c5609602e81e7c845440480eaf9357e2d250e
@@ -3631,7 +3631,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 280
 Depends: libc++, libandroid-spawn
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/ninja_1.11.1_aarch64.deb
+Filename: tmp_deb_scan/pool/ninja_1.11.1_aarch64.deb
 Size: 75780
 MD5sum: 0716a4124f15931262730e282ef9ccf0
 SHA1: bc39f4bce593945071d5cb14ade29c1e02eb1b1c
@@ -3649,7 +3649,7 @@ Suggests: clang, make, pkg-config, python
 Conflicts: nodejs-lts, nodejs-current
 Breaks: nodejs-dev
 Replaces: nodejs-current, nodejs-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/nodejs_20.2.0-1_aarch64.deb
+Filename: tmp_deb_scan/pool/nodejs_20.2.0-1_aarch64.deb
 Size: 9715648
 MD5sum: 1ca1ac8934a6169dced8d2716e265b95
 SHA1: f378e0b9f5b561771b955c068f1a32ec23e8d884
@@ -3662,7 +3662,7 @@ Version: 6.9.9
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 676
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/oniguruma_6.9.9_aarch64.deb
+Filename: tmp_deb_scan/pool/oniguruma_6.9.9_aarch64.deb
 Size: 136228
 MD5sum: 528e3e5c228651820b9fe790c71ba955
 SHA1: e81c800a86851e35dbf8001a7a5fbe26082bd247
@@ -3676,7 +3676,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 812
 Depends: oniguruma (= 6.9.9)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/oniguruma-static_6.9.9_aarch64.deb
+Filename: tmp_deb_scan/pool/oniguruma-static_6.9.9_aarch64.deb
 Size: 143340
 MD5sum: 8988d3c9a9d2bd5084459e68384d8b03
 SHA1: fb8f7f8cfe3d44899aca6881f02509a13d27ec8d
@@ -3693,7 +3693,7 @@ Depends: libiconv, libjpeg-turbo, zlib
 Recommends: ca-certificates-java, openjdk-17-x, resolv-conf
 Suggests: cups
 Breaks: openjdk-17 (<< 17.0-28)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/openjdk-17_17.0-30_aarch64.deb
+Filename: tmp_deb_scan/pool/openjdk-17_17.0-30_aarch64.deb
 Size: 98081360
 MD5sum: 6a8542ce2652769313d74fff3e0715ff
 SHA1: 4eb687bb525bdfa2aa793435f45e3edde97b7739
@@ -3708,7 +3708,7 @@ Maintainer: @termux
 Installed-Size: 15584
 Depends: fontconfig, freetype, giflib, libandroid-shmem, libpng, libx11, libxext, libxi, libxrandr, libxrender, libxt, libxtst, openjdk-17 (= 17.0-30)
 Breaks: openjdk-17 (<< 17.0-28)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/openjdk-17-x_17.0-30_aarch64.deb
+Filename: tmp_deb_scan/pool/openjdk-17-x_17.0-30_aarch64.deb
 Size: 12797528
 MD5sum: e9b4aa9ddec4abefd3a06576b776b7b6
 SHA1: 10b481322eb9accce042c13d4aece2a16e9847c9
@@ -3725,7 +3725,7 @@ Depends: libiconv, libjpeg-turbo, zlib, libandroid-spawn
 Recommends: ca-certificates-java, openjdk-21-x, resolv-conf
 Suggests: cups
 Replaces: openjdk-17
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/openjdk-21_21.0.1-1_aarch64.deb
+Filename: tmp_deb_scan/pool/openjdk-21_21.0.1-1_aarch64.deb
 Size: 105872208
 MD5sum: 3bd0ab77c472aac40eda197fe5feede8
 SHA1: d65aa3a6e4b2a905ef465abc5baea7ad571501b1
@@ -3740,7 +3740,7 @@ Maintainer: @termux
 Installed-Size: 16656
 Depends: fontconfig, freetype, giflib, libandroid-shmem, libpng, libx11, libxext, libxi, libxrandr, libxrender, libxt, libxtst, openjdk-21 (= 21.0.1-1)
 Replaces: openjdk-17-x
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/openjdk-21-x_21.0.1-1_aarch64.deb
+Filename: tmp_deb_scan/pool/openjdk-21-x_21.0.1-1_aarch64.deb
 Size: 13279132
 MD5sum: 6925550b7a88417db31f1d343b88aa94
 SHA1: 8845bb4f49e32568840d7304540d77660892225f
@@ -3755,7 +3755,7 @@ Maintainer: @termux
 Installed-Size: 516
 Breaks: openjpeg-dev
 Replaces: openjpeg-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/openjpeg_2.5.0-1_aarch64.deb
+Filename: tmp_deb_scan/pool/openjpeg_2.5.0-1_aarch64.deb
 Size: 148056
 MD5sum: c09b5df69eab4ee6b73428eb7be2dfb7
 SHA1: e64327bdeec122ab48d08df8e95bfe1461f8a188
@@ -3769,7 +3769,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 268
 Depends: libtiff, littlecms, libpng, openjpeg (= 2.5.0-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/openjpeg-tools_2.5.0-1_aarch64.deb
+Filename: tmp_deb_scan/pool/openjpeg-tools_2.5.0-1_aarch64.deb
 Size: 68808
 MD5sum: 186eaff83e5dbee6c664ee09aa131999
 SHA1: e734dcae85802ac3d3eb6398c5687bfc0d55b0ff
@@ -3784,7 +3784,7 @@ Maintainer: @termux
 Installed-Size: 5768
 Depends: krb5, ldns, libandroid-support, libedit, openssh-sftp-server, openssl, termux-auth, zlib
 Conflicts: dropbear
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/openssh_9.5p1-2_aarch64.deb
+Filename: tmp_deb_scan/pool/openssh_9.5p1-2_aarch64.deb
 Size: 822832
 MD5sum: 736c74d764b132160458e17f13bc9b22
 SHA1: b6c06acda1f3b3627047c6c0dc7c8703b9daf917
@@ -3800,7 +3800,7 @@ Installed-Size: 184
 Depends: libandroid-support
 Breaks: openssh (<< 9.0p1-1)
 Replaces: openssh (<< 9.0p1-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/openssh-sftp-server_9.5p1-2_aarch64.deb
+Filename: tmp_deb_scan/pool/openssh-sftp-server_9.5p1-2_aarch64.deb
 Size: 49624
 MD5sum: 032052839cb0e758e24805747dcfd773
 SHA1: fefedcd161a0e992f991085b97e6ec0dc4fb593d
@@ -3817,7 +3817,7 @@ Depends: ca-certificates, zlib
 Conflicts: libcurl (<< 7.61.0-1)
 Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
 Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/openssl_1AAA3.1.4_aarch64.deb
+Filename: tmp_deb_scan/pool/openssl_1aaa3.1.4_aarch64.deb
 Size: 1631148
 MD5sum: 255726c068d7e184e2708bf813811ccb
 SHA1: ef314c4633a90608012e8faae00b6549372a6b91
@@ -3834,7 +3834,7 @@ Depends: ca-certificates, zlib
 Conflicts: libcurl (<< 7.61.0-1)
 Breaks: openssl (<< 1.1.1m)
 Replaces: openssl (<< 1.1.1m)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/openssl-1.1_1AAA1.1.1w_aarch64.deb
+Filename: tmp_deb_scan/pool/openssl-1.1_1aaa1.1.1w_aarch64.deb
 Size: 1210908
 MD5sum: a36a7058e5f608fa354efa45b1c9ab46
 SHA1: 2cf9feee852e12af8acc34dcb19593286c5ee440
@@ -3848,7 +3848,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 5756
 Depends: openssl-1.1 (= 1:1.1.1w)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/openssl-1.1-static_1AAA1.1.1w_aarch64.deb
+Filename: tmp_deb_scan/pool/openssl-1.1-static_1aaa1.1.1w_aarch64.deb
 Size: 1218948
 MD5sum: dd17eebe2b837c8430fa0b1cc3686a37
 SHA1: 89161f2c5301a17cc61b2afbcd5cce9d581ce814
@@ -3862,7 +3862,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 9156
 Depends: openssl (= 1:3.1.4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/openssl-static_1AAA3.1.4_aarch64.deb
+Filename: tmp_deb_scan/pool/openssl-static_1aaa3.1.4_aarch64.deb
 Size: 1705904
 MD5sum: 12ce6d1e56cb67a7434453a8e191870b
 SHA1: ef19366406f1f328da626a095e1339d3dda50556
@@ -3876,7 +3876,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 868
 Depends: openssl (= 1:3.1.4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/openssl-tool_1AAA3.1.4_aarch64.deb
+Filename: tmp_deb_scan/pool/openssl-tool_1aaa3.1.4_aarch64.deb
 Size: 247320
 MD5sum: d38351b5e3f4d4a03ccd6fc2a41b776c
 SHA1: feb91a72ae9170a2c7944b4d126a19be1a1da232
@@ -3890,7 +3890,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 656
 Depends: openssl-1.1 (= 1:1.1.1w)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/openssl1.1-tool_1AAA1.1.1w_aarch64.deb
+Filename: tmp_deb_scan/pool/openssl1.1-tool_1aaa1.1.1w_aarch64.deb
 Size: 192680
 MD5sum: 2f1e71845af5714dc9b018d36a5a2bcb
 SHA1: 572fd594f9f3e39a3f998bda4435acf45fd92703
@@ -3903,7 +3903,7 @@ Version: 2.7.6-3
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 228
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/patch_2.7.6-3_aarch64.deb
+Filename: tmp_deb_scan/pool/patch_2.7.6-3_aarch64.deb
 Size: 81724
 MD5sum: fda7fe37239134d2171dd102df192ffd
 SHA1: 2228f0b810c8c8a4e51e6667f1d278bee859bbe5
@@ -3919,7 +3919,7 @@ Installed-Size: 2716
 Depends: libc++
 Breaks: pcre-dev
 Replaces: pcre-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/pcre_8.45-1_aarch64.deb
+Filename: tmp_deb_scan/pool/pcre_8.45-1_aarch64.deb
 Size: 656612
 MD5sum: 74e36a8b3422c4dc0df2282f6ae22b73
 SHA1: 87871aff85af9c37bdd4d1323677df710263a69b
@@ -3933,7 +3933,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 544
 Depends: pcre (= 8.45-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/pcre-static_8.45-1_aarch64.deb
+Filename: tmp_deb_scan/pool/pcre-static_8.45-1_aarch64.deb
 Size: 138640
 MD5sum: 3afeb6e8aa80b783c21174cb504f52a4
 SHA1: 941c02d1eee5d4e6df869910d477a88973c26d80
@@ -3948,7 +3948,7 @@ Maintainer: @termux
 Installed-Size: 3972
 Breaks: pcre2-dev
 Replaces: pcre2-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/pcre2_10.42_aarch64.deb
+Filename: tmp_deb_scan/pool/pcre2_10.42_aarch64.deb
 Size: 863188
 MD5sum: 667eb7567187dbd72302093881800a0e
 SHA1: 75fa6dae80cb075e3122cd7a93a7017e18c3c97a
@@ -3962,7 +3962,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 1672
 Depends: pcre2 (= 10.42)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/pcre2-static_10.42_aarch64.deb
+Filename: tmp_deb_scan/pool/pcre2-static_10.42_aarch64.deb
 Size: 335228
 MD5sum: af2f0d50ecebb529aad840cd993c1a56
 SHA1: 9aea208180d4a48512418e7aa7f3ce3b9070da11
@@ -3976,7 +3976,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 100
 Depends: pcre2 (= 10.42)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/pcre2grep_10.42_aarch64.deb
+Filename: tmp_deb_scan/pool/pcre2grep_10.42_aarch64.deb
 Size: 32632
 MD5sum: a0b08ced0f15f060b17157e21d970d2e
 SHA1: 5bac7f87cebca133435e9cf2b8bf4ba06d9bca06
@@ -3990,7 +3990,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 88
 Depends: pcre (= 8.45-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/pcregrep_8.45-1_aarch64.deb
+Filename: tmp_deb_scan/pool/pcregrep_8.45-1_aarch64.deb
 Size: 24656
 MD5sum: f506d509fc134ae456903c319a3f5d81
 SHA1: 04315818b14b627e4892e3123f4d6be71b3b58b1
@@ -4003,7 +4003,7 @@ Version: 5.38.0-3
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 67700
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/perl_5.38.0-3_aarch64.deb
+Filename: tmp_deb_scan/pool/perl_5.38.0-3_aarch64.deb
 Size: 14239216
 MD5sum: 4765769cb7cf087d6463a065bce4fa3d
 SHA1: e7727a977c0c9088fb522bc5d88957744526b81b
@@ -4017,7 +4017,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 204
 Depends: libandroid-support, libassuan, libgpg-error, libiconv, ncurses
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/pinentry_1.2.1-1_aarch64.deb
+Filename: tmp_deb_scan/pool/pinentry_1.2.1-1_aarch64.deb
 Size: 44700
 MD5sum: 38f5b19e8708c6f215dc6daf4bce70ad
 SHA1: 6bfc4fc186ed14ccff1f26c89a2a55aba3632dcb
@@ -4031,7 +4031,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 140
 Depends: glib
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/pkg-config_0.29.2-2_aarch64.deb
+Filename: tmp_deb_scan/pool/pkg-config_0.29.2-2_aarch64.deb
 Size: 32756
 MD5sum: 2c8abf705c8b28129289da0dcc0eb14f
 SHA1: 7740884072649127b763fd764386db4f74f095fe
@@ -4048,7 +4048,7 @@ Installed-Size: 684
 Depends: ncurses
 Breaks: procps-dev
 Replaces: procps-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/procps_3.3.17-5_aarch64.deb
+Filename: tmp_deb_scan/pool/procps_3.3.17-5_aarch64.deb
 Size: 143272
 MD5sum: 6f46e764c3aa627048704c3f4ae6dddc
 SHA1: c72858bb0365da606f8496994f112dd27ed11a7b
@@ -4062,7 +4062,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 152
 Depends: procps (= 3.3.17-5)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/procps-static_3.3.17-5_aarch64.deb
+Filename: tmp_deb_scan/pool/procps-static_3.3.17-5_aarch64.deb
 Size: 28940
 MD5sum: 6ae30969597d5f43bb4574a5cdb5d9c0
 SHA1: 5ec952858ebceb2c31dac203ed8945617cc9d80a
@@ -4076,7 +4076,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 3216
 Depends: libprotobuf (= 2:22.4-2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/protobuf_2AAA22.4-2_aarch64.deb
+Filename: tmp_deb_scan/pool/protobuf_2aaa22.4-2_aarch64.deb
 Size: 749124
 MD5sum: 1830488c28355fb7f47f3375b9b92939
 SHA1: 8e718ffd5ac455f4b426ccbcc965173201fbd3b1
@@ -4093,7 +4093,7 @@ Depends: libprotobuf (= 2:22.4-2)
 Conflicts: protobuf-static
 Breaks: libprotobuf (<< 2:21.12)
 Replaces: libprotobuf (<< 2:21.12)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/protobuf-dev_2AAA22.4-2_aarch64.deb
+Filename: tmp_deb_scan/pool/protobuf-dev_2aaa22.4-2_aarch64.deb
 Size: 2780
 MD5sum: 9229375238caedaebf720cbc6d0b7d29
 SHA1: 5a56a1df610613c1ee925bc353ea9443f55f6b21
@@ -4108,7 +4108,7 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 188
 Depends: ncurses
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/psmisc_23.6-2_aarch64.deb
+Filename: tmp_deb_scan/pool/psmisc_23.6-2_aarch64.deb
 Size: 41188
 MD5sum: fb413d62ce437a7f14a5b69efd8b7a7f
 SHA1: 199fd17cd223926259ea60d5f2839d06972a1044
@@ -4127,7 +4127,7 @@ Suggests: python-tkinter
 Breaks: python2 (<= 2.7.15), python-dev
 Replaces: python-dev
 Provides: python3
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/python_3.11.6-1_aarch64.deb
+Filename: tmp_deb_scan/pool/python_3.11.6-1_aarch64.deb
 Size: 7973316
 MD5sum: 7ae6e03ff4493e80d76cf7242a5701e8
 SHA1: dc05f1b96ad8002904b34dcd9a558207396bc588
@@ -4142,7 +4142,7 @@ Maintainer: @termux
 Installed-Size: 21536
 Depends: clang, make, pkg-config, python (>= 3.11.1-1)
 Breaks: python (<< 3.11.1-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/python-pip_23.3.1_all.deb
+Filename: tmp_deb_scan/pool/python-pip_23.3.1_all.deb
 Size: 3469252
 MD5sum: c102d5c262d7c357204e21ee7c0de35f
 SHA1: 0764a25559ee1703b3f51e8c21e04471a2192f5c
@@ -4156,7 +4156,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 34208
 Depends: python (= 3.11.6-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/python-static_3.11.6-1_aarch64.deb
+Filename: tmp_deb_scan/pool/python-static_3.11.6-1_aarch64.deb
 Size: 5300428
 MD5sum: 8555b4ea9768dad2278fe09bae0b0ba4
 SHA1: 69c154bc2446d88869d94837a3f46a184f64de8a
@@ -4172,7 +4172,7 @@ Installed-Size: 11672
 Depends: tcl, tk, python (= 3.11.6-1)
 Breaks: python (<< 3.11.1-3)
 Replaces: python (<< 3.11.1-3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/python-tkinter_3.11.6-1_aarch64.deb
+Filename: tmp_deb_scan/pool/python-tkinter_3.11.6-1_aarch64.deb
 Size: 1235268
 MD5sum: 12ac5ff721ec439f41dae1ecbb5da8f9
 SHA1: 65f9661b02dc22476ab78cf84401e1a5133b1491
@@ -4187,7 +4187,7 @@ Maintainer: @termux
 Installed-Size: 240
 Depends: python, libunbound (= 1.19.0)
 Conflicts: unbound (<< 1.15.0-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/pyunbound_1.19.0_aarch64.deb
+Filename: tmp_deb_scan/pool/pyunbound_1.19.0_aarch64.deb
 Size: 38396
 MD5sum: 9b90e6b665be0bb541e264abcaf14ac8
 SHA1: 57c024aa33d7cc405604bb6e394eea58e53fb15f
@@ -4201,7 +4201,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 152
 Depends: libc++, zstd (= 1.5.5-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/pzstd_1.5.5-1_aarch64.deb
+Filename: tmp_deb_scan/pool/pzstd_1.5.5-1_aarch64.deb
 Size: 38528
 MD5sum: 19c3ef8acdc37f5a4be3bcfa490fe618
 SHA1: aada2ea222a8eae63d47ad8c267c383996648d00
@@ -4217,7 +4217,7 @@ Installed-Size: 1124
 Depends: libandroid-support, ncurses
 Breaks: bash (<< 5.0), readline-dev
 Replaces: readline-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/readline_8.2.1_aarch64.deb
+Filename: tmp_deb_scan/pool/readline_8.2.1_aarch64.deb
 Size: 232996
 MD5sum: 4a7ea3a007fdc8d9d010ccc15c2e7f0a
 SHA1: 69d5c47982e0c24600909248609047794b51c9fb
@@ -4231,7 +4231,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 680
 Depends: readline (= 8.2.1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/readline-static_8.2.1_aarch64.deb
+Filename: tmp_deb_scan/pool/readline-static_8.2.1_aarch64.deb
 Size: 118972
 MD5sum: d63b22581af4d75ab8b7a7fc9e4f5633
 SHA1: 6904027fbd3027c709974c97968f34e49cd11a8f
@@ -4244,7 +4244,7 @@ Version: 1.3
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 48
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/resolv-conf_1.3_aarch64.deb
+Filename: tmp_deb_scan/pool/resolv-conf_1.3_aarch64.deb
 Size: 1028
 MD5sum: c46597c7c0e2750bada3f5a54f17e27b
 SHA1: 72d95daa31c37be4b3e7b171dbff40f82837f294
@@ -4260,7 +4260,7 @@ Installed-Size: 372
 Depends: openssl
 Conflicts: librhash, rhash-dev
 Replaces: librhash, rhash-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/rhash_1.4.4_aarch64.deb
+Filename: tmp_deb_scan/pool/rhash_1.4.4_aarch64.deb
 Size: 153524
 MD5sum: e1d50a2de56f5021a549f6442a10f2c2
 SHA1: e11f76827b089c28de44ae3539d92167412f474b
@@ -4274,7 +4274,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 328
 Depends: rhash (= 1.4.4)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/rhash-static_1.4.4_aarch64.deb
+Filename: tmp_deb_scan/pool/rhash-static_1.4.4_aarch64.deb
 Size: 123744
 MD5sum: 9230cb3f542853ebab98362c794df942
 SHA1: 7a6d771b9e457ea4f0a52539136ec1a2dbce042a
@@ -4290,7 +4290,7 @@ Installed-Size: 492
 Depends: libgcrypt, libksba, libgpg-error, libassuan, libnpth, libusb, gnupg (= 2.4.3)
 Conflicts: gnupg (<< 2.3.3-2)
 Replaces: gnupg (<< 2.3.3-2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/scdaemon_2.4.3_aarch64.deb
+Filename: tmp_deb_scan/pool/scdaemon_2.4.3_aarch64.deb
 Size: 180940
 MD5sum: 3c991c496eec4b3d7a256237dfdfde9e
 SHA1: f1eba35d539255a1b99d2b6e3f2f4985423a828f
@@ -4304,7 +4304,7 @@ Architecture: aarch64
 Essential: yes
 Maintainer: @termux
 Installed-Size: 412
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/sed_4.9-1_aarch64.deb
+Filename: tmp_deb_scan/pool/sed_4.9-1_aarch64.deb
 Size: 117020
 MD5sum: c0bd80624770050aa2137adf47d9e24d
 SHA1: 7b53aa088c467c1bb66d517e4c8f0b9ff1b6122c
@@ -4320,7 +4320,7 @@ Installed-Size: 228
 Depends: apr, apr-util, openssl, zlib
 Breaks: serf-dev
 Replaces: serf-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/serf_1.3.10_aarch64.deb
+Filename: tmp_deb_scan/pool/serf_1.3.10_aarch64.deb
 Size: 47064
 MD5sum: b08a54db701e23dd5aa579297ce51b0c
 SHA1: d8f6c178ee7d3a278cf3d098fa0919bb000dbf92
@@ -4334,7 +4334,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 212
 Depends: serf (= 1.3.10)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/serf-static_1.3.10_aarch64.deb
+Filename: tmp_deb_scan/pool/serf-static_1.3.10_aarch64.deb
 Size: 39028
 MD5sum: 4b91ff5af683a64b6ffcb976d8def3bb
 SHA1: 017fba7c01343cac3282603f01e48df124d93390
@@ -4348,7 +4348,7 @@ Architecture: aarch64
 Maintainer: Tipz Team @TipzTeam
 Installed-Size: 88
 Depends: libc++
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/snake_2022.11.07_aarch64.deb
+Filename: tmp_deb_scan/pool/snake_2022.11.07_aarch64.deb
 Size: 16808
 MD5sum: 3d0776a087e593c3d93b31a5775018be
 SHA1: 4220131542523bf41d1fb83b2b220d0fff2d3df3
@@ -4362,7 +4362,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 1360
 Depends: readline, zlib
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/sqlite_3.44.0_aarch64.deb
+Filename: tmp_deb_scan/pool/sqlite_3.44.0_aarch64.deb
 Size: 568036
 MD5sum: 67f05e07c876ecc3ffdef7a82b6d9386
 SHA1: 6d35f6797e954ebc7a71a7f1ee681855eccea690
@@ -4378,7 +4378,7 @@ Installed-Size: 6184
 Depends: apr, apr-util, serf, libexpat, libsqlite, liblz4, utf8proc, zlib
 Breaks: subversion-dev
 Replaces: subversion-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/subversion_1.14.2-6_aarch64.deb
+Filename: tmp_deb_scan/pool/subversion_1.14.2-6_aarch64.deb
 Size: 1388196
 MD5sum: 4e2f8dc8a2e4673a3c1ca57b65017db4
 SHA1: 5db70229817709c3e0e9283ad03b1d2ed38a603e
@@ -4392,7 +4392,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 3804
 Depends: perl, subversion (= 1.14.2-6)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/subversion-perl_1.14.2-6_aarch64.deb
+Filename: tmp_deb_scan/pool/subversion-perl_1.14.2-6_aarch64.deb
 Size: 709160
 MD5sum: d6f46e609348db1e213045bd85446432
 SHA1: 9ae6f3dcc54adceba0cfdf2da96d64bb0d6ce0c1
@@ -4406,7 +4406,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 92
 Depends: subversion-perl, subversion (= 1.14.2-6)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/subversion-perl-static_1.14.2-6_aarch64.deb
+Filename: tmp_deb_scan/pool/subversion-perl-static_1.14.2-6_aarch64.deb
 Size: 15716
 MD5sum: 72aa92a016e71865c36da5ae84eaa365
 SHA1: 1189904f593bd3330603e92a27631def77c930be
@@ -4420,7 +4420,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 5760
 Depends: subversion (= 1.14.2-6)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/subversion-static_1.14.2-6_aarch64.deb
+Filename: tmp_deb_scan/pool/subversion-static_1.14.2-6_aarch64.deb
 Size: 1141844
 MD5sum: 5164e8ec0153b7f6f98e5d393f275a34
 SHA1: d274912dda4cbcf60c7a1e7a2f21fb59dd367f3c
@@ -4434,7 +4434,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 6652
 Depends: libc++, pcre2, zlib
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/swig_4.1.1_aarch64.deb
+Filename: tmp_deb_scan/pool/swig_4.1.1_aarch64.deb
 Size: 882268
 MD5sum: 015c1d65f8771723767b29a293b03590
 SHA1: 52cc1b9730610ecc380e81327d24f401060004ef
@@ -4449,7 +4449,7 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1244
 Depends: libandroid-glob, libiconv
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/tar_1.35_aarch64.deb
+Filename: tmp_deb_scan/pool/tar_1.35_aarch64.deb
 Size: 340388
 MD5sum: b0d85296203faa23b19be7d20f812866
 SHA1: 158aeec92369890f4eb68b604a5b277b13a52f54
@@ -4465,7 +4465,7 @@ Installed-Size: 7684
 Depends: zlib
 Breaks: tcl-dev, tcl-static
 Replaces: tcl-dev, tcl-static
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/tcl_8.6.13_aarch64.deb
+Filename: tmp_deb_scan/pool/tcl_8.6.13_aarch64.deb
 Size: 2242856
 MD5sum: f30a0132fad4f6cf0cbb2a8864c5b333
 SHA1: 908fcd5d24c9f49a298ee3c6e5fad85be1fb970e
@@ -4479,7 +4479,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 88
 Depends: libc++
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/termux-am-socket_1.5.0_aarch64.deb
+Filename: tmp_deb_scan/pool/termux-am-socket_1.5.0_aarch64.deb
 Size: 15964
 MD5sum: 0cd0034f32fdb5133a703cc625281f5b
 SHA1: 8d7672ed0e3ed7ee58a41f667f88634bd0912d08
@@ -4495,7 +4495,7 @@ Installed-Size: 80
 Depends: openssl
 Breaks: termux-auth-dev
 Replaces: termux-auth-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/termux-auth_1.4-2_aarch64.deb
+Filename: tmp_deb_scan/pool/termux-auth_1.4-2_aarch64.deb
 Size: 6272
 MD5sum: dda1f117c9095c05937f4276d586eb9c
 SHA1: 7253e1f3ec5e9b83fff704e27147892f9903f0af
@@ -4509,7 +4509,7 @@ Architecture: aarch64
 Essential: yes
 Maintainer: @termux
 Installed-Size: 48
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/termux-exec_1AAA1.0_aarch64.deb
+Filename: tmp_deb_scan/pool/termux-exec_1aaa1.0_aarch64.deb
 Size: 3628
 MD5sum: c75d2037234c8ec3a98d3c01ae395cf6
 SHA1: 9732001e29dd848557704bb3fdc493eb4b4981ad
@@ -4523,7 +4523,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 5504
 Depends: fontconfig, libx11, libxft, libxss, tcl
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/tk_8.6.13_aarch64.deb
+Filename: tmp_deb_scan/pool/tk_8.6.13_aarch64.deb
 Size: 1741792
 MD5sum: d0580a313cb7ecc802cb777d762c00d9
 SHA1: 0ccf35ef9e773999ff882a4b6517f7c61d7e8c45
@@ -4537,7 +4537,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 14364
 Depends: libevent, liblzma, openssl, resolv-conf, zlib
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/tor_0.4.7.16_aarch64.deb
+Filename: tmp_deb_scan/pool/tor_0.4.7.16_aarch64.deb
 Size: 2102088
 MD5sum: 506a218b4aa36a0051163b1c359c1453
 SHA1: d743073c78dfbe832d00ec24b44a1b688e7322e0
@@ -4551,7 +4551,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 3076
 Depends: libexpat, libunbound (= 1.19.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/unbound_1.19.0_aarch64.deb
+Filename: tmp_deb_scan/pool/unbound_1.19.0_aarch64.deb
 Size: 562572
 MD5sum: 1a7d171d05070fa146ca7f312cb070f3
 SHA1: 92d5589b558b3763b641b55f5527a58be57118b6
@@ -4565,7 +4565,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 404
 Depends: libandroid-support, libc++
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/unrar_6.2.12_aarch64.deb
+Filename: tmp_deb_scan/pool/unrar_6.2.12_aarch64.deb
 Size: 139396
 MD5sum: a9a5d0247fff3fba0d4f4f6da349684b
 SHA1: 15be85da2b08f8e3f6f7b59aeae68b3ed2da9f30
@@ -4579,7 +4579,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 332
 Depends: libbz2
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/unzip_6.0-9_aarch64.deb
+Filename: tmp_deb_scan/pool/unzip_6.0-9_aarch64.deb
 Size: 117964
 MD5sum: b05d09f4dc38cf49c8355b2982aa5718
 SHA1: ed793b4f907ae5c35e51101c14585d5ae277b204
@@ -4594,7 +4594,7 @@ Maintainer: @termux
 Installed-Size: 432
 Breaks: utf8proc-dev
 Replaces: utf8proc-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/utf8proc_2.9.0_aarch64.deb
+Filename: tmp_deb_scan/pool/utf8proc_2.9.0_aarch64.deb
 Size: 58728
 MD5sum: 9dfb53fbf4b088316725fa86a66cd921
 SHA1: bf3509f599b2e07c23f5c7064c39d58971c0fdcb
@@ -4608,7 +4608,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 368
 Depends: utf8proc (= 2.9.0)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/utf8proc-static_2.9.0_aarch64.deb
+Filename: tmp_deb_scan/pool/utf8proc-static_2.9.0_aarch64.deb
 Size: 47880
 MD5sum: 9d0b2e981a29411bff92e824d1cc88a8
 SHA1: 965fccdbe89adc762a99c872fe5a8b517e1fd6c3
@@ -4625,7 +4625,7 @@ Installed-Size: 3892
 Depends: libcap-ng, libsmartcols, ncurses, zlib
 Breaks: util-linux-dev
 Replaces: util-linux-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/util-linux_2.39.3-3_aarch64.deb
+Filename: tmp_deb_scan/pool/util-linux_2.39.3-3_aarch64.deb
 Size: 668012
 MD5sum: 43f6d869f202b52ff98728156b64bf52
 SHA1: 0abe808fd11fc7bda2562a87dddcb473c4ecfa5d
@@ -4639,7 +4639,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 3088
 Depends: util-linux (= 2.39.3-3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/util-linux-static_2.39.3-3_aarch64.deb
+Filename: tmp_deb_scan/pool/util-linux-static_2.39.3-3_aarch64.deb
 Size: 403668
 MD5sum: 9b5c1ab019faac8eab4ba197ba9b3a20
 SHA1: 409155e0c5a2d4d17423f2a28dbf34319427da7c
@@ -4653,7 +4653,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 212
 Depends: libsmartcols, libuuid
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/uuid-utils_2.39.3-3_aarch64.deb
+Filename: tmp_deb_scan/pool/uuid-utils_2.39.3-3_aarch64.deb
 Size: 39032
 MD5sum: 7da64724bbbb98c3827483c339a45cf7
 SHA1: fd3bdfbf98a3754472b64d8b36320950bae778cd
@@ -4669,7 +4669,7 @@ Installed-Size: 3128
 Depends: libiconv, ncurses, vim-runtime
 Recommends: diffutils
 Conflicts: vim-python
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/vim_9.0.2000_aarch64.deb
+Filename: tmp_deb_scan/pool/vim_9.0.2000_aarch64.deb
 Size: 1168192
 MD5sum: 08472636c0aa1b5f5daf4f7d80390210
 SHA1: 874bb78757eec3e99950377e75dc53825714d741
@@ -4683,7 +4683,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 784
 Depends: libandroid-support, libiconv, libidn2, libuuid, openssl, pcre2, zlib
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/wget_1.21.4-1_aarch64.deb
+Filename: tmp_deb_scan/pool/wget_1.21.4-1_aarch64.deb
 Size: 279628
 MD5sum: 689eaa74a6941203917165493ac7ede7
 SHA1: 8a5d2eecaf5b95bf2818feb189dc09553230c22a
@@ -4697,7 +4697,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 84
 Conflicts: debianutils (<< 5.7-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/which_2.21_aarch64.deb
+Filename: tmp_deb_scan/pool/which_2.21_aarch64.deb
 Size: 12568
 MD5sum: 33623849b8fcb1f033f23d5613cf9392
 SHA1: 0a77035779f9fa556ed600ada5724d7542a9b984
@@ -4711,7 +4711,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 68
 Depends: libxslt (= 1.1.39)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/xsltproc_1.1.39_aarch64.deb
+Filename: tmp_deb_scan/pool/xsltproc_1.1.39_aarch64.deb
 Size: 11916
 MD5sum: 01ae007f68332a50cefd34fa936c1087
 SHA1: afbd81fe53e3907cd6c5cdcd267f3cd56f82c5ba
@@ -4724,7 +4724,7 @@ Version: 0.8.2
 Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 388
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/xxhash_0.8.2_aarch64.deb
+Filename: tmp_deb_scan/pool/xxhash_0.8.2_aarch64.deb
 Size: 74608
 MD5sum: 6ed6e24a12ebb6ab48a70b106e29b066
 SHA1: 351d35db172d4875722ec19a9181aca712b63349
@@ -4738,7 +4738,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 52
 Depends: xxhash (= 0.8.2)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/xxhash-static_0.8.2_aarch64.deb
+Filename: tmp_deb_scan/pool/xxhash-static_0.8.2_aarch64.deb
 Size: 8592
 MD5sum: 5cc1b758897971ec534dbb5b0d388160
 SHA1: 83cdd6c47c5dac70572f4c1fc0be62a73a4aa0f9
@@ -4753,7 +4753,7 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 220
 Depends: liblzma (= 5.4.5)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/xz-utils_5.4.5_aarch64.deb
+Filename: tmp_deb_scan/pool/xz-utils_5.4.5_aarch64.deb
 Size: 63960
 MD5sum: cf9c35833c8b97d9227718b49ef0918d
 SHA1: ac68a1451c6227e93c3110372e0932d4f26f1ab7
@@ -4767,7 +4767,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 548
 Depends: libandroid-support, libbz2
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/zip_3.0-5_aarch64.deb
+Filename: tmp_deb_scan/pool/zip_3.0-5_aarch64.deb
 Size: 144580
 MD5sum: 9afbccc067ba8c82f2be84ce2e339df1
 SHA1: 2e39ecfb634e5dfefb22d590e4485f2a1521901d
@@ -4782,7 +4782,7 @@ Maintainer: @termux
 Installed-Size: 256
 Breaks: ndk-sysroot (<< 19b-3), zlib-dev
 Replaces: ndk-sysroot (<< 19b-3), zlib-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/zlib_1.3-3_aarch64.deb
+Filename: tmp_deb_scan/pool/zlib_1.3-3_aarch64.deb
 Size: 60516
 MD5sum: 8d467d4c01d8730cdb3299a9f0f82258
 SHA1: ee927cb99948adbe4df8fcbfd552649b72ce1ef9
@@ -4796,7 +4796,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 140
 Depends: zlib (= 1.3-3)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/zlib-static_1.3-3_aarch64.deb
+Filename: tmp_deb_scan/pool/zlib-static_1.3-3_aarch64.deb
 Size: 34724
 MD5sum: 60ae5ddc8533d52aae250eee9ab4b24c
 SHA1: 8fde158c96779c6f1565c9a1c64233edab037d9e
@@ -4812,7 +4812,7 @@ Installed-Size: 1088
 Depends: liblzma, zlib
 Breaks: zstd-dev
 Replaces: zstd-dev
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/zstd_1.5.5-1_aarch64.deb
+Filename: tmp_deb_scan/pool/zstd_1.5.5-1_aarch64.deb
 Size: 327196
 MD5sum: 9f971ca1a72f4764e3634e5c38681554
 SHA1: b15c8a74d084af58dab8cd08f580e2d06592f494
@@ -4826,7 +4826,7 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 5524
 Depends: zstd (= 1.5.5-1)
-Filename: https://github.com/kkgit2008/AndroIDE/releases/download/deb/zstd-static_1.5.5-1_aarch64.deb
+Filename: tmp_deb_scan/pool/zstd-static_1.5.5-1_aarch64.deb
 Size: 941436
 MD5sum: 89cc865c501eb5c275f3bf4681a5492d
 SHA1: 68ce3702539b18acbffbd7460869376fcf4fb902
