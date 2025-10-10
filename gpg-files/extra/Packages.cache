@@ -10,7 +10,7 @@ Size: 1081932
 MD5sum: 69d061a375f58a3ca2bd93c936b34da6
 SHA1: 34ee73aa08e32eeed799250b64b9e15808e4c811
 SHA256: e425dc3d9981452d495bcb71a1f83b3138eca0f9720ab8969b9d658b71d20d75
-Homepage: https:/abseil.io/
+Homepage: https://abseil.io/
 Description: Abseil C++ Common Libraries
 
 
@@ -27,7 +27,7 @@ Size: 234400
 MD5sum: 38d3f3b4cca95656006ef94aa4e0934c
 SHA1: 2474700f5cbe940977ac4b233d8b5e439cfd29a2
 SHA256: ec7cca1942a7459749cc1639d3e6cba7cf41bd3918d725c0fd86892b42627c7a
-Homepage: https:/apr.apache.org/
+Homepage: https://apr.apache.org/
 Description: Apache Portable Runtime Library
 
 
@@ -42,7 +42,7 @@ Size: 83100
 MD5sum: 81165f57e854fdaa29141c2e152673d6
 SHA1: 0758e8c5857417c2a7c765e9114820528374b44e
 SHA256: e751c8b15e93c831a16b5fc4793664b26f4d745eb581c5d1af8d26ab001ca645
-Homepage: https:/apr.apache.org/
+Homepage: https://apr.apache.org/
 Description: Static libraries for apr
 
 
@@ -59,7 +59,7 @@ Size: 112228
 MD5sum: df576738f43a4b14722f105a8ff4de92
 SHA1: 55ddc06daea0aaed0f4dde4dc7f67eff5839d74f
 SHA256: 0b41fa54cc023b0a658f189f2aa34b6dd9e96f9e5cdc6068f11a0bfce27e50b0
-Homepage: https:/apr.apache.org/
+Homepage: https://apr.apache.org/
 Description: Apache Portable Runtime Utility Library
 
 
@@ -74,7 +74,7 @@ Size: 69108
 MD5sum: ceb25638e08466352421502051a54cb7
 SHA1: 0ef1af88feea70cdc46ad67732135e53bf11bd3c
 SHA256: b4f304cb28157e8df2a23e9121e68fe88ac156d528d5c0ba8315b7032302d4f3
-Homepage: https:/apr.apache.org/
+Homepage: https://apr.apache.org/
 Description: Static libraries for apr-util
 
 
@@ -94,7 +94,7 @@ Size: 993344
 MD5sum: 5a1e314c96fdbd7ef9191acc88938bd0
 SHA1: 1a3a172ec8ab76fc292cfb8f95a17c92ae17be01
 SHA256: 3afd465402ee2455badbbc8c575217ccbb5d68eb83d3f26a6d67a79a62a0cb9c
-Homepage: https:/packages.debian.org/apt
+Homepage: https://packages.debian.org/apt
 Description: Front-end for the dpkg package manager
 
 
@@ -109,7 +109,7 @@ Size: 95640
 MD5sum: d37680fec49d92e1c2401908dfa8a4cb
 SHA1: 4dfc113e7f809bdf2e64f7b0175e4030196272b0
 SHA256: ff672242dfc2377e6f3380e70ecd5f88ba9afdf5d8d6db29a34dd27f3cd1007f
-Homepage: https:/packages.debian.org/apt
+Homepage: https://packages.debian.org/apt
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 
 
@@ -124,7 +124,7 @@ Size: 22548
 MD5sum: ca566311add0faee5dcf97058ab63a60
 SHA1: 54d0482a779657b8142734fe4ee92d8c8ae00fca
 SHA256: 65b891dfbf5539ada91bae2928bbca91ec17c522c7b9a26024206d99e15fcb33
-Homepage: https:/www.harding.motd.ca/autossh/
+Homepage: https://www.harding.motd.ca/autossh/
 Description: Automatically restart SSH sessions and tunnels
 
 
@@ -143,7 +143,7 @@ Size: 885280
 MD5sum: 420a379bdea6d725e8bb914f77e14f83
 SHA1: f384b58be5cfec1ed329fa9edd557394b0492c5b
 SHA256: a9e6ff6b79f14b3b059d491ed6427aa67f083b8dc211c42bdbc2fad79790e079
-Homepage: https:/www.gnu.org/software/bash/
+Homepage: https://www.gnu.org/software/bash/
 Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
 
 
@@ -159,7 +159,7 @@ Size: 1180
 MD5sum: 50f77b56c62d20520667ca65ae30a4e3
 SHA1: c9bbaca51aadb13e3833c7d7e454edf06d9c950d
 SHA256: fafeffb2d905d1c916ed14c4a74199afa16ad0878dd6233c3f6c96ca2db11bc4
-Homepage: https:/www.gnu.org/software/binutils/
+Homepage: https://www.gnu.org/software/binutils/
 Description: GNU Binutils (metapackage)
 
 
@@ -176,7 +176,7 @@ Size: 1700484
 MD5sum: a4dd96dc9645c7cbf74af88f49389f21
 SHA1: 1a992e10dd3dd9bbfbfa928171dff85700984332
 SHA256: 990403a8aeeb1d57d897aa45886a89fd52d6571ce1d7cd9e8e351780ef7769af
-Homepage: https:/www.gnu.org/software/binutils/
+Homepage: https://www.gnu.org/software/binutils/
 Description: Collection of binary tools, the main ones being ld, the GNU linker, and as, the GNU assembler
 
 
@@ -190,7 +190,7 @@ Size: 2160264
 MD5sum: d80b7fc9c59d79e73608360aaed11bee
 SHA1: 31c1e2a973e4eddce8ffafa96dac5c5f63c1ba31
 SHA256: 5d3446aa0ddccbd2ca1f4f518e89f79a162a7bed5045814dc028e0f885ac91ca
-Homepage: https:/www.gnu.org/software/binutils/
+Homepage: https://www.gnu.org/software/binutils/
 Description: GNU Binutils for cross build on the host (NOT for Termux)
 
 
@@ -205,7 +205,7 @@ Size: 891672
 MD5sum: ba6d1583c9497477249e8b4dc95e7509
 SHA1: 13705b784f9d19c25703a1c88e8b34e05c79f7b0
 SHA256: 7b9e2f549d9183537193934c6c48edff9d4e0082e277ea4f1b5c0a18c9c845c6
-Homepage: https:/www.gnu.org/software/binutils/
+Homepage: https://www.gnu.org/software/binutils/
 Description: gold linker
 
 
@@ -222,7 +222,7 @@ Size: 1088104
 MD5sum: eaca97ecd59c87b9c55905664c0d248b
 SHA1: 802edfc59a526201aabc8e3914f77fdf1d077976
 SHA256: 0fad7f89d6e24baea7e69bf19106372cc756701cb9e0ecf934ccf40ca081914d
-Homepage: https:/www.gnu.org/software/binutils/
+Homepage: https://www.gnu.org/software/binutils/
 Description: GNU Binutils libraries
 
 
@@ -239,7 +239,7 @@ Size: 167900
 MD5sum: ac60ff0f660933557155be1cba9e971e
 SHA1: 6df67c63681d631a0c0083c510926c571a1f1ff1
 SHA256: ca1247cdbb2aefb52b4b862f48cfd5cea5869f8f307698127f1587d5335ced7b
-Homepage: https:/en.wikipedia.org/wiki/Util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Utilities for handling block device attributes
 
 
@@ -255,7 +255,7 @@ Size: 330528
 MD5sum: 3dca53beda5c02f618f4aec37180ff89
 SHA1: d4f557eb995868ee1ca80656d2176a07f5ec944d
 SHA256: 2c8b84377ca5b1bd53413b25f110b410c0f7c1f156236ef1e111cf54f23c1c22
-Homepage: https:/github.com/google/brotli
+Homepage: https://github.com/google/brotli
 Description: lossless compression algorithm and format (command line utility)
 
 
@@ -270,7 +270,7 @@ Size: 333220
 MD5sum: 2757463a6459f99df58fded146c0d8ce
 SHA1: cfcbb54d683727422cd01f6884828bed723af485
 SHA256: 4d6b83be10c618c57b9639a23087642629861d49848cc748679a933c4e3f5c45
-Homepage: https:/www.libarchive.org/
+Homepage: https://www.libarchive.org/
 Description: The tar(1) and cpio(1) programs from FreeBSD, using libarchive
 
 
@@ -284,7 +284,7 @@ Size: 437248
 MD5sum: 9ee4c20be9ba847a338dc73e1aa22a84
 SHA1: 078f834411b06ca26d3d6ddb989455c8e0e06b80
 SHA256: 45ff00094f1d1a9a4cf550c2e7f334f0c6b8e812000fe6e73ef90469e1f57f36
-Homepage: https:/busybox.net/
+Homepage: https://busybox.net/
 Description: Tiny versions of many common UNIX utilities into a single small executable
 
 
@@ -300,7 +300,7 @@ Size: 25912
 MD5sum: 6a750aea90f02f1a006486b274d9e3b1
 SHA1: 41b41da8fe9e80e5212e2fb160053aee5e6b38fb
 SHA256: 17bdd8d83c3cef8bbcf8bbb559909334da306d4e655014c34bcf07b72a37729f
-Homepage: http:/www.bzip.org/
+Homepage: http://www.bzip.org/
 Description: Tools for working with bzip2 compression
 
 
@@ -317,7 +317,7 @@ Size: 165976
 MD5sum: 99dead3839b847c0e9b11e5a903881a8
 SHA1: c884dc5bf0cac7e61244f169e2042a98db9ce015
 SHA256: 448f302b8b19fb5fb485b268df62d408fc5857c2fd1afb8ac186229d85a386a9
-Homepage: https:/c-ares.haxx.se
+Homepage: https://c-ares.haxx.se
 Description: Library for asynchronous DNS requests (including name resolves)
 
 
@@ -332,7 +332,7 @@ Size: 819816
 MD5sum: ac9a74622477f593ea944bcb70c1f6a9
 SHA1: e85c92e2a12a5bdad5d5467a5205d9b2bc7c34cf
 SHA256: 3b6fa4d73cb827eef91dab90dbbf2343762bdc6d168d777e15ac6cff4ee63269
-Homepage: http:/www.isthe.com/chongo/tech/comp/calc/
+Homepage: http://www.isthe.com/chongo/tech/comp/calc/
 Description: Arbitrary precision console calculator
 
 
@@ -349,7 +349,7 @@ Size: 31689864
 MD5sum: 393ee212669ba1e4cda76a16a889586b
 SHA1: 1039b882ea25e907d4142cd3ffdcc37f95b8b06f
 SHA256: 261f5446d9c1a978d5efddf1cd868bb3793f0d87f6549856c5145f155180eba1
-Homepage: https:/clang.llvm.org/
+Homepage: https://clang.llvm.org/
 Description: C language frontend for LLVM
 
 
@@ -365,7 +365,7 @@ Size: 6243920
 MD5sum: 8234fafe484401db8f057e7a4ec6f309
 SHA1: bbb0a1202e2596641a1a92ad604869408cf99b32
 SHA256: 77aab41400a9bb51231b87cb4f36340c8c8855d239a96084d5825561bc48624c
-Homepage: https:/cmake.org/
+Homepage: https://cmake.org/
 Description: Family of tools designed to build, test and package software
 
 
@@ -380,7 +380,7 @@ Size: 1970628
 MD5sum: 363089a14f6dfcdfe9d46c07b9cc935b
 SHA1: 8a668ab14e0f82efdbf4d975d876714dcf948428
 SHA256: 8e07a097b1ce27d49b3d72dc48be82a888550d54cf08debe13f8f38c1497f531
-Homepage: https:/cmake.org/
+Homepage: https://cmake.org/
 Description: Curses based user interface for CMake (ccmake)
 
 
@@ -398,7 +398,7 @@ Size: 741996
 MD5sum: 65a2181a274506401568ed353c477e12
 SHA1: af478a3baea09920f89cc2d94cf8eaf1c08827b4
 SHA256: 5cd6650e156e0d45c8b77b8104791d1239f53127e40f9b547d4f4470ce9cd792
-Homepage: https:/www.gnu.org/software/coreutils/
+Homepage: https://www.gnu.org/software/coreutils/
 Description: Basic file, shell and text manipulation utilities from the GNU project
 
 
@@ -413,7 +413,7 @@ Size: 65892
 MD5sum: 62e645bd9c6a117d172a265a2af3de2a
 SHA1: 6c6d16e49b26a4e88a6b812e3dbc0cbf446bdbe0
 SHA256: 4300e9ff114e4bbf7cee64720f6a7de3b4c8bc156b418af994852f72867ae117
-Homepage: https:/www.gnu.org/software/cpio/
+Homepage: https://www.gnu.org/software/cpio/
 Description: CPIO implementation from the GNU project
 
 
@@ -427,7 +427,7 @@ Size: 30836
 MD5sum: 866766332e31beb411763d8497946860
 SHA1: f539c0f9c54bbefa8847fdcab4b0cca195fe2074
 SHA256: 5ec01a48f0575a8db2bcd1bb15cbaf9e2de1673546592e02a4f02f2b07ba849a
-Homepage: https:/sourceforge.net/projects/crunch-wordlist
+Homepage: https://sourceforge.net/projects/crunch-wordlist
 Description: Highly customizable wordlist generator
 
 
@@ -442,7 +442,7 @@ Size: 5149384
 MD5sum: e619b66bb1af8629ea81cf36438a735a
 SHA1: 89106f6fdeeefb18d3cd89d14de1b79cbff1dd34
 SHA256: a73d84a4572083fb1c3d13dd9267c4c370ed33f4bc09b1a135e83118a3a01995
-Homepage: https:/www.cups.org/
+Homepage: https://www.cups.org/
 Description: Common UNIX Printing System
 
 
@@ -457,7 +457,7 @@ Size: 721936
 MD5sum: d0ae96161159fbdbcd8a82a9a1129b14
 SHA1: a836868da8c2e5cc0da7dadf06ec581da0325899
 SHA256: 3155aa33a889991a155d35be78be89098b7a0261834dc4388a385177edd3c6b6
-Homepage: https:/www.cups.org/
+Homepage: https://www.cups.org/
 Description: Static libraries for cups
 
 
@@ -473,7 +473,7 @@ Size: 203312
 MD5sum: daed1cf716883322411feee667f6e752
 SHA1: 625d1b34b867525ca3b7e5292d1a6d059f79370d
 SHA256: 77fe4643f69ded4c9f54cabf180f391c164e70accc4968d87fca402de28ab1c4
-Homepage: https:/curl.se/
+Homepage: https://curl.se/
 Description: Command line tool for transferring data with URL syntax
 
 
@@ -488,7 +488,7 @@ Size: 65332
 MD5sum: 5adf2a2c3b2aeda1f4015dc20361b69a
 SHA1: 2370406894a7b91c8bd9649f3d49908943f4e19e
 SHA256: de8ceafb0e8e5cae118c36b36640735ee4f2fa09237f3c6cbd87ff8057800c3d
-Homepage: http:/gondor.apana.org.au/~herbert/dash/
+Homepage: http://gondor.apana.org.au/~herbert/dash/
 Description: Small POSIX-compliant implementation of /bin/sh
 
 
@@ -503,7 +503,7 @@ Size: 39900
 MD5sum: 75c72998cd958c50e583e46ad18e1047
 SHA1: 12e77f022ca7e15339d8108f02f7eb5ca3f917bb
 SHA256: 1305844c38bad91f8ffb048bbece5ea05137c834e09f82332e19ad6be633e61a
-Homepage: https:/www.oracle.com/database/berkeley-db
+Homepage: https://www.oracle.com/database/berkeley-db
 Description: The Berkeley DB embedded database system
 
 
@@ -517,7 +517,7 @@ Size: 16172
 MD5sum: eb9b741bcd1bac7f78f44d502a38c024
 SHA1: afb205d56e34ef28f9b09092f97b57b7f3b5bff1
 SHA256: 2f3256512c9ae01b9d608b526f72c8999a7d044c30ccae6f7426b534cfc39907
-Homepage: https:/packages.debian.org/debianutils
+Homepage: https://packages.debian.org/debianutils
 Description: Small utilities which are used primarily by the installation scripts of Debian packages
 
 
@@ -532,7 +532,7 @@ Size: 98416
 MD5sum: e8966dd67cb74c1fae58cd4df6c6d95c
 SHA1: 2e751a2f336e2ce24f9ef1330ea9e12c833e951b
 SHA256: 5101e35f88a10ff0bf7b5b3e85a61b262a4c91a6970582f939996ef52f383ed2
-Homepage: https:/invisible-island.net/dialog/
+Homepage: https://invisible-island.net/dialog/
 Description: Application used in shell scripts which displays text user interface widgets
 
 
@@ -547,7 +547,7 @@ Size: 91536
 MD5sum: a66facddee82f37c87b39c57fb8417ba
 SHA1: ee80b4c0e6188b6f307933987f727c5375dc4e48
 SHA256: ad5adc2bad923b5b0092edfb25e93022d5c1fbaaacab8dee6564ed008b4118d2
-Homepage: https:/invisible-island.net/dialog/
+Homepage: https://invisible-island.net/dialog/
 Description: Static libraries for dialog
 
 
@@ -561,7 +561,7 @@ Size: 21088
 MD5sum: ab53150ff30212818007de8a15c0c173
 SHA1: 0527169591f35cc530d46f1141704bdf8f4edb39
 SHA256: d8e66da8c8cce17e66bb89f66d0012ba0bf3c7ba8251f0e8a92d002e9c332aa7
-Homepage: https:/invisible-island.net/diffstat/diffstat.html
+Homepage: https://invisible-island.net/diffstat/diffstat.html
 Description: Displays a histogram of changes to a file
 
 
@@ -577,7 +577,7 @@ Size: 156564
 MD5sum: 12ddf93cead4eecb8e13764d9135f624
 SHA1: 440666901f14c9c69d24a570b8027bc9865b32ec
 SHA256: 5efc096f3eb0fe945fbc573803d83f9fbb8d6a4c48d39652d565db45ac9da208
-Homepage: https:/www.gnu.org/software/diffutils/
+Homepage: https://www.gnu.org/software/diffutils/
 Description: Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
 
 
@@ -592,7 +592,7 @@ Size: 63968
 MD5sum: aba317aeec74d37e14188afb7c91d30d
 SHA1: 09977c27c18c7bcb026ca5cfb988e3b014460af3
 SHA256: ba4b2d3cdd98340f737c502913eac6371fa52c5bc2eec600f01374778aeb1c7b
-Homepage: https:/waterlan.home.xs4all.nl/dos2unix.html
+Homepage: https://waterlan.home.xs4all.nl/dos2unix.html
 Description: Converts between DOS and Unix text files
 
 
@@ -610,7 +610,7 @@ Size: 307944
 MD5sum: 5971d0cfa95de9c15e1f010b98e64797
 SHA1: 12b85ad046d35182c27c91524c4a2f0cd36c8614
 SHA256: 406cdefd3a2e5ef9d401a2f653b9917b7e4c844440999278ae1b64a1d040ac55
-Homepage: https:/packages.debian.org/dpkg
+Homepage: https://packages.debian.org/dpkg
 Description: Debian package management system
 
 
@@ -627,7 +627,7 @@ Size: 122644
 MD5sum: 67f7c731052ae28c7fdae9a20d3e9476
 SHA1: f90b4b5e7c8eb677deee1ad92ff0f0558812962a
 SHA256: 863619f9ea03270f95b767c57b0cd8bc7490df2fd71aae3b914fc82d45815b88
-Homepage: https:/matt.ucc.asn.au/dropbear/dropbear.html
+Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
 Description: Small SSH server and client
 
 
@@ -641,7 +641,7 @@ Size: 40012
 MD5sum: 87d0eaa0aac933f55edc14b2971a389c
 SHA1: 381bc3119426e93fe19bb3de8f1c2e3ac74af73c
 SHA256: 8b8ddeb5cb0a200166fcbb19f13e395422b92348c58af701a4dd251f4d63dcfa
-Homepage: https:/www.gnu.org/software/ed/
+Homepage: https://www.gnu.org/software/ed/
 Description: Classic UNIX line editor
 
 
@@ -656,7 +656,7 @@ Size: 111944
 MD5sum: 23848e1cff1df6265fe8ca5dd5a16827
 SHA1: 0790cca6bb7f2412ec49c2710840183610c8dc10
 SHA256: 6c769fc2512a2942c1b2f7f62669395ce9fb3e6bc0203adf70b7ea45619dd48c
-Homepage: https:/en.wikipedia.org/wiki/Util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Utilities to manipulate disk partition tables
 
 
@@ -673,7 +673,7 @@ Size: 372752
 MD5sum: c756c6b6ce9682323ab5b7476c39d575
 SHA1: 1cc60fe292a81233aaec4b61787b4701a89ddfd6
 SHA256: d76151c4b0cc7f334eb877aa5603814a592ad5cfa1690034c8888ef1c5c6396b
-Homepage: https:/darwinsys.com/file/
+Homepage: https://darwinsys.com/file/
 Description: Command-line tool that tells you in words what kind of data a file contains
 
 
@@ -688,7 +688,7 @@ Size: 67628
 MD5sum: 3b5777015a374d7975d09aa97067f403
 SHA1: 8af08db8f3840130539be09f2fdf1cfb5b66a686
 SHA256: 01f82c4408d361f8c348ac6a95a21730814cdb0a793893e4044d9385ca6a3e79
-Homepage: https:/darwinsys.com/file/
+Homepage: https://darwinsys.com/file/
 Description: Static libraries for file
 
 
@@ -704,7 +704,7 @@ Size: 240468
 MD5sum: 5bf7e2594ab1cff41f23522ae5d16a30
 SHA1: 076cdf324f24f76d39be5b0ef6d56597b681a79c
 SHA256: a9b658262031787b9070da388cda4dabc80cfb882922bd35e11bf6cf6b09a332
-Homepage: https:/www.gnu.org/software/findutils/
+Homepage: https://www.gnu.org/software/findutils/
 Description: Utilities to find files meeting specified criteria and perform various actions on the files which are found
 
 
@@ -721,7 +721,7 @@ Size: 118548
 MD5sum: 4d9647192103bb65b980f548c5e14d50
 SHA1: bdfb89bd89a47f1bed42a16397e91b4b224d8838
 SHA256: 1a1198a8d59dad9608faca80b3066211312a8c7cb5365a88fc8ecd717c370977
-Homepage: https:/www.freedesktop.org/wiki/Software/fontconfig/
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
 Description: Library for configuring and customizing font access
 
 
@@ -736,7 +736,7 @@ Size: 115092
 MD5sum: 5bd0231aeadd728c2dd8f68af5cc24ea
 SHA1: e2c9f502ff1b643d273889622154085b85979df5
 SHA256: d499a5790026482f5a7bbb5e6587c35a4dac884e43764cdc46629155183e5aa8
-Homepage: https:/www.freedesktop.org/wiki/Software/fontconfig/
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
 Description: Static libraries for fontconfig
 
 
@@ -751,7 +751,7 @@ Size: 14356
 MD5sum: 1c1028b3047714bf29c6f48b488fc15e
 SHA1: 9d5f8200373547cb2431a821f0bf0729d49c828b
 SHA256: fe87c9c7aa99792540da075b8903d31335965d963a7fada18b589364d42a70bd
-Homepage: https:/www.freedesktop.org/wiki/Software/fontconfig/
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
 Description: Fontconfig binaries
 
 
@@ -768,7 +768,7 @@ Size: 411848
 MD5sum: 1a8cd0252aa7a0549fd6e87c67a1d53a
 SHA1: 2505ecd5f849c261da0193bde73860fbac7cbaf3
 SHA256: 65718adeb34e24acb7b82f6162f105a460d36133a00486db211d6deca0cb3d16
-Homepage: https:/www.freetype.org
+Homepage: https://www.freetype.org
 Description: Software font engine capable of producing high-quality output
 
 
@@ -783,7 +783,7 @@ Size: 303876
 MD5sum: 53c04f3a7474676962a217ac8377fc87
 SHA1: f5ca02fcaa02b9e9a30ccd940c73af8c7e57900a
 SHA256: 108e1b7b5e89f5c525ec18dbcd2022bdd78c4a41757e0788460814fd94744c1d
-Homepage: https:/www.freetype.org
+Homepage: https://www.freetype.org
 Description: Static libraries for freetype
 
 
@@ -801,7 +801,7 @@ Size: 785404
 MD5sum: d99e754a50ba8c4f9dbae1c95be946e9
 SHA1: c8681284154ef10ceefea2a665237a6af6b82d10
 SHA256: 3eeb60f5cf5be7fcfe699fec1e14a6f3bf920cd6d645dc257c233f052a2ff59a
-Homepage: https:/www.gnu.org/software/gawk/
+Homepage: https://www.gnu.org/software/gawk/
 Description: Programming language designed for text processing
 
 
@@ -816,7 +816,7 @@ Size: 24988
 MD5sum: a3d07351ad0ef728c30cf1ee80a627be
 SHA1: 1041ede63ba5e4a301d25e602a6f73ec18c47805
 SHA256: 0491915a247cff1444d790e8fbff24304fb231c5b13167b41b0fa5fc399403d7
-Homepage: https:/www.gnu.org/software/gawk/
+Homepage: https://www.gnu.org/software/gawk/
 Description: Static libraries for gawk
 
 
@@ -833,7 +833,7 @@ Size: 141472
 MD5sum: 52f2d298396b3d3adc21599128cb34b0
 SHA1: b2da92d70a7d4f4096f4176c90e30d2c522a0643
 SHA256: 440a213bffc5a7cc2eb535bce9381aca3bb04a26c8117f1a7d07cf7a134824b7
-Homepage: https:/www.gnu.org.ua/software/gdbm/
+Homepage: https://www.gnu.org.ua/software/gdbm/
 Description: Library of database functions that use extensible hashing
 
 
@@ -848,7 +848,7 @@ Size: 29212
 MD5sum: 5b95079badef0c30eac93dc494bcd67d
 SHA1: 8f7714b5a02ae6060d0788c803640db5e8a6ecfe
 SHA256: 6fa89147d2bc456cbb890237a7641a137a59def40a55b1bf02f3cd8f3a535644
-Homepage: https:/www.gnu.org.ua/software/gdbm/
+Homepage: https://www.gnu.org.ua/software/gdbm/
 Description: Static libraries for gdbm
 
 
@@ -862,7 +862,7 @@ Size: 7092024
 MD5sum: 39fe62b86fdd5e26a687abc5ad8eaf91
 SHA1: d84c8ce0569f1151c4f60784de4a8312710a872c
 SHA256: f3f45c9a3393d2657cabb549b29a1f8257338a41b73d962c083afc583580bc1d
-Homepage: https:/cli.github.com/
+Homepage: https://cli.github.com/
 Description: GitHub’s official command line tool
 
 
@@ -878,7 +878,7 @@ Size: 17916
 MD5sum: 0d341a984944a56527fddbae5808fd6d
 SHA1: 05c4e85cafc982d92132ce154b3a364643f71739
 SHA256: 3b563a46dcb688de5499a00615e33db0e6b9b4b76d0c8bb2edcd0e64e51d5e9c
-Homepage: https:/sourceforge.net/projects/giflib/
+Homepage: https://sourceforge.net/projects/giflib/
 Description: A library for reading and writing gif images
 
 
@@ -893,7 +893,7 @@ Size: 14672
 MD5sum: 3c341d5ced4efe64404f87666b2b901f
 SHA1: d40f6771430cf3d932688b0b66d2b165f9deb740
 SHA256: 0baab4caa3399e2aa604cedf5797cb2d0188ac8b4844c9a30432976615c39b78
-Homepage: https:/sourceforge.net/projects/giflib/
+Homepage: https://sourceforge.net/projects/giflib/
 Description: Static libraries for giflib
 
 
@@ -909,7 +909,7 @@ Size: 57400
 MD5sum: 442599b5fa2005b77f51b88a2752597b
 SHA1: 54db1d79da043d8bb8708374e4a6f79c6f0b0cde
 SHA256: fb5fceec3743a6f9237a1993f14146d124f53f7792fd42e1f41ea59f807c0f82
-Homepage: https:/sourceforge.net/projects/giflib/
+Homepage: https://sourceforge.net/projects/giflib/
 Description: A set of utilities that comes with giflib package
 
 
@@ -925,7 +925,7 @@ Size: 3659796
 MD5sum: e5eb985ab39e0ad332f311a85a86f190
 SHA1: 914b09b33ba471937d675940211a2779534911cc
 SHA256: 63fbabfdae8057d8669a138a18120934b5ba70850aebbf9979bcdb166f9b026b
-Homepage: https:/git-scm.com/
+Homepage: https://git-scm.com/
 Description: Fast, scalable, distributed revision control system
 
 
@@ -940,7 +940,7 @@ Size: 64920
 MD5sum: 99f6d1f25f5d9f3ddd6e024facd3651f
 SHA1: 336ef6c88ffe25e4f46eb85a62200ce1753edd88
 SHA256: 9cb313475c412c907a4496cd48074a7adc13ae1d16bdbf5605838859ab54513b
-Homepage: https:/www.agwa.name/projects/git-crypt/
+Homepage: https://www.agwa.name/projects/git-crypt/
 Description: Enables transparent encryption and decryption of files for a git repository
 
 
@@ -955,7 +955,7 @@ Size: 136740
 MD5sum: 801dadd5aa98b8cab51e0b93323f9679
 SHA1: 1c3d60804ce63b4d94712ac7c3aa7cc890d546e8
 SHA256: c2a1d7324689a2f2537a9ade543ac61605249db06ab73839fc0eb5969b5d8277
-Homepage: https:/git-scm.com/
+Homepage: https://git-scm.com/
 Description: Git repository browser
 
 
@@ -970,7 +970,7 @@ Size: 216024
 MD5sum: 863b706b3bfb27686762d7d4a82270ae
 SHA1: c922fe88104e602f92fd37d37b9b2518f3c83537
 SHA256: da9adb379fcaa572a24bcc6812187bc1f4a91cf4285b1ba5f7078e94fdd71d5c
-Homepage: https:/git-scm.com/
+Homepage: https://git-scm.com/
 Description: A graphical interface to Git
 
 
@@ -984,7 +984,7 @@ Size: 3116364
 MD5sum: 43c7496787adc9804d78150588bdd1af
 SHA1: 7f668f762dce2ebbf5ba83f2eaceb4096a4abf9e
 SHA256: 74dd1137c12ff60046ac6f49165a336fbc30b7b9e8cce7ee1e8740cf6d78124d
-Homepage: https:/git-lfs.github.com/
+Homepage: https://git-lfs.github.com/
 Description: Git extension for versioning large files
 
 
@@ -999,7 +999,7 @@ Size: 814372
 MD5sum: 07c79170ad662597e627c5ed7322f51b
 SHA1: b86a3e13d75fe4fbb49d9c3cd62cac806578ad50
 SHA256: ce65d88732c49d50701ce51c1216eab81a63306cc059eb117932321785e7f1bd
-Homepage: https:/github.com/github/git-sizer
+Homepage: https://github.com/github/git-sizer
 Description: Compute various size metrics for a Git repository
 
 
@@ -1013,7 +1013,7 @@ Size: 6225640
 MD5sum: 07e729cc6ad75f42f68e265386686e5b
 SHA1: a4bf579656cbae6521f59376e1d1e0787ad8a539
 SHA256: 7814d1e2fba0b249883ac65de03649d6e180b8716f6d15a339658f98021657a6
-Homepage: https:/gitlab.com/gitlab-org/cli
+Homepage: https://gitlab.com/gitlab-org/cli
 Description: A GitLab CLI tool bringing GitLab to your command line
 
 
@@ -1030,7 +1030,7 @@ Size: 1286272
 MD5sum: 0f9e0541fae5bb9b8b3d6e7c7624899d
 SHA1: 88b0dc1d40d098a31785adbc49897fd9518378b1
 SHA256: f2c7cd8709135093e3cd76260f857f61145f9c08f2782941f9594defee7116a9
-Homepage: https:/developer.gnome.org/glib/
+Homepage: https://developer.gnome.org/glib/
 Description: Library providing core building blocks for libraries and applications written in C
 
 
@@ -1045,7 +1045,7 @@ Size: 92272
 MD5sum: b8e40d18be14ba3a3033aff444d72876
 SHA1: e9f8044d38707795b81630b46589786d4f1b1607
 SHA256: 17980896ee3d6f1e142a4946295588e0852c03b2c60ded2f4d6c561cc9cb39d0
-Homepage: https:/developer.gnome.org/glib/
+Homepage: https://developer.gnome.org/glib/
 Description: Programs for the GLib library
 
 
@@ -1063,7 +1063,7 @@ Size: 1325824
 MD5sum: 41d79085ffd948e92f471a309db4fa73
 SHA1: 8216b699833bcc67223c435163ff0eaa38c75694
 SHA256: a06a987d4342e4adb28c3412f6c0d174fe3afe8ad8a8ba458a74cea6dbefe339
-Homepage: https:/www.gnupg.org/
+Homepage: https://www.gnupg.org/
 Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
 
 
@@ -1078,7 +1078,7 @@ Size: 176008
 MD5sum: a41116bc22d9a067b3b4c9d01b006cfa
 SHA1: 0a65eadea0c17db11efcd8517211c53cff928ded
 SHA256: d2cf92a81bec90ec8a0761265db566e883fec4984959d46187c7438e25105149
-Homepage: https:/www.gnutls.org/
+Homepage: https://www.gnutls.org/
 Description: Commandline utilities for interfacing with the gnutls library
 
 
@@ -1095,7 +1095,7 @@ Size: 354448
 MD5sum: f99697feb1bf33d55fc87ced05bb21a5
 SHA1: 7966b43f7282d74339935c12b33d1a1a404e46e6
 SHA256: 9009af4b3e934bdca9aca769e3d04c0a78b652394443d9866ec63fe6139a02dd
-Homepage: https:/github.com/google/googletest
+Homepage: https://github.com/google/googletest
 Description: Google C++ testing framework
 
 
@@ -1110,7 +1110,7 @@ Size: 177252
 MD5sum: 6a273f7a974193274a501a4a0b106e7f
 SHA1: d87582bed142d92b6e40c96b7a6bf5748c46e6ae
 SHA256: 443b81a23f2b1011e98ef73377e884e04f2867d6f861d6444a7f040157c02d12
-Homepage: https:/www.gnupg.org/
+Homepage: https://www.gnupg.org/
 Description: GNU privacy guard - signature verification tool
 
 
@@ -1126,7 +1126,7 @@ Size: 122952
 MD5sum: bb8ba0fe5b32b2737b87d10bd45e2d9f
 SHA1: 172934fd9d3526ded3692010761cfa745c6926d6
 SHA256: f5551d54d7f72457939c045b28a0f99a08c9e3c2df0ed7960c69c0a793e073c9
-Homepage: https:/www.gnu.org/software/grep/
+Homepage: https://www.gnu.org/software/grep/
 Description: Command which searches one or more input files for lines containing a match to a specified pattern
 
 
@@ -1141,7 +1141,7 @@ Size: 81428
 MD5sum: 43d6740f906cbf531ed0866aea1f48fd
 SHA1: b04abdd31b921598668ded3723e6d8a05241f4df
 SHA256: adb4b7a58912d1ed5ea9096599ec75c8093fe167a85a2356c25e9743a996cfe7
-Homepage: https:/www.gnu.org/software/gzip/
+Homepage: https://www.gnu.org/software/gzip/
 Description: Standard GNU file compression utilities
 
 
@@ -1159,7 +1159,7 @@ Size: 100316
 MD5sum: c26237fff235df7294cf4d431ec3a4af
 SHA1: 2d57d028f1e6ab6b566a612b713b4f3ee4ac653a
 SHA256: e599529922b25fc4db176fe3f00833077b986907b178d0cc82ff1242b2114948
-Homepage: https:/htop.dev/
+Homepage: https://htop.dev/
 Description: Interactive process viewer for Linux
 
 
@@ -1174,7 +1174,7 @@ Size: 8992
 MD5sum: 3b7b1d768a0f25cc47dabfa162f257c6
 SHA1: 803aab4f5a31477092ae20354d08049f88d187e8
 SHA256: 01965da6459fc64fb1b3c0534cf530061ff6977d34b48285b709418c312480e4
-Homepage: https:/www.gnu.org/software/libiconv/
+Homepage: https://www.gnu.org/software/libiconv/
 Description: Utility converting between different character encodings
 
 
@@ -1189,7 +1189,7 @@ Size: 217364
 MD5sum: f2e1a84ad2f1699f3e1f94913769824d
 SHA1: e8c141019cd57322829cb9d16e2207264b873035
 SHA256: 98d3623a65ecec35277dea039ec7c670c31150c7f84a7713a663ae296cf3983e
-Homepage: http:/site.icu-project.org/home
+Homepage: http://site.icu-project.org/home
 Description: Development utilities for International Components for Unicode
 
 
@@ -1205,7 +1205,7 @@ Size: 250908
 MD5sum: 4d9be07add533ccacdc3c07ab0990292
 SHA1: f12033642e4bf6eeea5cf7346cacdcdb2c1ca82d
 SHA256: 4d97c18d0f8110e524a2ae905e9bc5166397ff239e1c1f418972135e098ddcb0
-Homepage: https:/www.gnu.org/software/inetutils/
+Homepage: https://www.gnu.org/software/inetutils/
 Description: Collection of common network programs
 
 
@@ -1222,7 +1222,7 @@ Size: 188768
 MD5sum: f7204fdafa5421f27df3df5a00a7094d
 SHA1: 06c73f3390dc8013b3b1c2ae304dd65f8679ffaf
 SHA256: dbed84b18416dc32cccf47623e58353bdfec2622caf1d690391e4b40e4153adf
-Homepage: http:/stedolan.github.io/jq/
+Homepage: http://stedolan.github.io/jq/
 Description: Command-line JSON processor
 
 
@@ -1237,7 +1237,7 @@ Size: 132972
 MD5sum: aad57033cd376d15abfe96b0140a11fa
 SHA1: 3374839cbf18b1bbf1e717487f39963a043be860
 SHA256: 848b2a7272a43fa13348b72dd3968493f9b7a95c30d71a0cf339f672dabae1d2
-Homepage: http:/stedolan.github.io/jq/
+Homepage: http://stedolan.github.io/jq/
 Description: Static libraries for jq
 
 
@@ -1254,7 +1254,7 @@ Size: 126840
 MD5sum: b02186f89db3d7ebd4732b5bdb85e64e
 SHA1: 8e4be1075386c8551073ca2f70e9904e0f3a96e3
 SHA256: 865e883aefdc0a37c35f9a31f3fc8a887944a524e036995f84db96822095ce09
-Homepage: https:/github.com/open-source-parsers/jsoncpp
+Homepage: https://github.com/open-source-parsers/jsoncpp
 Description: C++ library for interacting with JSON
 
 
@@ -1269,7 +1269,7 @@ Size: 73740
 MD5sum: cf86eefaca1b5e90e664722678603540
 SHA1: 8697cae547c202df49452e3396e8cccdf2f21d0f
 SHA256: 256d8017c7266a3fab2f5a8889c72cb90d6748a1e7de9cf7f7da3279fd2ba943
-Homepage: https:/github.com/open-source-parsers/jsoncpp
+Homepage: https://github.com/open-source-parsers/jsoncpp
 Description: Static libraries for jsoncpp
 
 
@@ -1286,7 +1286,7 @@ Size: 897136
 MD5sum: a746d08ff4c44c1c1b09b45e710b5613
 SHA1: 5ed3d0bab7034d525e430e1293e2e4531ec8941e
 SHA256: 6e9d0e9c10a3efe0593e904173321b593671b198bb64a4253691e7aa49493ef4
-Homepage: https:/web.mit.edu/kerberos
+Homepage: https://web.mit.edu/kerberos
 Description: The Kerberos network authentication system
 
 
@@ -1303,7 +1303,7 @@ Size: 302028
 MD5sum: db6bd0b8aaeab478978517b16b7d6318
 SHA1: 9762d482fe3d18ebf1c768e6ab1bae1cd0aad858
 SHA256: 0b2a45284a31e55cbc6b35aabf45bbbc485b1e3b76834bf69ad289e699576daa
-Homepage: https:/www.nlnetlabs.nl/projects/ldns/
+Homepage: https://www.nlnetlabs.nl/projects/ldns/
 Description: Library for simplifying DNS programming and supporting recent and experimental RFCs
 
 
@@ -1318,7 +1318,7 @@ Size: 130932
 MD5sum: bf3092f3e3e6079c5448b169a2880ed8
 SHA1: b939aa593418abaf9390c6cfd79beb971c1b5a61
 SHA256: fbf8740cc5b884839831b59ed41987102360a66526577343cf21fa3725b41a0e
-Homepage: https:/www.nlnetlabs.nl/projects/ldns/
+Homepage: https://www.nlnetlabs.nl/projects/ldns/
 Description: Static libraries for ldns
 
 
@@ -1334,7 +1334,7 @@ Size: 104136
 MD5sum: a04e33f3c7b0558a0957cdec49b7434b
 SHA1: e69b12a901f4b882833824523ad601518ac9d0cb
 SHA256: 7d88f1a4dc604ab0e12127f360ea93e142824a90d2b5610b1a1a876d37683246
-Homepage: https:/www.greenwoodsoftware.com/less/
+Homepage: https://www.greenwoodsoftware.com/less/
 Description: Terminal pager program used to view the contents of a text file one screen at a time
 
 
@@ -1350,7 +1350,7 @@ Size: 6920
 MD5sum: 35c0581bf8f2e5a01f0921fb86fe2514
 SHA1: b3b6bc1df8b07c4dcf95c71328eced7571c73578
 SHA256: 4d3ed0c366d380b637cc8187661f093478b7ac7aae2ce74816343ab9c80975fb
-Homepage: https:/man7.org/linux/man-pages/man3/glob.3.html
+Homepage: https://man7.org/linux/man-pages/man3/glob.3.html
 Description: Shared library for the glob(3) system function
 
 
@@ -1365,7 +1365,7 @@ Size: 4604
 MD5sum: 49d50a9d6026a7c1890dc17e24ba7894
 SHA1: 7bf51b9a05e2a6c2daa88ddd08784b277059f2a0
 SHA256: 1e8927a23f4a32be8bba16bbb486681b0acf60eef35d1c9e9713018622cfc088
-Homepage: https:/man7.org/linux/man-pages/man3/glob.3.html
+Homepage: https://man7.org/linux/man-pages/man3/glob.3.html
 Description: Static libraries for libandroid-glob
 
 
@@ -1379,7 +1379,7 @@ Size: 4040
 MD5sum: 9de2deb17bfb0fe746db2012238e6ff7
 SHA1: b9d3199ce5d6f26d0969eaf706205beff0b590ac
 SHA256: a971c4b56ac11864f1237b7a22df11af0a77d3c6477a5ed4b461691fcbd79251
-Homepage: https:/man7.org/linux/man-pages/man7/sem_overview.7.html
+Homepage: https://man7.org/linux/man-pages/man7/sem_overview.7.html
 Description: Shared library for the posix semaphore system function
 
 
@@ -1394,7 +1394,7 @@ Size: 2856
 MD5sum: 43579eae892f9638e386400ad2279075
 SHA1: 4d973b1abfc146acfaedad35968f6474175beeb9
 SHA256: 31538ca9481ffd3333d8bd20fead254597283e82174e7fb1db8ca438b573de6d
-Homepage: https:/man7.org/linux/man-pages/man7/sem_overview.7.html
+Homepage: https://man7.org/linux/man-pages/man7/sem_overview.7.html
 Description: Static libraries for libandroid-posix-semaphore
 
 
@@ -1410,7 +1410,7 @@ Size: 6804
 MD5sum: 5926d2b31851362daeaf4ddd8585d67a
 SHA1: 8d8d2a1e0d441723a4973648cd2a8486af5f77f9
 SHA256: d736ab1d4ebed81621b320845ca6886ecf133eab3291b3c72ede2187755a02f7
-Homepage: https:/github.com/termux/libandroid-shmem
+Homepage: https://github.com/termux/libandroid-shmem
 Description: System V shared memory emulation on Android using ashmem
 
 
@@ -1425,7 +1425,7 @@ Size: 5764
 MD5sum: 811674d3dd8f80b6a84ed8861c2df897
 SHA1: c071e96947e9a2d2de740e8b17aa228b26e912aa
 SHA256: 15b4c8c6031fe5541c1f52ce0a740539ef1409762e9ce00c1b7f803e49f302d8
-Homepage: https:/github.com/termux/libandroid-shmem
+Homepage: https://github.com/termux/libandroid-shmem
 Description: Static libraries for libandroid-shmem
 
 
@@ -1440,7 +1440,7 @@ Size: 15076
 MD5sum: f559f89a1a6fd375bcc7f4de7a52a8e7
 SHA1: 3473b7194aa44badfc7bf173f6d55188c8d798ea
 SHA256: ed173c1a8708b28e9262edcf2c0c98f2af1685b33fde4899007d8b81c87e7eb6
-Homepage: https:/man7.org/linux/man-pages/man3/posix_spawn.3.html
+Homepage: https://man7.org/linux/man-pages/man3/posix_spawn.3.html
 Description: Shared library for the posix_spawn system function
 
 
@@ -1455,7 +1455,7 @@ Size: 4076
 MD5sum: 7b866a5f3ceeecad46d5032e34062139
 SHA1: 7393abdb2636b7dc15475a58fc655bcdf40e260e
 SHA256: 610d6faaafe7688e0d60e6f1af8cca46436f2c195229b021a029d686bd8c8ac8
-Homepage: https:/man7.org/linux/man-pages/man3/posix_spawn.3.html
+Homepage: https://man7.org/linux/man-pages/man3/posix_spawn.3.html
 Description: Static libraries for libandroid-spawn
 
 
@@ -1470,7 +1470,7 @@ Size: 10860
 MD5sum: d46803c7912e6b9b966d556df1d476ab
 SHA1: 72a5cb8299a9e58e831cabac77f0f0927dfd1b9e
 SHA256: d8fd93155857a6958780d9f007c14ca681dc26cf57b0a1fdab504ecdf5cb61a2
-Homepage: https:/github.com/termux/libandroid-support
+Homepage: https://github.com/termux/libandroid-support
 Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
 
 
@@ -1485,7 +1485,7 @@ Size: 8676
 MD5sum: 253d413afc57eb9b2bb238ddacbfb603
 SHA1: 38f0ab06530360ca4ee18c4da6c73d2144ec235e
 SHA256: b45dd60e34b7267db3e330bfb1d05ac61e92f24739b5890543ea6e2379cdd622
-Homepage: https:/github.com/termux/libandroid-support
+Homepage: https://github.com/termux/libandroid-support
 Description: Static libraries for libandroid-support
 
 
@@ -1500,7 +1500,7 @@ Size: 66980
 MD5sum: 8559bef2644e6789ed4a329836f270fd
 SHA1: 5d6c5697aa795b8b7657c739e3f586536d8fbd2a
 SHA256: d652d93a50eab3331227d44fc55bb4e6f185296709a027af8eb3f58d0ccbd4a1
-Homepage: https:/packages.debian.org/libapt-pkg-perl
+Homepage: https://packages.debian.org/libapt-pkg-perl
 Description: Perl interface to APT's libapt-pkg
 
 
@@ -1517,7 +1517,7 @@ Size: 379996
 MD5sum: 52f20731f0d2564c11c46f87e80a8a59
 SHA1: fff6feff17f287387c323606c0e343bf04ade6f4
 SHA256: d925eac04a79618fa35beacecddb497dacbfbc8ce828da01a4ee695150701620
-Homepage: https:/www.libarchive.org/
+Homepage: https://www.libarchive.org/
 Description: Multi-format archive and compression library
 
 
@@ -1532,7 +1532,7 @@ Size: 355452
 MD5sum: d89e9914d70c14bc3da4628ef6842065
 SHA1: 757b8b8c5e25f4b3d1f7d05a8946c4ce00c917dc
 SHA256: 3b5650f098eb66de47de59445fdb8f4cac41f40a025003fa18f1700b1e9db75e
-Homepage: https:/www.libarchive.org/
+Homepage: https://www.libarchive.org/
 Description: Static libraries for libarchive
 
 
@@ -1549,7 +1549,7 @@ Size: 71424
 MD5sum: 41d76d19a00879c9251166093b45b4d0
 SHA1: c51e626f758e0d91d959df8b7bea684a76fd047e
 SHA256: 1cf1635d9c2c7d1e6af8adc1883dab537815ec6090a691debb29849096f7d7b5
-Homepage: https:/www.gnupg.org/related_software/libassuan/
+Homepage: https://www.gnupg.org/related_software/libassuan/
 Description: Library implementing the Assuan IPC protocol used between most newer GnuPG components
 
 
@@ -1564,7 +1564,7 @@ Size: 31852
 MD5sum: 8490c4437e37c1b4da2f5d6998dc5136
 SHA1: 247c8cbbce976bc9f66711b0675687401d045731
 SHA256: 2fdf4ea57c30087018e73d98622c071d3c985275fc2574597ba41c0f7a2ae989
-Homepage: https:/www.gnupg.org/related_software/libassuan/
+Homepage: https://www.gnupg.org/related_software/libassuan/
 Description: Static libraries for libassuan
 
 
@@ -1580,7 +1580,7 @@ Size: 123168
 MD5sum: cc3faa1dd6037407545552fc7a6ed576
 SHA1: df816d7abb38c62dbc8890ef0d60101c49f0922b
 SHA256: f5038e37fb58a8903cbed0a1f57d8bbaace3f07f0dc1e76483a2134019444430
-Homepage: https:/en.wikipedia.org/wiki/Util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Block device identification library
 
 
@@ -1597,7 +1597,7 @@ Size: 25624
 MD5sum: 82df3cc767fb15fe09dfe1673f330e85
 SHA1: 9d2dd7d1ac7915550c17b67fa72e5450728313dd
 SHA256: a0051f5334331e2a2cc36c8eba6005bf314ffa391dbf1aa52e255e2e5033d2ed
-Homepage: http:/www.bzip.org/
+Homepage: http://www.bzip.org/
 Description: BZ2 format compression library
 
 
@@ -1612,7 +1612,7 @@ Size: 304712
 MD5sum: 2621c897df4ec53bc453557870346b8e
 SHA1: f9d96e2f6e25eed8b6db005b3222ad382e42af9b
 SHA256: 4192b9024052aed0846db63029c698f535baf9fc105d2c1e2955aae82a32b4a0
-Homepage: https:/libcxx.llvm.org/
+Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
 
@@ -1626,7 +1626,7 @@ Size: 35060
 MD5sum: 2ea095c522c374077421bb6670886136
 SHA1: 09610f4171571eea4f97b161848b01d923d2f619
 SHA256: 2bc83105ccb29b929b705be6d2f0e90a8094dae0975b60640efae22d34b38674
-Homepage: https:/people.redhat.com/sgrubb/libcap-ng/
+Homepage: https://people.redhat.com/sgrubb/libcap-ng/
 Description: Library making programming with POSIX capabilities easier than traditional libcap
 
 
@@ -1641,7 +1641,7 @@ Size: 9080
 MD5sum: c19889f5386e91d67c5b666f12b7eafc
 SHA1: 1d2dfc8c99645325258fc2fefa89a0f8ec5f7ac2
 SHA256: 6b08bf2d2d25c0f4fe16ba2b231aab0c1cfc4853c78283517ce474f97d6aded4
-Homepage: https:/people.redhat.com/sgrubb/libcap-ng/
+Homepage: https://people.redhat.com/sgrubb/libcap-ng/
 Description: Static libraries for libcap-ng
 
 
@@ -1657,7 +1657,7 @@ Size: 3195360
 MD5sum: a879a8d29f20ca7dc92969fa57ba82a7
 SHA1: db2daab0d4749f6d6cd72e0f2816f2c19038a6a8
 SHA256: bacc66a3f20c00bf874774557703e9504d202f1c887875552d62c0a5626be1ba
-Homepage: https:/clang.llvm.org/
+Homepage: https://clang.llvm.org/
 Description: Compiler runtime libraries for clang
 
 
@@ -1674,7 +1674,7 @@ Size: 8660
 MD5sum: fe4e89110c2f893f1316d3bbc15321b2
 SHA1: 856696eeb1de31ad3811da16ed705f3677acaa06
 SHA256: 88ec2ead0a722a03000ea02d82b1764ce93a6eecac13d63d03a7e043acd22ef6
-Homepage: http:/michael.dipperstein.com/crypt/
+Homepage: http://michael.dipperstein.com/crypt/
 Description: A crypt(3) implementation
 
 
@@ -1693,7 +1693,7 @@ Size: 1024324
 MD5sum: fa4931c6e7090825894cb31659834826
 SHA1: 08d0f9542dd0261873e17bb9f7f8f40b65cbf703
 SHA256: 0e61b4b3e72ddbbf0575173408082479cbd86bfdbabf1ccfa7c4508d15f84785
-Homepage: https:/curl.se/
+Homepage: https://curl.se/
 Description: Easy-to-use client-side URL transfer library
 
 
@@ -1708,7 +1708,7 @@ Size: 310712
 MD5sum: e89966135a233ac38f3e6efe46833473
 SHA1: f3e5e413be4662f344b40f35f998cb59799bad34
 SHA256: 24f143601145dac37cb9d56e91bec4788807c1b208bf600fb9057d1d7d781649
-Homepage: https:/curl.se/
+Homepage: https://curl.se/
 Description: Static libraries for libcurl
 
 
@@ -1725,7 +1725,7 @@ Size: 495204
 MD5sum: fdff7c3d04220a55e5ff07ccf3bde8f4
 SHA1: dea7557c7a18b795225d990af170cb0ad3587854
 SHA256: 83edd4f535678a7ae2372c6919e1c1551c776ebb2c084b1fde825d2a225225cc
-Homepage: https:/www.oracle.com/database/berkeley-db
+Homepage: https://www.oracle.com/database/berkeley-db
 Description: The Berkeley DB embedded database system (library)
 
 
@@ -1740,7 +1740,7 @@ Size: 472260
 MD5sum: 43375596951c560dda55c03d038bb50c
 SHA1: 448e3508f0b0bba9020fc5419f0a4f01b44f60de
 SHA256: 4da38af738625e9340d0837fdf3c252c346872315b36a46c412bca3f30aef858
-Homepage: https:/www.oracle.com/database/berkeley-db
+Homepage: https://www.oracle.com/database/berkeley-db
 Description: Static libraries for libdb
 
 
@@ -1757,7 +1757,7 @@ Size: 77676
 MD5sum: ba7a78b789ddfa72ce53ef174bfe2170
 SHA1: ef0f817c49cc2d560cd029fa143340ea63008f8d
 SHA256: 0868c3dc2a03a1a6489e86e5b1e6785e903a2fda108966b0330fa092ecb4795e
-Homepage: https:/thrysoee.dk/editline/
+Homepage: https://thrysoee.dk/editline/
 Description: Library providing line editing, history, and tokenization functions
 
 
@@ -1772,7 +1772,7 @@ Size: 75976
 MD5sum: 892ab0bae5917f9cc1dac38b429bb57f
 SHA1: 18f0e66be3a773a2c329f4328e61a703a69a4ce8
 SHA256: d3c7eec21c4d29b1b7ff7665113e7959939386290cd5dedebf19cd892ac17a55
-Homepage: https:/thrysoee.dk/editline/
+Homepage: https://thrysoee.dk/editline/
 Description: Static libraries for libedit
 
 
@@ -1788,7 +1788,7 @@ Size: 199652
 MD5sum: d9e6609ae0fb8d1568a64979fc39fb54
 SHA1: 42c01031278b87732bd0b61a8e861ddac7f19576
 SHA256: 3ec40665b1563a604e445dc7eb46e922802ef687573c9c9cecf9579e4187dcb8
-Homepage: https:/libevent.org/
+Homepage: https://libevent.org/
 Description: Library that provides asynchronous event notification
 
 
@@ -1804,7 +1804,7 @@ Size: 81820
 MD5sum: 3dcfa63696624add00765089ed8a982e
 SHA1: 4e9283bf5b0a4fad9218eec94115ee03dcb80482
 SHA256: 4d5edc075a5232a1507f7d42e4f2aef4a42e49e838ff0db8d3b33a2daaf04cf6
-Homepage: https:/libexpat.github.io/
+Homepage: https://libexpat.github.io/
 Description: XML parsing C library
 
 
@@ -1819,7 +1819,7 @@ Size: 54988
 MD5sum: 3cf2f542811e3695d5a23594c25fe83e
 SHA1: d9e94da5aa9b727ef1ba88a900ac823f3108c039
 SHA256: 8baa85c8980a3ed5097746ca1a1ba55c011e55b19ac0cdbe5979237c30ad24e2
-Homepage: https:/libexpat.github.io/
+Homepage: https://libexpat.github.io/
 Description: Static libraries for libexpat
 
 
@@ -1834,7 +1834,7 @@ Size: 156140
 MD5sum: 2241aa7e7b036d68c1d0f6ea4f9f9ec2
 SHA1: 4afeb0126a2632fbc9b51cf25405d68a0d9f9752
 SHA256: f644363c4b36e3f90aad10e909e6300e4c3cc70bcc75f282ebe49bbb147a6ff4
-Homepage: https:/en.wikipedia.org/wiki/Util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Library for manipulating disk partition tables
 
 
@@ -1850,7 +1850,7 @@ Size: 30812
 MD5sum: bd3740107faeda8ef2a0e128be64229c
 SHA1: 0b7953990968f339d89be39dbe0398f6094c27bf
 SHA256: 0433b1b7014d04c4df8b382e28a26d6578a5db317486fe44291ae321bf531ba4
-Homepage: https:/sourceware.org/libffi/
+Homepage: https://sourceware.org/libffi/
 Description: Library providing a portable, high level programming interface to various calling conventions
 
 
@@ -1865,7 +1865,7 @@ Size: 16620
 MD5sum: 08ce61a069b0a3c5ecf02fedd337045f
 SHA1: fec1c792a68f4ccbbd0c496ffe40e6633eadd76e
 SHA256: 51b433f44bb6785c932be808fbadef9720e815864f21b04cdfefe98e529b783c
-Homepage: https:/sourceware.org/libffi/
+Homepage: https://sourceware.org/libffi/
 Description: Static libraries for libffi
 
 
@@ -1882,7 +1882,7 @@ Size: 429576
 MD5sum: 31a8dc972289dd7908690a9e2b7dcc99
 SHA1: 31d6fe3f84eb9aa432679e7038f9a22ccc584d4c
 SHA256: 2519c3f7f8d0579ad830ccbf09233674910f5fe2de7cf8de3764457d679048f4
-Homepage: https:/www.gnu.org/software/libgcrypt/
+Homepage: https://www.gnu.org/software/libgcrypt/
 Description: General purpose cryptographic library based on the code from GnuPG
 
 
@@ -1897,7 +1897,7 @@ Size: 386940
 MD5sum: d899a1e3e1b2b20fc2e57238f9aab471
 SHA1: 87c51b17bc7f7c4ff7d0a48803199f0bd3cf469c
 SHA256: d7797fced2c4b8f7278ae57ffab55c6ebb7d54d66694e38cd8134254319ede6c
-Homepage: https:/www.gnu.org/software/libgcrypt/
+Homepage: https://www.gnu.org/software/libgcrypt/
 Description: Static libraries for libgcrypt
 
 
@@ -1914,7 +1914,7 @@ Size: 324084
 MD5sum: 834982e077305a53a0b05fdea4ffc451
 SHA1: 3acda562880ea372620b3dfd4cde1b27e152ee89
 SHA256: a0a096957c041a009a424717a2c711e3945efe40780fb0992535447dff45407f
-Homepage: https:/gmplib.org/
+Homepage: https://gmplib.org/
 Description: Library for arbitrary precision arithmetic
 
 
@@ -1929,7 +1929,7 @@ Size: 224168
 MD5sum: cb0f0e710501c911d1124164b02f791e
 SHA1: dbd624f23bce181f7f1b06a17a85e889da058ea5
 SHA256: 398fcbd1007caa26e9e353f6c1f00564349818553576f94325977d4f4147a657
-Homepage: https:/gmplib.org/
+Homepage: https://gmplib.org/
 Description: Static libraries for libgmp
 
 
@@ -1946,7 +1946,7 @@ Size: 719400
 MD5sum: 7f0d5e2b76e2e9be4ccecd5d74f8eb6a
 SHA1: ed0dd77b388fd2308fb05d8815097cec98df143a
 SHA256: 0bf0e270ee1efb2201e80dbaf4d38d762f5bd29b387602a2416c986b74c4bf42
-Homepage: https:/www.gnutls.org/
+Homepage: https://www.gnutls.org/
 Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
 
 
@@ -1961,7 +1961,7 @@ Size: 778484
 MD5sum: 9b33b36d7a33ad66191cdddee41ec37e
 SHA1: 883af895fb645f5d79ca1b9e3954b665ce84d6c4
 SHA256: a88a31971f428e79032b8e8b409e4a24a0ad2c9feb5758ed8e27706175d950fe
-Homepage: https:/www.gnutls.org/
+Homepage: https://www.gnutls.org/
 Description: Static libraries for libgnutls
 
 
@@ -1977,7 +1977,7 @@ Size: 109212
 MD5sum: 0fec13b6b239f7801a085afd68056d32
 SHA1: 3725e497869de0f890e9a62c1aa8437d11f18eb9
 SHA256: 12ad7ca70e8be42819efaa3eddef859c249966f4245d444cff18aeb912cf38ce
-Homepage: https:/www.gnupg.org/related_software/libgpg-error/
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
 Description: Small library that defines common error values for all GnuPG components
 
 
@@ -1992,7 +1992,7 @@ Size: 58584
 MD5sum: 3109c48c07d6c9ea933735a37e1019f8
 SHA1: 6a7aa898cae32565dae10e59235e05e31d4f9074
 SHA256: da41225503d9064571c1659b9b5b86c8b9ffa44f014ef718d4c41ad5243ebf45
-Homepage: https:/www.gnupg.org/related_software/libgpg-error/
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
 Description: Static libraries for libgpg-error
 
 
@@ -2006,7 +2006,7 @@ Size: 67248
 MD5sum: 859e36da08a838b07a4546b83e0e63a9
 SHA1: 830f4481e7649f9780a85bac2023a5f04ed5d3c9
 SHA256: 229d9fc4dbae5fb308a4e6028cc534643ece55ecec440889a5449ad1a1128734
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: X11 Inter-Client Exchange library
 
 
@@ -2021,7 +2021,7 @@ Size: 36568
 MD5sum: d0ec07e932d4586860236848a27c8fad
 SHA1: 6618a0f7c9d4e2544b2370cb5c6a2cdb09969326
 SHA256: fed740d47079e3714c05ac03760b8640c8b412d6a2a812a1f240764b9ad81f57
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libice
 
 
@@ -2037,7 +2037,7 @@ Size: 556564
 MD5sum: ff8b2bd3b5bd2b95caf3d239eeae37d6
 SHA1: f0a72f5a9c28cd05b744e319f7e170dc13572ca4
 SHA256: e4dfd1ee2d1763551357613d5f40adebf318a3697b34c21d095dc6ef0e179a25
-Homepage: https:/www.gnu.org/software/libiconv/
+Homepage: https://www.gnu.org/software/libiconv/
 Description: An implementation of iconv()
 
 
@@ -2052,7 +2052,7 @@ Size: 552728
 MD5sum: 4f955400dfe8aff782d3e2f1a0f38846
 SHA1: 4a7ec7931f006577b2b539fd78c6583db88db3e7
 SHA256: 1cdd37ad8ac78656da8bb30a2379f397e7c6d91f6f49ca35488a3f74aaae0b7d
-Homepage: https:/www.gnu.org/software/libiconv/
+Homepage: https://www.gnu.org/software/libiconv/
 Description: Static libraries for libiconv
 
 
@@ -2069,7 +2069,7 @@ Size: 9716656
 MD5sum: c62895b9ce2a7da3976cde2176533780
 SHA1: d9657a2cae7eb2eea3dcb6bba204c1075cc8d693
 SHA256: 1f973d56c273b2fa0860b06b341603801067ddc0e3a1bd9981e9f775b7d43d78
-Homepage: http:/site.icu-project.org/home
+Homepage: http://site.icu-project.org/home
 Description: International Components for Unicode library
 
 
@@ -2084,7 +2084,7 @@ Size: 9579900
 MD5sum: 9a37a833616c070ba4659999fd8c7198
 SHA1: 6f218251cd8c2521ad62efba5f4fbb50e4720dbc
 SHA256: cd034312ce1ad9af478c83c4781ceb6cd94d3b05c6df7473bc4dde54cb9aca73
-Homepage: http:/site.icu-project.org/home
+Homepage: http://site.icu-project.org/home
 Description: Static libraries for libicu
 
 
@@ -2101,7 +2101,7 @@ Size: 103372
 MD5sum: 9a5c9845b14d5418dc83bcfb33a8444b
 SHA1: 30ba8a05cd473129dbdd0d55c96ec7d107039927
 SHA256: 7ddeece47a27b9544e7342bff2cd6d55b04d6e59cbb39cd89fd7dc43e6144a89
-Homepage: https:/www.gnu.org/software/libidn/#libidn2
+Homepage: https://www.gnu.org/software/libidn/#libidn2
 Description: Free software implementation of IDNA2008, Punycode and TR46
 
 
@@ -2116,7 +2116,7 @@ Size: 72068
 MD5sum: 998d6f9d71bc56c1d6a6354fbab092e7
 SHA1: e56cae992e817f0c22109e4cf8091d049e9e2fac
 SHA256: 75efd849af343eb975bde2be227d477711b9f7d15eaaf0fdf6c10080de41bd7d
-Homepage: https:/www.gnu.org/software/libidn/#libidn2
+Homepage: https://www.gnu.org/software/libidn/#libidn2
 Description: Static libraries for libidn2
 
 
@@ -2130,7 +2130,7 @@ Size: 4864
 MD5sum: 0c8018c56aa61fec0949a82591c497af
 SHA1: 9c513a79392fd5dc952a11255811f38df92aa4d5
 SHA256: 8e7a5af392b126f54746a852fd1e573416467a9f475362db70aad7df7212d74d
-Homepage: https:/fusesource.github.io/jansi/
+Homepage: https://fusesource.github.io/jansi/
 Description: A small java library that allows you to use ANSI escape codes to format your console output
 
 
@@ -2146,7 +2146,7 @@ Size: 362268
 MD5sum: 7d0a4c63cf7857d7a0fffe8857edf908
 SHA1: c890ed56e8153433c10255f7531b75b721e87175
 SHA256: dc96029a984a1e3c1d214386fbcf9bae24ffbc555462f929250444a36a160b5c
-Homepage: https:/libjpeg-turbo.virtualgl.org
+Homepage: https://libjpeg-turbo.virtualgl.org
 Description: Library for reading and writing JPEG image files
 
 
@@ -2161,7 +2161,7 @@ Size: 93484
 MD5sum: 843a0abd7bdf322f7559bab5825ed57e
 SHA1: ba49fd4b2fa94c076718a3c2dce55100ac124941
 SHA256: 105d3d36a271a300d3c6b1b7ab4bad317e0ddadc900660250f36a2cd407ef7f3
-Homepage: https:/libjpeg-turbo.virtualgl.org
+Homepage: https://libjpeg-turbo.virtualgl.org
 Description: Programs for manipulating JPEG files
 
 
@@ -2176,7 +2176,7 @@ Size: 246960
 MD5sum: ab54717a11fa865944dd6e3a90ed27f1
 SHA1: b02ac9e65287823f2e51944dd023d926b9f066f5
 SHA256: 6e7a6bee5094963996e651dc80aeae5f7673348888f63c44027597f4ecb8df54
-Homepage: https:/libjpeg-turbo.virtualgl.org
+Homepage: https://libjpeg-turbo.virtualgl.org
 Description: Static libraries for libjpeg-turbo
 
 
@@ -2193,7 +2193,7 @@ Size: 105204
 MD5sum: f6554a8a6323dc858e4cfb47552e7294
 SHA1: d4be47af073d1c16a9261649cf18c854255ae892
 SHA256: e11c5d4ba8fc30bc0424237fa23084dee1be84a5425333bf12b74e32538bb7c5
-Homepage: https:/gnupg.org/related_software/libksba/
+Homepage: https://gnupg.org/related_software/libksba/
 Description: Library for using X.509 certificates and CMS (Cryptographic Message Syntax) easily accessible
 
 
@@ -2208,7 +2208,7 @@ Size: 91852
 MD5sum: 4d180f0758611a7eacc154026e338ea8
 SHA1: 72fd390779be66413e0871dfdc8fdb09a805c04c
 SHA256: fa39d085ef3bd85d50a9919794175e9400a3ea869b21b4ab4d59dba2f2054a9e
-Homepage: https:/gnupg.org/related_software/libksba/
+Homepage: https://gnupg.org/related_software/libksba/
 Description: Static libraries for libksba
 
 
@@ -2226,7 +2226,7 @@ Size: 25144620
 MD5sum: 37dbf04508653f722b88b99fc74aa376
 SHA1: da5ea1c0adca2085b39ee83f7dd9c572521b247d
 SHA256: 7d07734f55bb77244532f18fee9d870d504a66ee5ed696fd737ae0b54c0be3d5
-Homepage: https:/clang.llvm.org/
+Homepage: https://clang.llvm.org/
 Description: Modular compiler and toolchain technologies library
 
 
@@ -2241,7 +2241,7 @@ Size: 70849528
 MD5sum: fb537497f9150bd2b1f8f9ded48a6ffd
 SHA1: dcaefb2be056408494f3c933364fcfc369a19ea7
 SHA256: 83cbbd1a422cc8263ad00c13c2e46a304808e730b09015c27f996415a15a5a91
-Homepage: https:/clang.llvm.org/
+Homepage: https://clang.llvm.org/
 Description: Static libraries for libllvm
 
 
@@ -2257,7 +2257,7 @@ Size: 85456
 MD5sum: 3c63d80a42709d0a16a457bbba94e47b
 SHA1: 8bcb8f56dbd023a5b3ca51ff1c5693711643c60b
 SHA256: 99557da38dae6964b5978c1ca25355173cebf30d53f98ebbd8b47d27ff4dfbe0
-Homepage: https:/lz4.github.io/lz4/
+Homepage: https://lz4.github.io/lz4/
 Description: Fast LZ compression algorithm library
 
 
@@ -2274,7 +2274,7 @@ Size: 245432
 MD5sum: d29295c99c3b6409a9dd560a2264d7d8
 SHA1: 5687d5bf970f09c631113f49e8ca1f59ccd3d5e7
 SHA256: c9f2af31dea365487625394316d04ad80728db9f55ec57b4d7006eb1ed29ecec
-Homepage: https:/tukaani.org/xz/
+Homepage: https://tukaani.org/xz/
 Description: XZ-format compression library
 
 
@@ -2289,7 +2289,7 @@ Size: 87672
 MD5sum: d3aa107bb10a8b18551455bfa5e647d9
 SHA1: 7f6688e0fcb73da4aca3001d4b2f50f86b5e8347
 SHA256: c01ba8b6fc6d73e83296425158820a2312dbd52402a5e8134fde2ce9a918d94a
-Homepage: https:/tukaani.org/xz/
+Homepage: https://tukaani.org/xz/
 Description: Static libraries for liblzma
 
 
@@ -2303,7 +2303,7 @@ Size: 39672
 MD5sum: f3b46990327ff5202f9a63c330b222b1
 SHA1: e3a6e6d9e077a5d9a0be0520fae5ee6e3531ec98
 SHA256: 4a13695198e2890bf968aa68fc2a99078a10454885edd7d87809c6836cde712c
-Homepage: https:/www.hadrons.org/software/libmd/
+Homepage: https://www.hadrons.org/software/libmd/
 Description: Message Digest functions from BSD systems
 
 
@@ -2318,7 +2318,7 @@ Size: 17236
 MD5sum: 8575984827a0c6dbc1ab27fe4a307fe9
 SHA1: 29ad2a47ef82f3a7bae9a3effab301e66fcea17e
 SHA256: 9a1bdc873467c76112ad57ea25ffd9543f3453759efac497287c30a3df57cc23
-Homepage: https:/www.hadrons.org/software/libmd/
+Homepage: https://www.hadrons.org/software/libmd/
 Description: Static libraries for libmd
 
 
@@ -2333,7 +2333,7 @@ Size: 145408
 MD5sum: 723b094f741c240ca4384198627a9769
 SHA1: 44d299089b0e84d4309e932ab7ef65cde87b9a5d
 SHA256: 92803a13a89f8e6f272aecefbc364b75e28bb9a23bda3a3dcda8c12356a97f8e
-Homepage: https:/en.wikipedia.org/wiki/Util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Library for (un)mounting filesystems
 
 
@@ -2350,7 +2350,7 @@ Size: 271824
 MD5sum: 8bdadc3dda61ac79702e7889725827db
 SHA1: d9fefa112697a1bb742587f29f708203fbc72c90
 SHA256: 5d17089af93f903096b2033fbc10db398e2ffa8e1e78441f7ca36d08f0cfce33
-Homepage: https:/www.mpfr.org/
+Homepage: https://www.mpfr.org/
 Description: C library for multiple-precision floating-point computations with correct rounding
 
 
@@ -2365,7 +2365,7 @@ Size: 208756
 MD5sum: 1e919103f6ab19ff705ca171fd8eb4fb
 SHA1: c55d3f2fbce5bfaa9659dc7568f9bfc66c9064ef
 SHA256: b6de83c35beaa5a2501cd20b869b3c92e9d2a5ce76eebf9d3c6707972fa8aa1d
-Homepage: https:/www.mpfr.org/
+Homepage: https://www.mpfr.org/
 Description: Static libraries for libmpfr
 
 
@@ -2382,7 +2382,7 @@ Size: 403544
 MD5sum: 1820b3978e26b74510c511aa4c4041ac
 SHA1: 6ad787ad2e2bda5f32b7f6ee95b952b814224669
 SHA256: 0df7b1bd4a3d1113b36b53d55386cb766ada23cfb86cb5685ef3d6abe01e6c50
-Homepage: https:/www.lysator.liu.se/~nisse/nettle/
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Cryptographic library that is designed to fit easily in more or less any context
 
 
@@ -2397,7 +2397,7 @@ Size: 632884
 MD5sum: 992c03ba901db8b5933889beefdff5ce
 SHA1: 89b2c0bf7d7cc65771afb33b6402c652cc61356b
 SHA256: d84f7e622ca2f742732dcfa705c0eb922d2d461c945b623ae7066c53f75d095d
-Homepage: https:/www.lysator.liu.se/~nisse/nettle/
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Static libraries for libnettle
 
 
@@ -2413,7 +2413,7 @@ Size: 97072
 MD5sum: 68570f0904dc8749c59b48da97fd0c2b
 SHA1: 608e4c3d53b405435bc0a4f2ea2a4379e48e1bb9
 SHA256: 604f9e7cc60c81c3de3a9a320f53789db0311dfb22311659016dc5726f018326
-Homepage: https:/nghttp2.org/
+Homepage: https://nghttp2.org/
 Description: nghttp HTTP 2.0 library
 
 
@@ -2428,7 +2428,7 @@ Size: 66804
 MD5sum: 19864b7b900f1ecf230de752bd7ca8d8
 SHA1: a2a6570c331fc457b8acc080137ff6c04c697414
 SHA256: a9db8b35eec63e569050d597086e9332ca6728f960ab3fd918e0317d242a614e
-Homepage: https:/nghttp2.org/
+Homepage: https://nghttp2.org/
 Description: Static libraries for libnghttp2
 
 
@@ -2444,7 +2444,7 @@ Size: 11100
 MD5sum: 65f46dd00fb17c8095ccb1ed268accbb
 SHA1: 3ff04d76fffec37b92e894090a085705b77892ee
 SHA256: 000797c1b8f2547463939dcbaa0b38c849ee724bf13984cb03627804f55655ba
-Homepage: https:/www.gnupg.org/related_software/npth/
+Homepage: https://www.gnupg.org/related_software/npth/
 Description: New GNU Portable Threads Library
 
 
@@ -2459,7 +2459,7 @@ Size: 4672
 MD5sum: 7571f4794d81bc65fe16bebb94bda009
 SHA1: 87fb8d300fba0d11d24143bbb3a4a6870cc994d0
 SHA256: ebb2fece0045be0d88ca40048f4b46028311d2fecde82f37f5918d6704fd9abd
-Homepage: https:/www.gnupg.org/related_software/npth/
+Homepage: https://www.gnupg.org/related_software/npth/
 Description: Static libraries for libnpth
 
 
@@ -2474,7 +2474,7 @@ Size: 3292
 MD5sum: ee050a84e8490ab68bfa86e10e02443b
 SHA1: 6864c315430c1d00417374df8be722f2af5b5950
 SHA256: 5c49c360eca3170af7c7fc1179f3b54caed03d8ac757ef75d80a6dd54261c475
-Homepage: https:/www.pcre.org
+Homepage: https://www.pcre.org
 Description: Posix-compatible runtime libraries for libpcre
 
 
@@ -2491,7 +2491,7 @@ Size: 194680
 MD5sum: 618f69f9ef05586b3c678359b84c9964
 SHA1: e3e42457233cbfdf525adc40c4b12a1c23f8684b
 SHA256: 03e76f16b34719ca65aa6bd7f02f4de8827af1dce1e12c0bff07c62ff324e88a
-Homepage: http:/www.libpng.org/pub/png/libpng.html
+Homepage: http://www.libpng.org/pub/png/libpng.html
 Description: Official PNG reference library
 
 
@@ -2506,7 +2506,7 @@ Size: 85952
 MD5sum: d11953ad73b2bfb6060444fde8bbac4e
 SHA1: d4af92e009593cee578503d35c4c491102bc4437
 SHA256: 753b2abded2cceba1b90400a0529f4aa30ae772f44f151a17c667c83aa3da0ad
-Homepage: http:/www.libpng.org/pub/png/libpng.html
+Homepage: http://www.libpng.org/pub/png/libpng.html
 Description: Static libraries for libpng
 
 
@@ -2521,7 +2521,7 @@ Size: 1220068
 MD5sum: 150090b5ec9e5282a8da0e6c94bba64c
 SHA1: dae18f8e266cfe5d56cdb09ed9ddc48bec731c80
 SHA256: 5e5274185172e65c35449cfc5fe968e7c02d93fa1da7561a7af62d0808bc0bfb
-Homepage: https:/clang.llvm.org/
+Homepage: https://clang.llvm.org/
 Description: High-level loop and data-locality optimizer for clang
 
 
@@ -2538,7 +2538,7 @@ Size: 1021956
 MD5sum: a5755e682875acda56a490a0e87bec94
 SHA1: 26fdba635f86cd9983da075c54e9b6845993ba48
 SHA256: f356eb38b0ba5c6eff7a0fc1a56f8d30e4b64210b84df69bf9472777550746c9
-Homepage: https:/github.com/protocolbuffers/protobuf
+Homepage: https://github.com/protocolbuffers/protobuf
 Description: Protocol buffers C++ library
 
 
@@ -2553,7 +2553,7 @@ Size: 11528
 MD5sum: f1b431021459ff77c6337bf93f96a6b4
 SHA1: 74cd6aa31ecaba865c37a6cf4bd58791cfad17a3
 SHA256: 00271e31e70607f373d3952e2493f1cc7f666b30ad61c461323bdebff47299b0
-Homepage: https:/cwrap.org/resolv_wrapper.html
+Homepage: https://cwrap.org/resolv_wrapper.html
 Description: A wrapper for DNS name resolving or DNS faking
 
 
@@ -2568,7 +2568,7 @@ Size: 40092
 MD5sum: 0312992ff1185e6f9520960692515f89
 SHA1: 70581bb81ee1d03152320d1ea9d47deb07d23b23
 SHA256: f2fd491b8168112a0f9fb8c61be2db0daf00e9d021cbc4c2dcf49f3d7e1301ac
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: X11 Session Management library
 
 
@@ -2583,7 +2583,7 @@ Size: 12184
 MD5sum: f3dc4c85ebc961d929c8390149133dc0
 SHA1: 9a06cd32aa4c9540e9224744119f5a0c36183b91
 SHA256: e1f1d77ea6ffe4b2605e9989e2289527d3500dedd9d6b38182f0f6f66936c1b3
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libsm
 
 
@@ -2599,7 +2599,7 @@ Size: 85616
 MD5sum: 4c52b02b5e808d6bed6e3302b093b910
 SHA1: 88f4928d9c90b8bb46f44b88e6ebf12892be0683
 SHA256: 35903132bcc98654ee8f1601e570855db6b136c6955a566ae4f4cc04d5191e85
-Homepage: https:/en.wikipedia.org/wiki/Util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Library for smart adaptive formatting of tabular data
 
 
@@ -2616,7 +2616,7 @@ Size: 601160
 MD5sum: b2241f5c20145c5cd7e4c1a607d23e75
 SHA1: 63452c60780dfef09964ecf66cd6429cd38d88d6
 SHA256: d0881e223cc516550e72c4cc8fb18aee182f96a20edf0e16cf5c3a359c121a60
-Homepage: https:/www.sqlite.org
+Homepage: https://www.sqlite.org
 Description: Library implementing a self-contained and transactional SQL database engine
 
 
@@ -2631,7 +2631,7 @@ Size: 508692
 MD5sum: 9b78c74b482a18b3446e0f607be5f5fd
 SHA1: 2b2cac3b9fe200b60f6998b5b9e09f8c9fcdb4bd
 SHA256: a53c858a5fdbc64f051091eb2cff36bdca5649c16d80fb095b194000d62da4e0
-Homepage: https:/www.sqlite.org
+Homepage: https://www.sqlite.org
 Description: Static libraries for libsqlite
 
 
@@ -2648,7 +2648,7 @@ Size: 197560
 MD5sum: 7300f1d3a95a0825a41e2977eb844205
 SHA1: 22e4fa53c81fdb56804b8f89867104ffac2daa0c
 SHA256: 471d9d56348657b25611edf76ff9efee50059011a6d5338b113d099788366d06
-Homepage: https:/www.libssh2.org
+Homepage: https://www.libssh2.org
 Description: Client-side library implementing the SSH2 protocol
 
 
@@ -2663,7 +2663,7 @@ Size: 101864
 MD5sum: 432a611e9382dee2e1185023b805dfd3
 SHA1: 9f23742e76559c546b3278c26ccba643e5559864
 SHA256: 9e62577113a637ae35eaa3b754b442cd63746150086b30c6526b0e824cdbc711
-Homepage: https:/www.libssh2.org
+Homepage: https://www.libssh2.org
 Description: Static libraries for libssh2
 
 
@@ -2677,7 +2677,7 @@ Size: 4312
 MD5sum: 66422858337140d3734eff2e7e280ba3
 SHA1: 20e0d3f9d008f31aedf318e192a21e67577bd014
 SHA256: 31394df756f36571067847af3eefc666a499dc5d5eaa8ba433382bdc7b370348
-Homepage: https:/android.googlesource.com/platform/ndk/
+Homepage: https://android.googlesource.com/platform/ndk/
 Description: Thread debugging library
 
 
@@ -2694,7 +2694,7 @@ Size: 867784
 MD5sum: b91b2ef4e5ea8b99ef55482d8267f840
 SHA1: 8d180d57991643bf98e0437239e011b497de08a5
 SHA256: 243d1800beb3b7aaf49399ad8ce6cbcc265a4dfb4bb99b4fa90bc622c7fd2018
-Homepage: http:/www.simplesystems.org/libtiff/
+Homepage: http://www.simplesystems.org/libtiff/
 Description: Support for the Tag Image File Format (TIFF) for storing image data
 
 
@@ -2709,7 +2709,7 @@ Size: 168608
 MD5sum: 1b1b6b06bd022f632c223f6ef9ada9ad
 SHA1: 14a28b3d577e764c6e7f000caa3f3b1ddcc19fbd
 SHA256: c206f85a02d132f380962ecf50ec5093f0997e54e5a7ee977b5f3d0f36d79156
-Homepage: http:/www.simplesystems.org/libtiff/
+Homepage: http://www.simplesystems.org/libtiff/
 Description: Static libraries for libtiff
 
 
@@ -2724,7 +2724,7 @@ Size: 125760
 MD5sum: 63b80a8c5d44d2a91b74aa79f8279db5
 SHA1: b13e61e3e14953af832ef0d17019c55f2fe7483e
 SHA256: 2756ef907aef15b65b56982293f91a8ad2a3b170f1b1a47c712d2dea3b28adb8
-Homepage: http:/www.simplesystems.org/libtiff/
+Homepage: http://www.simplesystems.org/libtiff/
 Description: Tools for working with tiff files
 
 
@@ -2738,7 +2738,7 @@ Size: 124520
 MD5sum: 8c3545040d807548674354976de04c02
 SHA1: 79750042e65f5e1f4aef684e68fac88c0df361af
 SHA256: 1d6a39085d47d55a6efb6bfcd1dd5e2dd09d51fb1567bb482c83d700df6a825d
-Homepage: http:/git.linux-nfs.org/?p=steved/libtirpc.git
+Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
 Description: Transport Independent RPC library
 
 
@@ -2753,7 +2753,7 @@ Size: 70024
 MD5sum: 995b99539162c48cbd239d22c6c3a85c
 SHA1: de09e5f248decab408cd8cb147bbb5f7ddfb5b63
 SHA256: b829d2c1a4596141f28d49dc79214b67de382f5a81157f613b182ae4a66359c0
-Homepage: http:/git.linux-nfs.org/?p=steved/libtirpc.git
+Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
 Description: Static libraries for libtirpc
 
 
@@ -2770,7 +2770,7 @@ Size: 343560
 MD5sum: a94aee9c3eb6d5bce8a4fd2cf3e0aad1
 SHA1: 6a90b36adc740c2988328f709c4e801127a09d9d
 SHA256: a49de1b9025e1beefe6778062eb76ff8c9fdf9a672e784ffd4d104e7d5f7cde7
-Homepage: https:/unbound.net/
+Homepage: https://unbound.net/
 Description: A validating, recursive, caching DNS resolver
 
 
@@ -2785,7 +2785,7 @@ Size: 415048
 MD5sum: 802bd2b49635b83c59d561c144f2d927
 SHA1: 67e0ed712a7c53e31d7d9a08565b05de111ace20
 SHA256: 6a804e838a734b9ec15c217bd6bac113f8ea34a6f4dd716f2d55ccb4629bb80b
-Homepage: https:/unbound.net/
+Homepage: https://unbound.net/
 Description: Static libraries for libunbound
 
 
@@ -2802,7 +2802,7 @@ Size: 510848
 MD5sum: ec72ac24cf3ef0d010a2d06cc356a8e3
 SHA1: f53c83e1f05297b0d790f15630ff1739579df159
 SHA256: 6bac5ce3e3c04d5d0ee2c11c5a1fd0093aa77e32e89adad4e7cd80419410d866
-Homepage: https:/www.gnu.org/software/libunistring/
+Homepage: https://www.gnu.org/software/libunistring/
 Description: Library providing functions for manipulating Unicode strings
 
 
@@ -2817,7 +2817,7 @@ Size: 447144
 MD5sum: f92299a4ee58a1c88acf23d648725991
 SHA1: c0051927afa5fbc78dfa174a6c72ff326c932738
 SHA256: 9350efdb794695a682838129f2cf8b65656443d66e9823ca2283077ae8fb9555
-Homepage: https:/www.gnu.org/software/libunistring/
+Homepage: https://www.gnu.org/software/libunistring/
 Description: Static libraries for libunistring
 
 
@@ -2833,7 +2833,7 @@ Size: 54108
 MD5sum: 0a0aa3594a346c8b2d1894b8d4b99131
 SHA1: 359af8df701ab5876260b5fed513698eeb188fdf
 SHA256: 19d9beebf29b4b63c979b20ba465416cd09e82abb2c035e0c8f774e1c9c4626c
-Homepage: https:/libusb.info/
+Homepage: https://libusb.info/
 Description: A C library that provides generic access to USB devices
 
 
@@ -2848,7 +2848,7 @@ Size: 45096
 MD5sum: a5132ba3f4fa6bbece133eb1b511cdea
 SHA1: 8e9605168212cbf548ea56ab8be720ccf08577e8
 SHA256: 579c70073c66467647bd9733ce49cffef48ce974a3c939d473fc38b902646463
-Homepage: https:/libusb.info/
+Homepage: https://libusb.info/
 Description: Static libraries for libusb
 
 
@@ -2863,7 +2863,7 @@ Size: 5856
 MD5sum: 782372d292769ffc4b6ea814e200bd02
 SHA1: 1d5147b36b8a65b525cbe46fda9f12ffead16676
 SHA256: 956fa4fc488937419f98ccdf7f48bf4f2669d56d301588e3e5656957ef4d14e8
-Homepage: https:/github.com/protocolbuffers/protobuf
+Homepage: https://github.com/protocolbuffers/protobuf
 Description: Fast UTF-8 validation with Range algorithm
 
 
@@ -2879,7 +2879,7 @@ Size: 14608
 MD5sum: 21c9fce0364f3064ef4e03c2fd3ca996
 SHA1: 543323431a1f0fde910a506fad4b5cecfb9d377b
 SHA256: e5f539c6867ea7e1b2489807015829b81790ef957ffab3e0fffd2e2416ec8ed3
-Homepage: https:/en.wikipedia.org/wiki/Util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Library for handling universally unique identifiers
 
 
@@ -2895,7 +2895,7 @@ Size: 77244
 MD5sum: 1c186d6dd9b576dcca484354c5585f0e
 SHA1: 0426c70674a8a2d9cc3f14142ad4c7b1ee25d6de
 SHA256: 30eaa8eb6f78ef4ee9603ae398f3a0da99d031f454223f0931e6a3c812331578
-Homepage: https:/libuv.org
+Homepage: https://libuv.org
 Description: Support library with a focus on asynchronous I/O
 
 
@@ -2910,7 +2910,7 @@ Size: 269976
 MD5sum: a2d51c419313474882102de8c61397e4
 SHA1: 46e6e6e38233a86f5bfc3c56215ff38a1c1582d0
 SHA256: d4f85578082866028ebdf5006cba1fcbd30c127100c7f2eac27687c7fd997ade
-Homepage: https:/libuv.org
+Homepage: https://libuv.org
 Description: Static libraries for libuv
 
 
@@ -2927,7 +2927,7 @@ Size: 218832
 MD5sum: 3993ccf06783592f022f25a5ee2f0a2d
 SHA1: 89b8e662dbdb70dbb3862256c527a72f23774d18
 SHA256: 6c38fa3e2ece94282bea811284737818aeedd232d758f376bd4fa76c35a9aab7
-Homepage: https:/github.com/webmproject/libwebp
+Homepage: https://github.com/webmproject/libwebp
 Description: Library to encode and decode images in WebP format
 
 
@@ -2942,7 +2942,7 @@ Size: 178612
 MD5sum: c9ed2b4cb4877f2d72b54c96ed527445
 SHA1: 2f7b594ffa9debe9a3e41a0252b707ac73b523d1
 SHA256: 2a6729a989e549753122359a292eba132e7b5a0be364d4c389b0f915b9f0904c
-Homepage: https:/github.com/webmproject/libwebp
+Homepage: https://github.com/webmproject/libwebp
 Description: Static libraries for libwebp
 
 
@@ -2958,7 +2958,7 @@ Size: 1917452
 MD5sum: 707f6ea1f9ffddb71add6428f907f9f9
 SHA1: 039b419242ab4aad7c815351d6e8374ba97f9a36
 SHA256: ef6836dd404a1ff05e7a1946d263baee32da68872ba22770f4d6edf452765e41
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: X11 client-side library
 
 
@@ -2973,7 +2973,7 @@ Size: 566988
 MD5sum: 1dbf45f4d3b3bf9e223790cbb0d5cb7d
 SHA1: 91ffb131318fcf81ae53920268734427b37ae56c
 SHA256: d60b4592687b07ba31d0a328a4258c16791e7ef27137e286c7c3f1314c60552b
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libx11
 
 
@@ -2987,7 +2987,7 @@ Size: 8432
 MD5sum: 0c2173a05c24a41052389f99e6e3460e
 SHA1: 6aecce35602e5cca4ab13f191d22e7f9dd141157
 SHA256: 8c012816cca8c8bc42e0de6642619b4326313f901b5857692b53bdccffff1b8b
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: X11 authorisation library
 
 
@@ -3002,7 +3002,7 @@ Size: 5068
 MD5sum: e5c3a652e1349ecd11ad6a1c0f67cc2a
 SHA1: 4a66db250b8dd9228bb1561bbb220966caa6e19d
 SHA256: b9f77e0d7ab882cfd70ee504a7f1f5f81291e2f6fa828256886f0f121d7ad999
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxau
 
 
@@ -3018,7 +3018,7 @@ Size: 937236
 MD5sum: d78644adccdc58b8e7cdab310b90691f
 SHA1: 8657de8ad22bab59f5d245714610774c2e11626e
 SHA256: 12b1114e1c089e33a360f5e37c200be706438089639d99400a4a047ece701190
-Homepage: https:/xcb.freedesktop.org/
+Homepage: https://xcb.freedesktop.org/
 Description: X11 client-side library
 
 
@@ -3033,7 +3033,7 @@ Size: 159960
 MD5sum: 6564e09dd10aeb2c60c5bac0d5606df6
 SHA1: bd1f17b457ffccc81dd0b03628d557e5dddda366
 SHA256: 34096f15f500a103e3bd5e053cc3730545cf775b1f04fa3a3b954f4bbea11714
-Homepage: https:/xcb.freedesktop.org/
+Homepage: https://xcb.freedesktop.org/
 Description: Static libraries for libxcb
 
 
@@ -3048,7 +3048,7 @@ Size: 27084
 MD5sum: f0563744136c34273fce34334250c92d
 SHA1: 72d3de555c46ca2ebd92431e0eec43017b98a0e8
 SHA256: 1573cfc274f1095cb3d877121a9d901e9f69448780e5697d4a01ed70885c114d
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: X cursor management library
 
 
@@ -3063,7 +3063,7 @@ Size: 16408
 MD5sum: fa6abd7007162237e061f65c6e12094b
 SHA1: 7a98a80722182a4a5a6c85cd72ba3acdbe9ef08b
 SHA256: e3ed4b21f60628ac3a1797bd6cebf5ac3049144edd31e2822490528bef205d17
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxcursor
 
 
@@ -3077,7 +3077,7 @@ Size: 24088
 MD5sum: 4e9580e0b6199320b6509a3854f2c30b
 SHA1: 0c588937483d7fceddc6cfc41f55ad05bc24de4c
 SHA256: 2705fd2b1f451868a4155ce0a2768a7dcc1ac7ad1a04514a79952883de85ec52
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: X11 Display Manager Control Protocol library
 
 
@@ -3092,7 +3092,7 @@ Size: 7820
 MD5sum: 960586be02ab0e8129cb423d2be16992
 SHA1: c448ee4879130ee6a9a00db50d5ea459cdf84b12
 SHA256: e0a3139bb4a40e7de358ff8c19c46aab87f569c7ff9c7559150ac89232872760
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxdmcp
 
 
@@ -3107,7 +3107,7 @@ Size: 97296
 MD5sum: 552088c7520511250b36ec1a16a1552d
 SHA1: c32fbd52466b490441a9b719e96a5e37aac9e94b
 SHA256: d12941409d169c4bffdcbb3a9c33d1cf8c7fa4cc1556df53d39ebf2b219e6fc8
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: X11 miscellaneous extensions library
 
 
@@ -3122,7 +3122,7 @@ Size: 25280
 MD5sum: cc3041183ca99cd74d62d8d37b2bf7dc
 SHA1: 0227bc940cbfa8c2caa1f2d17188ff7e21f9d599
 SHA256: bd2f6c82afa0c439e471d356a24fef475e295940930c6586ef53b82fefa195ea
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxext
 
 
@@ -3137,7 +3137,7 @@ Size: 11132
 MD5sum: 18280f34dd454a2f53588af6e1b21bee
 SHA1: 3df0431f0b1e460b862d7ca138776b0f1032e626
 SHA256: d7e8e53d06af6f3ac6ec9a377feabd78c7cd80072624eaa4c53ee09d1d56a9c3
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: X11 miscellaneous 'fixes' extension library
 
 
@@ -3152,7 +3152,7 @@ Size: 7688
 MD5sum: bc7cd25c11ced5b6be44f2bee64b6e77
 SHA1: 296b9a31bc95060ff44ecc0fedcdec5cf25e1dcb
 SHA256: 5473db14e741974035074754a2efc3336bbff803af715034e5f1a715b154770f
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxfixes
 
 
@@ -3167,7 +3167,7 @@ Size: 47844
 MD5sum: 8e3ecd88755a6bfdc998e1bad55cd88d
 SHA1: 0310c09cca4caf0c4bdb13b4662bd4acff92f213
 SHA256: c622ff216414deb3a63122a1c34b9d4b1e85c4e9aa34b23a1e0bd711b12b3d89
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: FreeType-based font drawing library for X
 
 
@@ -3182,7 +3182,7 @@ Size: 36152
 MD5sum: b47560d0b80eabe13b8b8d6fcce0ceb8
 SHA1: e79391605ac845e85a4a6ecf25ed11bfc2cdb8f9
 SHA256: 20de6150f5d6ee7a285ed31a44dd1a0ca9b8c359820ab7c19772318c8c0096a8
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxft
 
 
@@ -3197,7 +3197,7 @@ Size: 141648
 MD5sum: 145acea57a810bbd899a3f95c2b4f4f1
 SHA1: e584e3e6b88c11c6f6bb4337286235ed5ab4a96d
 SHA256: 05e0c99e42a3aa4bbf082f07e6c5cabbb600bd42cae5e59a74f7db5526cf21e8
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: X11 Input extension library
 
 
@@ -3212,7 +3212,7 @@ Size: 26864
 MD5sum: b0243a44b937c9f77b236dea605256d9
 SHA1: 18568c68cbe94b8a03dc81b0f2d3d464dedd017d
 SHA256: f1806f4a145a8e975928d36d16b794853b5c9847bd4c14209a1cef2dda3d3902
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxi
 
 
@@ -3229,7 +3229,7 @@ Size: 538912
 MD5sum: cd3bbadfe2e7bddb8bebfc88f65d6e25
 SHA1: e856600eeadc51dffd001d55ef0aad9113d1116d
 SHA256: ac3d0fd6b8d71f8b0f31f8bd0a7f57df4e1c84716771c11dc6ea94c040d1d504
-Homepage: http:/www.xmlsoft.org
+Homepage: http://www.xmlsoft.org
 Description: Library for parsing XML documents
 
 
@@ -3244,7 +3244,7 @@ Size: 204976
 MD5sum: 71f5773abc7808e16228f2d28f78c50f
 SHA1: b827725aaab2d9045e1b174e80600ab6e0209336
 SHA256: a405046292bee0aaf0168e1fce84ee88ce7294012a701d8d775d34a905c88431
-Homepage: http:/www.xmlsoft.org
+Homepage: http://www.xmlsoft.org
 Description: Python bindings for libxml2
 
 
@@ -3259,7 +3259,7 @@ Size: 70172
 MD5sum: 465f23e4b26a82864b9fb564060344da
 SHA1: 5149a10dcc579ed36debb4f0fd6780d516dd3c0e
 SHA256: de8169f25e36208a81b6c26da359639fbef17216fb8a99cdac43abc2f44c8023
-Homepage: http:/www.xmlsoft.org
+Homepage: http://www.xmlsoft.org
 Description: Static libraries for libxml2-python
 
 
@@ -3274,7 +3274,7 @@ Size: 467720
 MD5sum: 11cd214f9c5bbbce333a0e154feb7259
 SHA1: 264fc61a655148adb8cf77f1cddcf189c19281f7
 SHA256: 8497e3038979420c98f2299862cad3963e82ca9bd3df6e4310e4bf62806d188f
-Homepage: http:/www.xmlsoft.org
+Homepage: http://www.xmlsoft.org
 Description: Static libraries for libxml2
 
 
@@ -3289,7 +3289,7 @@ Size: 31888
 MD5sum: c6086e0a7460baa49862a7c7af577cbf
 SHA1: cd5e0f7170ea132458c31bbd9f2b7e25607ce746
 SHA256: 7010a726b3c85c74e335533dae498393f49603b1821e3379d2947433727929ab
-Homepage: http:/www.xmlsoft.org
+Homepage: http://www.xmlsoft.org
 Description: XML utilities
 
 
@@ -3304,7 +3304,7 @@ Size: 22384
 MD5sum: 5230c16b24b7edce7aeb86a1982a2e4e
 SHA1: f157d1f4c70791c6f580daa52d50194f2fbfefd7
 SHA256: c7de740c2d73c4739267406ba2303280b0db480c8b057564cebadabd5ad51434
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: X11 RandR extension library
 
 
@@ -3319,7 +3319,7 @@ Size: 14896
 MD5sum: 3a3e075678f15f4e586a0801733e1f74
 SHA1: eb155647a129bf59673e1aa6686c074c48570a1a
 SHA256: 50fc7c18932dc14280e64082bda1c9ef003d019ea1ed0b6266dc420117e61dc4
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxrandr
 
 
@@ -3334,7 +3334,7 @@ Size: 23580
 MD5sum: 70ec317c967c7a48bf8c1829bb129223
 SHA1: f7781cde8e9f9f11eee5ab071cd146a349a430f4
 SHA256: dc70285be54abc2c2d0ccd5d240a62a1420f72725a38b0959ab27fc33e0f46df
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: X Rendering Extension client library
 
 
@@ -3349,7 +3349,7 @@ Size: 14820
 MD5sum: e2c4bc56adba7f46f7cffdf206f78a0e
 SHA1: 7c12fd1e21671b00a4329c8b6f03363d8dd4fd42
 SHA256: 81ffc56215a9a1ad398ff04a5b4200b63ef2157eb739307c9259782124a4b53f
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxrender
 
 
@@ -3366,7 +3366,7 @@ Size: 189852
 MD5sum: 17a0a883519449d73e5a99cbdf197311
 SHA1: c1483381c2f96b833dd264917dc920e67f918d71
 SHA256: d546e244033a56108aa9b510267054610ad324c81384398ff8a459635cf408ab
-Homepage: http:/xmlsoft.org/libxslt/
+Homepage: http://xmlsoft.org/libxslt/
 Description: XSLT processing library
 
 
@@ -3381,7 +3381,7 @@ Size: 123888
 MD5sum: fe70df77afe1040308c408ac9d90c0f3
 SHA1: 551f552cb6176215b47eb69eafc8401ec81b86bc
 SHA256: ec62acaafe683b52c0f4ffc5f2a2bcf5a966bc826921fa299871be89e2777273
-Homepage: http:/xmlsoft.org/libxslt/
+Homepage: http://xmlsoft.org/libxslt/
 Description: Static libraries for libxslt
 
 
@@ -3396,7 +3396,7 @@ Size: 12040
 MD5sum: 772dda1f5b0faf903710a90def74e483
 SHA1: 3b427170dfa4f87f9425c920347eb9a501fd073e
 SHA256: 82f9b26225ed535e37188268846fee70f24897d8119c8482d5b768a3393ff65b
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: X11 Screen Saver extension library
 
 
@@ -3411,7 +3411,7 @@ Size: 4480
 MD5sum: 3a3eaba30cf8ee194b2e46067baacc85
 SHA1: 331ed6bfb6206ad151ccbc5663b1bed69f8e8bb9
 SHA256: 43211648d20702c9b275e53ed1ba6138c16b41b55c7c33048401b5059fc4edab
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxss
 
 
@@ -3426,7 +3426,7 @@ Size: 482420
 MD5sum: 261f0a0956ba3bc7c94d7b0808bfe4ef
 SHA1: 8fed4a3d67a3e90af147e449006807300e668576
 SHA256: b06da3c59c395de1b4b14f4d3ceacb55c5c063a436146cda89864ed514334b33
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: X11 toolkit intrinsics library
 
 
@@ -3441,7 +3441,7 @@ Size: 147952
 MD5sum: ae51317222d3796a9a1a1e5bdf0ca9eb
 SHA1: a1cbfed1c50bb0aec14df5d157b31ca9af922fad
 SHA256: 426966d3ee7b4b45fe545ba378a38fc6765bd9a23d79c677d834aa4abe89cf15
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxt
 
 
@@ -3456,7 +3456,7 @@ Size: 25516
 MD5sum: eb46926ca149068def22e190540523a3
 SHA1: b38a1ab46493a0424dde70a2cb8eb9a70e53991f
 SHA256: daf5c9dcf3fbc7873fc56f4450f797351cff11346de51b0c15731ae98bbc2ab4
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: X11 Testing -- Resource extension library
 
 
@@ -3471,7 +3471,7 @@ Size: 8504
 MD5sum: ddaf3563774ffbcffe6fdc3f4f398029
 SHA1: f9feea2fc678c9c9d6d6de31a00440f1af419343
 SHA256: 935bf0c8103959378067009e4f62735c3ecf3460b0a601021bb61d47059dcc82
-Homepage: https:/xorg.freedesktop.org/
+Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxtst
 
 
@@ -3487,7 +3487,7 @@ Size: 141500
 MD5sum: ebe37e0543f2affc12986c29769c6ebb
 SHA1: 71d3075adb3d79139676f56162a18623da557993
 SHA256: 7e440ed6530411c8a61e155147d923c7fe5be7f67aae1da905f4c0d768cb4744
-Homepage: http:/www.littlecms.com/
+Homepage: http://www.littlecms.com/
 Description: Color management library
 
 
@@ -3502,7 +3502,7 @@ Size: 145072
 MD5sum: 2ede643446a828e0cf2503f1f99f8312
 SHA1: caae6c83f0a841def9e599d878c91a9d58430442
 SHA256: 47e366724a34b1bcad91de8a122f3f22b492891c73d67b88cb6be907795bb5fc
-Homepage: http:/www.littlecms.com/
+Homepage: http://www.littlecms.com/
 Description: Static libraries for littlecms
 
 
@@ -3517,7 +3517,7 @@ Size: 35252
 MD5sum: 5c45b56b6d53f75edeceea8eaf242cc4
 SHA1: 9e5cd8ba8fc2d5c6fe784e8409b696ab9f0391f6
 SHA256: 59350736c0a46b98ab1c351cd276eb35aad9246779e6d75681746f39724f759b
-Homepage: http:/www.littlecms.com/
+Homepage: http://www.littlecms.com/
 Description: Color management utilities
 
 
@@ -3532,7 +3532,7 @@ Size: 2271844
 MD5sum: a9b36d35d0cf423b5c7ae361eac7031b
 SHA1: 435843c0df7db373cd6cbb71dac55e102fbcb637
 SHA256: dc3bca659a1b31d91471ab4b1e00b0ef6d6139c84493cc7443131567f6338720
-Homepage: https:/clang.llvm.org/
+Homepage: https://clang.llvm.org/
 Description: LLVM-based linker
 
 
@@ -3549,7 +3549,7 @@ Size: 4700744
 MD5sum: fdf887076d3a093ef1911104cde1e6d5
 SHA1: 324d24557682ba26f647187a9af23a2d69aea357
 SHA256: ab1fed4ab706d15d461623a786e2c2adeab2278e0450dc636dd3f51c59ab5dbf
-Homepage: https:/clang.llvm.org/
+Homepage: https://clang.llvm.org/
 Description: LLVM-based debugger
 
 
@@ -3566,7 +3566,7 @@ Size: 18039972
 MD5sum: bf62b54960c57b0150d8d759343bcd44
 SHA1: 5abbcb057ab853911fe9990d1f5d63378b17f325
 SHA256: 38eace365d5a341ac0c46711a11340465990352c51c07768796c194ddf6bbe02
-Homepage: https:/clang.llvm.org/
+Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
 
@@ -3583,7 +3583,7 @@ Size: 2148928
 MD5sum: 98d02bcbfc3fd8191f10bce08906cd72
 SHA1: 25c82da28793a697863679c6f1c087cbbed25ef4
 SHA256: cf44debb43747a977f51b404e3ac1ac69ecf72cc830731437a0508e901395179
-Homepage: https:/clang.llvm.org/
+Homepage: https://clang.llvm.org/
 Description: LLVM Development Tools
 
 
@@ -3598,7 +3598,7 @@ Size: 26960
 MD5sum: 75263760f205db7643bfd23b75e272f6
 SHA1: d695bac88b1eb75c6bcad094ebaabeb54701a88a
 SHA256: 602635dabcd34dbf81dede723178d6060cfe1acd3436fc812e880abfee0e4de0
-Homepage: https:/clang.llvm.org/
+Homepage: https://clang.llvm.org/
 Description: LLVM gold plugin
 
 
@@ -3613,7 +3613,7 @@ Size: 122532
 MD5sum: ebad0e3acdaef048ad77375d96fee8ee
 SHA1: 40ddaec69735b3bc693a25701c91e40e39885340
 SHA256: 4d7f69a89e7b175d7ad513633b20d00e07690b82a0a0100658cefe365e6a5935
-Homepage: https:/github.com/lsof-org/lsof
+Homepage: https://github.com/lsof-org/lsof
 Description: Lists open files for running Unix processes
 
 
@@ -3628,7 +3628,7 @@ Size: 55724
 MD5sum: 9997061389b2e5eddf1cbb89f73305f4
 SHA1: 2675038c167322377e05bc15c9fc86dc7d047407
 SHA256: a289e7f714f5e7d6d7c987a2e9ad848aac174de2342c12eddd74727c9993c3b1
-Homepage: https:/github.com/lsof-org/lsof
+Homepage: https://github.com/lsof-org/lsof
 Description: Static libraries for lsof
 
 
@@ -3643,7 +3643,7 @@ Size: 85752
 MD5sum: 0c135dddfc9ba166c50ef575ae9ff5c1
 SHA1: 9c7d9d140684bf4a16a44154bb188c7f242e31ae
 SHA256: 15399eda10b17ce105878c62362b36a22323322b8232cee678ee02215b393622
-Homepage: https:/lz4.github.io/lz4/
+Homepage: https://lz4.github.io/lz4/
 Description: Fast LZ compression algorithm tool
 
 
@@ -3657,7 +3657,7 @@ Size: 189064
 MD5sum: 4eac25d0dc435c48691ba3e0289ecee0
 SHA1: 63806b94491ac930ea81364f254ec9847e61de96
 SHA256: ac76a86d02a41dc2a46e1457779e403f961df19c604dbd6379187ea7db8abe18
-Homepage: https:/www.gnu.org/software/m4/m4.html
+Homepage: https://www.gnu.org/software/m4/m4.html
 Description: Traditional Unix macro processor
 
 
@@ -3674,7 +3674,7 @@ Size: 239612
 MD5sum: 1ba5c510045cf196f57433a1dd6b5c7d
 SHA1: 6c072859b8d0ffefbda823c53ecc88733ff564b9
 SHA256: 0c9f34d815a9975c22644c9948b2ecef18a16674b44772c2f56bedfcd08f60f1
-Homepage: https:/www.gnu.org/software/make/
+Homepage: https://www.gnu.org/software/make/
 Description: Tool to control the generation of non-source files from source files
 
 
@@ -3689,7 +3689,7 @@ Size: 607464
 MD5sum: f834d9809462c939c849f889c88b701e
 SHA1: ecf11858c48875707da62a7701213a7a62c5554e
 SHA256: d03e705e408476d86e1cc7f2b926c498c242f11dcab7ec031ba540a04be120e9
-Homepage: https:/www.midnight-commander.org/
+Homepage: https://www.midnight-commander.org/
 Description: Midnight Commander - a powerful file manager
 
 
@@ -3704,7 +3704,7 @@ Size: 36805056
 MD5sum: 01b6d4ba8e42b4e1b86a867d0a08cc22
 SHA1: 9e589c26c3df17ce42cb3738a0c99c614d13c7ce
 SHA256: c7ff3b7fe7be165045c4996a8e36d535268b42671aeb3ffe3f40626e9af89676
-Homepage: https:/clang.llvm.org/
+Homepage: https://clang.llvm.org/
 Description: A Multi-Level Intermediate Representation for compilers from LLVM
 
 
@@ -3720,7 +3720,7 @@ Size: 131356
 MD5sum: 97ce80211e71f5efd003f03e251b51f4
 SHA1: d26af56bbd44eb0e8cc0ed322c46558cca9ad133
 SHA256: 9a6e3ddb6957ef5b69d68a09f11d5b9b9d31a6e553e15285f4f12d5721cae940
-Homepage: https:/en.wikipedia.org/wiki/Util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Utilities for (un)mounting filesystems
 
 
@@ -3735,7 +3735,7 @@ Size: 218684
 MD5sum: da947df1fcbbc6ace3e34cccd86a91c5
 SHA1: 6854e5e0da4f3cf27844cf48b328c2c9ead6c7c8
 SHA256: 3bf0e489de4ebbb7ae1f9e60fb1163beacaa25c9f9cf34051a60e79408409f8c
-Homepage: https:/www.nano-editor.org/
+Homepage: https://www.nano-editor.org/
 Description: Small, free and friendly text editor
 
 
@@ -3751,7 +3751,7 @@ Size: 522484
 MD5sum: 6d8d2c186f4cd4f8be05ad8c55342aa9
 SHA1: ccd8255b2520556999f6be8d4aae3abeac0850ef
 SHA256: 8309e88a4cd1886062ddb716a6276e1b34f273273a78ee2a99652e65e2076b66
-Homepage: https:/invisible-island.net/ncurses/
+Homepage: https://invisible-island.net/ncurses/
 Description: Library for text-based user interfaces in a terminal-independent manner
 
 
@@ -3766,7 +3766,7 @@ Size: 155336
 MD5sum: 6737eddf3a2d0f368394c47c80a2ba64
 SHA1: b3e45e773f0322e20645e0b40a3ba2a607888da9
 SHA256: 98fcad64331aa46bfa593d080f610928a7fc1ae7aaa7af34242ef0942fe52ab3
-Homepage: https:/invisible-island.net/ncurses/
+Homepage: https://invisible-island.net/ncurses/
 Description: Static libraries for ncurses
 
 
@@ -3783,7 +3783,7 @@ Size: 32952
 MD5sum: 1ece6bccd8db8fe62c04657eb40b9a58
 SHA1: 465bc7d462428f03c6de7fdd0e79f3a851f231c4
 SHA256: ddcb98a64a4d770dc7e1a297f75aff3fee379f5fea73847f2fc79817e3b75785
-Homepage: https:/invisible-island.net/ncurses/
+Homepage: https://invisible-island.net/ncurses/
 Description: Libraries for terminal user interfaces based on ncurses
 
 
@@ -3798,7 +3798,7 @@ Size: 39880
 MD5sum: dc4358da2df193f924a8e2ee91c31c4f
 SHA1: b6d3971683d2d0cc71f612f257b08db75d9e5f27
 SHA256: 2a795f8ca4969affc5dc7d10549d709c54e268cb8f8098c6fe7579b5ed17434a
-Homepage: https:/invisible-island.net/ncurses/
+Homepage: https://invisible-island.net/ncurses/
 Description: Static libraries for terminal user interfaces based on ncurses
 
 
@@ -3813,7 +3813,7 @@ Size: 87352
 MD5sum: 2538e954702da5802356e8eeba204e36
 SHA1: 125d64c9a558d315a479ff2e9c6f8562b6f48aba
 SHA256: 5c1809176a245f1574399a4f69d081cf0b6a938cd950e8b7ee9223d5d13c79ee
-Homepage: https:/invisible-island.net/ncurses/
+Homepage: https://invisible-island.net/ncurses/
 Description: Tools for working with terminals
 
 
@@ -3829,7 +3829,7 @@ Size: 1663252
 MD5sum: 56d6274833156085f6620fea32e44a9a
 SHA1: 6e783b514008bc446b33cfa8e72293c1bb42031d
 SHA256: d60e34db5f71062f87fd574e6324369a5ed978c581a3a5dcfcc138bc25dcc978
-Homepage: https:/developer.android.com/tools/sdk/ndk/index.html
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: System header and library files from the Android NDK needed for compiling C programs
 
 
@@ -3843,7 +3843,7 @@ Size: 118408
 MD5sum: 4362faabda35a30a7f9ad9f467dbe867
 SHA1: 79f9320dbd81a1c0953bb5b65a0de61dbd1ecd03
 SHA256: 6abe78ee88037aea301d097256708f2a5ecb2e70b237af6da6b3d1e337a71cb4
-Homepage: http:/net-tools.sourceforge.net/
+Homepage: http://net-tools.sourceforge.net/
 Description: Configuration tools for Linux networking
 
 
@@ -3858,7 +3858,7 @@ Size: 18168
 MD5sum: 8e11bc1241e61fb806182304a4398b70
 SHA1: 689c5609602e81e7c845440480eaf9357e2d250e
 SHA256: 2fceaeebe055598a9d2d98b463f09ceeebaccac67cc33fe6ac669c98bbbb0b93
-Homepage: https:/www.lysator.liu.se/~nisse/nettle/
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Low level cryptographic tools
 
 
@@ -3873,7 +3873,7 @@ Size: 75780
 MD5sum: 0716a4124f15931262730e282ef9ccf0
 SHA1: bc39f4bce593945071d5cb14ade29c1e02eb1b1c
 SHA256: add43d0390808d5fbf36dfef0aead8cc71400d6cde110bb14464b41a6e577d80
-Homepage: https:/ninja-build.org
+Homepage: https://ninja-build.org
 Description: A small build system with a focus on speed
 
 
@@ -3892,7 +3892,7 @@ Size: 9715648
 MD5sum: 1ca1ac8934a6169dced8d2716e265b95
 SHA1: f378e0b9f5b561771b955c068f1a32ec23e8d884
 SHA256: cacdba9268bb1107ba16a8d5276b083fd03f8b3b6541dfec2169a3d609e3414b
-Homepage: https:/nodejs.org/
+Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
 
@@ -3906,7 +3906,7 @@ Size: 136228
 MD5sum: 528e3e5c228651820b9fe790c71ba955
 SHA1: e81c800a86851e35dbf8001a7a5fbe26082bd247
 SHA256: 81b06d8d13d7f88e1ac5a03820dc09f3debe3633333bea5be668ad9c5f40639c
-Homepage: https:/github.com/kkos/oniguruma
+Homepage: https://github.com/kkos/oniguruma
 Description: Regular expressions library
 
 
@@ -3921,7 +3921,7 @@ Size: 143340
 MD5sum: 8988d3c9a9d2bd5084459e68384d8b03
 SHA1: fb8f7f8cfe3d44899aca6881f02509a13d27ec8d
 SHA256: 590f6a2fd09a06ed986b6345ea66235ecf05007c1d0909a96a636707a6ee0223
-Homepage: https:/github.com/kkos/oniguruma
+Homepage: https://github.com/kkos/oniguruma
 Description: Static libraries for oniguruma
 
 
@@ -3939,7 +3939,7 @@ Size: 98081360
 MD5sum: 6a8542ce2652769313d74fff3e0715ff
 SHA1: 4eb687bb525bdfa2aa793435f45e3edde97b7739
 SHA256: fdd076bee47f26d3134130788c24dc1d1b7fbcff8bbab09590d6dbbfe2791bc1
-Homepage: https:/github.com/PojavLauncherTeam/mobile
+Homepage: https://github.com/PojavLauncherTeam/mobile
 Description: Java development kit and runtime
 
 
@@ -3955,7 +3955,7 @@ Size: 12797528
 MD5sum: e9b4aa9ddec4abefd3a06576b776b7b6
 SHA1: 10b481322eb9accce042c13d4aece2a16e9847c9
 SHA256: c0d35791cd2d3e8760db7e21f2a99d1b7bbf3bc9295ffabedfb22618e8c563f5
-Homepage: https:/github.com/PojavLauncherTeam/mobile
+Homepage: https://github.com/PojavLauncherTeam/mobile
 Description: Portion of openjdk-17 requiring X11 functionality
 
 
@@ -3973,7 +3973,7 @@ Size: 105872208
 MD5sum: 3bd0ab77c472aac40eda197fe5feede8
 SHA1: d65aa3a6e4b2a905ef465abc5baea7ad571501b1
 SHA256: 2f5eb3438eaf2f007a67dab93f69641eee191cb97ae488601df447d09b6f77b0
-Homepage: https:/github.com/itsaky/jdk21-android
+Homepage: https://github.com/itsaky/jdk21-android
 Description: Java development kit and runtime
 
 
@@ -3989,7 +3989,7 @@ Size: 13279132
 MD5sum: 6925550b7a88417db31f1d343b88aa94
 SHA1: 8845bb4f49e32568840d7304540d77660892225f
 SHA256: 3491bf25abcdfd3945a1152641a846eff8d62faed685ac2f18a0edc0bc03ebff
-Homepage: https:/github.com/itsaky/jdk21-android
+Homepage: https://github.com/itsaky/jdk21-android
 Description: Portion of openjdk-21 requiring X11 functionality
 
 
@@ -4005,7 +4005,7 @@ Size: 148056
 MD5sum: c09b5df69eab4ee6b73428eb7be2dfb7
 SHA1: e64327bdeec122ab48d08df8e95bfe1461f8a188
 SHA256: bd0d617e4cf55436e50aa24ad6aa85faa4deea04b5e40abebab203ff174fb7de
-Homepage: http:/www.openjpeg.org/
+Homepage: http://www.openjpeg.org/
 Description: JPEG 2000 image compression library
 
 
@@ -4020,7 +4020,7 @@ Size: 68808
 MD5sum: 186eaff83e5dbee6c664ee09aa131999
 SHA1: e734dcae85802ac3d3eb6398c5687bfc0d55b0ff
 SHA256: ac113bed2fa656f3f0e2175b5e5534ba97546d559cbbdf43fcfa2387baabac50
-Homepage: http:/www.openjpeg.org/
+Homepage: http://www.openjpeg.org/
 Description: Command-line tools using the JPEG 2000 library
 
 
@@ -4036,7 +4036,7 @@ Size: 822832
 MD5sum: 736c74d764b132160458e17f13bc9b22
 SHA1: b6c06acda1f3b3627047c6c0dc7c8703b9daf917
 SHA256: ef4d6ba3d66e02bbf6a5642fa96348defbf13c2fb1aed4a6dd910766d45ab1dd
-Homepage: https:/www.openssh.com/
+Homepage: https://www.openssh.com/
 Description: Secure shell for logging into a remote machine
 
 
@@ -4053,7 +4053,7 @@ Size: 49624
 MD5sum: 032052839cb0e758e24805747dcfd773
 SHA1: fefedcd161a0e992f991085b97e6ec0dc4fb593d
 SHA256: 9286d34750e4748d276770f41ad15949467371b4c6662204e4ae1afe4daad6d8
-Homepage: https:/www.openssh.com/
+Homepage: https://www.openssh.com/
 Description: OpenSSH SFTP server subsystem
 
 
@@ -4071,7 +4071,7 @@ Size: 1631148
 MD5sum: 255726c068d7e184e2708bf813811ccb
 SHA1: ef314c4633a90608012e8faae00b6549372a6b91
 SHA256: a3e3fa2c8f94b761d666ed0ad470a8292b752367c0655629052474d3da83cefc
-Homepage: https:/www.openssl.org/
+Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
 
@@ -4089,7 +4089,7 @@ Size: 1210908
 MD5sum: a36a7058e5f608fa354efa45b1c9ab46
 SHA1: 2cf9feee852e12af8acc34dcb19593286c5ee440
 SHA256: 6c53af2368bc244d6d97d239f5e7c84ca9c6a2904a232b029aac173859e0a901
-Homepage: https:/www.openssl.org/
+Homepage: https://www.openssl.org/
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
 
 
@@ -4104,7 +4104,7 @@ Size: 1218948
 MD5sum: dd17eebe2b837c8430fa0b1cc3686a37
 SHA1: 89161f2c5301a17cc61b2afbcd5cce9d581ce814
 SHA256: c5f09c08e2435e3362dfa09d2a8603d645124135d1bc7575ee1db8ea37e956e0
-Homepage: https:/www.openssl.org/
+Homepage: https://www.openssl.org/
 Description: Static libraries for openssl-1.1
 
 
@@ -4119,7 +4119,7 @@ Size: 1705904
 MD5sum: 12ce6d1e56cb67a7434453a8e191870b
 SHA1: ef19366406f1f328da626a095e1339d3dda50556
 SHA256: de2284a0483e3d871fdbe2734f413258675e09ca1b3b08b853ab495837d7847d
-Homepage: https:/www.openssl.org/
+Homepage: https://www.openssl.org/
 Description: Static libraries for openssl
 
 
@@ -4134,7 +4134,7 @@ Size: 247320
 MD5sum: d38351b5e3f4d4a03ccd6fc2a41b776c
 SHA1: feb91a72ae9170a2c7944b4d126a19be1a1da232
 SHA256: 7af06fdad79bbde5fabdb4d189b3203abad95f15f6c35312416b88c7f5097b1f
-Homepage: https:/www.openssl.org/
+Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 
 
@@ -4149,7 +4149,7 @@ Size: 192680
 MD5sum: 2f1e71845af5714dc9b018d36a5a2bcb
 SHA1: 572fd594f9f3e39a3f998bda4435acf45fd92703
 SHA256: eee6a14b6b95e9be342936b830b6b0159607a45f2c42dc3bfa5de6a57ea444f2
-Homepage: https:/www.openssl.org/
+Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 
 
@@ -4163,7 +4163,7 @@ Size: 81724
 MD5sum: fda7fe37239134d2171dd102df192ffd
 SHA1: 2228f0b810c8c8a4e51e6667f1d278bee859bbe5
 SHA256: c50495f5623d7fa8c672cb798afaf6f53d7f8e0ed8866b3acd765211a4beff43
-Homepage: https:/savannah.gnu.org/projects/patch/
+Homepage: https://savannah.gnu.org/projects/patch/
 Description: GNU patch which applies diff files to create patched files
 
 
@@ -4180,7 +4180,7 @@ Size: 656612
 MD5sum: 74e36a8b3422c4dc0df2282f6ae22b73
 SHA1: 87871aff85af9c37bdd4d1323677df710263a69b
 SHA256: 5c9f3f8a209e5e609be365f26bb3164fa2a64fd7a43ce73548efa0c610b0a4ce
-Homepage: https:/www.pcre.org
+Homepage: https://www.pcre.org
 Description: Library implementing regular expression pattern matching using the same syntax and semantics as Perl 5
 
 
@@ -4195,7 +4195,7 @@ Size: 138640
 MD5sum: 3afeb6e8aa80b783c21174cb504f52a4
 SHA1: 941c02d1eee5d4e6df869910d477a88973c26d80
 SHA256: 48025a737791b1bce6a538acd63062cd07144119ec00fc5320cbf6dedc806789
-Homepage: https:/www.pcre.org
+Homepage: https://www.pcre.org
 Description: Static libraries for pcre
 
 
@@ -4211,7 +4211,7 @@ Size: 863188
 MD5sum: 667eb7567187dbd72302093881800a0e
 SHA1: 75fa6dae80cb075e3122cd7a93a7017e18c3c97a
 SHA256: 3ee676f23739ca536b8bec67f81035fb69302e7ff7016abcf92a0073c5ce29fb
-Homepage: https:/www.pcre.org
+Homepage: https://www.pcre.org
 Description: Perl 5 compatible regular expression library
 
 
@@ -4226,7 +4226,7 @@ Size: 335228
 MD5sum: af2f0d50ecebb529aad840cd993c1a56
 SHA1: 9aea208180d4a48512418e7aa7f3ce3b9070da11
 SHA256: ca4d669ca5e33433289c3396ee993c4c7fc7768665800a86c0cc59953ce838e5
-Homepage: https:/www.pcre.org
+Homepage: https://www.pcre.org
 Description: Static libraries for pcre2
 
 
@@ -4241,7 +4241,7 @@ Size: 32632
 MD5sum: a0b08ced0f15f060b17157e21d970d2e
 SHA1: 5bac7f87cebca133435e9cf2b8bf4ba06d9bca06
 SHA256: 85f02541062a1b3a036dd584d74762b47c59440d179cfd3a48df6d6fd1f103a4
-Homepage: https:/www.pcre.org
+Homepage: https://www.pcre.org
 Description: A grep with Perl-compatible regular expressions
 
 
@@ -4256,7 +4256,7 @@ Size: 24656
 MD5sum: f506d509fc134ae456903c319a3f5d81
 SHA1: 04315818b14b627e4892e3123f4d6be71b3b58b1
 SHA256: 21d17a70bc005299ef52cf94ab26c8244a97e1596ac3eba0836bb8ddf9338794
-Homepage: https:/www.pcre.org
+Homepage: https://www.pcre.org
 Description: A grep with Perl-compatible regular expressions
 
 
@@ -4270,7 +4270,7 @@ Size: 14239216
 MD5sum: 4765769cb7cf087d6463a065bce4fa3d
 SHA1: e7727a977c0c9088fb522bc5d88957744526b81b
 SHA256: bb82f1a75eff53c57926765d4a5735e8566e20dd255e32b8ce98825c0bb2d2e6
-Homepage: https:/www.perl.org/
+Homepage: https://www.perl.org/
 Description: Capable, feature-rich programming language
 
 
@@ -4285,7 +4285,7 @@ Size: 44700
 MD5sum: 38f5b19e8708c6f215dc6daf4bce70ad
 SHA1: 6bfc4fc186ed14ccff1f26c89a2a55aba3632dcb
 SHA256: 6bb138e0be6248fb4f6a0384fc42322631a06bfa78afd5d8f2c27ea06c8bfb03
-Homepage: https:/www.gnupg.org/related_software/pinentry/index.html
+Homepage: https://www.gnupg.org/related_software/pinentry/index.html
 Description: Dialog allowing secure password entry
 
 
@@ -4300,7 +4300,7 @@ Size: 32756
 MD5sum: 2c8abf705c8b28129289da0dcc0eb14f
 SHA1: 7740884072649127b763fd764386db4f74f095fe
 SHA256: e63405980b3314f9fac177424fdacd44af54c1685b6c25c87115d9fef1879a91
-Homepage: https:/www.freedesktop.org/wiki/Software/pkg-config/
+Homepage: https://www.freedesktop.org/wiki/Software/pkg-config/
 Description: Helper tool used when compiling applications and libraries
 
 
@@ -4318,7 +4318,7 @@ Size: 143272
 MD5sum: 6f46e764c3aa627048704c3f4ae6dddc
 SHA1: c72858bb0365da606f8496994f112dd27ed11a7b
 SHA256: 85c8be043d497c812cddaba258421250a62aeae5e473281106f370f336858958
-Homepage: https:/gitlab.com/procps-ng/procps
+Homepage: https://gitlab.com/procps-ng/procps
 Description: Utilities that give information about processes using the /proc filesystem
 
 
@@ -4333,7 +4333,7 @@ Size: 28940
 MD5sum: 6ae30969597d5f43bb4574a5cdb5d9c0
 SHA1: 5ec952858ebceb2c31dac203ed8945617cc9d80a
 SHA256: bba901787523e1d34cbf8aa2a7eab3ab6b7c96923148c4d286f64ce06fb4f813
-Homepage: https:/gitlab.com/procps-ng/procps
+Homepage: https://gitlab.com/procps-ng/procps
 Description: Static libraries for procps
 
 
@@ -4348,7 +4348,7 @@ Size: 749124
 MD5sum: 1830488c28355fb7f47f3375b9b92939
 SHA1: 8e718ffd5ac455f4b426ccbcc965173201fbd3b1
 SHA256: b7137420b30d8537c466017c3f7eeb58eda6ada746e4b326e53f472ef7b972f2
-Homepage: https:/github.com/protocolbuffers/protobuf
+Homepage: https://github.com/protocolbuffers/protobuf
 Description: Compiler for protocol buffer definition files
 
 
@@ -4366,7 +4366,7 @@ Size: 2780
 MD5sum: 9229375238caedaebf720cbc6d0b7d29
 SHA1: 5a56a1df610613c1ee925bc353ea9443f55f6b21
 SHA256: 457eba7e4e0411801b690c5e71d645c94804fb99c4c0a72fdd2327b302ae799e
-Homepage: https:/github.com/protocolbuffers/protobuf
+Homepage: https://github.com/protocolbuffers/protobuf
 Description: CMake files for protobuf shared libraries
 
 
@@ -4382,7 +4382,7 @@ Size: 41188
 MD5sum: fb413d62ce437a7f14a5b69efd8b7a7f
 SHA1: 199fd17cd223926259ea60d5f2839d06972a1044
 SHA256: e8b893f9e3e3fd9d6d50c7c376468ea8e0e726db920bb0abc1d8b15d12571720
-Homepage: https:/gitlab.com/psmisc/psmisc
+Homepage: https://gitlab.com/psmisc/psmisc
 Description: Some small useful utilities that use the proc filesystem
 
 
@@ -4402,7 +4402,7 @@ Size: 7973316
 MD5sum: 7ae6e03ff4493e80d76cf7242a5701e8
 SHA1: dc05f1b96ad8002904b34dcd9a558207396bc588
 SHA256: bd90c90f2ba803fd1a4ae0bf3a286fecd5637c392f5dcbd0dde84fb5bf133738
-Homepage: https:/python.org/
+Homepage: https://python.org/
 Description: Python 3 programming language intended to enable clear programs
 
 
@@ -4418,7 +4418,7 @@ Size: 3469252
 MD5sum: c102d5c262d7c357204e21ee7c0de35f
 SHA1: 0764a25559ee1703b3f51e8c21e04471a2192f5c
 SHA256: 026dadff8b9486fdeb545739d51d8e3bcf306e8a9567af59eb62b14f242c1576
-Homepage: https:/pip.pypa.io/
+Homepage: https://pip.pypa.io/
 Description: The PyPA recommended tool for installing Python packages
 
 
@@ -4433,7 +4433,7 @@ Size: 5300428
 MD5sum: 8555b4ea9768dad2278fe09bae0b0ba4
 SHA1: 69c154bc2446d88869d94837a3f46a184f64de8a
 SHA256: 52f7a83366baa786c92c6535672bd3bff1a46455c969cbaa27321fb44478c883
-Homepage: https:/python.org/
+Homepage: https://python.org/
 Description: Static libraries for python
 
 
@@ -4450,7 +4450,7 @@ Size: 1235268
 MD5sum: 12ac5ff721ec439f41dae1ecbb5da8f9
 SHA1: 65f9661b02dc22476ab78cf84401e1a5133b1491
 SHA256: aeac62b59caf5b30af5cabdb865fddb85e88dd0c2bfa3b41395f3ca79733fc2d
-Homepage: https:/python.org/
+Homepage: https://python.org/
 Description: Tkinter support for Python 3
 
 
@@ -4466,7 +4466,7 @@ Size: 38396
 MD5sum: 9b90e6b665be0bb541e264abcaf14ac8
 SHA1: 57c024aa33d7cc405604bb6e394eea58e53fb15f
 SHA256: 4f0813866693183ee2648fab2a921d406aee98ebf5833d9d43edc1ca0a05568b
-Homepage: https:/unbound.net/
+Homepage: https://unbound.net/
 Description: Python bindings for Unbound
 
 
@@ -4481,7 +4481,7 @@ Size: 38528
 MD5sum: 19c3ef8acdc37f5a4be3bcfa490fe618
 SHA1: aada2ea222a8eae63d47ad8c267c383996648d00
 SHA256: ecfd40b6b678be3c828faf9d5629ca14ee87fbd12fff3f2103b0152fd52b6f45
-Homepage: https:/github.com/facebook/zstd
+Homepage: https://github.com/facebook/zstd
 Description: A Pigz-like tool for Zstandard
 
 
@@ -4498,7 +4498,7 @@ Size: 232996
 MD5sum: 4a7ea3a007fdc8d9d010ccc15c2e7f0a
 SHA1: 69d5c47982e0c24600909248609047794b51c9fb
 SHA256: a487313177e01605e4fde63b33af2b37b77db4407eb2bb764c9175bcb9e564c9
-Homepage: https:/tiswww.case.edu/php/chet/readline/rltop.html
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Description: Library that allow users to edit command lines as they are typed in
 
 
@@ -4513,7 +4513,7 @@ Size: 118972
 MD5sum: d63b22581af4d75ab8b7a7fc9e4f5633
 SHA1: 6904027fbd3027c709974c97968f34e49cd11a8f
 SHA256: db544962f0502b1c0502103bbdace0ae954f7497391bf06bd943e988f3510814
-Homepage: https:/tiswww.case.edu/php/chet/readline/rltop.html
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Description: Static libraries for readline
 
 
@@ -4527,7 +4527,7 @@ Size: 1028
 MD5sum: c46597c7c0e2750bada3f5a54f17e27b
 SHA1: 72d95daa31c37be4b3e7b171dbff40f82837f294
 SHA256: 0df3a41ba28e571bfab122e2baa5242b8e984c48b2726f85cba5c586006ad2ea
-Homepage: https:/man7.org/linux/man-pages/man5/resolv.conf.5.html
+Homepage: https://man7.org/linux/man-pages/man5/resolv.conf.5.html
 Description: Resolver configuration file
 
 
@@ -4544,7 +4544,7 @@ Size: 153524
 MD5sum: e1d50a2de56f5021a549f6442a10f2c2
 SHA1: e11f76827b089c28de44ae3539d92167412f474b
 SHA256: a71975bedce5ad54dfc28cbb88ab950d57140c4f39ba5400fdc1ffb59ec04724
-Homepage: https:/github.com/rhash/RHash
+Homepage: https://github.com/rhash/RHash
 Description: Console utility for calculation and verification of magnet links and a wide range of hash sums
 
 
@@ -4559,7 +4559,7 @@ Size: 123744
 MD5sum: 9230cb3f542853ebab98362c794df942
 SHA1: 7a6d771b9e457ea4f0a52539136ec1a2dbce042a
 SHA256: 21cce117f1d4d146bc445276208a955fe237cd73d97d67854a5304bdd3046af9
-Homepage: https:/github.com/rhash/RHash
+Homepage: https://github.com/rhash/RHash
 Description: Static libraries for rhash
 
 
@@ -4576,7 +4576,7 @@ Size: 180940
 MD5sum: 3c991c496eec4b3d7a256237dfdfde9e
 SHA1: f1eba35d539255a1b99d2b6e3f2f4985423a828f
 SHA256: 1da20240850ef5c4135352c9fd29f012bd8505de13d70b9ab1f8b52fb7a042f8
-Homepage: https:/www.gnupg.org/
+Homepage: https://www.gnupg.org/
 Description: Daemon invoked by gpg to manage smartcards
 
 
@@ -4591,7 +4591,7 @@ Size: 117020
 MD5sum: c0bd80624770050aa2137adf47d9e24d
 SHA1: 7b53aa088c467c1bb66d517e4c8f0b9ff1b6122c
 SHA256: 1faf009779bc9441a91d6e9843e3d06d1e85d31d74a4b659353f82289321968b
-Homepage: https:/www.gnu.org/software/sed/
+Homepage: https://www.gnu.org/software/sed/
 Description: GNU stream editor for filtering/transforming text
 
 
@@ -4608,7 +4608,7 @@ Size: 47064
 MD5sum: b08a54db701e23dd5aa579297ce51b0c
 SHA1: d8f6c178ee7d3a278cf3d098fa0919bb000dbf92
 SHA256: e5e9c6be518922a47dbb89ce0dfe4f96d869b6ccc7428bd11bb10c37e5b859d7
-Homepage: https:/serf.apache.org/
+Homepage: https://serf.apache.org/
 Description: High performance C-based HTTP client library
 
 
@@ -4623,7 +4623,7 @@ Size: 39028
 MD5sum: 4b91ff5af683a64b6ffcb976d8def3bb
 SHA1: 017fba7c01343cac3282603f01e48df124d93390
 SHA256: 0c64f71c82d7e44667bb9a7479b82651b13a73ece627871966bc6d488d555931
-Homepage: https:/serf.apache.org/
+Homepage: https://serf.apache.org/
 Description: Static libraries for serf
 
 
@@ -4638,7 +4638,7 @@ Size: 16808
 MD5sum: 3d0776a087e593c3d93b31a5775018be
 SHA1: 4220131542523bf41d1fb83b2b220d0fff2d3df3
 SHA256: 2a32ca6a2a951d437ee4ac1e050348c38ed1484f24846a4dcdc60cc5a29b55d4
-Homepage: https:/github.com/gogakoreli/snake
+Homepage: https://github.com/gogakoreli/snake
 Description: Eat as much as you want while avoiding walls
 
 
@@ -4653,7 +4653,7 @@ Size: 568036
 MD5sum: 67f05e07c876ecc3ffdef7a82b6d9386
 SHA1: 6d35f6797e954ebc7a71a7f1ee681855eccea690
 SHA256: 8d40f023f73cef07d23f39f5bc8deb6261f97764dba61a5048a264d57a532f85
-Homepage: https:/www.sqlite.org
+Homepage: https://www.sqlite.org
 Description: Command line shell for SQLite
 
 
@@ -4670,7 +4670,7 @@ Size: 1388196
 MD5sum: 4e2f8dc8a2e4673a3c1ca57b65017db4
 SHA1: 5db70229817709c3e0e9283ad03b1d2ed38a603e
 SHA256: 963587b10b18ba63b3223e4cac0b038e5b7e6113819da56a6706ebbb3ee48ecb
-Homepage: https:/subversion.apache.org
+Homepage: https://subversion.apache.org
 Description: Centralized version control system characterized by its simplicity
 
 
@@ -4685,7 +4685,7 @@ Size: 709160
 MD5sum: d6f46e609348db1e213045bd85446432
 SHA1: 9ae6f3dcc54adceba0cfdf2da96d64bb0d6ce0c1
 SHA256: 22bcd7dedd3ca721f7d73f7f1c56567e0f48f28980369de452576195eaaa88f7
-Homepage: https:/subversion.apache.org
+Homepage: https://subversion.apache.org
 Description: Perl interface to Subversion
 
 
@@ -4700,7 +4700,7 @@ Size: 15716
 MD5sum: 72aa92a016e71865c36da5ae84eaa365
 SHA1: 1189904f593bd3330603e92a27631def77c930be
 SHA256: 36d7f62d5929371602a41c4a96409189572408a3e32341e055575c9c224f860a
-Homepage: https:/subversion.apache.org
+Homepage: https://subversion.apache.org
 Description: Static libraries for subversion-perl
 
 
@@ -4715,7 +4715,7 @@ Size: 1141844
 MD5sum: 5164e8ec0153b7f6f98e5d393f275a34
 SHA1: d274912dda4cbcf60c7a1e7a2f21fb59dd367f3c
 SHA256: b8615b2825171ad3483f574c6fdb2679bda0974fd1a62a92f3056323971ce4f5
-Homepage: https:/subversion.apache.org
+Homepage: https://subversion.apache.org
 Description: Static libraries for subversion
 
 
@@ -4730,7 +4730,7 @@ Size: 882268
 MD5sum: 015c1d65f8771723767b29a293b03590
 SHA1: 52cc1b9730610ecc380e81327d24f401060004ef
 SHA256: d123e7fe9a568f4fdaa70faf0422a164024c62e16807641de181c462e2b04dc7
-Homepage: https:/swig.org
+Homepage: https://swig.org
 Description: Generate scripting interfaces to C/C++ code
 
 
@@ -4746,7 +4746,7 @@ Size: 340388
 MD5sum: b0d85296203faa23b19be7d20f812866
 SHA1: 158aeec92369890f4eb68b604a5b277b13a52f54
 SHA256: 9fda782015272cb5f849e1f0a147b05bc9d3b68747bdd6af14f15eed3a83437a
-Homepage: https:/www.gnu.org/software/tar/
+Homepage: https://www.gnu.org/software/tar/
 Description: GNU tar for manipulating tar archives
 
 
@@ -4763,7 +4763,7 @@ Size: 2242856
 MD5sum: f30a0132fad4f6cf0cbb2a8864c5b333
 SHA1: 908fcd5d24c9f49a298ee3c6e5fad85be1fb970e
 SHA256: e08331a366c5f15d2727824bcaa1a16e31a10b5680b51c4934cd446bf655c493
-Homepage: https:/www.tcl.tk/
+Homepage: https://www.tcl.tk/
 Description: Powerful but easy to learn dynamic programming language
 
 
@@ -4778,7 +4778,7 @@ Size: 15964
 MD5sum: 0cd0034f32fdb5133a703cc625281f5b
 SHA1: 8d7672ed0e3ed7ee58a41f667f88634bd0912d08
 SHA256: eb34e3eb0ac60930201491e3d4038efa5dd96fe3a5c9525fdba36fa49cc20a57
-Homepage: https:/github.com/termux/termux-am-socket
+Homepage: https://github.com/termux/termux-am-socket
 Description: A faster version of am with less features that only works while Termux is running
 
 
@@ -4795,7 +4795,7 @@ Size: 6272
 MD5sum: dda1f117c9095c05937f4276d586eb9c
 SHA1: 7253e1f3ec5e9b83fff704e27147892f9903f0af
 SHA256: 0c1006709738d14cdb7d0b89383b67abef4e14da6a0cc4865dac8569966cbc89
-Homepage: https:/github.com/termux/termux-auth
+Homepage: https://github.com/termux/termux-auth
 Description: Password authentication library and utility for Termux
 
 
@@ -4810,7 +4810,7 @@ Size: 3628
 MD5sum: c75d2037234c8ec3a98d3c01ae395cf6
 SHA1: 9732001e29dd848557704bb3fdc493eb4b4981ad
 SHA256: 5f567e7af8207077ca70d0f5a8fb400b27815d450391a515c254d347f4847452
-Homepage: https:/github.com/termux/termux-exec
+Homepage: https://github.com/termux/termux-exec
 Description: An execve() wrapper to make /bin and /usr/bin shebangs work
 
 
@@ -4825,7 +4825,7 @@ Size: 1741792
 MD5sum: d0580a313cb7ecc802cb777d762c00d9
 SHA1: 0ccf35ef9e773999ff882a4b6517f7c61d7e8c45
 SHA256: bc6783e375b9b4427989047686cfc5f94e50e2524ba9e3c8e7778f042f853996
-Homepage: https:/tcl.sourceforge.net/
+Homepage: https://tcl.sourceforge.net/
 Description: A windowing toolkit for use with tcl
 
 
@@ -4840,7 +4840,7 @@ Size: 2102088
 MD5sum: 506a218b4aa36a0051163b1c359c1453
 SHA1: d743073c78dfbe832d00ec24b44a1b688e7322e0
 SHA256: 1d2aaec5f182a85f02ba514a06d2fa08335e82f6fea8ec8bdd6a11a8118b69af
-Homepage: https:/www.torproject.org
+Homepage: https://www.torproject.org
 Description: The Onion Router anonymizing overlay network
 
 
@@ -4855,7 +4855,7 @@ Size: 562572
 MD5sum: 1a7d171d05070fa146ca7f312cb070f3
 SHA1: 92d5589b558b3763b641b55f5527a58be57118b6
 SHA256: 007bc9a9802dc2513bda470f0ce7f590cb0e5639e96c9b6639d6a65272c0fc7e
-Homepage: https:/unbound.net/
+Homepage: https://unbound.net/
 Description: Unbound command-line tools
 
 
@@ -4870,7 +4870,7 @@ Size: 139396
 MD5sum: a9a5d0247fff3fba0d4f4f6da349684b
 SHA1: 15be85da2b08f8e3f6f7b59aeae68b3ed2da9f30
 SHA256: 73b33d7fbfd7beec336d70650cd1b1040e4a90c2bd2ec4410a7de270938cd861
-Homepage: https:/www.rarlab.com/
+Homepage: https://www.rarlab.com/
 Description: Tool for extracting files from .rar archives
 
 
@@ -4885,7 +4885,7 @@ Size: 117964
 MD5sum: b05d09f4dc38cf49c8355b2982aa5718
 SHA1: ed793b4f907ae5c35e51101c14585d5ae277b204
 SHA256: 5fa467c4fbc3c6020c790e54b46517d02d94a9ce8b38d9003a7d54cef1f90f88
-Homepage: https:/sourceforge.net/projects/infozip/
+Homepage: https://sourceforge.net/projects/infozip/
 Description: Tools for working with zip files
 
 
@@ -4901,7 +4901,7 @@ Size: 58728
 MD5sum: 9dfb53fbf4b088316725fa86a66cd921
 SHA1: bf3509f599b2e07c23f5c7064c39d58971c0fdcb
 SHA256: 9a5d07494ab85c8b8cf344cc6ae59c6ab62f19f4ba8bf8e5b50f5a9fcc0fd591
-Homepage: https:/github.com/JuliaLang/utf8proc
+Homepage: https://github.com/JuliaLang/utf8proc
 Description: Library for processing UTF-8 Unicode data
 
 
@@ -4916,7 +4916,7 @@ Size: 47880
 MD5sum: 9d0b2e981a29411bff92e824d1cc88a8
 SHA1: 965fccdbe89adc762a99c872fe5a8b517e1fd6c3
 SHA256: ab2eafb67a2ef534e16d4f21893870999c6ec930ab4c189457a75e69d30163fc
-Homepage: https:/github.com/JuliaLang/utf8proc
+Homepage: https://github.com/JuliaLang/utf8proc
 Description: Static libraries for utf8proc
 
 
@@ -4934,7 +4934,7 @@ Size: 668012
 MD5sum: 43f6d869f202b52ff98728156b64bf52
 SHA1: 0abe808fd11fc7bda2562a87dddcb473c4ecfa5d
 SHA256: 57c9c96b19cb4dba2822567ae63d72bd190b767049b48e59adfac6e1a123f1e0
-Homepage: https:/en.wikipedia.org/wiki/Util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Miscellaneous system utilities
 
 
@@ -4949,7 +4949,7 @@ Size: 403668
 MD5sum: 9b5c1ab019faac8eab4ba197ba9b3a20
 SHA1: 409155e0c5a2d4d17423f2a28dbf34319427da7c
 SHA256: 8da2889b460d872772bcd3590beaa0e84f9ad17d6ad81b6aee9e87bda50389d1
-Homepage: https:/en.wikipedia.org/wiki/Util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Static libraries for util-linux
 
 
@@ -4964,7 +4964,7 @@ Size: 39032
 MD5sum: 7da64724bbbb98c3827483c339a45cf7
 SHA1: fd3bdfbf98a3754472b64d8b36320950bae778cd
 SHA256: 05123e481155e7ff04f1ed3e8fa23e430eaca84f6667d8ddf658db8cd1de1510
-Homepage: https:/en.wikipedia.org/wiki/Util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Utilities for handling universally unique identifiers
 
 
@@ -4981,7 +4981,7 @@ Size: 1168192
 MD5sum: 08472636c0aa1b5f5daf4f7d80390210
 SHA1: 874bb78757eec3e99950377e75dc53825714d741
 SHA256: 936243783f3f3defd0938420c31a137d64f8690765ebbc8a774b5d44d646c05e
-Homepage: https:/www.vim.org
+Homepage: https://www.vim.org
 Description: Vi IMproved - enhanced vi editor
 
 
@@ -4996,7 +4996,7 @@ Size: 279628
 MD5sum: 689eaa74a6941203917165493ac7ede7
 SHA1: 8a5d2eecaf5b95bf2818feb189dc09553230c22a
 SHA256: 44f056ce7cb66852eb83885df8e23244d78d3cb3b415fb6ca3b4e0b78b3e2c40
-Homepage: https:/www.gnu.org/software/wget/
+Homepage: https://www.gnu.org/software/wget/
 Description: Commandline tool for retrieving files using HTTP, HTTPS and FTP
 
 
@@ -5011,7 +5011,7 @@ Size: 12568
 MD5sum: 33623849b8fcb1f033f23d5613cf9392
 SHA1: 0a77035779f9fa556ed600ada5724d7542a9b984
 SHA256: 20611e642410e254a56e4a4772f992aaa7328a10358ce91e1f4e8c2114af3c69
-Homepage: https:/carlowood.github.io/which/
+Homepage: https://carlowood.github.io/which/
 Description: Shows the full path of (shell) commands
 
 
@@ -5026,7 +5026,7 @@ Size: 11916
 MD5sum: 01ae007f68332a50cefd34fa936c1087
 SHA1: afbd81fe53e3907cd6c5cdcd267f3cd56f82c5ba
 SHA256: eb01b4e26a3c25ce33309274adbf2819c2d3de6334b22674e03a7c6f8f2d4895
-Homepage: http:/xmlsoft.org/libxslt/
+Homepage: http://xmlsoft.org/libxslt/
 Description: XSLT command line processor
 
 
@@ -5040,7 +5040,7 @@ Size: 74608
 MD5sum: 6ed6e24a12ebb6ab48a70b106e29b066
 SHA1: 351d35db172d4875722ec19a9181aca712b63349
 SHA256: 70d75d5577741e227598391b1461a21eb22fa7d1570f5986514751f8d438c216
-Homepage: https:/cyan4973.github.io/xxHash/
+Homepage: https://cyan4973.github.io/xxHash/
 Description: Extremely fast non-cryptographic hash algorithm
 
 
@@ -5055,7 +5055,7 @@ Size: 8592
 MD5sum: 5cc1b758897971ec534dbb5b0d388160
 SHA1: 83cdd6c47c5dac70572f4c1fc0be62a73a4aa0f9
 SHA256: 0ac12cb4298ef1669f0b4f8390e806c04eec0cebd022d40cbb6a53567be5744c
-Homepage: https:/cyan4973.github.io/xxHash/
+Homepage: https://cyan4973.github.io/xxHash/
 Description: Static libraries for xxhash
 
 
@@ -5071,7 +5071,7 @@ Size: 63960
 MD5sum: cf9c35833c8b97d9227718b49ef0918d
 SHA1: ac68a1451c6227e93c3110372e0932d4f26f1ab7
 SHA256: 3c01908b7f048657a4c9576d25fca3b4e6daed1ce7b300a518f79c7e9997ea76
-Homepage: https:/tukaani.org/xz/
+Homepage: https://tukaani.org/xz/
 Description: XZ-format compression tools
 
 
@@ -5086,7 +5086,7 @@ Size: 144580
 MD5sum: 9afbccc067ba8c82f2be84ce2e339df1
 SHA1: 2e39ecfb634e5dfefb22d590e4485f2a1521901d
 SHA256: dc186fff5fe2e4dfb1e87be86b6698c20129e14c390a35dbfd6138f4b80ec4e7
-Homepage: https:/sourceforge.net/projects/infozip/
+Homepage: https://sourceforge.net/projects/infozip/
 Description: Tools for working with zip files
 
 
@@ -5102,7 +5102,7 @@ Size: 60516
 MD5sum: 8d467d4c01d8730cdb3299a9f0f82258
 SHA1: ee927cb99948adbe4df8fcbfd552649b72ce1ef9
 SHA256: 0bfa09971a4ae1c52da50fd7bc9caa202afbed64bbeae5e97b9aea7314735265
-Homepage: https:/www.zlib.net/
+Homepage: https://www.zlib.net/
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
 
 
@@ -5117,7 +5117,7 @@ Size: 34724
 MD5sum: 60ae5ddc8533d52aae250eee9ab4b24c
 SHA1: 8fde158c96779c6f1565c9a1c64233edab037d9e
 SHA256: 9092b4f35195e5c6c4b2e317868ee987b5b3b335272791e5ed36f8e1807b248c
-Homepage: https:/www.zlib.net/
+Homepage: https://www.zlib.net/
 Description: Static libraries for zlib
 
 
@@ -5134,7 +5134,7 @@ Size: 327196
 MD5sum: 9f971ca1a72f4764e3634e5c38681554
 SHA1: b15c8a74d084af58dab8cd08f580e2d06592f494
 SHA256: 2c8459124e33bfff0eec75cc065a31a0e80ac4c8b912427733e67cfa8bd6e444
-Homepage: https:/github.com/facebook/zstd
+Homepage: https://github.com/facebook/zstd
 Description: Zstandard compression
 
 
@@ -5149,6 +5149,6 @@ Size: 941436
 MD5sum: 89cc865c501eb5c275f3bf4681a5492d
 SHA1: 68ce3702539b18acbffbd7460869376fcf4fb902
 SHA256: a46227d50fc87be464c798140378d5f4c048d228261107554dcc8d352c333355
-Homepage: https:/github.com/facebook/zstd
+Homepage: https://github.com/facebook/zstd
 Description: Static libraries for zstd
 

@@ -3,13 +3,13 @@ Label: AndroIDE
 Suite: stable
 Version: 1.0
 Codename: stable
-Date: Fri, 10 Oct 2025 04:46:25 +0000
+Date: Fri, 10 Oct 2025 05:16:20 +0000
 Architectures: aarch64
 Components: main
 Description: AndroIDE Custom APT Repository
 SHA256:
- 670ef92e0bc87b5bc3f61d60100c2524ec76db28a7cb68d45e0e659c6f8bb0e9        0 670ef92e0bc87b5bc3f61d60100c2524ec76db28a7cb68d45e0e659c6f8bb0e9 *gpg-files/dists/stable/main/binary-aarch64/Packages
- bd173037e797f4985a21805cbda85e0001600753786aaca866a2ee494efb8b7a        0 bd173037e797f4985a21805cbda85e0001600753786aaca866a2ee494efb8b7a *gpg-files/dists/stable/main/binary-aarch64/Packages.gz
+ 421022fe7896251690a9ebc2d75337edf46c35c786d7006c19131c3409c667b3        0 421022fe7896251690a9ebc2d75337edf46c35c786d7006c19131c3409c667b3 *gpg-files/dists/stable/main/binary-aarch64/Packages
+ 4c401e1357d06ef77fc2dee593be4e4044ce5b4f2337461f7e318e4092df0fec        0 4c401e1357d06ef77fc2dee593be4e4044ce5b4f2337461f7e318e4092df0fec *gpg-files/dists/stable/main/binary-aarch64/Packages.gz
 MD5Sum:
- 8a4c9c73e7a609b10be6523d32d1f3c8        0 8a4c9c73e7a609b10be6523d32d1f3c8 *gpg-files/dists/stable/main/binary-aarch64/Packages
- 43834208b4450d2a268bfcff7a35f4fe        0 43834208b4450d2a268bfcff7a35f4fe *gpg-files/dists/stable/main/binary-aarch64/Packages.gz
+ d10166deba248aff4796bd60389f6394        0 d10166deba248aff4796bd60389f6394 *gpg-files/dists/stable/main/binary-aarch64/Packages
+ 18e4c57c865b56c9a829bd9b7a0691d4        0 18e4c57c865b56c9a829bd9b7a0691d4 *gpg-files/dists/stable/main/binary-aarch64/Packages.gz
