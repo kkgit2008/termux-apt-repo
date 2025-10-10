@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简单的HTML页面</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6',
+                        secondary: '#10b981',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+            }
+            .card-hover {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            .card-hover:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+    <!-- 页面头部 -->
+    <header class="bg-primary text-white shadow-md">
+        <div class="container mx-auto px-4 py-6">
+            <h1 class="text-3xl md:text-4xl font-bold text-shadow">欢迎来到我的页面</h1>
+            <p class="mt-2 text-blue-100">这是一个简单的HTML示例</p>
+        </div>
+    </header>
+
+    <!-- 导航栏 -->
+    <nav class="bg-white shadow-sm sticky top-0 z-10">
+        <div class="container mx-auto px-4">
+            <ul class="flex space-x-6 py-4">
+                <li><a href="#home" class="text-primary hover:text-blue-700 transition-colors"><i class="fa fa-home mr-1"></i>首页</a></li>
+                <li><a href="#about" class="text-gray-600 hover:text-primary transition-colors"><i class="fa fa-user mr-1"></i>关于</a></li>
+                <li><a href="#services" class="text-gray-600 hover:text-primary transition-colors"><i class="fa fa-cogs mr-1"></i>服务</a></li>
+                <li><a href="#contact" class="text-gray-600 hover:text-primary transition-colors"><i class="fa fa-envelope mr-1"></i>联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主要内容 -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- 首页部分 -->
+        <section id="home" class="mb-12">
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-800">欢迎来到我的网站</h2>
+                <p class="mb-4 text-gray-600">
+                    这是一个简单的HTML页面示例，展示了基本的HTML结构和一些常见元素。
+                    页面使用了Tailwind CSS进行样式设计，使其在不同设备上都能有良好的显示效果。
+                </p>
+                <div class="my-6">
+                    <img src="https://picsum.photos/800/400" alt="示例图片，展示一片风景" class="w-full h-auto rounded-lg shadow-sm">
+                </div>
+                <button class="bg-primary hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-md transition-colors">
+                    <i class="fa fa-info-circle mr-1"></i>了解更多
+                </button>
+            </div>
+        </section>
+
+        <!-- 关于部分 -->
+        <section id="about" class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-gray-800 border-b pb-2">关于我们</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white rounded-lg shadow-md p-6 card-hover">
+                    <h3 class="text-xl font-medium mb-3 text-primary">我们的故事</h3>
+                    <p class="text-gray-600">
+                        我们成立于2023年，致力于提供高质量的服务和产品。
+                        团队由一群充满激情和创造力的专业人士组成，
+                        我们的目标是为客户创造最大价值。
+                    </p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6 card-hover">
+                    <h3 class="text-xl font-medium mb-3 text-primary">我们的使命</h3>
+                    <p class="text-gray-600">
+                        我们的使命是通过创新和技术，解决客户面临的挑战，
+                        提供简单、高效的解决方案，帮助客户实现目标。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 服务部分 -->
+        <section id="services" class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-gray-800 border-b pb-2">我们的服务</h2>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-md p-6 card-hover">
+                    <div class="text-secondary text-4xl mb-4">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <h3 class="text-xl font-medium mb-2">Web开发</h3>
+                    <p class="text-gray-600">提供专业的网站开发服务，包括前端和后端开发。</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6 card-hover">
+                    <div class="text-secondary text-4xl mb-4">
+                        <i class="fa fa-paint-brush"></i>
+                    </div>
+                    <h3 class="text-xl font-medium mb-2">设计服务</h3>
+                    <p class="text-gray-600">提供UI/UX设计、平面设计等创意设计服务。</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6 card-hover">
+                    <div class="text-secondary text-4xl mb-4">
+                        <i class="fa fa-mobile"></i>
+                    </div>
+                    <h3 class="text-xl font-medium mb-2">移动应用</h3>
+                    <p class="text-gray-600">开发跨平台移动应用，满足不同设备的需求。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系部分 -->
+        <section id="contact">
+            <h2 class="text-2xl md:text-3xl font-semibold mb-6 text-gray-800 border-b pb-2">联系我们</h2>
+            <div class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <form>
+                    <div class="grid md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 mb-2">姓名</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入您的姓名">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 mb-2">邮箱</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入您的邮箱">
+                        </div>
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-gray-700 mb-2">留言</label>
+                        <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="请输入您的留言内容"></textarea>
+                    </div>
+                    <button type="submit" class="bg-primary hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-md transition-colors">
+                        <i class="fa fa-paper-plane mr-1"></i>发送消息
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">关于我们</h3>
+                    <p class="text-gray-300 text-sm">我们提供专业的服务，为客户创造价值。</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">联系方式</h3>
+                    <p class="text-gray-300 text-sm mb-1"><i class="fa fa-envelope-o mr-2"></i>contact@example.com</p>
+                    <p class="text-gray-300 text-sm"><i class="fa fa-phone mr-2"></i>123-456-7890</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">关注我们</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors"><i class="fa fa-weixin text-xl"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors"><i class="fa fa-weibo text-xl"></i></a>
+                        <a href="#" class="text-gray-300 hover:text-white transition-colors"><i class="fa fa-github text-xl"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
+                <p>&copy; 2023 我的网站. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // 导航栏滚动效果
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-md');
+                nav.classList.remove('shadow-sm');
+            } else {
+                nav.classList.remove('shadow-md');
+                nav.classList.add('shadow-sm');
+            }
+        });
+    </script>
+</body>
+</html>
