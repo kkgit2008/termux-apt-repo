@@ -1,0 +1,15 @@
+Origin: AndroIDE
+Label: AndroIDE
+Suite: stable
+Version: 1.0
+Codename: stable
+Date: Fri, 10 Oct 2025 04:46:25 +0000
+Architectures: aarch64
+Components: main
+Description: AndroIDE Custom APT Repository
+SHA256:
+ 670ef92e0bc87b5bc3f61d60100c2524ec76db28a7cb68d45e0e659c6f8bb0e9        0 670ef92e0bc87b5bc3f61d60100c2524ec76db28a7cb68d45e0e659c6f8bb0e9 *gpg-files/dists/stable/main/binary-aarch64/Packages
+ bd173037e797f4985a21805cbda85e0001600753786aaca866a2ee494efb8b7a        0 bd173037e797f4985a21805cbda85e0001600753786aaca866a2ee494efb8b7a *gpg-files/dists/stable/main/binary-aarch64/Packages.gz
+MD5Sum:
+ 8a4c9c73e7a609b10be6523d32d1f3c8        0 8a4c9c73e7a609b10be6523d32d1f3c8 *gpg-files/dists/stable/main/binary-aarch64/Packages
+ 43834208b4450d2a268bfcff7a35f4fe        0 43834208b4450d2a268bfcff7a35f4fe *gpg-files/dists/stable/main/binary-aarch64/Packages.gz

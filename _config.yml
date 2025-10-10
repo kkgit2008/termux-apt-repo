@@ -1,0 +1,7 @@
+# 启用 GitHub Pages 官方重定向插件（关键）
+plugins:
+  - jekyll-redirect-from
+# 排除不需要 Jekyll 处理的目录/文件（避免干扰）
+exclude:
+  - .git/          # 排除 git 目录
+  - dpkg-1.21.22/  # 排除你的脚本目录（可选，若无需部署可排除）

@@ -1,0 +1,35 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: AndroIDE
+Label: AndroIDE
+Suite: stable
+Version: 1.0
+Codename: stable
+Date: Fri, 10 Oct 2025 04:46:25 +0000
+Architectures: aarch64
+Components: main
+Description: AndroIDE Custom APT Repository
+SHA256:
+ 670ef92e0bc87b5bc3f61d60100c2524ec76db28a7cb68d45e0e659c6f8bb0e9        0 670ef92e0bc87b5bc3f61d60100c2524ec76db28a7cb68d45e0e659c6f8bb0e9 *gpg-files/dists/stable/main/binary-aarch64/Packages
+ bd173037e797f4985a21805cbda85e0001600753786aaca866a2ee494efb8b7a        0 bd173037e797f4985a21805cbda85e0001600753786aaca866a2ee494efb8b7a *gpg-files/dists/stable/main/binary-aarch64/Packages.gz
+MD5Sum:
+ 8a4c9c73e7a609b10be6523d32d1f3c8        0 8a4c9c73e7a609b10be6523d32d1f3c8 *gpg-files/dists/stable/main/binary-aarch64/Packages
+ 43834208b4450d2a268bfcff7a35f4fe        0 43834208b4450d2a268bfcff7a35f4fe *gpg-files/dists/stable/main/binary-aarch64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAEBCAA5FiEEVeM2Hov7Rn4rVwRqb2QsIy5GO+0FAmjoj6cbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMywyAAoJEG9kLCMuRjvtxlgP/2h/1DZ2UxrPaMVX0F7u
+YFiDr0elCWlyMcQfS4lAPgIt20eZ8dhSENQlgktAqonsohLg8A7/2LehhaU3+peS
+uxdf3WyVSsxVK1fbc17c5S4N61qyzIIAF84od9x42/nPflnNw7KxQiDS2NaVQCDB
+X4YOAMv50YZFLPj5pXe5vXuwo/K7fT33XUtcMia/WjXRvg3ZYKv7rJIAU4cgJx0x
+UfM4HYl2IyOjg5gpn2O5PYv4iispue61x8HpDywQ2mDlPu4I28Cq0vhN7Xaq1UVy
+P1E2L05YwZRHgV1dr/ftu7oMpXiD7SQyaPafu8+rvlIjuBsW0P+KyzfcQZpXW8n4
+9N6P72YHnghI8PiJeN/lo0ZBL/00HrTvvHaLGvM7dOqOudIeKXgf9+luAycPTZ8z
+nqSe4Dxz7PLgDEMtvjJn+mskko3h4ruiVX4hw0b3mR6svgIOmM2nyZN7HxeJybYt
+yegv5HPaWQe74S86lxwNm+WHkl7xkEFecY7E3TFIUSgljrZvpo+t9353tCpvTrkj
+t09R6LZIFxWnVIeHZTrnEPPSgGroo7RPj5R/xEP/+UiILcjmX5jhaL9zp2iT0SgT
+Jqb6tBcI93XOUvCfIDxXo1TR6y6gPx9qQRug4nv6c3KD0zGTEs+8wyC+ffm3Aoc4
+cmIIVNIXQOEU1k/y2Qq/0Hep
+=uDT1
+-----END PGP SIGNATURE-----
